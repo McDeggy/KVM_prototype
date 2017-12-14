@@ -1,0 +1,48 @@
+******************************************************************************
+*                 CheckPlus 16.6-p001 (v16-6-112A) 9/10/2012                 *
+*                 Copyright 2011 Cadence Design Systems, Inc                 *
+*                 All  Rights  Reserved.  Licensed  Software.                *
+*                 Confidential and proprietary information which             *
+*                 is the property of Cadence Design Systems, Inc.            *
+*                      Start Run: Thu Dec 14 11:50:00 2017                   *
+******************************************************************************
+Loading rule file 'C:\Cadence\SPB_16.6\share\cdssetup\lman\checkplus\precompiled_body.rle' ...
+Loading rule file 'C:\Cadence\SPB_16.6\share\cdssetup\lman\checkplus\pdrules.rle' ...
+Reading D:\GitHub\KVM\KVM_prototype\schemtic\lib\cds.lib...
+
+****************************************************************************
+Design Name: kvm_matrix_lib.w25q128
+Rules Checked:  
+               origin_non_centered
+               body_file_namechipsprt_cross_check
+               body_to_physical_check
+               physical_to_body_check
+               Tristatepin_output_load
+               Tristatepin_input_load
+               prop_present
+
+****************************************************************************
+
+
+Initializing Environment ... 
+ERROR(SPCODD-264): Physical pin '@' specified for logical pins '2' and '1'.
+INFO(SPCODD-265): Cannot create section pin '@'.
+ERROR(SPCODD-47): Packaging can not complete because the file ./worklib/w25q128/chips/chips.prt could not be loaded. There might be syntax errors in this file. Ensure that the syntax is correct before proceeding.
+
+Checking design '@kvm_matrix_lib.w25q128(sym_1)' ...
+
+
+  Checking Design Objects ...
+
+
+  Checking PhysPackType Objects ....
+
+0 Messages
+
+************************************************************************************************
+Violations: 
+************************************************************************************************
+**************************************************
+*      Stop Run: Thu Dec 14 11:50:00 2017        *
+**************************************************
+
