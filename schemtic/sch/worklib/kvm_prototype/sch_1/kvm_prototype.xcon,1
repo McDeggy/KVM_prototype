@@ -5,15 +5,15 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2017-12-18T22:20:06</modificationTime>
+    <modificationTime>2017-12-20T09:44:26</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
-        <instanceid>43</instanceid>
-        <netid>48</netid>
-        <insttermid>184</insttermid>
+        <instanceid>48</instanceid>
+        <netid>52</netid>
+        <insttermid>194</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -391,6 +391,26 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S9</id>
+          <library>kvm_matrix_lib</library>
+          <name>cp</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T117</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T118</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -524,6 +544,14 @@
         <net>
           <id>N48</id>
           <name>unnamed_3_adp5053_i8_33</name>
+        </net>
+        <net>
+          <id>N51</id>
+          <name>unnamed_3_adp5053_i8_1</name>
+        </net>
+        <net>
+          <id>N52</id>
+          <name>unnamed_3_adp5053_i8_3</name>
         </net>
         <net>
           <id>N5</id>
@@ -698,18 +726,21 @@
               <id>M58</id>
               <termid>T53</termid>
               <connections>
+                <connection net="N51" />
               </connections>
             </pin>
             <pin>
               <id>M59</id>
               <termid>T54</termid>
               <connections>
+                <connection net="N5" />
               </connections>
             </pin>
             <pin>
               <id>M60</id>
               <termid>T55</termid>
               <connections>
+                <connection net="N52" />
               </connections>
             </pin>
             <pin>
@@ -2023,6 +2054,7 @@
               <id>M170</id>
               <termid>T107</termid>
               <connections>
+                <connection net="N21" />
               </connections>
             </pin>
           </pins>
@@ -2225,6 +2257,182 @@
               <id>M184</id>
               <termid>T107</termid>
               <connections>
+                <connection net="N24" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I44</id>
+          <cellid>S9</cellid>
+          <name>page3_i62</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M185</id>
+              <termid>T117</termid>
+              <connections>
+                <connection net="N21" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M186</id>
+              <termid>T118</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I45</id>
+          <cellid>S9</cellid>
+          <name>page3_i63</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M187</id>
+              <termid>T117</termid>
+              <connections>
+                <connection net="N24" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M188</id>
+              <termid>T118</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I46</id>
+          <cellid>S3</cellid>
+          <name>page3_i64</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M189</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N51" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M190</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N52" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I47</id>
+          <cellid>S6</cellid>
+          <name>page3_i65</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M191</id>
+              <termid>T106</termid>
+              <connections>
+                <connection net="N52" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M192</id>
+              <termid>T107</termid>
+              <connections>
+                <connection net="N27" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I48</id>
+          <cellid>S3</cellid>
+          <name>page3_i66</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M193</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M194</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N27" />
               </connections>
             </pin>
           </pins>
@@ -2274,12 +2482,14 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
+              <net ref="unnamed_3_adp5053_i8_1"></net>
               <net ref="unnamed_3_adp5053_i8_15"></net>
               <net ref="unnamed_3_adp5053_i8_22"></net>
               <net ref="unnamed_3_adp5053_i8_24"></net>
               <net ref="unnamed_3_adp5053_i8_26"></net>
               <net ref="unnamed_3_adp5053_i8_28"></net>
               <net ref="unnamed_3_adp5053_i8_29"></net>
+              <net ref="unnamed_3_adp5053_i8_3"></net>
               <net ref="unnamed_3_adp5053_i8_31"></net>
               <net ref="unnamed_3_adp5053_i8_32"></net>
               <net ref="unnamed_3_adp5053_i8_33"></net>
@@ -2347,6 +2557,11 @@
               <instance ref="i59"></instance>
               <instance ref="i60"></instance>
               <instance ref="i61"></instance>
+              <instance ref="i62"></instance>
+              <instance ref="i63"></instance>
+              <instance ref="i64"></instance>
+              <instance ref="i65"></instance>
+              <instance ref="i66"></instance>
             </instances>
           </page>
         </pages>
