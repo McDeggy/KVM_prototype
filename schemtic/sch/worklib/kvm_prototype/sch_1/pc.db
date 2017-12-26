@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Mon Dec 25 16:23:35 2017
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Tue Dec 26 17:35:01 2017
 #ISCELL
   standard c#20size#20page *
   *
@@ -23,9 +23,6 @@
 #CELL
   kvm_matrix_lib r *
   page3_i103
-#CELL
-  kvm_matrix_lib r *
-  page3_i104
 #CELL
   kvm_matrix_lib r *
   page3_i105
@@ -81,8 +78,56 @@
   kvm_matrix_lib r *
   page3_i120
 #CELL
+  kvm_matrix_lib r *
+  page3_i121
+#ISCELL
+  standard outport *
+  page3_i122
+#ISCELL
+  standard outport *
+  page3_i123
+#ISCELL
+  standard inport *
+  page3_i124
+#ISCELL
+  standard inport *
+  page3_i125
+#CELL
+  kvm_matrix_lib resetkey *
+  page3_i126
+#CELL
+  kvm_matrix_lib c *
+  page3_i127
+#ISCELL
+  standard gnd_signal *
+  page3_i128
+#ISCELL
+  standard inport *
+  page3_i129
+#CELL
   kvm_matrix_lib c *
   page3_i13
+#CELL
+  kvm_matrix_lib r *
+  page3_i130
+#CELL
+  kvm_matrix_lib r *
+  page3_i131
+#ISCELL
+  standard gnd_signal *
+  page3_i132
+#CELL
+  kvm_matrix_lib r *
+  page3_i133
+#CELL
+  kvm_matrix_lib r *
+  page3_i134
+#ISCELL
+  standard gnd_signal *
+  page3_i135
+#CELL
+  kvm_matrix_lib r *
+  page3_i136
 #CELL
   kvm_matrix_lib r *
   page3_i14
@@ -335,3 +380,36 @@
 #ISCELL
   standard gnd_signal *
   page3_i99
+#ISCELL
+  standard c#20size#20page *
+  *
+#CELL
+  kvm_matrix_lib spx1117adj *
+  page4_i1
+#ISCELL
+  standard gnd_signal *
+  page4_i10
+#CELL
+  kvm_matrix_lib r *
+  page4_i2
+#CELL
+  kvm_matrix_lib r *
+  page4_i3
+#CELL
+  kvm_matrix_lib r *
+  page4_i4
+#ISCELL
+  standard gnd_signal *
+  page4_i5
+#CELL
+  kvm_matrix_lib c *
+  page4_i6
+#CELL
+  kvm_matrix_lib c *
+  page4_i7
+#ISCELL
+  standard gnd_signal *
+  page4_i8
+#CELL
+  kvm_matrix_lib c *
+  page4_i9

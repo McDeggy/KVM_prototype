@@ -1,0 +1,44 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 1)
+   (short_msg "WARNING(SPCOCD-121): Port has two different port modes. Port being declared as inout")
+   (long_msg "Severity : Warning (Concept)
+Description : WARNING(SPCOCD-121): Port has two different port modes. Port being declared as inout
+Object dump: 
+{
+    page:  3
+    instance:  i124
+    cell name: inport
+    pin name:  A
+    net name:  s7_pg_led
+}
+{
+    page:  3
+    instance:  i8
+    cell name: adp5053
+    pin name:  20
+    net name:  s7_pg_led
+}
+")
+   (location
+    (
+     (object_kind "InstancePin")
+     (canonical_name "_!drawerror pin i124.A;")
+     (parent_canonical_name "DRAWERROR PIN i124.A;")
+     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page3")
+    )
+    (
+     (object_kind "InstancePin")
+     (canonical_name "_!drawerror pin i8.20;")
+     (parent_canonical_name "DRAWERROR PIN i8.20;")
+     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page3")
+    )
+   )
+  )
+ )
+)
