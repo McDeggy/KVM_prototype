@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 76 )
+			( logicalViewRevNum 78 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -3884,6 +3884,265 @@
 				( pin "a"
 				)
 				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page6_i1"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "6"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5050,4400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ADV7612BSWZ"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE6_I1" )
+				( pin "cec"
+				)
+				( pin "ep"
+				)
+				( pin "hs"
+				)
+				( pin "llc"
+				)
+				( pin "nc"
+				)
+				( pin "nc_2"
+				)
+				( pin "p0"
+				)
+				( pin "p1"
+				)
+				( pin "p2"
+				)
+				( pin "p3"
+				)
+				( pin "p4"
+				)
+				( pin "p5"
+				)
+				( pin "p6"
+				)
+				( pin "p7"
+				)
+				( pin "p8"
+				)
+				( pin "p9"
+				)
+				( pin "p10"
+				)
+				( pin "p11"
+				)
+				( pin "p12"
+				)
+				( pin "p13"
+				)
+				( pin "p14"
+				)
+				( pin "p15"
+				)
+				( pin "p16"
+				)
+				( pin "p17"
+				)
+				( pin "p18"
+				)
+				( pin "p19"
+				)
+				( pin "p20"
+				)
+				( pin "p21"
+				)
+				( pin "p22"
+				)
+				( pin "p23"
+				)
+				( pin "p24"
+				)
+				( pin "p25"
+				)
+				( pin "p26"
+				)
+				( pin "p27"
+				)
+				( pin "p28"
+				)
+				( pin "p29"
+				)
+				( pin "p30"
+				)
+				( pin "p31"
+				)
+				( pin "p32"
+				)
+				( pin "p33"
+				)
+				( pin "p34"
+				)
+				( pin "p35"
+				)
+				( pin "\vs/field/alsb\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page5_i1"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "PACK_TYPE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "VALUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5350,4650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ADV7612BSWZ"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE5_I1" )
+				( pin "ap0"
+				)
+				( pin "\ap1/i2s_tdm\"
+				)
+				( pin "ap2"
+				)
+				( pin "ap3"
+				)
+				( pin "ap4"
+				)
+				( pin "ap5"
+				)
+				( pin "cs"
+				)
+				( pin "cvdd"
+				)
+				( pin "cvdd_2"
+				)
+				( pin "cvdd_3"
+				)
+				( pin "ddca_scl"
+				)
+				( pin "ddca_sda"
+				)
+				( pin "ddcb_scl"
+				)
+				( pin "ddcb_sda"
+				)
+				( pin "de"
+				)
+				( pin "dvdd"
+				)
+				( pin "dvdd_2"
+				)
+				( pin "dvdd_3"
+				)
+				( pin "dvdd_4"
+				)
+				( pin "dvddio"
+				)
+				( pin "dvddio_2"
+				)
+				( pin "dvddio_3"
+				)
+				( pin "dvddio_4"
+				)
+				( pin "\hpa_a/int2\"
+				)
+				( pin "hpa_b"
+				)
+				( pin "int1"
+				)
+				( pin "\mclk/int2\"
+				)
+				( pin "pvdd"
+				)
+				( pin "reset"
+				)
+				( pin "\rxa_0+\"
+				)
+				( pin "\rxa_0-\"
+				)
+				( pin "\rxa_1+\"
+				)
+				( pin "\rxa_1-\"
+				)
+				( pin "\rxa_2+\"
+				)
+				( pin "\rxa_2-\"
+				)
+				( pin "rxa_5v"
+				)
+				( pin "\rxa_c+\"
+				)
+				( pin "\rxa_c-\"
+				)
+				( pin "\rxb_0+\"
+				)
+				( pin "\rxb_0-\"
+				)
+				( pin "\rxb_1+\"
+				)
+				( pin "\rxb_1-\"
+				)
+				( pin "\rxb_2+\"
+				)
+				( pin "\rxb_2-\"
+				)
+				( pin "rxb_5v"
+				)
+				( pin "\rxb_c+\"
+				)
+				( pin "\rxb_c-\"
+				)
+				( pin "scl"
+				)
+				( pin "\sclk/int2\"
+				)
+				( pin "sda"
+				)
+				( pin "tvdd"
+				)
+				( pin "tvdd_2"
+				)
+				( pin "tvdd_3"
+				)
+				( pin "tvdd_4"
+				)
+				( pin "tvdd_5"
+				)
+				( pin "tvdd_6"
+				)
+				( pin "xtaln"
+				)
+				( pin "xtalp"
 				)
 			)
 		)
