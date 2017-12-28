@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Wed Dec 27 17:44:37 2017
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Thu Dec 28 17:30:10 2017
 #ISCELL
   standard c#20size#20page *
   *
@@ -384,31 +384,52 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib spx1117adj *
+  kvm_matrix_lib ncp1529 *
   page4_i1
-#ISCELL
-  standard gnd_signal *
+#CELL
+  kvm_matrix_lib c *
   page4_i10
 #CELL
+  kvm_matrix_lib c *
+  page4_i11
+#ISCELL
+  standard gnd_signal *
+  page4_i12
+#ISCELL
+  standard gnd_signal *
+  page4_i13
+#CELL
   kvm_matrix_lib r *
+  page4_i14
+#ISCELL
+  standard gnd_signal *
+  page4_i15
+#ISCELL
+  standard gnd_signal *
+  page4_i17
+#CELL
+  kvm_matrix_lib r *
+  page4_i18
+#CELL
+  kvm_matrix_lib r *
+  page4_i19
+#CELL
+  kvm_matrix_lib l *
   page4_i2
 #CELL
   kvm_matrix_lib r *
-  page4_i3
+  page4_i4
 #CELL
   kvm_matrix_lib r *
-  page4_i4
-#ISCELL
-  standard gnd_signal *
   page4_i5
 #CELL
-  kvm_matrix_lib c *
+  kvm_matrix_lib r *
   page4_i6
 #CELL
   kvm_matrix_lib c *
   page4_i7
-#ISCELL
-  standard gnd_signal *
+#CELL
+  kvm_matrix_lib c *
   page4_i8
 #CELL
   kvm_matrix_lib c *
@@ -420,8 +441,68 @@
   kvm_matrix_lib adv7612bswz *
   page5_i1
 #ISCELL
+  standard gnd_signal *
+  page5_i10
+#CELL
+  kvm_matrix_lib lb *
+  page5_i11
+#CELL
+  kvm_matrix_lib c *
+  page5_i12
+#CELL
+  kvm_matrix_lib c *
+  page5_i13
+#CELL
+  kvm_matrix_lib c *
+  page5_i14
+#CELL
+  kvm_matrix_lib c *
+  page5_i15
+#CELL
+  kvm_matrix_lib c *
+  page5_i16
+#CELL
+  kvm_matrix_lib c *
+  page5_i17
+#ISCELL
+  standard gnd_signal *
+  page5_i18
+#CELL
+  kvm_matrix_lib lb *
+  page5_i2
+#CELL
+  kvm_matrix_lib c *
+  page5_i3
+#CELL
+  kvm_matrix_lib c *
+  page5_i4
+#CELL
+  kvm_matrix_lib c *
+  page5_i5
+#CELL
+  kvm_matrix_lib c *
+  page5_i6
+#CELL
+  kvm_matrix_lib c *
+  page5_i7
+#CELL
+  kvm_matrix_lib c *
+  page5_i8
+#CELL
+  kvm_matrix_lib c *
+  page5_i9
+#ISCELL
   standard c#20size#20page *
   *
 #CELL
   kvm_matrix_lib adv7612bswz *
   page6_i1
+#ISCELL
+  standard c#20size#20page *
+  *
+#CELL
+  kvm_matrix_lib hdmi-a *
+  page7_i1
+#CELL
+  kvm_matrix_lib hdmi-a *
+  page7_i2

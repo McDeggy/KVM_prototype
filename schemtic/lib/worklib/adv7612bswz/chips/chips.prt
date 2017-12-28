@@ -1,518 +1,439 @@
 FILE_TYPE=LIBRARY_PARTS;
-PRIMITIVE 'ADV7612BSWZ';
-  PIN
+primitive 'ADV7612BSWZ';
+  pin
     'CVDD':
       PIN_NUMBER='(0,1)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXA_C-':
       PIN_NUMBER='(0,2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXA_C+':
       PIN_NUMBER='(0,3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TVDD':
       PIN_NUMBER='(0,4)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXA_0-':
       PIN_NUMBER='(0,5)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXA_0+':
       PIN_NUMBER='(0,6)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TVDD_2':
       PIN_NUMBER='(0,7)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXA_1-':
       PIN_NUMBER='(0,8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXA_1+':
       PIN_NUMBER='(0,9)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TVDD_3':
       PIN_NUMBER='(0,10)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXA_2-':
       PIN_NUMBER='(0,11)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXA_2+':
       PIN_NUMBER='(0,12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CVDD_2':
       PIN_NUMBER='(0,13)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXB_C-':
       PIN_NUMBER='(0,14)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXB_C+':
       PIN_NUMBER='(0,15)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TVDD_4':
       PIN_NUMBER='(0,16)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXB_0-':
       PIN_NUMBER='(0,17)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXB_0+':
       PIN_NUMBER='(0,18)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TVDD_5':
       PIN_NUMBER='(0,19)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXB_1-':
       PIN_NUMBER='(0,20)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXB_1+':
       PIN_NUMBER='(0,21)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TVDD_6':
       PIN_NUMBER='(0,22)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RXB_2-':
       PIN_NUMBER='(0,23)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXB_2+':
       PIN_NUMBER='(0,24)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CVDD_3':
       PIN_NUMBER='(0,25)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDDIO':
       PIN_NUMBER='(0,29)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDDIO_2':
       PIN_NUMBER='(0,37)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDD':
       PIN_NUMBER='(0,41)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDDIO_3':
       PIN_NUMBER='(0,54)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDD_2':
       PIN_NUMBER='(0,62)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDDIO_4':
       PIN_NUMBER='(0,70)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DE':
       PIN_NUMBER='(0,71)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'AP0':
       PIN_NUMBER='(0,74)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'AP1/I2S_TDM':
       PIN_NUMBER='(0,75)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'AP2':
       PIN_NUMBER='(0,76)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'AP3':
       PIN_NUMBER='(0,77)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'AP4':
       PIN_NUMBER='(0,78)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'SCLK/INT2':
       PIN_NUMBER='(0,79)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'AP5':
       PIN_NUMBER='(0,80)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'MCLK/INT2':
       PIN_NUMBER='(0,81)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDD_3':
       PIN_NUMBER='(0,82)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'SCL':
       PIN_NUMBER='(0,83)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'SDA':
       PIN_NUMBER='(0,84)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'INT1':
       PIN_NUMBER='(0,85)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'RESET':
       PIN_NUMBER='(0,86)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'CS':
       PIN_NUMBER='(0,87)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'PVDD':
       PIN_NUMBER='(0,88)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'XTALP':
       PIN_NUMBER='(0,89)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'XTALN':
       PIN_NUMBER='(0,90)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DVDD_4':
       PIN_NUMBER='(0,91)';
-      PIN_TYPE=POWER;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DDCB_SCL':
       PIN_NUMBER='(0,93)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'DDCB_SDA':
       PIN_NUMBER='(0,94)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXB_5V':
       PIN_NUMBER='(0,95)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'HPA_B':
       PIN_NUMBER='(0,96)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DDCA_SCL':
       PIN_NUMBER='(0,97)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'DDCA_SDA':
       PIN_NUMBER='(0,98)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RXA_5V':
       PIN_NUMBER='(0,99)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'HPA_A/INT2':
       PIN_NUMBER='(0,100)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'NC':
       PIN_NUMBER='(26,0)';
-      PIN_TYPE=NC;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='NC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'P35':
       PIN_NUMBER='(27,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P34':
       PIN_NUMBER='(28,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P33':
       PIN_NUMBER='(30,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P32':
       PIN_NUMBER='(31,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P31':
       PIN_NUMBER='(32,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P30':
       PIN_NUMBER='(33,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P29':
       PIN_NUMBER='(34,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P28':
       PIN_NUMBER='(35,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P27':
       PIN_NUMBER='(36,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P26':
       PIN_NUMBER='(38,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P25':
       PIN_NUMBER='(39,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P24':
       PIN_NUMBER='(40,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LLC':
       PIN_NUMBER='(42,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P23':
       PIN_NUMBER='(43,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P22':
       PIN_NUMBER='(44,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P21':
       PIN_NUMBER='(45,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P20':
       PIN_NUMBER='(46,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P19':
       PIN_NUMBER='(47,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P18':
       PIN_NUMBER='(48,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P17':
       PIN_NUMBER='(49,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'NC_2':
       PIN_NUMBER='(50,0)';
-      PIN_TYPE=NC;
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='NC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'P16':
       PIN_NUMBER='(51,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P15':
       PIN_NUMBER='(52,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P14':
       PIN_NUMBER='(53,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P13':
       PIN_NUMBER='(55,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P12':
       PIN_NUMBER='(56,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P11':
       PIN_NUMBER='(57,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P10':
       PIN_NUMBER='(58,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P9':
       PIN_NUMBER='(59,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P8':
       PIN_NUMBER='(60,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P7':
       PIN_NUMBER='(61,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P6':
       PIN_NUMBER='(63,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P5':
       PIN_NUMBER='(64,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P4':
       PIN_NUMBER='(65,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P3':
       PIN_NUMBER='(66,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P2':
       PIN_NUMBER='(67,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P1':
       PIN_NUMBER='(68,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'P0':
       PIN_NUMBER='(69,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'HS':
       PIN_NUMBER='(72,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VS/FIELD/ALSB':
       PIN_NUMBER='(73,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CEC':
       PIN_NUMBER='(92,0)';
-      NO_LOAD_CHECK=BOTH;
-      NO_IO_CHECK=BOTH;
-      ALLOW_CONNECT=TRUE;
       PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
     'EP':
       PIN_NUMBER='(101,0)';
       PINUSE='GROUND';
-  END_PIN;
-  BODY
+  end_pin;
+  body
     PART_NAME='ADV7612BSWZ';
-    PHYS_DES_PREFIX='U';
     NO_LOAD_CHECK='TRUE';
     PIN_COUNT='101';
     BODY_NAME='ADV7612BSWZ';
     JEDEC_TYPE='SW_100_2';
-  END_BODY;
-END_PRIMITIVE;
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
 END.
