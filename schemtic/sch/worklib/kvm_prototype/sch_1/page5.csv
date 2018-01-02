@@ -7,10 +7,10 @@ FILE_TYPE = CONNECTIVITY;
 3"GND_SIGNAL\g";
 4"GND_SIGNAL\g";
 5"GND_SIGNAL\g";
-6"V_S7_3V3_7612_TVDD";
-7"V_S7_1V8_7612_DVDD";
-8"V_S7_1V8_7612_CVDD";
-9"V_S7_3V3_7612_DVDDIO";
+6"V_S7_3V3_7612_DVDDIO";
+7"V_S7_3V3_7612_TVDD";
+8"V_S7_1V8_7612_DVDD";
+9"V_S7_1V8_7612_CVDD";
 10"V_S7_1V8_7612_PVDD";
 11"V_S7_1V8";
 12"V_S7_3V3";
@@ -98,7 +98,7 @@ VALUE"100MOHM"
 CODE"10070008"
 CDS_LMAN_SYM_OUTLINE"-125,50,125,0"
 CDS_LIB"kvm_matrix_lib";
-"B"7;
+"B"8;
 "A"15;
 %"C"
 "1","(-8800,850)","0","kvm_matrix_lib","I12";
@@ -108,7 +108,7 @@ VALUE"0.1U"
 CODE"08070262"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"7;
+"1"8;
 "2"2;
 %"C"
 "1","(-8650,850)","0","kvm_matrix_lib","I13";
@@ -118,7 +118,7 @@ VALUE"0.1U"
 CODE"08070262"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"7;
+"1"8;
 "2"2;
 %"C"
 "1","(-8500,850)","0","kvm_matrix_lib","I14";
@@ -128,7 +128,7 @@ VALUE"0.1U"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070262";
-"1"7;
+"1"8;
 "2"2;
 %"C"
 "1","(-8300,850)","0","kvm_matrix_lib","I15";
@@ -138,7 +138,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070247";
-"1"7;
+"1"8;
 "2"2;
 %"C"
 "1","(-8150,850)","0","kvm_matrix_lib","I16";
@@ -148,7 +148,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070247";
-"1"7;
+"1"8;
 "2"2;
 %"C"
 "1","(-8000,850)","0","kvm_matrix_lib","I17";
@@ -158,7 +158,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070247";
-"1"7;
+"1"8;
 "2"2;
 %"GND_SIGNAL"
 "1","(-8850,450)","0","standard","I18";
@@ -185,7 +185,7 @@ VALUE"100MOHM"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-125,50,125,0"
 CODE"10070008";
-"B"8;
+"B"9;
 "A"14;
 %"C"
 "1","(-8800,3000)","0","kvm_matrix_lib","I20";
@@ -222,7 +222,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-5200,1850)","0","kvm_matrix_lib","I24";
@@ -232,7 +232,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-5050,1850)","0","kvm_matrix_lib","I25";
@@ -242,7 +242,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-4900,1850)","0","kvm_matrix_lib","I26";
@@ -252,7 +252,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-4700,1850)","0","kvm_matrix_lib","I27";
@@ -262,7 +262,7 @@ $LOCATION"?"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-4550,1850)","0","kvm_matrix_lib","I28";
@@ -272,7 +272,7 @@ VALUE"0.01U"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib"
 CODE"08070247";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-4400,1850)","0","kvm_matrix_lib","I29";
@@ -282,7 +282,7 @@ VALUE"0.01U"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib"
 CODE"08070247";
-"1"9;
+"1"6;
 "2"4;
 %"C"
 "1","(-8600,1900)","0","kvm_matrix_lib","I3";
@@ -292,7 +292,7 @@ VALUE"0.1U"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib"
 CODE"08070262";
-"1"8;
+"1"9;
 "2"1;
 %"C"
 "1","(-4250,1850)","0","kvm_matrix_lib","I30";
@@ -302,7 +302,7 @@ VALUE"0.01U"
 CODE"08070247"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib";
-"1"9;
+"1"6;
 "2"4;
 %"GND_SIGNAL"
 "1","(-5400,1450)","0","standard","I31";
@@ -319,7 +319,7 @@ $LOCATION"?"
 CODE"10070008"
 CDS_LMAN_SYM_OUTLINE"-125,50,125,0"
 CDS_LIB"kvm_matrix_lib";
-"B"9;
+"B"6;
 "A"12;
 %"C"
 "1","(-4900,3000)","0","kvm_matrix_lib","I33";
@@ -329,7 +329,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-5050,3000)","0","kvm_matrix_lib","I34";
@@ -339,7 +339,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070262";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-5200,3000)","0","kvm_matrix_lib","I35";
@@ -349,7 +349,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070262";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-5350,3000)","0","kvm_matrix_lib","I36";
@@ -359,7 +359,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070262";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-4750,3000)","0","kvm_matrix_lib","I37";
@@ -369,7 +369,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-4600,3000)","0","kvm_matrix_lib","I38";
@@ -379,17 +379,17 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070262";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-4400,3000)","0","kvm_matrix_lib","I39";
 ;
-VALUE"0.01U"
 $LOCATION"?"
+VALUE"0.01U"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-7800,1900)","0","kvm_matrix_lib","I4";
@@ -399,17 +399,17 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070247";
-"1"8;
+"1"9;
 "2"1;
 %"C"
 "1","(-4250,3000)","0","kvm_matrix_lib","I40";
 ;
-VALUE"0.01U"
 $LOCATION"?"
+VALUE"0.01U"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-4100,3000)","0","kvm_matrix_lib","I41";
@@ -419,17 +419,17 @@ $LOCATION"?"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-3950,3000)","0","kvm_matrix_lib","I42";
 ;
-VALUE"0.01U"
 $LOCATION"?"
+VALUE"0.01U"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-3800,3000)","0","kvm_matrix_lib","I43";
@@ -439,7 +439,7 @@ $LOCATION"?"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"6;
+"1"7;
 "2"5;
 %"C"
 "1","(-3650,3000)","0","kvm_matrix_lib","I44";
@@ -449,7 +449,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070247";
-"1"6;
+"1"7;
 "2"5;
 %"GND_SIGNAL"
 "1","(-5400,2550)","0","standard","I45";
@@ -466,7 +466,7 @@ VALUE"100MOHM"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-125,50,125,0"
 CODE"10070008";
-"B"6;
+"B"7;
 "A"13;
 %"C"
 "1","(-8800,1900)","0","kvm_matrix_lib","I5";
@@ -476,7 +476,7 @@ $LOCATION"?"
 CODE"98070403"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CDS_LIB"kvm_matrix_lib";
-"1"8;
+"1"9;
 "2"1;
 %"C"
 "1","(-8450,1900)","0","kvm_matrix_lib","I6";
@@ -486,7 +486,7 @@ $LOCATION"?"
 CODE"08070262"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"8;
+"1"9;
 "2"1;
 %"C"
 "1","(-8300,1900)","0","kvm_matrix_lib","I7";
@@ -496,7 +496,7 @@ $LOCATION"?"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070262";
-"1"8;
+"1"9;
 "2"1;
 %"C"
 "1","(-8100,1900)","0","kvm_matrix_lib","I8";
@@ -506,7 +506,7 @@ $LOCATION"?"
 CODE"08070247"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50";
-"1"8;
+"1"9;
 "2"1;
 %"C"
 "1","(-7950,1900)","0","kvm_matrix_lib","I9";
@@ -516,6 +516,6 @@ VALUE"0.01U"
 CDS_LIB"kvm_matrix_lib"
 CDS_LMAN_SYM_OUTLINE"-50,0,50,-50"
 CODE"08070247";
-"1"8;
+"1"9;
 "2"1;
 END.
