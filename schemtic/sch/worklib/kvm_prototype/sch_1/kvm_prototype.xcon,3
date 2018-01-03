@@ -5,14 +5,14 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-01-02T21:20:24</modificationTime>
+    <modificationTime>2018-01-02T21:35:12</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
         <instanceid>202</instanceid>
-        <netid>183</netid>
+        <netid>184</netid>
         <insttermid>811</insttermid>
       </lastids>
       <cells>
@@ -1691,12 +1691,12 @@
           <name>unnamed_7_bss123lt1_i33_3</name>
         </net>
         <net>
-          <id>N182</id>
-          <name>unnamed_7_diode_i39_k</name>
-        </net>
-        <net>
           <id>N183</id>
           <name>unnamed_7_diode_i39_a</name>
+        </net>
+        <net>
+          <id>N184</id>
+          <name>s7_7612_cec</name>
         </net>
         <net>
           <id>N5</id>
@@ -9112,7 +9112,7 @@
               <id>M805</id>
               <termid>T318</termid>
               <connections>
-                <connection net="N182" />
+                <connection net="N184" />
               </connections>
             </pin>
           </pins>
@@ -9140,13 +9140,14 @@
               <id>M806</id>
               <termid>T103</termid>
               <connections>
+                <connection net="N164" />
               </connections>
             </pin>
             <pin>
               <id>M807</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N182" />
+                <connection net="N184" />
               </connections>
             </pin>
           </pins>
@@ -9174,13 +9175,14 @@
               <id>M808</id>
               <termid>T103</termid>
               <connections>
+                <connection net="N168" />
               </connections>
             </pin>
             <pin>
               <id>M809</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N182" />
+                <connection net="N184" />
               </connections>
             </pin>
           </pins>
@@ -9215,6 +9217,7 @@
               <id>M811</id>
               <termid>T104</termid>
               <connections>
+                <connection net="N127" />
               </connections>
             </pin>
           </pins>
@@ -9568,10 +9571,11 @@
               <net ref="s7_7612_b_hp"></net>
               <net ref="s7_7612_b_scl"></net>
               <net ref="s7_7612_b_sda"></net>
+              <net ref="s7_7612_cec"></net>
               <net ref="unnamed_7_bss123lt1_i25_3"></net>
               <net ref="unnamed_7_bss123lt1_i33_3"></net>
               <net ref="unnamed_7_diode_i39_a"></net>
-              <net ref="unnamed_7_diode_i39_k"></net>
+              <net ref="v_s7_3v3_7612_dvddio"></net>
               <net ref="v_s7_5v0_in"></net>
               <net ref="v_s7_7612_a_5v0"></net>
               <net ref="v_s7_7612_b_5v0"></net>
