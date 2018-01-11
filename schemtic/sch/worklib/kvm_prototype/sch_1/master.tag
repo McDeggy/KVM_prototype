@@ -7,3 +7,5 @@ page4.csa
 page5.csa
 page6.csa
 page7.csa
+page8.csa
+page9.csa
