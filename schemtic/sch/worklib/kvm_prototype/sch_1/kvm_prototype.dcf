@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 185 )
+			( logicalViewRevNum 193 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -90,6 +90,10 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page9_gnd_signal"
 				( objectFlag fObjectAlias )
 				( objectStatus "page9_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page8_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page8_gnd_signal" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_s7_1v0"
 				( objectStatus "v_s7_1v0" )
@@ -439,10 +443,6 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_s7_1v8_7511_dvdd"
 				( objectStatus "v_s7_1v8_7511_dvdd" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page8_gnd_signal"
-				( objectFlag fObjectAlias )
-				( objectStatus "page8_gnd_signal" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_s7_1v8_7511_pvdd"
 				( objectStatus "v_s7_1v8_7511_pvdd" )
 			)
@@ -451,6 +451,21 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7511_cec_clk"
 				( objectStatus "s7_7511_cec_clk" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7511_cec_clk_r"
+				( objectStatus "s7_7511_cec_clk_r" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_fpga_7511_cec_clk"
+				( objectStatus "s7_fpga_7511_cec_clk" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_fpga_7511_scl"
+				( objectStatus "s7_fpga_7511_scl" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_fpga_7511_sda"
+				( objectStatus "s7_fpga_7511_sda" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_fpga_7511_pd"
+				( objectStatus "s7_fpga_7511_pd" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "kvm_matrix_lib"
@@ -9157,6 +9172,226 @@
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE8_I31" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page8_i33"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1600,7150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "OSC-12MHZ"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OSC-12MHZ"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE8_I33" )
+				( pin "gnd"
+				)
+				( pin "nnc"
+				)
+				( pin "\out\"
+				)
+				( pin "vdd"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page8_i34"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "08070262"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.1U"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1950,7050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-08070262,0.1U"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE8_I34" )
+				( pin "\1\"
+				)
+				( pin "\2\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page8_i36"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090198"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "49.9"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1600,6400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090198,49.9"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE8_I36" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page8_i37"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090198"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "49.9"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1600,6250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090198,49.9"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE8_I37" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page8_i38"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090246"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1350,5000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090246,4.7K"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE8_I38" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page8_i39"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090246"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1100,5000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090246,4.7K"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE8_I39" )
 				( pin "a"
 				)
 				( pin "b"
