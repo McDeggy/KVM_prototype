@@ -5,15 +5,15 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-01-17T16:03:06</modificationTime>
+    <modificationTime>2018-01-18T15:07:38</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
-        <instanceid>320</instanceid>
-        <netid>306</netid>
-        <insttermid>1353</insttermid>
+        <instanceid>323</instanceid>
+        <netid>310</netid>
+        <insttermid>1359</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -3175,6 +3175,14 @@
         <net>
           <id>N306</id>
           <name>v_s7_2v5_88e_vddo</name>
+        </net>
+        <net>
+          <id>N307</id>
+          <name>s7_88e_xtal1</name>
+        </net>
+        <net>
+          <id>N308</id>
+          <name>s7_88e_xtal2</name>
         </net>
         <net>
           <id>N5</id>
@@ -15505,6 +15513,7 @@
               <id>M1233</id>
               <termid>T510</termid>
               <connections>
+                <connection net="N307" />
               </connections>
             </pin>
             <pin>
@@ -15523,6 +15532,7 @@
               <id>M1236</id>
               <termid>T513</termid>
               <connections>
+                <connection net="N308" />
               </connections>
             </pin>
             <pin>
@@ -16681,6 +16691,111 @@
           <portinterfaces>
           </portinterfaces>
         </instance>
+        <instance>
+          <id>I321</id>
+          <cellid>S22</cellid>
+          <name>page11_i32</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1354</id>
+              <termid>T324</termid>
+              <connections>
+                <connection net="N308" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1355</id>
+              <termid>T325</termid>
+              <connections>
+                <connection net="N307" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I322</id>
+          <cellid>S3</cellid>
+          <name>page11_i33</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1356</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N307" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1357</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I323</id>
+          <cellid>S3</cellid>
+          <name>page11_i34</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1358</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N308" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1359</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -17297,6 +17412,8 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
+              <net ref="s7_88e_xtal1"></net>
+              <net ref="s7_88e_xtal2"></net>
               <net ref="v_s7_1v0"></net>
               <net ref="v_s7_1v0_88e_dvdd1"></net>
               <net ref="v_s7_1v0_88e_dvdd2"></net>
@@ -17326,6 +17443,9 @@
               <instance ref="i28"></instance>
               <instance ref="i29"></instance>
               <instance ref="i30"></instance>
+              <instance ref="i32"></instance>
+              <instance ref="i33"></instance>
+              <instance ref="i34"></instance>
             </instances>
           </page>
         </pages>
