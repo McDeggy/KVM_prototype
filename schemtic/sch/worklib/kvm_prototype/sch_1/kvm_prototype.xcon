@@ -5,15 +5,15 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-01-21T23:35:31</modificationTime>
+    <modificationTime>2018-01-22T15:04:21</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
-        <instanceid>410</instanceid>
-        <netid>414</netid>
-        <insttermid>1701</insttermid>
+        <instanceid>414</instanceid>
+        <netid>418</netid>
+        <insttermid>1709</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -4191,6 +4191,14 @@
         <net>
           <id>N414</id>
           <name>s7_cy7_otgvbus_tp</name>
+        </net>
+        <net>
+          <id>N417</id>
+          <name>s7_cy7_xtalin</name>
+        </net>
+        <net>
+          <id>N418</id>
+          <name>s7_cy7_xtalout</name>
         </net>
         <net>
           <id>N5</id>
@@ -20764,12 +20772,14 @@
               <id>M1598</id>
               <termid>T651</termid>
               <connections>
+                <connection net="N418" />
               </connections>
             </pin>
             <pin>
               <id>M1599</id>
               <termid>T652</termid>
               <connections>
+                <connection net="N417" />
               </connections>
             </pin>
             <pin>
@@ -21683,6 +21693,146 @@
           <portinterfaces>
           </portinterfaces>
         </instance>
+        <instance>
+          <id>I411</id>
+          <cellid>S22</cellid>
+          <name>page14_i19</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1702</id>
+              <termid>T324</termid>
+              <connections>
+                <connection net="N417" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1703</id>
+              <termid>T325</termid>
+              <connections>
+                <connection net="N418" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I412</id>
+          <cellid>S3</cellid>
+          <name>page14_i20</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1704</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1705</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N418" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I413</id>
+          <cellid>S3</cellid>
+          <name>page14_i21</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1706</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1707</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N417" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I414</id>
+          <cellid>S5</cellid>
+          <name>page14_i22</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1708</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N417" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1709</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N418" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -22502,6 +22652,8 @@
               <net ref="s7_cy7_cswitchb_tp"></net>
               <net ref="s7_cy7_otgvbus_tp"></net>
               <net ref="s7_cy7_vswitch_tp"></net>
+              <net ref="s7_cy7_xtalin"></net>
+              <net ref="s7_cy7_xtalout"></net>
               <net ref="v_s7_3v3"></net>
               <net ref="v_s7_3v3_cy7_vcc"></net>
             </nets>
@@ -22519,6 +22671,10 @@
               <instance ref="i15"></instance>
               <instance ref="i16"></instance>
               <instance ref="i17"></instance>
+              <instance ref="i19"></instance>
+              <instance ref="i20"></instance>
+              <instance ref="i21"></instance>
+              <instance ref="i22"></instance>
             </instances>
           </page>
         </pages>
