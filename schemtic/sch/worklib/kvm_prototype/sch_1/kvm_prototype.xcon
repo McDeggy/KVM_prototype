@@ -5,14 +5,14 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-01-22T21:55:25</modificationTime>
+    <modificationTime>2018-01-23T16:50:21</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
         <instanceid>420</instanceid>
-        <netid>420</netid>
+        <netid>457</netid>
         <insttermid>1847</insttermid>
       </lastids>
       <cells>
@@ -4429,6 +4429,146 @@
         <net>
           <id>N418</id>
           <name>s7_cy7_xtalout</name>
+        </net>
+        <net>
+          <id>N421</id>
+          <name>s7_cy7_a1</name>
+        </net>
+        <net>
+          <id>N422</id>
+          <name>s7_cy7_a10</name>
+        </net>
+        <net>
+          <id>N423</id>
+          <name>s7_cy7_a11</name>
+        </net>
+        <net>
+          <id>N424</id>
+          <name>s7_cy7_a12</name>
+        </net>
+        <net>
+          <id>N425</id>
+          <name>s7_cy7_a13</name>
+        </net>
+        <net>
+          <id>N426</id>
+          <name>s7_cy7_a14</name>
+        </net>
+        <net>
+          <id>N427</id>
+          <name>s7_cy7_a15</name>
+        </net>
+        <net>
+          <id>N428</id>
+          <name>s7_cy7_a16</name>
+        </net>
+        <net>
+          <id>N429</id>
+          <name>s7_cy7_a17</name>
+        </net>
+        <net>
+          <id>N430</id>
+          <name>s7_cy7_a18</name>
+        </net>
+        <net>
+          <id>N431</id>
+          <name>s7_cy7_a2</name>
+        </net>
+        <net>
+          <id>N432</id>
+          <name>s7_cy7_a3</name>
+        </net>
+        <net>
+          <id>N433</id>
+          <name>s7_cy7_a4</name>
+        </net>
+        <net>
+          <id>N434</id>
+          <name>s7_cy7_a5</name>
+        </net>
+        <net>
+          <id>N435</id>
+          <name>s7_cy7_a6</name>
+        </net>
+        <net>
+          <id>N436</id>
+          <name>s7_cy7_a7</name>
+        </net>
+        <net>
+          <id>N437</id>
+          <name>s7_cy7_a8</name>
+        </net>
+        <net>
+          <id>N438</id>
+          <name>s7_cy7_a9</name>
+        </net>
+        <net>
+          <id>N439</id>
+          <name>s7_cy7_d0</name>
+        </net>
+        <net>
+          <id>N440</id>
+          <name>s7_cy7_d1</name>
+        </net>
+        <net>
+          <id>N441</id>
+          <name>s7_cy7_d10</name>
+        </net>
+        <net>
+          <id>N442</id>
+          <name>s7_cy7_d11</name>
+        </net>
+        <net>
+          <id>N443</id>
+          <name>s7_cy7_d12</name>
+        </net>
+        <net>
+          <id>N444</id>
+          <name>s7_cy7_d13</name>
+        </net>
+        <net>
+          <id>N445</id>
+          <name>s7_cy7_d14</name>
+        </net>
+        <net>
+          <id>N446</id>
+          <name>s7_cy7_d15</name>
+        </net>
+        <net>
+          <id>N447</id>
+          <name>s7_cy7_d2</name>
+        </net>
+        <net>
+          <id>N448</id>
+          <name>s7_cy7_d3</name>
+        </net>
+        <net>
+          <id>N449</id>
+          <name>s7_cy7_d4</name>
+        </net>
+        <net>
+          <id>N450</id>
+          <name>s7_cy7_d5</name>
+        </net>
+        <net>
+          <id>N451</id>
+          <name>s7_cy7_d6</name>
+        </net>
+        <net>
+          <id>N452</id>
+          <name>s7_cy7_d7</name>
+        </net>
+        <net>
+          <id>N453</id>
+          <name>s7_cy7_d8</name>
+        </net>
+        <net>
+          <id>N454</id>
+          <name>s7_cy7_d9</name>
+        </net>
+        <net>
+          <id>N457</id>
+          <name>s7_cy7_sram_cs_n</name>
         </net>
         <net>
           <id>N5</id>
@@ -22148,60 +22288,70 @@
               <id>M1804</id>
               <termid>T738</termid>
               <connections>
+                <connection net="N434" />
               </connections>
             </pin>
             <pin>
               <id>M1805</id>
               <termid>T739</termid>
               <connections>
+                <connection net="N433" />
               </connections>
             </pin>
             <pin>
               <id>M1806</id>
               <termid>T740</termid>
               <connections>
+                <connection net="N432" />
               </connections>
             </pin>
             <pin>
               <id>M1807</id>
               <termid>T741</termid>
               <connections>
+                <connection net="N431" />
               </connections>
             </pin>
             <pin>
               <id>M1808</id>
               <termid>T742</termid>
               <connections>
+                <connection net="N421" />
               </connections>
             </pin>
             <pin>
               <id>M1809</id>
               <termid>T743</termid>
               <connections>
+                <connection net="N457" />
               </connections>
             </pin>
             <pin>
               <id>M1810</id>
               <termid>T744</termid>
               <connections>
+                <connection net="N439" />
               </connections>
             </pin>
             <pin>
               <id>M1811</id>
               <termid>T745</termid>
               <connections>
+                <connection net="N440" />
               </connections>
             </pin>
             <pin>
               <id>M1812</id>
               <termid>T746</termid>
               <connections>
+                <connection net="N447" />
               </connections>
             </pin>
             <pin>
               <id>M1813</id>
               <termid>T747</termid>
               <connections>
+                <connection net="N448" />
               </connections>
             </pin>
             <pin>
@@ -22222,24 +22372,28 @@
               <id>M1816</id>
               <termid>T750</termid>
               <connections>
+                <connection net="N449" />
               </connections>
             </pin>
             <pin>
               <id>M1817</id>
               <termid>T751</termid>
               <connections>
+                <connection net="N450" />
               </connections>
             </pin>
             <pin>
               <id>M1818</id>
               <termid>T752</termid>
               <connections>
+                <connection net="N451" />
               </connections>
             </pin>
             <pin>
               <id>M1819</id>
               <termid>T753</termid>
               <connections>
+                <connection net="N452" />
               </connections>
             </pin>
             <pin>
@@ -22252,60 +22406,70 @@
               <id>M1821</id>
               <termid>T755</termid>
               <connections>
+                <connection net="N429" />
               </connections>
             </pin>
             <pin>
               <id>M1822</id>
               <termid>T756</termid>
               <connections>
+                <connection net="N428" />
               </connections>
             </pin>
             <pin>
               <id>M1823</id>
               <termid>T757</termid>
               <connections>
+                <connection net="N427" />
               </connections>
             </pin>
             <pin>
               <id>M1824</id>
               <termid>T758</termid>
               <connections>
+                <connection net="N426" />
               </connections>
             </pin>
             <pin>
               <id>M1825</id>
               <termid>T759</termid>
               <connections>
+                <connection net="N425" />
               </connections>
             </pin>
             <pin>
               <id>M1826</id>
               <termid>T760</termid>
               <connections>
+                <connection net="N430" />
               </connections>
             </pin>
             <pin>
               <id>M1827</id>
               <termid>T761</termid>
               <connections>
+                <connection net="N424" />
               </connections>
             </pin>
             <pin>
               <id>M1828</id>
               <termid>T762</termid>
               <connections>
+                <connection net="N423" />
               </connections>
             </pin>
             <pin>
               <id>M1829</id>
               <termid>T763</termid>
               <connections>
+                <connection net="N422" />
               </connections>
             </pin>
             <pin>
               <id>M1830</id>
               <termid>T764</termid>
               <connections>
+                <connection net="N438" />
               </connections>
             </pin>
             <pin>
@@ -22318,24 +22482,28 @@
               <id>M1832</id>
               <termid>T766</termid>
               <connections>
+                <connection net="N453" />
               </connections>
             </pin>
             <pin>
               <id>M1833</id>
               <termid>T767</termid>
               <connections>
+                <connection net="N454" />
               </connections>
             </pin>
             <pin>
               <id>M1834</id>
               <termid>T768</termid>
               <connections>
+                <connection net="N441" />
               </connections>
             </pin>
             <pin>
               <id>M1835</id>
               <termid>T769</termid>
               <connections>
+                <connection net="N442" />
               </connections>
             </pin>
             <pin>
@@ -22356,24 +22524,28 @@
               <id>M1838</id>
               <termid>T772</termid>
               <connections>
+                <connection net="N443" />
               </connections>
             </pin>
             <pin>
               <id>M1839</id>
               <termid>T773</termid>
               <connections>
+                <connection net="N444" />
               </connections>
             </pin>
             <pin>
               <id>M1840</id>
               <termid>T774</termid>
               <connections>
+                <connection net="N445" />
               </connections>
             </pin>
             <pin>
               <id>M1841</id>
               <termid>T775</termid>
               <connections>
+                <connection net="N446" />
               </connections>
             </pin>
             <pin>
@@ -22398,18 +22570,21 @@
               <id>M1845</id>
               <termid>T779</termid>
               <connections>
+                <connection net="N437" />
               </connections>
             </pin>
             <pin>
               <id>M1846</id>
               <termid>T780</termid>
               <connections>
+                <connection net="N436" />
               </connections>
             </pin>
             <pin>
               <id>M1847</id>
               <termid>T781</termid>
               <connections>
+                <connection net="N435" />
               </connections>
             </pin>
           </pins>
@@ -23237,9 +23412,44 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
+              <net ref="s7_cy7_a1"></net>
+              <net ref="s7_cy7_a10"></net>
+              <net ref="s7_cy7_a11"></net>
+              <net ref="s7_cy7_a12"></net>
+              <net ref="s7_cy7_a13"></net>
+              <net ref="s7_cy7_a14"></net>
+              <net ref="s7_cy7_a15"></net>
+              <net ref="s7_cy7_a16"></net>
+              <net ref="s7_cy7_a17"></net>
+              <net ref="s7_cy7_a18"></net>
+              <net ref="s7_cy7_a2"></net>
+              <net ref="s7_cy7_a3"></net>
+              <net ref="s7_cy7_a4"></net>
+              <net ref="s7_cy7_a5"></net>
+              <net ref="s7_cy7_a6"></net>
+              <net ref="s7_cy7_a7"></net>
+              <net ref="s7_cy7_a8"></net>
+              <net ref="s7_cy7_a9"></net>
               <net ref="s7_cy7_cswitcha_tp"></net>
               <net ref="s7_cy7_cswitchb_tp"></net>
+              <net ref="s7_cy7_d0"></net>
+              <net ref="s7_cy7_d1"></net>
+              <net ref="s7_cy7_d10"></net>
+              <net ref="s7_cy7_d11"></net>
+              <net ref="s7_cy7_d12"></net>
+              <net ref="s7_cy7_d13"></net>
+              <net ref="s7_cy7_d14"></net>
+              <net ref="s7_cy7_d15"></net>
+              <net ref="s7_cy7_d2"></net>
+              <net ref="s7_cy7_d3"></net>
+              <net ref="s7_cy7_d4"></net>
+              <net ref="s7_cy7_d5"></net>
+              <net ref="s7_cy7_d6"></net>
+              <net ref="s7_cy7_d7"></net>
+              <net ref="s7_cy7_d8"></net>
+              <net ref="s7_cy7_d9"></net>
               <net ref="s7_cy7_otgvbus_tp"></net>
+              <net ref="s7_cy7_sram_cs_n"></net>
               <net ref="s7_cy7_vswitch_tp"></net>
               <net ref="s7_cy7_xtalin"></net>
               <net ref="s7_cy7_xtalout"></net>
