@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-01-23T23:00:05</modificationTime>
+    <modificationTime>2018-01-23T23:00:56</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -4671,10 +4671,6 @@
         <net>
           <id>N476</id>
           <name>s7_cy7_gpio31</name>
-        </net>
-        <net>
-          <id>N477</id>
-          <name>unnamed_14_r_i52_a</name>
         </net>
         <net>
           <id>N5</id>
@@ -23331,7 +23327,7 @@
               <id>M1884</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N477" />
+                <connection net="N408" />
               </connections>
             </pin>
             <pin>
@@ -23366,7 +23362,7 @@
               <id>M1886</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N477" />
+                <connection net="N408" />
               </connections>
             </pin>
             <pin>
@@ -24255,7 +24251,6 @@
               <net ref="s7_cy_xromsel_n"></net>
               <net ref="unnamed_14_eeprom-512k_i41_7"></net>
               <net ref="unnamed_14_r_i32_b"></net>
-              <net ref="unnamed_14_r_i52_a"></net>
               <net ref="v_s7_3v3"></net>
               <net ref="v_s7_3v3_cy7_vcc"></net>
             </nets>
