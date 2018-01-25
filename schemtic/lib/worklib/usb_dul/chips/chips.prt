@@ -1,0 +1,38 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'USB_DUL';
+  pin
+    'GND'<1>:
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VBUS'<1>:
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D-'<1>:
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D+'<1>:
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D-'<0>:
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D+'<0>:
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND'<0>:
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VBUS'<0>:
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='USB_DUL';
+    BODY_NAME='USB_DUL';
+    JEDEC_TYPE='usb_dul';
+    PHYS_DES_PREFIX='J';
+    CLASS='IO';
+  end_body;
+end_primitive;
+
+END.
