@@ -1,6 +1,4 @@
 page1.csa
-kvm_prototype.xcon
-kvm_prototype.dcf
 page2.csa
 page3.csa
 page4.csa
@@ -17,4 +15,7 @@ page14.csa
 page15.csa
 page16.csa
 page17.csa
+page19.csa
 page18.csa
+kvm_prototype.xcon
+kvm_prototype.dcf
