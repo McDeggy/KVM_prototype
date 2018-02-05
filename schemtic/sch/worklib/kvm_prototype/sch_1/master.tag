@@ -16,7 +16,13 @@ page15.csa
 page16.csa
 page17.csa
 page18.csa
-page20.csa
 page19.csa
+page21.csa
+page20.csa
 kvm_prototype.xcon
 kvm_prototype.dcf
+page22.csa
+page23.csa
+page24.csa
+page25.csa
+page26.csa
