@@ -2,12 +2,14 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012}
 "PAGE_NUMBER" = 22;
 0"NC";
+1"CLK_50M_MAIN";
+2"CLK_74M25_HDMI";
 %"XC7S50FGGA484"
 "4","(-5900,4250)","0","kvm_matrix_lib","I1";
 ;
 VALUE"XC7S50FGGA484"
-CDS_LMAN_SYM_OUTLINE"-125,1250,725,-125"
-CDS_LIB"kvm_matrix_lib";
+CDS_LIB"kvm_matrix_lib"
+CDS_LMAN_SYM_OUTLINE"-125,1250,725,-125";
 "A21"0;
 "M16"0;
 "L21"0;
@@ -33,9 +35,9 @@ CDS_LIB"kvm_matrix_lib";
 "M18"0;
 "M17"0;
 "L15"0;
-"M15"0;
+"M15"2;
 "F20"0;
-"F19"0;
+"F19"1;
 "F22"0;
 "F21"0;
 "D22"0;
