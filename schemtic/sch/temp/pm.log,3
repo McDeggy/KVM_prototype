@@ -2,43 +2,46 @@
 Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Current Design             :   @standard.unnamed(sch_1)
-Current Page List          :   No Pages
-Current Total Pages        :   0
-Current Active Page        :   1
+Current Design             :   @kvm_prototype_lib.kvm_prototype(sch_1)
+Current Page List          :   1-20
+Current Total Pages        :   20
+Current Active Page        :   19
 
 
 
-Dec 16 21:19:06 2017
+Feb 05 09:40:34 2018
 
 ---------------------------------------------
-Command:   Page Delete
+Command:   Page Move
 
-   Pages to Delete         :   1
-   Retain Page Gaps        :   No
-
-
-Details:   Page Delete
-
-   Empty Schematic. No page deletes possible!
+   Pages to Move           :   20
+   Move Location           :   19
 
 
+Details:   Page Move
 
-Results:   Page Delete
+    1. Page Move      20    21  
+    2. Page Edit      22  
+    3. Page Move      19    20  
+    4. Page Edit      20  
+    5. Page Move      21    19  
 
-   Ending Page List        :   No Pages
-   Ending Total Pages      :   0
-   Active Page             :   1
+
+Results:   Page Move
+
+   Ending Page List        :   1-20
+   Ending Total Pages      :   20
+   Active Page             :   20
 
 
 ---------------------------------------------
 Summary:
 
-    Status                 :  Command Failed!
-    Initial Page Count     :  0
-    Final Page Count       :  0
+    Status                 :  Successful Completion!
+    Initial Page Count     :  20
+    Final Page Count       :  20
 
-    Start Time             :  Dec 16 21:19:06 2017
-    End Time               :  Dec 16 21:19:06 2017
-    Elapsed Time           :  00:00:00  (hrs:min:sec)
+    Start Time             :  Feb 05 09:40:34 2018
+    End Time               :  Feb 05 09:40:35 2018
+    Elapsed Time           :  00:00:01  (hrs:min:sec)
 

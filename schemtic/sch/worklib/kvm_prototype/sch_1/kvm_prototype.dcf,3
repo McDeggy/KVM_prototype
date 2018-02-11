@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 635 )
+			( logicalViewRevNum 643 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -81,6 +81,7 @@
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page21_gnd_signal") )
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page25_gnd_signal") )
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page24_gnd_signal") )
+				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page6_gnd_signal") )
 				( attribute "PHYS_NET_NAME" "GND_SIGNAL"
 					( Origin gPackager )
 				)
@@ -157,6 +158,10 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page24_gnd_signal"
 				( objectFlag fObjectAlias )
 				( objectStatus "page24_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page6_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page6_gnd_signal" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_s7_1v0"
 				( objectStatus "v_s7_1v0" )
@@ -1715,8 +1720,218 @@
 				)
 				( objectStatus "s7_7612_ap5" )
 			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_reset"
+				( objectStatus "s7_7612_reset" )
+			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_cs_n"
 				( objectStatus "s7_7612_cs_n" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_de"
+				( objectStatus "s7_7612_de" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_scl"
+				( objectStatus "s7_7612_scl" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_sda"
+				( objectStatus "s7_7612_sda" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_int1"
+				( objectStatus "s7_7612_int1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_int2"
+				( objectStatus "s7_7612_int2" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_mclk"
+				( objectStatus "s7_7612_mclk" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_hs"
+				( objectStatus "s7_7612_hs" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_llc"
+				( objectStatus "s7_7612_llc" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_vs"
+				( objectStatus "s7_7612_vs" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p0"
+				( objectStatus "s7_7612_p0" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p1"
+				( objectStatus "s7_7612_p1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p10"
+				( objectStatus "s7_7612_p10" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p11"
+				( objectStatus "s7_7612_p11" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p12"
+				( objectStatus "s7_7612_p12" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p13"
+				( objectStatus "s7_7612_p13" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p14"
+				( objectStatus "s7_7612_p14" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p15"
+				( objectStatus "s7_7612_p15" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p16"
+				( objectStatus "s7_7612_p16" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p17"
+				( objectStatus "s7_7612_p17" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p18"
+				( objectStatus "s7_7612_p18" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p19"
+				( objectStatus "s7_7612_p19" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p2"
+				( objectStatus "s7_7612_p2" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p20"
+				( objectStatus "s7_7612_p20" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p21"
+				( objectStatus "s7_7612_p21" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p22"
+				( objectStatus "s7_7612_p22" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p23"
+				( objectStatus "s7_7612_p23" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p24"
+				( objectStatus "s7_7612_p24" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p25"
+				( objectStatus "s7_7612_p25" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p26"
+				( objectStatus "s7_7612_p26" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p27"
+				( objectStatus "s7_7612_p27" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p28"
+				( objectStatus "s7_7612_p28" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p29"
+				( objectStatus "s7_7612_p29" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p3"
+				( objectStatus "s7_7612_p3" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p30"
+				( objectStatus "s7_7612_p30" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p31"
+				( objectStatus "s7_7612_p31" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p32"
+				( objectStatus "s7_7612_p32" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p33"
+				( objectStatus "s7_7612_p33" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p34"
+				( objectStatus "s7_7612_p34" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p35"
+				( objectStatus "s7_7612_p35" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p4"
+				( objectStatus "s7_7612_p4" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p5"
+				( objectStatus "s7_7612_p5" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p6"
+				( objectStatus "s7_7612_p6" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p7"
+				( objectStatus "s7_7612_p7" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p8"
+				( objectStatus "s7_7612_p8" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_7612_p9"
+				( objectStatus "s7_7612_p9" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio0"
+				( objectStatus "s7_cy7_gpio0" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio1"
+				( objectStatus "s7_cy7_gpio1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio10"
+				( objectStatus "s7_cy7_gpio10" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio11"
+				( objectStatus "s7_cy7_gpio11" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio12"
+				( objectStatus "s7_cy7_gpio12" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio13"
+				( objectStatus "s7_cy7_gpio13" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio14"
+				( objectStatus "s7_cy7_gpio14" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio15"
+				( objectStatus "s7_cy7_gpio15" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio16"
+				( objectStatus "s7_cy7_gpio16" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio17"
+				( objectStatus "s7_cy7_gpio17" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio19"
+				( objectStatus "s7_cy7_gpio19" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio2"
+				( objectStatus "s7_cy7_gpio2" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio20"
+				( objectStatus "s7_cy7_gpio20" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio21"
+				( objectStatus "s7_cy7_gpio21" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio22"
+				( objectStatus "s7_cy7_gpio22" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio23"
+				( objectStatus "s7_cy7_gpio23" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio3"
+				( objectStatus "s7_cy7_gpio3" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio4"
+				( objectStatus "s7_cy7_gpio4" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio5"
+				( objectStatus "s7_cy7_gpio5" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio6"
+				( objectStatus "s7_cy7_gpio6" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio7"
+				( objectStatus "s7_cy7_gpio7" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio8"
+				( objectStatus "s7_cy7_gpio8" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_gpio9"
+				( objectStatus "s7_cy7_gpio9" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):s7_cy7_reset_n"
+				( objectStatus "s7_cy7_reset_n" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "kvm_matrix_lib"
@@ -26458,6 +26673,117 @@
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE5_I59" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page5_i60"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090246"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9000,6650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090246,4.7K"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE5_I60" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page5_i61"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090246"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8800,6650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090246,4.7K"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE5_I61" )
+				( pin "a"
+				)
+				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page5_i62"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090522"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9200,4750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090522,0"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE5_I62" )
 				( pin "a"
 				)
 				( pin "b"
