@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-02-11T22:10:41</modificationTime>
+    <modificationTime>2018-02-12T15:09:21</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -31391,6 +31391,7 @@
               <id>M2299</id>
               <termid>T987</termid>
               <connections>
+                <connection net="N97" />
               </connections>
             </pin>
             <pin>
@@ -31473,6 +31474,7 @@
               <id>M2311</id>
               <termid>T999</termid>
               <connections>
+                <connection net="N96" />
               </connections>
             </pin>
             <pin>
@@ -31546,6 +31548,7 @@
               <id>M3040</id>
               <termid>T1524</termid>
               <connections>
+                <connection net="N95" />
               </connections>
             </pin>
           </pins>
@@ -41423,6 +41426,8 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
+              <net ref="s7_5053_mr_n"></net>
+              <net ref="s7_5053_wdi"></net>
               <net ref="s7_config_cfgbvs"></net>
               <net ref="s7_config_done"></net>
               <net ref="s7_config_init_b"></net>
@@ -41482,6 +41487,7 @@
               <net ref="s7_qspi_dq2_r"></net>
               <net ref="s7_qspi_dq3"></net>
               <net ref="s7_qspi_dq3_r"></net>
+              <net ref="s7_rst_n"></net>
               <net ref="unnamed_18_leds_i38_a"></net>
               <net ref="v_s7_1v8_vccaux"></net>
               <net ref="v_s7_3v3_vcco"></net>
