@@ -27,3 +27,5 @@ page2.csa
 kvm_prototype.xcon
 kvm_prototype.dcf
 page1.csa
+page28.csa
+page29.csa
