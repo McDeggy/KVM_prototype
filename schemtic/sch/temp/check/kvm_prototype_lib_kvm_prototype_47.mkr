@@ -6,14 +6,14 @@
    (class "SCHEMATIC")
    (severity 40)
    (error_num 1)
-   (short_msg "ERROR(SPCOCN-1999): Wire hidden by component.")
-   (long_msg "ERROR(SPCOCN-1999): Wire hidden by component. (check_hiddenwires)")
+   (short_msg "ERROR(SPCOCN-1981): Wire connected to 1 pin and not named.")
+   (long_msg "ERROR(SPCOCN-1981): Wire connected to 1 pin and not named. (ncwires)")
    (location
     (
      (object_kind "wire")
-     (canonical_name "_!drawerror (-1512,5100);")
+     (canonical_name "_!drawerror (-4050,6900);")
      (parent_canonical_name "unused")
-     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page20")
+     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page48")
     )
    )
   )
@@ -29,9 +29,9 @@ choose Tools - Options - Check and deselect the 'Voltage on HDL Symbols' option.
    (location
     (
      (object_kind "body")
-     (canonical_name "_!drawerror (-4400,2950);")
+     (canonical_name "_!drawerror (-1200,3550);")
      (parent_canonical_name "unused")
-     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page20")
+     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page48")
     )
    )
   )
