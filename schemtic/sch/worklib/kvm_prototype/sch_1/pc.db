@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Sun Feb 25 20:30:54 2018
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Mon Feb 26 15:06:23 2018
 #ISCELL
   standard c#20size#20page *
   *
@@ -4115,6 +4115,39 @@
 #ISCELL
   standard c#20size#20page *
   *
+#CELL
+  kvm_matrix_lib pcie_x16 *
+  page45_i1
+#ISCELL
+  standard gnd_signal *
+  page45_i10
+#ISCELL
+  standard gnd_signal *
+  page45_i11
+#CELL
+  kvm_matrix_lib pcie_x16 *
+  page45_i2
+#CELL
+  kvm_matrix_lib pcie_x16 *
+  page45_i3
+#ISCELL
+  standard gnd_signal *
+  page45_i4
+#ISCELL
+  standard gnd_signal *
+  page45_i5
+#ISCELL
+  standard gnd_signal *
+  page45_i6
+#ISCELL
+  standard gnd_signal *
+  page45_i7
+#ISCELL
+  standard gnd_signal *
+  page45_i8
+#ISCELL
+  standard gnd_signal *
+  page45_i9
 #ISCELL
   standard c#20size#20page *
   *
@@ -5075,6 +5108,9 @@
 #CELL
   kvm_matrix_lib c *
   page63_i2
+#CELL
+  kvm_matrix_lib r *
+  page63_i20
 #ISCELL
   standard gnd_signal *
   page63_i3
