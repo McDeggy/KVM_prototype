@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 892 )
+			( logicalViewRevNum 893 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -3455,6 +3455,9 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):clk_a7_125m_b213_p_c"
 				( objectStatus "clk_a7_125m_b213_p_c" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):a7_bank_213_mgtrref"
+				( objectStatus "a7_bank_213_mgtrref" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page45_gnd_signal"
 				( objectFlag fObjectAlias )
@@ -57735,6 +57738,43 @@
 				( pin "b81"
 				)
 				( pin "b82"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page63_i20"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090231"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "62"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5300,2300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090231,100"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE63_I20" )
+				( pin "a"
+				)
+				( pin "b"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page18_i2:a21"

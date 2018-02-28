@@ -5,14 +5,14 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-02-26T15:16:43</modificationTime>
+    <modificationTime>2018-02-26T15:16:45</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
         <instanceid>1401</instanceid>
-        <netid>1635</netid>
+        <netid>1643</netid>
         <insttermid>6999</insttermid>
       </lastids>
       <cells>
@@ -18462,6 +18462,38 @@
         <net>
           <id>N1635</id>
           <name>a7_pcie_gtp_d9_p</name>
+        </net>
+        <net>
+          <id>N1636</id>
+          <name>a7_gtp_pcie_d10_n</name>
+        </net>
+        <net>
+          <id>N1637</id>
+          <name>a7_gtp_pcie_d10_p</name>
+        </net>
+        <net>
+          <id>N1638</id>
+          <name>a7_gtp_pcie_d11_n</name>
+        </net>
+        <net>
+          <id>N1639</id>
+          <name>a7_gtp_pcie_d11_p</name>
+        </net>
+        <net>
+          <id>N1640</id>
+          <name>a7_pcie_gtp_d10_n</name>
+        </net>
+        <net>
+          <id>N1641</id>
+          <name>a7_pcie_gtp_d10_p</name>
+        </net>
+        <net>
+          <id>N1642</id>
+          <name>a7_pcie_gtp_d11_n</name>
+        </net>
+        <net>
+          <id>N1643</id>
+          <name>a7_pcie_gtp_d11_p</name>
         </net>
         <net>
           <id>N5</id>
@@ -85286,6 +85318,7 @@
               <id>M6749</id>
               <termid>T2782</termid>
               <connections>
+                <connection net="N1641" />
               </connections>
             </pin>
             <pin>
@@ -85299,42 +85332,49 @@
               <id>M6751</id>
               <termid>T2784</termid>
               <connections>
+                <connection net="N1640" />
               </connections>
             </pin>
             <pin>
               <id>M6752</id>
               <termid>T2785</termid>
               <connections>
+                <connection net="N1643" />
               </connections>
             </pin>
             <pin>
               <id>M6753</id>
               <termid>T2786</termid>
               <connections>
+                <connection net="N1642" />
               </connections>
             </pin>
             <pin>
               <id>M6754</id>
               <termid>T2787</termid>
               <connections>
+                <connection net="N1639" />
               </connections>
             </pin>
             <pin>
               <id>M6755</id>
               <termid>T2788</termid>
               <connections>
+                <connection net="N1637" />
               </connections>
             </pin>
             <pin>
               <id>M6756</id>
               <termid>T2789</termid>
               <connections>
+                <connection net="N1638" />
               </connections>
             </pin>
             <pin>
               <id>M6757</id>
               <termid>T2790</termid>
               <connections>
+                <connection net="N1636" />
               </connections>
             </pin>
             <pin>
@@ -91228,6 +91268,14 @@
             <nets>
               <net ref="a7_bank_213_mgtrref"></net>
               <net ref="a7_bank_216_mgtrref"></net>
+              <net ref="a7_gtp_pcie_d10_n"></net>
+              <net ref="a7_gtp_pcie_d10_p"></net>
+              <net ref="a7_gtp_pcie_d11_n"></net>
+              <net ref="a7_gtp_pcie_d11_p"></net>
+              <net ref="a7_pcie_gtp_d10_n"></net>
+              <net ref="a7_pcie_gtp_d10_p"></net>
+              <net ref="a7_pcie_gtp_d11_n"></net>
+              <net ref="a7_pcie_gtp_d11_p"></net>
               <net ref="a7_sfp1_sin_n"></net>
               <net ref="a7_sfp1_sin_p"></net>
               <net ref="a7_sfp1_sout_n"></net>
