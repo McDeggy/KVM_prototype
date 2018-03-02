@@ -70,3 +70,6 @@ page67.csa
 page68.csa
 page69.csa
 page70.csa
+page71.csa
+page72.csa
+page73.csa
