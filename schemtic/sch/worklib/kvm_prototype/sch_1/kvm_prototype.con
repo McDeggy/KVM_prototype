@@ -8,7 +8,7 @@
   (design "kvm_prototype"
     (lastIds
       (lastInstanceId 2082)
-      (lastNetId 2422)
+      (lastNetId 2425)
       (lastInstTermId 9674)
     )
     (cells
@@ -5247,6 +5247,9 @@
       ("N2420" "v_z7_s6_3v3_avdd" -1 -1 0 )
       ("N2421" "unnamed_85_cy22394fc_i23_clkc" -1 -1 0 )
       ("N2422" "unnamed_85_cy22394fc_i23_xbuf" -1 -1 0 )
+      ("N2423" "clk_z7_s6_200m_sys" -1 -1 0 )
+      ("N2424" "clk_z7_s6_dif_n_r" -1 -1 0 )
+      ("N2425" "clk_z7_s6_dif_p_r" -1 -1 0 )
       ("N5" "gnd_signal" -1 -1 2 )
     )
 
@@ -51087,6 +51090,9 @@
             )
           )
           ("M9637" "T3573" -1 -1
+            (conn
+              ("0" -1 -1 "N2423" -1 -1)
+            )
           )
           ("M9638" "T3574" -1 -1
           )
@@ -51101,8 +51107,14 @@
             )
           )
           ("M9641" "T3577" -1 -1
+            (conn
+              ("0" -1 -1 "N2424" -1 -1)
+            )
           )
           ("M9642" "T3578" -1 -1
+            (conn
+              ("0" -1 -1 "N2425" -1 -1)
+            )
           )
           ("M9643" "T3579" -1 -1
             (conn

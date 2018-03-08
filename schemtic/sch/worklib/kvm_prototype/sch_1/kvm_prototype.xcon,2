@@ -5,16 +5,16 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-07T21:47:01</modificationTime>
+    <modificationTime>2018-03-07T21:48:05</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <external_errors>true</external_errors>
       <lastids>
-        <instanceid>2080</instanceid>
-        <netid>2420</netid>
-        <insttermid>9672</insttermid>
+        <instanceid>2081</instanceid>
+        <netid>2421</netid>
+        <insttermid>9673</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -23594,6 +23594,10 @@
         <net>
           <id>N2420</id>
           <name>v_z7_s6_3v3_avdd</name>
+        </net>
+        <net>
+          <id>N2421</id>
+          <name>unnamed_85_cy22394fc_i23_clkc</name>
         </net>
         <net>
           <id>N5</id>
@@ -119626,6 +119630,7 @@
               <id>M9639</id>
               <termid>T3575</termid>
               <connections>
+                <connection net="N2421" />
               </connections>
             </pin>
             <pin>
@@ -120084,6 +120089,34 @@
               <termid>T51</termid>
               <connections>
                 <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2081</id>
+          <cellid>S103</cellid>
+          <name>page85_i37</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M9673</id>
+              <termid>T3570</termid>
+              <connections>
+                <connection net="N2421" />
               </connections>
             </pin>
           </pins>
@@ -125163,10 +125196,11 @@
           </page>
           <page number="85">
             <physicalPageNumber>84</physicalPageNumber>
-            <errorStatus>true</errorStatus>
+            <errorStatus>false</errorStatus>
             <nets>
               <net ref="clk_z7_s6_25m"></net>
               <net ref="gnd_signal"></net>
+              <net ref="unnamed_85_cy22394fc_i23_clkc"></net>
               <net ref="unnamed_85_r_i1_a"></net>
               <net ref="unnamed_85_r_i1_b"></net>
               <net ref="unnamed_85_r_i2_b"></net>
@@ -125203,6 +125237,7 @@
               <instance ref="i33"></instance>
               <instance ref="i34"></instance>
               <instance ref="i35"></instance>
+              <instance ref="i37"></instance>
             </instances>
           </page>
           <page number="86">

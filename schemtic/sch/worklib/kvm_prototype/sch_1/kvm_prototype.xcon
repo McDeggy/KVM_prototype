@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-07T21:48:25</modificationTime>
+    <modificationTime>2018-03-08T11:54:40</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -13,7 +13,7 @@
       <external_errors>true</external_errors>
       <lastids>
         <instanceid>2082</instanceid>
-        <netid>2422</netid>
+        <netid>2425</netid>
         <insttermid>9674</insttermid>
       </lastids>
       <cells>
@@ -23602,6 +23602,18 @@
         <net>
           <id>N2422</id>
           <name>unnamed_85_cy22394fc_i23_xbuf</name>
+        </net>
+        <net>
+          <id>N2423</id>
+          <name>clk_z7_s6_200m_sys</name>
+        </net>
+        <net>
+          <id>N2424</id>
+          <name>clk_z7_s6_dif_n_r</name>
+        </net>
+        <net>
+          <id>N2425</id>
+          <name>clk_z7_s6_dif_p_r</name>
         </net>
         <net>
           <id>N5</id>
@@ -119622,6 +119634,7 @@
               <id>M9637</id>
               <termid>T3573</termid>
               <connections>
+                <connection net="N2423" />
               </connections>
             </pin>
             <pin>
@@ -119648,12 +119661,14 @@
               <id>M9641</id>
               <termid>T3577</termid>
               <connections>
+                <connection net="N2424" />
               </connections>
             </pin>
             <pin>
               <id>M9642</id>
               <termid>T3578</termid>
               <connections>
+                <connection net="N2425" />
               </connections>
             </pin>
             <pin>
@@ -125231,7 +125246,10 @@
             <physicalPageNumber>84</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="clk_z7_s6_200m_sys"></net>
               <net ref="clk_z7_s6_25m"></net>
+              <net ref="clk_z7_s6_dif_n_r"></net>
+              <net ref="clk_z7_s6_dif_p_r"></net>
               <net ref="gnd_signal"></net>
               <net ref="unnamed_85_cy22394fc_i23_clkc"></net>
               <net ref="unnamed_85_cy22394fc_i23_xbuf"></net>

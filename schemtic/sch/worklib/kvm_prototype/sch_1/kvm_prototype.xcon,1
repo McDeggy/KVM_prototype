@@ -5,16 +5,16 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-07T21:48:05</modificationTime>
+    <modificationTime>2018-03-07T21:48:25</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <external_errors>true</external_errors>
       <lastids>
-        <instanceid>2081</instanceid>
-        <netid>2421</netid>
-        <insttermid>9673</insttermid>
+        <instanceid>2082</instanceid>
+        <netid>2422</netid>
+        <insttermid>9674</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -23598,6 +23598,10 @@
         <net>
           <id>N2421</id>
           <name>unnamed_85_cy22394fc_i23_clkc</name>
+        </net>
+        <net>
+          <id>N2422</id>
+          <name>unnamed_85_cy22394fc_i23_xbuf</name>
         </net>
         <net>
           <id>N5</id>
@@ -119691,6 +119695,7 @@
               <id>M9648</id>
               <termid>T3584</termid>
               <connections>
+                <connection net="N2422" />
               </connections>
             </pin>
             <pin>
@@ -120117,6 +120122,34 @@
               <termid>T3570</termid>
               <connections>
                 <connection net="N2421" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2082</id>
+          <cellid>S103</cellid>
+          <name>page85_i38</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M9674</id>
+              <termid>T3570</termid>
+              <connections>
+                <connection net="N2422" />
               </connections>
             </pin>
           </pins>
@@ -125201,6 +125234,7 @@
               <net ref="clk_z7_s6_25m"></net>
               <net ref="gnd_signal"></net>
               <net ref="unnamed_85_cy22394fc_i23_clkc"></net>
+              <net ref="unnamed_85_cy22394fc_i23_xbuf"></net>
               <net ref="unnamed_85_r_i1_a"></net>
               <net ref="unnamed_85_r_i1_b"></net>
               <net ref="unnamed_85_r_i2_b"></net>
@@ -125238,6 +125272,7 @@
               <instance ref="i34"></instance>
               <instance ref="i35"></instance>
               <instance ref="i37"></instance>
+              <instance ref="i38"></instance>
             </instances>
           </page>
           <page number="86">

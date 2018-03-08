@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1058 )
+			( logicalViewRevNum 1059 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -382,6 +382,22 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page82_gnd_signal"
 				( objectFlag fObjectAlias )
 				( objectStatus "page82_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page83_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page83_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page86_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page86_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page84_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page84_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page85_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page85_gnd_signal" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_s7_1v0"
 				( objectStatus "v_s7_1v0" )
@@ -4985,10 +5001,6 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_s6_1v8_ddr"
 				( objectStatus "v_z7_s6_1v8_ddr" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page86_gnd_signal"
-				( objectFlag fObjectAlias )
-				( objectStatus "page86_gnd_signal" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_phy_init_done"
 				( objectStatus "z7_s6_phy_init_done" )
 			)
@@ -5009,10 +5021,6 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_82_head2x7_i96_a_3"
 				( objectStatus "unnamed_82_head2x7_i96_a_3" )
-			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page83_gnd_signal"
-				( objectFlag fObjectAlias )
-				( objectStatus "page83_gnd_signal" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_led0"
 				( objectStatus "z7_s6_led0" )
@@ -5035,10 +5043,6 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_s6_3v3_avdd"
 				( objectStatus "v_z7_s6_3v3_avdd" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page84_gnd_signal"
-				( objectFlag fObjectAlias )
-				( objectStatus "page84_gnd_signal" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_error"
 				( objectStatus "z7_s6_error" )
 			)
@@ -5053,10 +5057,6 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_s6_1v2_vccint"
 				( objectStatus "v_z7_s6_1v2_vccint" )
-			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page85_gnd_signal"
-				( objectFlag fObjectAlias )
-				( objectStatus "page85_gnd_signal" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_s6_3v3_clkgen"
 				( objectStatus "v_z7_s6_3v3_clkgen" )
@@ -5168,6 +5168,15 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_suspend"
 				( objectStatus "z7_s6_suspend" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):clk_z7_s6_200m_sys"
+				( objectStatus "clk_z7_s6_200m_sys" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):clk_z7_s6_dif_n_r"
+				( objectStatus "clk_z7_s6_dif_n_r" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):clk_z7_s6_dif_p_r"
+				( objectStatus "clk_z7_s6_dif_p_r" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "kvm_matrix_lib"

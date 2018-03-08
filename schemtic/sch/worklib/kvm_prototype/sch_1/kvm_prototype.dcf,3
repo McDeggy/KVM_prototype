@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1057 )
+			( logicalViewRevNum 1058 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -5060,6 +5060,9 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_s6_3v3_clkgen"
 				( objectStatus "v_z7_s6_3v3_clkgen" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_85_cy22394fc_i23_xbuf"
+				( objectStatus "unnamed_85_cy22394fc_i23_xbuf" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_85_cy22394fc_i23_clkc"
 				( objectStatus "unnamed_85_cy22394fc_i23_clkc" )
@@ -79039,6 +79042,38 @@
 				( pin "a"
 				)
 				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i38"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,75,50,-75"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "84"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "TP_SMD"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4300,5500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP-TP_SMD"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE85_I38" )
+				( pin "p"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i37"
