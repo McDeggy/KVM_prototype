@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-09T21:22:56</modificationTime>
+    <modificationTime>2018-03-09T21:23:47</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -13,7 +13,7 @@
       <external_errors>true</external_errors>
       <lastids>
         <instanceid>2092</instanceid>
-        <netid>2526</netid>
+        <netid>2528</netid>
         <insttermid>9694</insttermid>
       </lastids>
       <cells>
@@ -23744,14 +23744,6 @@
           <name>z7_s6_ddr_dq9</name>
         </net>
         <net>
-          <id>N2468</id>
-          <name>z7_s6_ddr_clk_n</name>
-        </net>
-        <net>
-          <id>N2469</id>
-          <name>z7_s6_ddr_clk_p</name>
-        </net>
-        <net>
           <id>N2470</id>
           <name>z7_s6_ddr_ldm</name>
         </net>
@@ -23970,6 +23962,14 @@
         <net>
           <id>N2526</id>
           <name>z7_s6_ddr_we_n_r</name>
+        </net>
+        <net>
+          <id>N2527</id>
+          <name>clk_z7_s6_ddr_n</name>
+        </net>
+        <net>
+          <id>N2528</id>
+          <name>clk_z7_s6_ddr_p</name>
         </net>
         <net>
           <id>N5</id>
@@ -115407,14 +115407,14 @@
               <id>M9273</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N2474" />
+                <connection net="N2480" />
               </connections>
             </pin>
             <pin>
               <id>M9274</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2480" />
+                <connection net="N2474" />
               </connections>
             </pin>
           </pins>
@@ -115442,14 +115442,14 @@
               <id>M9275</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N2470" />
+                <connection net="N2479" />
               </connections>
             </pin>
             <pin>
               <id>M9276</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2479" />
+                <connection net="N2470" />
               </connections>
             </pin>
           </pins>
@@ -115477,14 +115477,14 @@
               <id>M9277</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N2468" />
+                <connection net="N2481" />
               </connections>
             </pin>
             <pin>
               <id>M9278</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2481" />
+                <connection net="N2527" />
               </connections>
             </pin>
           </pins>
@@ -115512,14 +115512,14 @@
               <id>M9279</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N2469" />
+                <connection net="N2482" />
               </connections>
             </pin>
             <pin>
               <id>M9280</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2482" />
+                <connection net="N2528" />
               </connections>
             </pin>
           </pins>
@@ -125795,7 +125795,9 @@
             <physicalPageNumber>85</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="clk_z7_s6_ddr_n"></net>
               <net ref="clk_z7_s6_ddr_n_r"></net>
+              <net ref="clk_z7_s6_ddr_p"></net>
               <net ref="clk_z7_s6_ddr_p_r"></net>
               <net ref="gnd_signal"></net>
               <net ref="unnamed_86_hy5ps121621cfp_i44_a15"></net>
@@ -125842,8 +125844,6 @@
               <net ref="z7_s6_ddr_cas_n_r"></net>
               <net ref="z7_s6_ddr_cke"></net>
               <net ref="z7_s6_ddr_cke_r"></net>
-              <net ref="z7_s6_ddr_clk_n"></net>
-              <net ref="z7_s6_ddr_clk_p"></net>
               <net ref="z7_s6_ddr_cs_n"></net>
               <net ref="z7_s6_ddr_cs_n_r"></net>
               <net ref="z7_s6_ddr_dq0"></net>
