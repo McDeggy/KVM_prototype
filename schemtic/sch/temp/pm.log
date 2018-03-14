@@ -3,70 +3,64 @@ Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Current Design             :   @kvm_prototype_lib.kvm_prototype(sch_1)
-Current Page List          :   1-26
-Current Total Pages        :   26
-Current Active Page        :   1
+Current Page List          :   1-96
+Current Total Pages        :   96
+Current Active Page        :   76
 
 
 
-Feb 11 22:10:41 2018
+Mar 14 15:35:33 2018
 
 ---------------------------------------------
-Command:   Page Insert
+Command:   Page Move
 
-   # Pages to Insert       :   1
-   Insert Location         :   1
-   Save Pages              :   Yes
-
-
-Details:   Page Insert
-
-    1. Page Move      26    27  
-    2. Page Move      25    26  
-    3. Page Move      24    25  
-    4. Page Move      23    24  
-    5. Page Move      22    23  
-    6. Page Move      21    22  
-    7. Page Move      20    21  
-    8. Page Move      19    20  
-    9. Page Move      18    19  
-   10. Page Move      17    18  
-   11. Page Move      16    17  
-   12. Page Move      15    16  
-   13. Page Move      14    15  
-   14. Page Move      13    14  
-   15. Page Move      12    13  
-   16. Page Move      11    12  
-   17. Page Move      10    11  
-   18. Page Move       9    10  
-   19. Page Move       8     9  
-   20. Page Move       7     8  
-   21. Page Move       6     7  
-   22. Page Move       5     6  
-   23. Page Move       4     5  
-   24. Page Move       3     4  
-   25. Page Move       2     3  
-   26. Page Edit      28  
-   27. Page Move       1     2  
-   28. Page Edit       2  
-   29. Page Insert     1  
+   Pages to Move           :   96
+   Move Location           :   76
 
 
-Results:   Page Insert
+Details:   Page Move
 
-   Ending Page List        :   1-27
-   Ending Total Pages      :   27
-   Active Page             :   1
+    1. Page Move      96    97  
+    2. Page Move      95    96  
+    3. Page Move      94    95  
+    4. Page Move      93    94  
+    5. Page Move      92    93  
+    6. Page Move      91    92  
+    7. Page Move      90    91  
+    8. Page Move      89    90  
+    9. Page Move      88    89  
+   10. Page Move      87    88  
+   11. Page Move      86    87  
+   12. Page Move      85    86  
+   13. Page Move      84    85  
+   14. Page Move      83    84  
+   15. Page Move      82    83  
+   16. Page Move      81    82  
+   17. Page Move      80    81  
+   18. Page Move      79    80  
+   19. Page Move      78    79  
+   20. Page Move      77    78  
+   21. Page Edit      98  
+   22. Page Move      76    77  
+   23. Page Edit      77  
+   24. Page Move      97    76  
+
+
+Results:   Page Move
+
+   Ending Page List        :   1-96
+   Ending Total Pages      :   96
+   Active Page             :   77
 
 
 ---------------------------------------------
 Summary:
 
     Status                 :  Successful Completion!
-    Initial Page Count     :  26
-    Final Page Count       :  27
+    Initial Page Count     :  96
+    Final Page Count       :  96
 
-    Start Time             :  Feb 11 22:10:41 2018
-    End Time               :  Feb 11 22:10:41 2018
-    Elapsed Time           :  00:00:00  (hrs:min:sec)
+    Start Time             :  Mar 14 15:35:33 2018
+    End Time               :  Mar 14 15:35:37 2018
+    Elapsed Time           :  00:00:04  (hrs:min:sec)
 

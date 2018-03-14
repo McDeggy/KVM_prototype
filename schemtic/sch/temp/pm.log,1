@@ -5,43 +5,68 @@ Log File Report from Page Management Commands
 Current Design             :   @kvm_prototype_lib.kvm_prototype(sch_1)
 Current Page List          :   1-26
 Current Total Pages        :   26
-Current Active Page        :   2
+Current Active Page        :   1
 
 
 
-Feb 11 22:10:17 2018
+Feb 11 22:10:41 2018
 
 ---------------------------------------------
 Command:   Page Insert
 
    # Pages to Insert       :   1
-   Insert Location         :   2
+   Insert Location         :   1
    Save Pages              :   Yes
 
 
 Details:   Page Insert
 
-   Page Insert cannot continue until the following
-
-   modified pages are saved: 2
-
+    1. Page Move      26    27  
+    2. Page Move      25    26  
+    3. Page Move      24    25  
+    4. Page Move      23    24  
+    5. Page Move      22    23  
+    6. Page Move      21    22  
+    7. Page Move      20    21  
+    8. Page Move      19    20  
+    9. Page Move      18    19  
+   10. Page Move      17    18  
+   11. Page Move      16    17  
+   12. Page Move      15    16  
+   13. Page Move      14    15  
+   14. Page Move      13    14  
+   15. Page Move      12    13  
+   16. Page Move      11    12  
+   17. Page Move      10    11  
+   18. Page Move       9    10  
+   19. Page Move       8     9  
+   20. Page Move       7     8  
+   21. Page Move       6     7  
+   22. Page Move       5     6  
+   23. Page Move       4     5  
+   24. Page Move       3     4  
+   25. Page Move       2     3  
+   26. Page Edit      28  
+   27. Page Move       1     2  
+   28. Page Edit       2  
+   29. Page Insert     1  
 
 
 Results:   Page Insert
 
-   Ending Page List        :   1-26
-   Ending Total Pages      :   26
-   Active Page             :   2
+   Ending Page List        :   1-27
+   Ending Total Pages      :   27
+   Active Page             :   1
 
 
 ---------------------------------------------
 Summary:
 
-    Status                 :  Command Failed!
+    Status                 :  Successful Completion!
     Initial Page Count     :  26
-    Final Page Count       :  26
+    Final Page Count       :  27
 
-    Start Time             :  Feb 11 22:10:17 2018
-    End Time               :  Feb 11 22:10:17 2018
+    Start Time             :  Feb 11 22:10:41 2018
+    End Time               :  Feb 11 22:10:41 2018
     Elapsed Time           :  00:00:00  (hrs:min:sec)
 

@@ -3,45 +3,45 @@ Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Current Design             :   @kvm_prototype_lib.kvm_prototype(sch_1)
-Current Page List          :   1-21
-Current Total Pages        :   21
-Current Active Page        :   20
+Current Page List          :   1-26
+Current Total Pages        :   26
+Current Active Page        :   2
 
 
 
-Feb 05 19:30:41 2018
+Feb 11 22:10:17 2018
 
 ---------------------------------------------
-Command:   Page Move
+Command:   Page Insert
 
-   Pages to Move           :   21
-   Move Location           :   20
-
-
-Details:   Page Move
-
-    1. Page Move      21    22  
-    2. Page Edit      23  
-    3. Page Move      20    21  
-    4. Page Edit      21  
-    5. Page Move      22    20  
+   # Pages to Insert       :   1
+   Insert Location         :   2
+   Save Pages              :   Yes
 
 
-Results:   Page Move
+Details:   Page Insert
 
-   Ending Page List        :   1-21
-   Ending Total Pages      :   21
-   Active Page             :   21
+   Page Insert cannot continue until the following
+
+   modified pages are saved: 2
+
+
+
+Results:   Page Insert
+
+   Ending Page List        :   1-26
+   Ending Total Pages      :   26
+   Active Page             :   2
 
 
 ---------------------------------------------
 Summary:
 
-    Status                 :  Successful Completion!
-    Initial Page Count     :  21
-    Final Page Count       :  21
+    Status                 :  Command Failed!
+    Initial Page Count     :  26
+    Final Page Count       :  26
 
-    Start Time             :  Feb 05 19:30:41 2018
-    End Time               :  Feb 05 19:30:42 2018
-    Elapsed Time           :  00:00:01  (hrs:min:sec)
+    Start Time             :  Feb 11 22:10:17 2018
+    End Time               :  Feb 11 22:10:17 2018
+    Elapsed Time           :  00:00:00  (hrs:min:sec)
 
