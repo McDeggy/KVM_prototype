@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-15T15:51:12</modificationTime>
+    <modificationTime>2018-03-15T15:52:15</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -27351,10 +27351,6 @@
         <net>
           <id>N2684</id>
           <name>z7_s6_ps_data9</name>
-        </net>
-        <net>
-          <id>N2685</id>
-          <name>unnamed_95_c_i40_1</name>
         </net>
         <net>
           <id>N2692</id>
@@ -134851,6 +134847,7 @@
               <id>M10897</id>
               <termid>T292</termid>
               <connections>
+                <connection net="N1747" />
               </connections>
             </pin>
             <pin>
@@ -135060,7 +135057,7 @@
               <id>M10909</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2685" />
+                <connection net="N2581" />
               </connections>
             </pin>
             <pin>
@@ -135172,7 +135169,7 @@
               <id>M10916</id>
               <termid>T1062</termid>
               <connections>
-                <connection net="N2685" />
+                <connection net="N2581" />
               </connections>
             </pin>
             <pin>
@@ -135249,7 +135246,7 @@
               <id>M10928</id>
               <termid>T1074</termid>
               <connections>
-                <connection net="N2685" />
+                <connection net="N2581" />
               </connections>
             </pin>
             <pin>
@@ -140998,7 +140995,6 @@
             <nets>
               <net ref="clk_z7_ps_50m_main"></net>
               <net ref="gnd_signal"></net>
-              <net ref="unnamed_95_c_i40_1"></net>
               <net ref="v_z7_ps_2v5_vcco"></net>
               <net ref="v_z7_ps_3v3_vcco"></net>
               <net ref="z7_pg_led"></net>
