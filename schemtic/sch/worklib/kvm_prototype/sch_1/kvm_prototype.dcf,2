@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1190 )
+			( logicalViewRevNum 1196 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -166,6 +166,7 @@
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page97_gnd_signal") )
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page96_gnd_signal") )
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page95_gnd_signal") )
+				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page1_gnd_signal") )
 				( attribute "PHYS_NET_NAME" "GND_SIGNAL"
 					( Origin gPackager )
 				)
@@ -4985,9 +4986,6 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_ps_mio1_qspi_cs_r"
 				( objectStatus "z7_ps_mio1_qspi_cs_r" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_95_c_i40_1"
-				( objectStatus "unnamed_95_c_i40_1" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):clk_z7_s6_54m"
 				( objectStatus "clk_z7_s6_54m" )
 			)
@@ -5776,6 +5774,64 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_ps_mio6_mode4_qspi_sck_r"
 				( objectStatus "z7_ps_mio6_mode4_qspi_sck_r" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data0"
+				( objectStatus "z7_s6_pl_data0" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data1"
+				( objectStatus "z7_s6_pl_data1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data10"
+				( objectStatus "z7_s6_pl_data10" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data11"
+				( objectStatus "z7_s6_pl_data11" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data12"
+				( objectStatus "z7_s6_pl_data12" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data13"
+				( objectStatus "z7_s6_pl_data13" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data14"
+				( objectStatus "z7_s6_pl_data14" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data15"
+				( objectStatus "z7_s6_pl_data15" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data2"
+				( objectStatus "z7_s6_pl_data2" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data3"
+				( objectStatus "z7_s6_pl_data3" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data4"
+				( objectStatus "z7_s6_pl_data4" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data5"
+				( objectStatus "z7_s6_pl_data5" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data6"
+				( objectStatus "z7_s6_pl_data6" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data7"
+				( objectStatus "z7_s6_pl_data7" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data8"
+				( objectStatus "z7_s6_pl_data8" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data9"
+				( objectStatus "z7_s6_pl_data9" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_6pin_i1_pin1"
+				( objectStatus "unnamed_1_6pin_i1_pin1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_6pin_i5_pin1"
+				( objectStatus "unnamed_1_6pin_i5_pin1" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "kvm_matrix_lib"
@@ -8148,7 +8204,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE3_I101" )
@@ -17191,7 +17247,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE11_I36" )
@@ -17228,7 +17284,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE11_I37" )
@@ -17265,7 +17321,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE11_I38" )
@@ -17302,7 +17358,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE11_I39" )
@@ -17339,7 +17395,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE11_I40" )
@@ -17376,7 +17432,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE11_I41" )
@@ -24684,7 +24740,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE18_I38" )
@@ -34547,7 +34603,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE31_I116" )
@@ -55993,7 +56049,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE51_I36" )
@@ -62800,7 +62856,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE66_I78" )
@@ -73265,7 +73321,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE78_I18" )
@@ -73302,7 +73358,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE78_I19" )
@@ -73339,7 +73395,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE78_I20" )
@@ -73376,7 +73432,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE78_I21" )
@@ -73413,7 +73469,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE78_I22" )
@@ -73450,7 +73506,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE78_I23" )
@@ -76002,7 +76058,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-LED"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE82_I76" )
@@ -76076,7 +76132,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-LED"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE82_I74" )
@@ -77347,7 +77403,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-LED"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE82_I67" )
@@ -77805,7 +77861,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-LED"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE83_I4" )
@@ -77916,7 +77972,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-LED"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE83_I7" )
@@ -85912,7 +85968,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
+				( attribute "CDS_PART_NAME" "SLED-HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE90_I17" )
@@ -91604,6 +91660,201 @@
 				( pin "\15\"
 				)
 				( pin "\16\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i1"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,175,125,-175"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "6PIN"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-250,6500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "6PIN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "6PIN-6PIN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I1" )
+				( pin "pin1"
+				)
+				( pin "pin2"
+				)
+				( pin "pin3"
+				)
+				( pin "pin4"
+				)
+				( pin "pin5"
+				)
+				( pin "pin6"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i2"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5150,6950)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I2" )
+				( pin "\1\"
+				)
+				( pin "\2\"
+				)
+				( pin "\3\"
+				)
+				( pin "\4\"
+				)
+				( pin "\5\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i3"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5150,5950)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I3" )
+				( pin "\1\"
+				)
+				( pin "\2\"
+				)
+				( pin "\3\"
+				)
+				( pin "\4\"
+				)
+				( pin "\5\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i4"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5150,5000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I4" )
+				( pin "\1\"
+				)
+				( pin "\2\"
+				)
+				( pin "\3\"
+				)
+				( pin "\4\"
+				)
+				( pin "\5\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i5"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,175,125,-175"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "6PIN"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-250,5450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "6PIN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "6PIN-6PIN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I5" )
+				( pin "pin1"
+				)
+				( pin "pin2"
+				)
+				( pin "pin3"
+				)
+				( pin "pin4"
+				)
+				( pin "pin5"
+				)
+				( pin "pin6"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page18_i2:a21"

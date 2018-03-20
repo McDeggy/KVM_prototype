@@ -1,0 +1,210 @@
+(Cell	sensor_pad
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/12/17,14:48:08)
+
+			(User	hzbts)
+
+			(Path	others.sensor_pad)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	02/28/17,09:49:30)
+
+			(User	hzbts)
+
+			(Path	others.sensor_pad)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e46b3025)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/12/17,14:48:18)
+
+							(User	hzbts)
+
+							(Path	others.sensor_pad)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c87037c)
+
+		)
+
+		(View	VerilogWrappers
+
+			(VerilogWrapper	vlog_model)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000057c46e9d)
+
+			(Primitives	1
+
+				(Primitive	SENSOR_PAD
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/12/17,14:54:44)
+
+							(User	hzbts)
+
+							(Path	others.sensor_pad)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SENSOR_PAD
+
+							(PackType	SENSOR_PAD)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	sensor_pad)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b230355)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b290346)
+
+)
+
