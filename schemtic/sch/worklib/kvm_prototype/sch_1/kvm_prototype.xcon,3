@@ -5,14 +5,14 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-20T16:57:06</modificationTime>
+    <modificationTime>2018-03-20T16:57:43</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
         <instanceid>2328</instanceid>
-        <netid>2717</netid>
+        <netid>2720</netid>
         <insttermid>10979</insttermid>
       </lastids>
       <cells>
@@ -27545,16 +27545,16 @@
           <name>page1_gnd_signal</name>
         </net>
         <net>
-          <id>N2715</id>
-          <name>unnamed_1_6pin_i1_pin1</name>
+          <id>N2718</id>
+          <name>v_5v_in</name>
         </net>
         <net>
-          <id>N2716</id>
-          <name>unnamed_1_6pin_i5_pin1</name>
+          <id>N2719</id>
+          <name>v_5v_in_1</name>
         </net>
         <net>
-          <id>N2717</id>
-          <name>unnamed_1_mbrd835l_i10_k</name>
+          <id>N2720</id>
+          <name>v_5v_in_2</name>
         </net>
         <net>
           <id>N5</id>
@@ -135509,14 +135509,14 @@
               <id>M10931</id>
               <termid>T4310</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
             <pin>
               <id>M10932</id>
               <termid>T4311</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
             <pin>
@@ -135544,7 +135544,7 @@
               <id>M10936</id>
               <termid>T4315</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
           </pins>
@@ -135625,14 +135625,14 @@
               <id>M10952</id>
               <termid>T4310</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
             <pin>
               <id>M10953</id>
               <termid>T4311</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
             <pin>
@@ -135660,7 +135660,7 @@
               <id>M10957</id>
               <termid>T4315</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
           </pins>
@@ -135688,21 +135688,21 @@
               <id>M10958</id>
               <termid>T4355</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
             <pin>
               <id>M10959</id>
               <termid>T4356</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
             <pin>
               <id>M10960</id>
               <termid>T4357</termid>
               <connections>
-                <connection net="N2717" />
+                <connection net="N2718" />
               </connections>
             </pin>
           </pins>
@@ -135730,21 +135730,21 @@
               <id>M10961</id>
               <termid>T4355</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
             <pin>
               <id>M10962</id>
               <termid>T4356</termid>
               <connections>
-                <connection net="N2715" />
+                <connection net="N2719" />
               </connections>
             </pin>
             <pin>
               <id>M10963</id>
               <termid>T4357</termid>
               <connections>
-                <connection net="N2717" />
+                <connection net="N2718" />
               </connections>
             </pin>
           </pins>
@@ -135772,21 +135772,21 @@
               <id>M10964</id>
               <termid>T4355</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
             <pin>
               <id>M10965</id>
               <termid>T4356</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
             <pin>
               <id>M10966</id>
               <termid>T4357</termid>
               <connections>
-                <connection net="N2717" />
+                <connection net="N2718" />
               </connections>
             </pin>
           </pins>
@@ -135814,21 +135814,21 @@
               <id>M10967</id>
               <termid>T4355</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
             <pin>
               <id>M10968</id>
               <termid>T4356</termid>
               <connections>
-                <connection net="N2716" />
+                <connection net="N2720" />
               </connections>
             </pin>
             <pin>
               <id>M10969</id>
               <termid>T4357</termid>
               <connections>
-                <connection net="N2717" />
+                <connection net="N2718" />
               </connections>
             </pin>
           </pins>
@@ -136277,9 +136277,9 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
-              <net ref="unnamed_1_6pin_i1_pin1"></net>
-              <net ref="unnamed_1_6pin_i5_pin1"></net>
-              <net ref="unnamed_1_mbrd835l_i10_k"></net>
+              <net ref="v_5v_in"></net>
+              <net ref="v_5v_in_1"></net>
+              <net ref="v_5v_in_2"></net>
             </nets>
             <instances>
               <instance ref="i1"></instance>

@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1195 )
+			( logicalViewRevNum 1196 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -166,6 +166,7 @@
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page97_gnd_signal") )
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page96_gnd_signal") )
 				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page95_gnd_signal") )
+				( alias ( signalRef "@kvm_prototype_lib.kvm_prototype(sch_1):page1_gnd_signal") )
 				( attribute "PHYS_NET_NAME" "GND_SIGNAL"
 					( Origin gPackager )
 				)
@@ -5821,6 +5822,16 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data9"
 				( objectStatus "z7_s6_pl_data9" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_6pin_i1_pin1"
+				( objectStatus "unnamed_1_6pin_i1_pin1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_6pin_i5_pin1"
+				( objectStatus "unnamed_1_6pin_i5_pin1" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "kvm_matrix_lib"
@@ -91802,6 +91813,48 @@
 				( pin "\4\"
 				)
 				( pin "\5\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i5"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,175,125,-175"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "6PIN"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-250,5450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "6PIN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "6PIN-6PIN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I5" )
+				( pin "pin1"
+				)
+				( pin "pin2"
+				)
+				( pin "pin3"
+				)
+				( pin "pin4"
+				)
+				( pin "pin5"
+				)
+				( pin "pin6"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page18_i2:a21"

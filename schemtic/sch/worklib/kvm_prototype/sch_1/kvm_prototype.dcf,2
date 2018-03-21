@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1196 )
+			( logicalViewRevNum 1197 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -455,6 +455,10 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page95_gnd_signal"
 				( objectFlag fObjectAlias )
 				( objectStatus "page95_gnd_signal" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_s7_1v0"
 				( objectStatus "v_s7_1v0" )
@@ -5823,15 +5827,14 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_pl_data9"
 				( objectStatus "z7_s6_pl_data9" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):page1_gnd_signal"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_gnd_signal" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_6pin_i1_pin1"
 				( objectStatus "unnamed_1_6pin_i1_pin1" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_6pin_i5_pin1"
 				( objectStatus "unnamed_1_6pin_i5_pin1" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_1_mbrd835l_i10_k"
+				( objectStatus "unnamed_1_mbrd835l_i10_k" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "kvm_matrix_lib"
@@ -91704,80 +91707,6 @@
 				( pin "pin6"
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-5150,6950)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "WIPER-SW"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "WIPER-SW"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I2" )
-				( pin "\1\"
-				)
-				( pin "\2\"
-				)
-				( pin "\3\"
-				)
-				( pin "\4\"
-				)
-				( pin "\5\"
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-5150,5950)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "WIPER-SW"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "WIPER-SW"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I3" )
-				( pin "\1\"
-				)
-				( pin "\2\"
-				)
-				( pin "\3\"
-				)
-				( pin "\4\"
-				)
-				( pin "\5\"
-				)
-			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i4"
 				( attribute "CDS_LIB" "kvm_matrix_lib"
 					( Origin gPackager )
@@ -91794,7 +91723,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-5150,5000)"
+				( attribute "XY" "(-6000,4800)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "WIPER-SW"
@@ -91855,6 +91784,212 @@
 				( pin "pin5"
 				)
 				( pin "pin6"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i7"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2300,6800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MBRD835L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MBRD835L-MBRD835L"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I7" )
+				( pin "a1"
+				)
+				( pin "a2"
+				)
+				( pin "k"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i8"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2300,6500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MBRD835L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MBRD835L-MBRD835L"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I8" )
+				( pin "a1"
+				)
+				( pin "a2"
+				)
+				( pin "k"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i9"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2300,5400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MBRD835L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MBRD835L-MBRD835L"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I9" )
+				( pin "a1"
+				)
+				( pin "a2"
+				)
+				( pin "k"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i10"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2300,5700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MBRD835L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MBRD835L-MBRD835L"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I10" )
+				( pin "a1"
+				)
+				( pin "a2"
+				)
+				( pin "k"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i12"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6000,5850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I12" )
+				( pin "\1\"
+				)
+				( pin "\2\"
+				)
+				( pin "\3\"
+				)
+				( pin "\4\"
+				)
+				( pin "\5\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page1_i14"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-75"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6000,7150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "WIPER-SW"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I14" )
+				( pin "\1\"
+				)
+				( pin "\2\"
+				)
+				( pin "\3\"
+				)
+				( pin "\4\"
+				)
+				( pin "\5\"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page18_i2:a21"

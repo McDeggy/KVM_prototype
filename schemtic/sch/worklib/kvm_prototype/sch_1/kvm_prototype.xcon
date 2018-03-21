@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-20T16:59:03</modificationTime>
+    <modificationTime>2018-03-21T16:34:43</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -27189,20 +27189,8 @@
           <name>page97_gnd_signal</name>
         </net>
         <net>
-          <id>N2609</id>
-          <name>unnamed_97_c_i10_1</name>
-        </net>
-        <net>
           <id>N2610</id>
           <name>unnamed_97_c_i18_1</name>
-        </net>
-        <net>
-          <id>N2611</id>
-          <name>unnamed_97_c_i21_1</name>
-        </net>
-        <net>
-          <id>N2612</id>
-          <name>unnamed_97_mt41k256m16ha-125_i22_a1</name>
         </net>
         <net>
           <id>N2613</id>
@@ -131609,7 +131597,7 @@
               <id>M10506</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131644,7 +131632,7 @@
               <id>M10508</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131679,7 +131667,7 @@
               <id>M10516</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131714,7 +131702,7 @@
               <id>M10518</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131749,7 +131737,7 @@
               <id>M10520</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131784,7 +131772,7 @@
               <id>M10522</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131819,7 +131807,7 @@
               <id>M10524</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131854,7 +131842,7 @@
               <id>M10526</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131959,7 +131947,7 @@
               <id>M10534</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -131994,7 +131982,7 @@
               <id>M10581</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132029,7 +132017,7 @@
               <id>M10583</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132535,7 +132523,7 @@
               <id>M10644</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2609" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132577,7 +132565,7 @@
               <id>M10647</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
           </pins>
@@ -132605,14 +132593,14 @@
               <id>M10648</id>
               <termid>T4252</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10649</id>
               <termid>T4253</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132633,7 +132621,7 @@
               <id>M10652</id>
               <termid>T4256</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132654,14 +132642,14 @@
               <id>M10655</id>
               <termid>T4259</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10656</id>
               <termid>T4260</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132675,7 +132663,7 @@
               <id>M10658</id>
               <termid>T4262</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132689,7 +132677,7 @@
               <id>M10660</id>
               <termid>T4264</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132717,14 +132705,14 @@
               <id>M10664</id>
               <termid>T4268</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10665</id>
               <termid>T4269</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132745,7 +132733,7 @@
               <id>M10668</id>
               <termid>T4272</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132773,14 +132761,14 @@
               <id>M10672</id>
               <termid>T4276</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10673</id>
               <termid>T4277</termid>
               <connections>
-                <connection net="N2612" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132801,14 +132789,14 @@
               <id>M10676</id>
               <termid>T4280</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10677</id>
               <termid>T4281</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132836,14 +132824,14 @@
               <id>M10681</id>
               <termid>T4285</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10682</id>
               <termid>T4286</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -132864,14 +132852,14 @@
               <id>M10685</id>
               <termid>T4289</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
               <id>M10686</id>
               <termid>T4290</termid>
               <connections>
-                <connection net="N2611" />
+                <connection net="N2017" />
               </connections>
             </pin>
             <pin>
@@ -141925,11 +141913,9 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
-              <net ref="unnamed_97_c_i10_1"></net>
               <net ref="unnamed_97_c_i18_1"></net>
-              <net ref="unnamed_97_c_i21_1"></net>
-              <net ref="unnamed_97_mt41k256m16ha-125_i22_a1"></net>
               <net ref="unnamed_97_mt41k256m16ha-125_i25_l8"></net>
+              <net ref="v_z7_ps_1v35_ddr"></net>
               <net ref="z7_ps_ddr_a0"></net>
               <net ref="z7_ps_ddr_a1"></net>
               <net ref="z7_ps_ddr_a10"></net>

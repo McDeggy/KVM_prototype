@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-20T16:58:17</modificationTime>
+    <modificationTime>2018-03-20T16:59:03</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -135585,6 +135585,7 @@
               <id>M10949</id>
               <termid>T4335</termid>
               <connections>
+                <connection net="N1659" />
               </connections>
             </pin>
             <pin>
@@ -135870,6 +135871,7 @@
               <id>M10972</id>
               <termid>T4335</termid>
               <connections>
+                <connection net="N892" />
               </connections>
             </pin>
             <pin>
@@ -135924,6 +135926,7 @@
               <id>M10977</id>
               <termid>T4335</termid>
               <connections>
+                <connection net="N64" />
               </connections>
             </pin>
             <pin>
@@ -136283,6 +136286,9 @@
               <net ref="v_5v_in"></net>
               <net ref="v_5v_in_1"></net>
               <net ref="v_5v_in_2"></net>
+              <net ref="v_a7_5v0_in"></net>
+              <net ref="v_s7_5v0_in"></net>
+              <net ref="v_z7_5v0_in"></net>
             </nets>
             <instances>
               <instance ref="i1"></instance>
