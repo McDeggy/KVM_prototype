@@ -5,15 +5,15 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-26T17:22:55</modificationTime>
+    <modificationTime>2018-03-26T22:28:46</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
-        <instanceid>2410</instanceid>
-        <netid>2832</netid>
-        <insttermid>11221</insttermid>
+        <instanceid>2447</instanceid>
+        <netid>2859</netid>
+        <insttermid>11299</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -20577,6 +20577,44 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S123</id>
+          <library>kvm_matrix_lib</library>
+          <name>usb_dul</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T4503</id>
+              <name>d+</name>
+              <direction>inout</direction>
+              <msb>1</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T4504</id>
+              <name>d-</name>
+              <direction>inout</direction>
+              <msb>1</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T4505</id>
+              <name>gnd</name>
+              <direction>inout</direction>
+              <msb>1</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T4506</id>
+              <name>vbus</name>
+              <direction>inout</direction>
+              <msb>1</msb>
+              <lsb>0</lsb>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -28228,10 +28266,6 @@
           <name>z7_usbhub_pamber4</name>
         </net>
         <net>
-          <id>N2821</id>
-          <name>unnamed_74_r_i51_b</name>
-        </net>
-        <net>
           <id>N2826</id>
           <name>z7_usbhub_pgreen1</name>
         </net>
@@ -28248,16 +28282,64 @@
           <name>z7_usbhub_pgreen4</name>
         </net>
         <net>
-          <id>N2830</id>
-          <name>unnamed_74_c_i61_1</name>
-        </net>
-        <net>
-          <id>N2831</id>
-          <name>unnamed_74_c_i66_1</name>
-        </net>
-        <net>
           <id>N2832</id>
           <name>v_z7_5v0_usbhub1</name>
+        </net>
+        <net>
+          <id>N2833</id>
+          <name>v_z7_5v0_usbhub2</name>
+        </net>
+        <net>
+          <id>N2834</id>
+          <name>v_z7_5v0_usbhub3</name>
+        </net>
+        <net>
+          <id>N2835</id>
+          <name>v_z7_5v0_usbhub_vbus1</name>
+        </net>
+        <net>
+          <id>N2836</id>
+          <name>v_z7_5v0_usbhub_vbus2</name>
+        </net>
+        <net>
+          <id>N2837</id>
+          <name>v_z7_5v0_usbhub_vbus3</name>
+        </net>
+        <net>
+          <id>N2838</id>
+          <name>v_z7_5v0_usbhub_vbus4</name>
+        </net>
+        <net>
+          <id>N2839</id>
+          <name>unnamed_74_leds_i71_a</name>
+        </net>
+        <net>
+          <id>N2840</id>
+          <name>unnamed_74_leds_i73_a</name>
+        </net>
+        <net>
+          <id>N2841</id>
+          <name>unnamed_74_leds_i76_a</name>
+        </net>
+        <net>
+          <id>N2842</id>
+          <name>unnamed_74_leds_i78_a</name>
+        </net>
+        <net>
+          <id>N2855</id>
+          <name>z7_usbphy_cpen</name>
+        </net>
+        <net>
+          <id>N2856</id>
+          <name>z7_usbphy_extvbus</name>
+        </net>
+        <net>
+          <id>N2857</id>
+          <name>v_z7_5v0_usbphy_vbus</name>
+        </net>
+        <net>
+          <id>N2859</id>
+          <name>unnamed_73_diode_i35_k</name>
         </net>
         <net>
           <id>N5</id>
@@ -136802,6 +136884,7 @@
               <id>M10988</id>
               <termid>T4376</termid>
               <connections>
+                <connection net="N2855" />
               </connections>
             </pin>
             <pin>
@@ -136845,6 +136928,7 @@
               <id>M10993</id>
               <termid>T4381</termid>
               <connections>
+                <connection net="N2856" />
               </connections>
             </pin>
             <pin>
@@ -136910,6 +136994,7 @@
               <id>M11002</id>
               <termid>T4390</termid>
               <connections>
+                <connection net="N2857" />
               </connections>
             </pin>
             <pin>
@@ -139500,24 +139585,28 @@
               <id>M11182</id>
               <termid>T4482</termid>
               <connections>
+                <connection net="N5" />
               </connections>
             </pin>
             <pin>
               <id>M11183</id>
               <termid>T4483</termid>
               <connections>
+                <connection net="N2833" />
               </connections>
             </pin>
             <pin>
               <id>M11184</id>
               <termid>T4484</termid>
               <connections>
+                <connection net="N2835" />
               </connections>
             </pin>
             <pin>
               <id>M11185</id>
               <termid>T4485</termid>
               <connections>
+                <connection net="N2836" />
               </connections>
             </pin>
           </pins>
@@ -139573,24 +139662,28 @@
               <id>M11190</id>
               <termid>T4482</termid>
               <connections>
+                <connection net="N5" />
               </connections>
             </pin>
             <pin>
               <id>M11191</id>
               <termid>T4483</termid>
               <connections>
+                <connection net="N2834" />
               </connections>
             </pin>
             <pin>
               <id>M11192</id>
               <termid>T4484</termid>
               <connections>
+                <connection net="N2837" />
               </connections>
             </pin>
             <pin>
               <id>M11193</id>
               <termid>T4485</termid>
               <connections>
+                <connection net="N2838" />
               </connections>
             </pin>
           </pins>
@@ -139625,7 +139718,7 @@
               <id>M11195</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2821" />
+                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -139695,7 +139788,7 @@
               <id>M11199</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2821" />
+                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -139800,7 +139893,7 @@
               <id>M11205</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2821" />
+                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -139870,7 +139963,7 @@
               <id>M11209</id>
               <termid>T104</termid>
               <connections>
-                <connection net="N2821" />
+                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -139905,7 +139998,7 @@
               <id>M11211</id>
               <termid>T293</termid>
               <connections>
-                <connection net="N2830" />
+                <connection net="N2833" />
               </connections>
             </pin>
           </pins>
@@ -139933,7 +140026,7 @@
               <id>M11212</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2830" />
+                <connection net="N2833" />
               </connections>
             </pin>
             <pin>
@@ -139968,7 +140061,7 @@
               <id>M11214</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2830" />
+                <connection net="N2833" />
               </connections>
             </pin>
             <pin>
@@ -140010,7 +140103,7 @@
               <id>M11217</id>
               <termid>T293</termid>
               <connections>
-                <connection net="N2831" />
+                <connection net="N2834" />
               </connections>
             </pin>
           </pins>
@@ -140038,7 +140131,7 @@
               <id>M11218</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2831" />
+                <connection net="N2834" />
               </connections>
             </pin>
             <pin>
@@ -140073,7 +140166,7 @@
               <id>M11220</id>
               <termid>T50</termid>
               <connections>
-                <connection net="N2831" />
+                <connection net="N2834" />
               </connections>
             </pin>
             <pin>
@@ -140081,6 +140174,1348 @@
               <termid>T51</termid>
               <connections>
                 <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2411</id>
+          <cellid>S5</cellid>
+          <name>page74_i70</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11222</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2826" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11223</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2839" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2412</id>
+          <cellid>S11</cellid>
+          <name>page74_i71</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11224</id>
+              <termid>T123</termid>
+              <connections>
+                <connection net="N2839" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11225</id>
+              <termid>T124</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2413</id>
+          <cellid>S11</cellid>
+          <name>page74_i73</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11226</id>
+              <termid>T123</termid>
+              <connections>
+                <connection net="N2840" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11227</id>
+              <termid>T124</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2414</id>
+          <cellid>S5</cellid>
+          <name>page74_i74</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11228</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2827" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11229</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2840" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2415</id>
+          <cellid>S5</cellid>
+          <name>page74_i75</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11230</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2828" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11231</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2841" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2416</id>
+          <cellid>S11</cellid>
+          <name>page74_i76</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11232</id>
+              <termid>T123</termid>
+              <connections>
+                <connection net="N2841" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11233</id>
+              <termid>T124</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2417</id>
+          <cellid>S5</cellid>
+          <name>page74_i77</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11234</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2829" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11235</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2842" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2418</id>
+          <cellid>S11</cellid>
+          <name>page74_i78</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11236</id>
+              <termid>T123</termid>
+              <connections>
+                <connection net="N2842" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11237</id>
+              <termid>T124</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2419</id>
+          <cellid>S123</cellid>
+          <name>page74_i79</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11238</id>
+              <termid>T4503</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N2793" />
+                <connection pinmsb="1" pinlsb="1" net="N2795" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11239</id>
+              <termid>T4504</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N2792" />
+                <connection pinmsb="1" pinlsb="1" net="N2794" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11240</id>
+              <termid>T4505</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="1" pinlsb="1" net="N5" />
+                <connection pinmsb="0" pinlsb="0" net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11241</id>
+              <termid>T4506</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N2835" />
+                <connection pinmsb="1" pinlsb="1" net="N2836" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2420</id>
+          <cellid>S9</cellid>
+          <name>page74_i82</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11242</id>
+              <termid>T117</termid>
+              <connections>
+                <connection net="N2835" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11243</id>
+              <termid>T118</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2421</id>
+          <cellid>S3</cellid>
+          <name>page74_i83</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11244</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N2835" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11245</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2422</id>
+          <cellid>S3</cellid>
+          <name>page74_i85</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11246</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N2836" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11247</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2423</id>
+          <cellid>S9</cellid>
+          <name>page74_i87</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11248</id>
+              <termid>T117</termid>
+              <connections>
+                <connection net="N2836" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11249</id>
+              <termid>T118</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2424</id>
+          <cellid>S5</cellid>
+          <name>page74_i88</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11250</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11251</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2795" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2425</id>
+          <cellid>S5</cellid>
+          <name>page74_i89</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11252</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11253</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2794" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2426</id>
+          <cellid>S5</cellid>
+          <name>page74_i90</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11254</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11255</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2792" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2427</id>
+          <cellid>S5</cellid>
+          <name>page74_i91</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11256</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11257</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2793" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2428</id>
+          <cellid>S123</cellid>
+          <name>page74_i93</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11258</id>
+              <termid>T4503</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N2797" />
+                <connection pinmsb="1" pinlsb="1" net="N2799" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11259</id>
+              <termid>T4504</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N2796" />
+                <connection pinmsb="1" pinlsb="1" net="N2798" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11260</id>
+              <termid>T4505</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="1" pinlsb="1" net="N5" />
+                <connection pinmsb="0" pinlsb="0" net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11261</id>
+              <termid>T4506</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N2837" />
+                <connection pinmsb="1" pinlsb="1" net="N2838" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2429</id>
+          <cellid>S3</cellid>
+          <name>page74_i94</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11262</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N2838" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11263</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2430</id>
+          <cellid>S5</cellid>
+          <name>page74_i97</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11264</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11265</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2799" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2431</id>
+          <cellid>S5</cellid>
+          <name>page74_i98</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11266</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11267</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2798" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2432</id>
+          <cellid>S5</cellid>
+          <name>page74_i99</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11268</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11269</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2797" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2433</id>
+          <cellid>S5</cellid>
+          <name>page74_i100</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11270</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11271</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2796" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2434</id>
+          <cellid>S9</cellid>
+          <name>page74_i102</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11272</id>
+              <termid>T117</termid>
+              <connections>
+                <connection net="N2838" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11273</id>
+              <termid>T118</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2435</id>
+          <cellid>S3</cellid>
+          <name>page74_i104</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11274</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N2837" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11275</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2436</id>
+          <cellid>S9</cellid>
+          <name>page74_i105</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11276</id>
+              <termid>T117</termid>
+              <connections>
+                <connection net="N2837" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11277</id>
+              <termid>T118</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2437</id>
+          <cellid>S5</cellid>
+          <name>page73_i29</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11278</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2855" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11279</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N2726" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2438</id>
+          <cellid>S21</cellid>
+          <name>page73_i30</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11280</id>
+              <termid>T317</termid>
+              <connections>
+                <connection net="N2835" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11281</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2857" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2439</id>
+          <cellid>S21</cellid>
+          <name>page73_i31</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11282</id>
+              <termid>T317</termid>
+              <connections>
+                <connection net="N2836" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11283</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2857" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2440</id>
+          <cellid>S21</cellid>
+          <name>page73_i32</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11284</id>
+              <termid>T317</termid>
+              <connections>
+                <connection net="N2838" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11285</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2857" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2441</id>
+          <cellid>S21</cellid>
+          <name>page73_i33</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11286</id>
+              <termid>T317</termid>
+              <connections>
+                <connection net="N2837" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11287</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2857" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2442</id>
+          <cellid>S5</cellid>
+          <name>page73_i34</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11288</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2857" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11289</id>
+              <termid>T104</termid>
+              <connections>
+                <connection net="N1659" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2443</id>
+          <cellid>S21</cellid>
+          <name>page73_i35</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11290</id>
+              <termid>T317</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M11291</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2859" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2444</id>
+          <cellid>S21</cellid>
+          <name>page73_i36</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11292</id>
+              <termid>T317</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M11293</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2859" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2445</id>
+          <cellid>S21</cellid>
+          <name>page73_i37</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11294</id>
+              <termid>T317</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M11295</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2859" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2446</id>
+          <cellid>S21</cellid>
+          <name>page73_i38</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11296</id>
+              <termid>T317</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M11297</id>
+              <termid>T318</termid>
+              <connections>
+                <connection net="N2859" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2447</id>
+          <cellid>S5</cellid>
+          <name>page73_i39</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M11298</id>
+              <termid>T103</termid>
+              <connections>
+                <connection net="N2859" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M11299</id>
+              <termid>T104</termid>
+              <connections>
               </connections>
             </pin>
           </pins>
@@ -144587,11 +146022,19 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
+              <net ref="unnamed_73_diode_i35_k"></net>
               <net ref="v_z7_1v8_usbphy_vdd"></net>
               <net ref="v_z7_1v8_usbphy_vdda"></net>
               <net ref="v_z7_3v3"></net>
+              <net ref="v_z7_5v0_in"></net>
+              <net ref="v_z7_5v0_usbhub_vbus1"></net>
+              <net ref="v_z7_5v0_usbhub_vbus2"></net>
+              <net ref="v_z7_5v0_usbhub_vbus3"></net>
+              <net ref="v_z7_5v0_usbhub_vbus4"></net>
+              <net ref="v_z7_5v0_usbphy_vbus"></net>
               <net ref="v_z7_ps_3v3_usbphy"></net>
               <net ref="z7_usbphy_clk"></net>
+              <net ref="z7_usbphy_cpen"></net>
               <net ref="z7_usbphy_data0"></net>
               <net ref="z7_usbphy_data1"></net>
               <net ref="z7_usbphy_data2"></net>
@@ -144603,6 +146046,7 @@
               <net ref="z7_usbphy_data_n"></net>
               <net ref="z7_usbphy_data_p"></net>
               <net ref="z7_usbphy_dir"></net>
+              <net ref="z7_usbphy_extvbus"></net>
               <net ref="z7_usbphy_id"></net>
               <net ref="z7_usbphy_nxt"></net>
               <net ref="z7_usbphy_rbias"></net>
@@ -144635,6 +146079,17 @@
               <instance ref="i24"></instance>
               <instance ref="i26"></instance>
               <instance ref="i27"></instance>
+              <instance ref="i29"></instance>
+              <instance ref="i30"></instance>
+              <instance ref="i31"></instance>
+              <instance ref="i32"></instance>
+              <instance ref="i33"></instance>
+              <instance ref="i34"></instance>
+              <instance ref="i35"></instance>
+              <instance ref="i36"></instance>
+              <instance ref="i37"></instance>
+              <instance ref="i38"></instance>
+              <instance ref="i39"></instance>
             </instances>
           </page>
           <page number="74">
@@ -144642,15 +146097,22 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
-              <net ref="unnamed_74_c_i61_1"></net>
-              <net ref="unnamed_74_c_i66_1"></net>
-              <net ref="unnamed_74_r_i51_b"></net>
+              <net ref="unnamed_74_leds_i71_a"></net>
+              <net ref="unnamed_74_leds_i73_a"></net>
+              <net ref="unnamed_74_leds_i76_a"></net>
+              <net ref="unnamed_74_leds_i78_a"></net>
               <net ref="v_z7_3v3"></net>
               <net ref="v_z7_3v3_usbhub_avdd"></net>
               <net ref="v_z7_3v3_usbhub_dvdd"></net>
               <net ref="v_z7_3v3_usbhub_ldoout"></net>
               <net ref="v_z7_5v0_in"></net>
               <net ref="v_z7_5v0_usbhub1"></net>
+              <net ref="v_z7_5v0_usbhub2"></net>
+              <net ref="v_z7_5v0_usbhub3"></net>
+              <net ref="v_z7_5v0_usbhub_vbus1"></net>
+              <net ref="v_z7_5v0_usbhub_vbus2"></net>
+              <net ref="v_z7_5v0_usbhub_vbus3"></net>
+              <net ref="v_z7_5v0_usbhub_vbus4"></net>
               <net ref="z7_usbhub_data1_n"></net>
               <net ref="z7_usbhub_data1_p"></net>
               <net ref="z7_usbhub_data2_n"></net>
@@ -144750,6 +146212,32 @@
               <instance ref="i64"></instance>
               <instance ref="i66"></instance>
               <instance ref="i67"></instance>
+              <instance ref="i70"></instance>
+              <instance ref="i71"></instance>
+              <instance ref="i73"></instance>
+              <instance ref="i74"></instance>
+              <instance ref="i75"></instance>
+              <instance ref="i76"></instance>
+              <instance ref="i77"></instance>
+              <instance ref="i78"></instance>
+              <instance ref="i79"></instance>
+              <instance ref="i82"></instance>
+              <instance ref="i83"></instance>
+              <instance ref="i85"></instance>
+              <instance ref="i87"></instance>
+              <instance ref="i88"></instance>
+              <instance ref="i89"></instance>
+              <instance ref="i90"></instance>
+              <instance ref="i91"></instance>
+              <instance ref="i93"></instance>
+              <instance ref="i94"></instance>
+              <instance ref="i97"></instance>
+              <instance ref="i98"></instance>
+              <instance ref="i99"></instance>
+              <instance ref="i100"></instance>
+              <instance ref="i102"></instance>
+              <instance ref="i104"></instance>
+              <instance ref="i105"></instance>
             </instances>
           </page>
           <page number="75">
