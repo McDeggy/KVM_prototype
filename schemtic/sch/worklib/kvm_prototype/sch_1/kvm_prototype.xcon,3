@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-03-26T22:28:46</modificationTime>
+    <modificationTime>2018-03-26T22:30:42</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -28336,10 +28336,6 @@
         <net>
           <id>N2857</id>
           <name>v_z7_5v0_usbphy_vbus</name>
-        </net>
-        <net>
-          <id>N2859</id>
-          <name>unnamed_73_diode_i35_k</name>
         </net>
         <net>
           <id>N5</id>
@@ -141373,13 +141369,14 @@
               <id>M11290</id>
               <termid>T317</termid>
               <connections>
+                <connection net="N2800" />
               </connections>
             </pin>
             <pin>
               <id>M11291</id>
               <termid>T318</termid>
               <connections>
-                <connection net="N2859" />
+                <connection net="N2856" />
               </connections>
             </pin>
           </pins>
@@ -141407,13 +141404,14 @@
               <id>M11292</id>
               <termid>T317</termid>
               <connections>
+                <connection net="N2802" />
               </connections>
             </pin>
             <pin>
               <id>M11293</id>
               <termid>T318</termid>
               <connections>
-                <connection net="N2859" />
+                <connection net="N2856" />
               </connections>
             </pin>
           </pins>
@@ -141441,13 +141439,14 @@
               <id>M11294</id>
               <termid>T317</termid>
               <connections>
+                <connection net="N2806" />
               </connections>
             </pin>
             <pin>
               <id>M11295</id>
               <termid>T318</termid>
               <connections>
-                <connection net="N2859" />
+                <connection net="N2856" />
               </connections>
             </pin>
           </pins>
@@ -141475,13 +141474,14 @@
               <id>M11296</id>
               <termid>T317</termid>
               <connections>
+                <connection net="N2804" />
               </connections>
             </pin>
             <pin>
               <id>M11297</id>
               <termid>T318</termid>
               <connections>
-                <connection net="N2859" />
+                <connection net="N2856" />
               </connections>
             </pin>
           </pins>
@@ -141509,13 +141509,14 @@
               <id>M11298</id>
               <termid>T103</termid>
               <connections>
-                <connection net="N2859" />
+                <connection net="N2856" />
               </connections>
             </pin>
             <pin>
               <id>M11299</id>
               <termid>T104</termid>
               <connections>
+                <connection net="N2726" />
               </connections>
             </pin>
           </pins>
@@ -146022,7 +146023,6 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd_signal"></net>
-              <net ref="unnamed_73_diode_i35_k"></net>
               <net ref="v_z7_1v8_usbphy_vdd"></net>
               <net ref="v_z7_1v8_usbphy_vdda"></net>
               <net ref="v_z7_3v3"></net>
@@ -146033,6 +146033,10 @@
               <net ref="v_z7_5v0_usbhub_vbus4"></net>
               <net ref="v_z7_5v0_usbphy_vbus"></net>
               <net ref="v_z7_ps_3v3_usbphy"></net>
+              <net ref="z7_usbhub_ovcur1_n"></net>
+              <net ref="z7_usbhub_ovcur2_n"></net>
+              <net ref="z7_usbhub_ovcur3_n"></net>
+              <net ref="z7_usbhub_ovcur4_n"></net>
               <net ref="z7_usbphy_clk"></net>
               <net ref="z7_usbphy_cpen"></net>
               <net ref="z7_usbphy_data0"></net>

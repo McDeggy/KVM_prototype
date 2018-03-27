@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1294 )
+			( logicalViewRevNum 1295 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -96659,7 +96659,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-7350,1200)"
+				( attribute "XY" "(-7350,1000)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "DIODE"
@@ -96696,7 +96696,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-7350,1050)"
+				( attribute "XY" "(-7350,850)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "DIODE"
@@ -96733,7 +96733,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-7350,750)"
+				( attribute "XY" "(-7350,550)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "DIODE"
@@ -96770,7 +96770,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-7350,900)"
+				( attribute "XY" "(-7350,700)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "DIODE"
@@ -96783,6 +96783,43 @@
 				( pin "a"
 				)
 				( pin "k"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page73_i39"
+				( attribute "CDS_LIB" "kvm_matrix_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "07090247"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "72"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7250,1250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "R"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "R-07090247,10K"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE73_I39" )
+				( pin "a"
+				)
+				( pin "b"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page18_i2:a21"

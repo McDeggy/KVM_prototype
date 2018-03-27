@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DPY'
+
+{========================================================================================}
+:VALUE(OPT)   = PART_NUMBER  | PART_NAME | JEDEC_TYPE | DESCRIPTION        | MANUFACTURER ;
+{========================================================================================}
+ 'X'(!)       = 'BTXXXXXXXX' | 'X'       | 'dpy_10'   | 'ONE-BIT BLUE DPY' | 'X'         
+
+END_PART
+
+END.
+

@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADP3338'
+
+{========================================================================================}
+:VALUE(OPT)        = JEDEC_TYPE  | DESCRIPTION                         ;
+{========================================================================================}
+ 'ADP3338AKCZ-2.5'(!) = 'SOT223-3C' | 'Ultralow dropout LDO-2.5V，1A输出'
+ 'ADP3338AKCZ-1.8'(!) = 'SOT223-3C' | 'Ultralow dropout LDO-1.8V，1A输出'
+ 'APU1206K-18'(!) = 'SOT223-3C' | 'Ultralow dropout LDO-1.8V，1A输出'
+ 'SPX1117M3-1.5'(!) = 'SOT223-3C' | 'Ultralow dropout LDO-1.5V，800mA输出'
+ 'SPX1117M3-1.8'(!) = 'SOT223-3C' | 'Ultralow dropout LDO-1.5V，800mA输出'
+
+END_PART
+
+END.
+

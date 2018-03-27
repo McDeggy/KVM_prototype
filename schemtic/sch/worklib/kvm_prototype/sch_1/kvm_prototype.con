@@ -12,13 +12,13 @@
       (lastInstTermId 11299)
     )
     (cells
-      ("S3" "c" "kvm_matrix_lib" "sym_1"
+      ("S3" "c" "rf_comp_lib" "sym_1"
         (terms
           ("T50" "1" -1 -1 3)
           ("T51" "2" -1 -1 3)
         )
       )
-      ("S4" "adp5053" "kvm_matrix_lib" "sym_1"
+      ("S4" "adp5053" "power" "sym_1"
         (terms
           ("T53" "1" -1 -1 3)
           ("T54" "2" -1 -1 1)
@@ -71,19 +71,19 @@
           ("T101" "49" -1 -1 3)
         )
       )
-      ("S5" "r" "kvm_matrix_lib" "sym_1"
+      ("S5" "r" "rf_comp_lib" "sym_1"
         (terms
           ("T103" "a" -1 -1 3)
           ("T104" "b" -1 -1 3)
         )
       )
-      ("S6" "l" "kvm_matrix_lib" "sym_1"
+      ("S6" "l" "rf_comp_lib" "sym_1"
         (terms
           ("T106" "a" -1 -1 3)
           ("T107" "b" -1 -1 3)
         )
       )
-      ("S7" "fds9926a" "kvm_matrix_lib" "sym_1"
+      ("S7" "fds9926a" "transistor" "sym_1"
         (terms
           ("T109" "3" -1 -1 3)
           ("T110" "4" -1 -1 3)
@@ -91,7 +91,7 @@
           ("T112" "6" -1 -1 3)
         )
       )
-      ("S8" "fds9926a" "kvm_matrix_lib" "sym_2"
+      ("S8" "fds9926a" "transistor" "sym_2"
         (terms
           ("T113" "1" -1 -1 3)
           ("T114" "2" -1 -1 3)
@@ -99,26 +99,26 @@
           ("T116" "8" -1 -1 3)
         )
       )
-      ("S9" "cp" "kvm_matrix_lib" "sym_1"
+      ("S9" "cp" "capcitor" "sym_1"
         (terms
           ("T117" "1" -1 -1 3)
           ("T118" "2" -1 -1 3)
         )
       )
-      ("S10" "npn" "kvm_matrix_lib" "sym_1"
+      ("S10" "npn" "transistor" "sym_1"
         (terms
           ("T120" "b" -1 -1 3)
           ("T121" "c" -1 -1 3)
           ("T122" "e" -1 -1 3)
         )
       )
-      ("S11" "led_s" "kvm_matrix_lib" "sym_1"
+      ("S11" "led_s" "diode" "sym_1"
         (terms
           ("T123" "a" -1 -1 3)
           ("T124" "b" -1 -1 3)
         )
       )
-      ("S12" "resetkey" "kvm_matrix_lib" "sym_1"
+      ("S12" "resetkey" "switch" "sym_1"
         (terms
           ("T130" "a1" -1 -1 1)
           ("T131" "a2" -1 -1 2)
@@ -126,7 +126,7 @@
           ("T133" "b2" -1 -1 2)
         )
       )
-      ("S14" "adv7612bswz" "kvm_matrix_lib" "sym_2"
+      ("S14" "adv7612bswz" "ic" "sym_2"
         (terms
           ("T148" "cec" -1 -1 3)
           ("T149" "ep" -1 -1 1)
@@ -173,7 +173,7 @@
           ("T190" "vs/field/alsb" -1 -1 2)
         )
       )
-      ("S15" "adv7612bswz" "kvm_matrix_lib" "sym_1"
+      ("S15" "adv7612bswz" "ic" "sym_1"
         (terms
           ("T191" "ap0" -1 -1 3)
           ("T192" "ap1/i2s_tdm" -1 -1 3)
@@ -235,7 +235,7 @@
           ("T248" "xtalp" -1 -1 3)
         )
       )
-      ("S16" "ncp1529" "kvm_matrix_lib" "sym_1"
+      ("S16" "ncp1529" "power" "sym_1"
         (terms
           ("T254" "1" -1 -1 3)
           ("T255" "2" -1 -1 3)
@@ -244,7 +244,7 @@
           ("T258" "5" -1 -1 3)
         )
       )
-      ("S17" "hdmi-a" "kvm_matrix_lib" "sym_1"
+      ("S17" "hdmi-a" "connector" "sym_1"
         (terms
           ("T264" "1" -1 -1 3)
           ("T265" "2" -1 -1 3)
@@ -271,13 +271,13 @@
           ("T286" "23" -1 -1 3)
         )
       )
-      ("S18" "lb" "kvm_matrix_lib" "sym_1"
+      ("S18" "lb" "inductor" "sym_1"
         (terms
           ("T292" "a" -1 -1 3)
           ("T293" "b" -1 -1 3)
         )
       )
-      ("S19" "rclamp0524p" "kvm_matrix_lib" "sym_1"
+      ("S19" "rclamp0524p" "protection" "sym_1"
         (terms
           ("T299" "1" -1 -1 3)
           ("T300" "2" -1 -1 3)
@@ -291,26 +291,26 @@
           ("T308" "10" -1 -1 3)
         )
       )
-      ("S20" "bss123lt1" "kvm_matrix_lib" "sym_1"
+      ("S20" "bss123lt1" "transistor" "sym_1"
         (terms
           ("T314" "1" -1 -1 3)
           ("T315" "2" -1 -1 3)
           ("T316" "3" -1 -1 3)
         )
       )
-      ("S21" "diode" "kvm_matrix_lib" "sym_1"
+      ("S21" "diode" "rf_comp_lib" "sym_1"
         (terms
           ("T317" "a" -1 -1 3)
           ("T318" "k" -1 -1 3)
         )
       )
-      ("S22" "crystal" "kvm_matrix_lib" "sym_1"
+      ("S22" "crystal" "oscillator" "sym_1"
         (terms
           ("T324" "a1" -1 -1 1)
           ("T325" "a2" -1 -1 2)
         )
       )
-      ("S23" "adv7511kstz" "kvm_matrix_lib" "sym_1"
+      ("S23" "adv7511kstz" "ic" "sym_1"
         (terms
           ("T331" "avdd" -1 -1 3)
           ("T332" "avdd_2" -1 -1 3)
@@ -414,13 +414,13 @@
           ("T452" "avdd_3" -1 -1 3)
         )
       )
-      ("S24" "pesd0402-140" "kvm_matrix_lib" "sym_1"
+      ("S24" "pesd0402-140" "protection" "sym_1"
         (terms
           ("T436" "1" -1 -1 3)
           ("T437" "2" -1 -1 3)
         )
       )
-      ("S25" "osc-12mhz" "kvm_matrix_lib" "sym_1"
+      ("S25" "osc-12mhz" "oscillator" "sym_1"
         (terms
           ("T443" "gnd" -1 -1 3)
           ("T444" "nnc" -1 -1 3)
@@ -428,14 +428,14 @@
           ("T446" "vdd" -1 -1 3)
         )
       )
-      ("S26" "ao3400" "kvm_matrix_lib" "sym_1"
+      ("S26" "ao3400" "transistor" "sym_1"
         (terms
           ("T458" "1" -1 -1 3)
           ("T459" "2" -1 -1 3)
           ("T460" "3" -1 -1 3)
         )
       )
-      ("S27" "88e1111" "kvm_matrix_lib" "sym_1"
+      ("S27" "88e1111" "ic" "sym_1"
         (terms
           ("T466" "a1" -1 -1 3)
           ("T467" "a2" -1 -1 3)
@@ -510,7 +510,7 @@
           ("T536" "n9" -1 -1 3)
         )
       )
-      ("S28" "88e1111" "kvm_matrix_lib" "sym_2"
+      ("S28" "88e1111" "ic" "sym_2"
         (terms
           ("T537" "b4" -1 -1 3)
           ("T538" "b7" -1 -1 3)
@@ -560,7 +560,7 @@
           ("T582" "n5" -1 -1 3)
         )
       )
-      ("S29" "sfp_cage" "kvm_matrix_lib" "sym_1"
+      ("S29" "sfp_cage" "connector" "sym_1"
         (terms
           ("T588" "1" -1 -1 3)
           ("T589" "2" -1 -1 3)
@@ -584,7 +584,7 @@
           ("T607" "20" -1 -1 3)
         )
       )
-      ("S30" "sfp_conn" "kvm_matrix_lib" "sym_1"
+      ("S30" "sfp_conn" "connector" "sym_1"
         (terms
           ("T608" "1" -1 -1 3)
           ("T609" "2" -1 -1 3)
@@ -608,7 +608,7 @@
           ("T627" "20" -1 -1 3)
         )
       )
-      ("S31" "cy7c67300" "kvm_matrix_lib" "sym_1"
+      ("S31" "cy7c67300" "ic" "sym_1"
         (terms
           ("T633" "1" -1 -1 3)
           ("T634" "2" -1 -1 3)
@@ -697,7 +697,7 @@
           ("T717" "99" -1 -1 3)
         )
       )
-      ("S32" "cy7c67300" "kvm_matrix_lib" "sym_2"
+      ("S32" "cy7c67300" "ic" "sym_2"
         (terms
           ("T718" "6" -1 -1 3)
           ("T719" "11" -1 -1 3)
@@ -716,7 +716,7 @@
           ("T732" "100" -1 -1 3)
         )
       )
-      ("S33" "sram" "kvm_matrix_lib" "sym_1"
+      ("S33" "sram" "ic" "sym_1"
         (terms
           ("T738" "1" -1 -1 3)
           ("T739" "2" -1 -1 3)
@@ -764,7 +764,7 @@
           ("T781" "44" -1 -1 3)
         )
       )
-      ("S34" "eeprom-512k" "kvm_matrix_lib" "sym_1"
+      ("S34" "eeprom-512k" "ic" "sym_1"
         (terms
           ("T787" "1" -1 -1 3)
           ("T788" "2" -1 -1 3)
@@ -776,7 +776,7 @@
           ("T794" "8" -1 -1 3)
         )
       )
-      ("S35" "usb_a_x2" "kvm_matrix_lib" "sym_1"
+      ("S35" "usb_a_x2" "connector" "sym_1"
         (terms
           ("T800" "1" -1 -1 3)
           ("T801" "2" -1 -1 3)
@@ -792,7 +792,7 @@
           ("T811" "12" -1 -1 3)
         )
       )
-      ("S36" "tpd4s012" "kvm_matrix_lib" "sym_1"
+      ("S36" "tpd4s012" "protection" "sym_1"
         (terms
           ("T812" "1" -1 -1 3)
           ("T813" "2" -1 -1 3)
@@ -802,20 +802,20 @@
           ("T817" "6" -1 -1 3)
         )
       )
-      ("S37" "head1x2_s" "kvm_matrix_lib" "sym_1"
+      ("S37" "head1x2_s" "connector" "sym_1"
         (terms
           ("T823" "p1" -1 -1 3)
           ("T824" "p2" -1 -1 3)
         )
       )
-      ("S38" "head1x3_s" "kvm_matrix_lib" "sym_1"
+      ("S38" "head1x3_s" "connector" "sym_1"
         (terms
           ("T830" "a1" -1 -1 3)
           ("T831" "a2" -1 -1 3)
           ("T832" "a3" -1 -1 3)
         )
       )
-      ("S39" "mt41k512m16ha-125" "kvm_matrix_lib" "sym_1"
+      ("S39" "mt41k512m16ha-125" "ic" "sym_1"
         (terms
           ("T838" "a2" -1 -1 3)
           ("T839" "a3" -1 -1 3)
@@ -874,7 +874,7 @@
           ("T892" "t8" -1 -1 3)
         )
       )
-      ("S40" "mt41k512m16ha-125" "kvm_matrix_lib" "sym_2"
+      ("S40" "mt41k512m16ha-125" "ic" "sym_2"
         (terms
           ("T893" "a1" -1 -1 3)
           ("T894" "a8" -1 -1 3)
@@ -919,7 +919,7 @@
           ("T933" "t9" -1 -1 3)
         )
       )
-      ("S41" "xc7s50fgga484" "kvm_matrix_lib" "sym_1"
+      ("S41" "xc7s50fgga484" "ic" "sym_1"
         (terms
           ("T939" "d9" -1 -1 3)
           ("T940" "e9" -1 -1 3)
@@ -944,7 +944,7 @@
           ("T959" "y10" -1 -1 3)
         )
       )
-      ("S42" "xc7s50fgga484" "kvm_matrix_lib" "sym_3"
+      ("S42" "xc7s50fgga484" "ic" "sym_3"
         (terms
           ("T961" "aa20" -1 -1 3)
           ("T962" "aa21" -1 -1 3)
@@ -998,13 +998,13 @@
           ("T1524" "n15" -1 -1 3)
         )
       )
-      ("S46" "esd" "kvm_matrix_lib" "sym_1"
+      ("S46" "esd" "protection" "sym_1"
         (terms
           ("T1039" "1" -1 -1 3)
           ("T1040" "2" -1 -1 3)
         )
       )
-      ("S47" "head2x5" "kvm_matrix_lib" "sym_1"
+      ("S47" "head2x5" "connector" "sym_1"
         (terms
           ("T1046" "p1" -1 -1 3)
           ("T1047" "p2" -1 -1 3)
@@ -1018,7 +1018,7 @@
           ("T1055" "p10" -1 -1 3)
         )
       )
-      ("S48" "s25fl128sagmf" "kvm_matrix_lib" "sym_1"
+      ("S48" "s25fl128sagmf" "ic" "sym_1"
         (terms
           ("T1061" "1" -1 -1 3)
           ("T1062" "2" -1 -1 3)
@@ -1038,7 +1038,7 @@
           ("T1076" "16" -1 -1 3)
         )
       )
-      ("S49" "xc7s50fgga484" "kvm_matrix_lib" "sym_11"
+      ("S49" "xc7s50fgga484" "ic" "sym_11"
         (terms
           ("T1082" "aa4" -1 -1 3)
           ("T1083" "b5" -1 -1 3)
@@ -1084,7 +1084,7 @@
           ("T1123" "y15" -1 -1 3)
         )
       )
-      ("S50" "xc7s50fgga484" "kvm_matrix_lib" "sym_10"
+      ("S50" "xc7s50fgga484" "ic" "sym_10"
         (terms
           ("T1124" "aa5" -1 -1 3)
           ("T1125" "aa12" -1 -1 3)
@@ -1121,7 +1121,7 @@
           ("T1156" "y16" -1 -1 3)
         )
       )
-      ("S51" "xc7s50fgga484" "kvm_matrix_lib" "sym_9"
+      ("S51" "xc7s50fgga484" "ic" "sym_9"
         (terms
           ("T1157" "a1" -1 -1 3)
           ("T1158" "a8" -1 -1 3)
@@ -1175,7 +1175,7 @@
           ("T1206" "n16" -1 -1 3)
         )
       )
-      ("S52" "xc7s50fgga484" "kvm_matrix_lib" "sym_4"
+      ("S52" "xc7s50fgga484" "ic" "sym_4"
         (terms
           ("T1212" "a21" -1 -1 3)
           ("T1213" "b21" -1 -1 3)
@@ -1229,7 +1229,7 @@
           ("T1261" "m18" -1 -1 3)
         )
       )
-      ("S53" "xc7s50fgga484" "kvm_matrix_lib" "sym_5"
+      ("S53" "xc7s50fgga484" "ic" "sym_5"
         (terms
           ("T1267" "a11" -1 -1 3)
           ("T1268" "a12" -1 -1 3)
@@ -1283,7 +1283,7 @@
           ("T1316" "g15" -1 -1 3)
         )
       )
-      ("S54" "xc7s50fgga484" "kvm_matrix_lib" "sym_6"
+      ("S54" "xc7s50fgga484" "ic" "sym_6"
         (terms
           ("T1317" "aa1" -1 -1 3)
           ("T1318" "aa2" -1 -1 3)
@@ -1337,7 +1337,7 @@
           ("T1366" "y8" -1 -1 3)
         )
       )
-      ("S55" "xc7s50fgga484" "kvm_matrix_lib" "sym_7"
+      ("S55" "xc7s50fgga484" "ic" "sym_7"
         (terms
           ("T1372" "h2" -1 -1 3)
           ("T1373" "h3" -1 -1 3)
@@ -1391,7 +1391,7 @@
           ("T1421" "r7" -1 -1 3)
         )
       )
-      ("S56" "xc7s50fgga484" "kvm_matrix_lib" "sym_2"
+      ("S56" "xc7s50fgga484" "ic" "sym_2"
         (terms
           ("T1422" "aa11" -1 -1 3)
           ("T1423" "aa13" -1 -1 3)
@@ -1433,7 +1433,7 @@
           ("T1459" "y18" -1 -1 3)
         )
       )
-      ("S57" "xc7s50fgga484" "kvm_matrix_lib" "sym_8"
+      ("S57" "xc7s50fgga484" "ic" "sym_8"
         (terms
           ("T1460" "a2" -1 -1 3)
           ("T1461" "a3" -1 -1 3)
@@ -1487,7 +1487,7 @@
           ("T1509" "g8" -1 -1 3)
         )
       )
-      ("S58" "osc-4" "kvm_matrix_lib" "sym_1"
+      ("S58" "osc-4" "oscillator" "sym_1"
         (terms
           ("T1515" "gnd" -1 -1 1)
           ("T1516" "nnc" -1 -1 1)
@@ -1495,7 +1495,7 @@
           ("T1518" "vdd" -1 -1 1)
         )
       )
-      ("S59" "tpsm84824" "kvm_matrix_lib" "sym_1"
+      ("S59" "tpsm84824" "power" "sym_1"
         (terms
           ("T1530" "1" -1 -1 3)
           ("T1531" "2" -1 -1 3)
@@ -1523,7 +1523,7 @@
           ("T1553" "24" -1 -1 3)
         )
       )
-      ("S60" "xc7a200tffg1156" "kvm_matrix_lib" "sym_25"
+      ("S60" "xc7a200tffg1156" "ic" "sym_25"
         (terms
           ("T1563" "a6" -1 -1 3)
           ("T1564" "aa6" -1 -1 3)
@@ -1564,7 +1564,7 @@
           ("T1599" "y20" -1 -1 3)
         )
       )
-      ("S61" "xc7a200tffg1156" "kvm_matrix_lib" "sym_24"
+      ("S61" "xc7a200tffg1156" "ic" "sym_24"
         (terms
           ("T1600" "a31" -1 -1 3)
           ("T1601" "aa31" -1 -1 3)
@@ -1618,7 +1618,7 @@
           ("T1649" "y34" -1 -1 3)
         )
       )
-      ("S62" "xc7a200tffg1156" "kvm_matrix_lib" "sym_23"
+      ("S62" "xc7a200tffg1156" "ic" "sym_23"
         (terms
           ("T1650" "aa13" -1 -1 3)
           ("T1651" "aa23" -1 -1 3)
@@ -1646,7 +1646,7 @@
           ("T1673" "y22" -1 -1 3)
         )
       )
-      ("S63" "xc7a200tffg1156" "kvm_matrix_lib" "sym_22"
+      ("S63" "xc7a200tffg1156" "ic" "sym_22"
         (terms
           ("T1674" "aa15" -1 -1 3)
           ("T1675" "aa17" -1 -1 3)
@@ -1699,7 +1699,7 @@
           ("T1722" "y18" -1 -1 3)
         )
       )
-      ("S64" "xc7a200tffg1156" "kvm_matrix_lib" "sym_21"
+      ("S64" "xc7a200tffg1156" "ic" "sym_21"
         (terms
           ("T1723" "ag13" -1 -1 3)
           ("T1724" "ag22" -1 -1 3)
@@ -1758,7 +1758,7 @@
           ("T1777" "ap27" -1 -1 3)
         )
       )
-      ("S65" "xc7a200tffg1156" "kvm_matrix_lib" "sym_20"
+      ("S65" "xc7a200tffg1156" "ic" "sym_20"
         (terms
           ("T1778" "aa11" -1 -1 3)
           ("T1779" "aa12" -1 -1 3)
@@ -1812,7 +1812,7 @@
           ("T1827" "ag3" -1 -1 3)
         )
       )
-      ("S66" "xc7a200tffg1156" "kvm_matrix_lib" "sym_19"
+      ("S66" "xc7a200tffg1156" "ic" "sym_19"
         (terms
           ("T1828" "aa1" -1 -1 3)
           ("T1829" "p19" -1 -1 3)
@@ -1866,7 +1866,7 @@
           ("T1877" "y29" -1 -1 3)
         )
       )
-      ("S67" "xc7a200tffg1156" "kvm_matrix_lib" "sym_18"
+      ("S67" "xc7a200tffg1156" "ic" "sym_18"
         (terms
           ("T1878" "g28" -1 -1 3)
           ("T1879" "h10" -1 -1 3)
@@ -1920,7 +1920,7 @@
           ("T1927" "p17" -1 -1 3)
         )
       )
-      ("S68" "xc7a200tffg1156" "kvm_matrix_lib" "sym_16"
+      ("S68" "xc7a200tffg1156" "ic" "sym_16"
         (terms
           ("T1937" "aj22" -1 -1 3)
           ("T1938" "al13" -1 -1 3)
@@ -1954,7 +1954,7 @@
           ("T1966" "h21" -1 -1 3)
         )
       )
-      ("S69" "xc7a200tffg1156" "kvm_matrix_lib" "sym_17"
+      ("S69" "xc7a200tffg1156" "ic" "sym_17"
         (terms
           ("T1967" "a1" -1 -1 3)
           ("T1968" "a11" -1 -1 3)
@@ -2008,7 +2008,7 @@
           ("T2016" "g23" -1 -1 3)
         )
       )
-      ("S70" "xc7a200tffg1156" "kvm_matrix_lib" "sym_1"
+      ("S70" "xc7a200tffg1156" "ic" "sym_1"
         (terms
           ("T2026" "ad13" -1 -1 3)
           ("T2027" "ae12" -1 -1 3)
@@ -2033,7 +2033,7 @@
           ("T2046" "w18" -1 -1 3)
         )
       )
-      ("S71" "xc7a200tffg1156" "kvm_matrix_lib" "sym_4"
+      ("S71" "xc7a200tffg1156" "ic" "sym_4"
         (terms
           ("T2056" "aa24" -1 -1 3)
           ("T2057" "aa25" -1 -1 3)
@@ -2087,7 +2087,7 @@
           ("T2105" "y33" -1 -1 3)
         )
       )
-      ("S72" "xc7a200tffg1156" "kvm_matrix_lib" "sym_2"
+      ("S72" "xc7a200tffg1156" "ic" "sym_2"
         (terms
           ("T2115" "aj24" -1 -1 3)
           ("T2116" "aj25" -1 -1 3)
@@ -2141,7 +2141,7 @@
           ("T2164" "ap34" -1 -1 3)
         )
       )
-      ("S73" "xc7a200tffg1156" "kvm_matrix_lib" "sym_3"
+      ("S73" "xc7a200tffg1156" "ic" "sym_3"
         (terms
           ("T2174" "ac24" -1 -1 3)
           ("T2175" "ac26" -1 -1 3)
@@ -2195,7 +2195,7 @@
           ("T2223" "ah34" -1 -1 3)
         )
       )
-      ("S74" "xc7a200tffg1156" "kvm_matrix_lib" "sym_5"
+      ("S74" "xc7a200tffg1156" "ic" "sym_5"
         (terms
           ("T2233" "m27" -1 -1 3)
           ("T2234" "m29" -1 -1 3)
@@ -2249,7 +2249,7 @@
           ("T2282" "u34" -1 -1 3)
         )
       )
-      ("S75" "xc7a200tffg1156" "kvm_matrix_lib" "sym_6"
+      ("S75" "xc7a200tffg1156" "ic" "sym_6"
         (terms
           ("T2292" "g24" -1 -1 3)
           ("T2293" "g25" -1 -1 3)
@@ -2303,7 +2303,7 @@
           ("T2341" "m26" -1 -1 3)
         )
       )
-      ("S76" "xc7a200tffg1156" "kvm_matrix_lib" "sym_7"
+      ("S76" "xc7a200tffg1156" "ic" "sym_7"
         (terms
           ("T2342" "a25" -1 -1 3)
           ("T2343" "a27" -1 -1 3)
@@ -2357,7 +2357,7 @@
           ("T2391" "f34" -1 -1 3)
         )
       )
-      ("S77" "xc7a200tffg1156" "kvm_matrix_lib" "sym_13"
+      ("S77" "xc7a200tffg1156" "ic" "sym_13"
         (terms
           ("T2401" "a2" -1 -1 3)
           ("T2402" "a3" -1 -1 3)
@@ -2411,7 +2411,7 @@
           ("T2450" "f10" -1 -1 3)
         )
       )
-      ("S78" "xc7a200tffg1156" "kvm_matrix_lib" "sym_8"
+      ("S78" "xc7a200tffg1156" "ic" "sym_8"
         (terms
           ("T2451" "aj5" -1 -1 3)
           ("T2452" "aj6" -1 -1 3)
@@ -2465,7 +2465,7 @@
           ("T2500" "ap11" -1 -1 3)
         )
       )
-      ("S79" "xc7a200tffg1156" "kvm_matrix_lib" "sym_9"
+      ("S79" "xc7a200tffg1156" "ic" "sym_9"
         (terms
           ("T2501" "ac11" -1 -1 3)
           ("T2502" "ad1" -1 -1 3)
@@ -2519,7 +2519,7 @@
           ("T2550" "aj4" -1 -1 3)
         )
       )
-      ("S80" "xc7a200tffg1156" "kvm_matrix_lib" "sym_10"
+      ("S80" "xc7a200tffg1156" "ic" "sym_10"
         (terms
           ("T2551" "aa2" -1 -1 3)
           ("T2552" "aa3" -1 -1 3)
@@ -2573,7 +2573,7 @@
           ("T2600" "y11" -1 -1 3)
         )
       )
-      ("S81" "xc7a200tffg1156" "kvm_matrix_lib" "sym_11"
+      ("S81" "xc7a200tffg1156" "ic" "sym_11"
         (terms
           ("T2610" "m1" -1 -1 3)
           ("T2611" "m4" -1 -1 3)
@@ -2627,7 +2627,7 @@
           ("T2659" "u11" -1 -1 3)
         )
       )
-      ("S82" "xc7a200tffg1156" "kvm_matrix_lib" "sym_12"
+      ("S82" "xc7a200tffg1156" "ic" "sym_12"
         (terms
           ("T2660" "f2" -1 -1 3)
           ("T2661" "f3" -1 -1 3)
@@ -2681,7 +2681,7 @@
           ("T2709" "m2" -1 -1 3)
         )
       )
-      ("S83" "xc7a200tffg1156" "kvm_matrix_lib" "sym_14"
+      ("S83" "xc7a200tffg1156" "ic" "sym_14"
         (terms
           ("T2719" "a13" -1 -1 3)
           ("T2720" "a15" -1 -1 3)
@@ -2735,7 +2735,7 @@
           ("T2768" "h16" -1 -1 3)
         )
       )
-      ("S84" "xc7a200tffg1156" "kvm_matrix_lib" "sym_15"
+      ("S84" "xc7a200tffg1156" "ic" "sym_15"
         (terms
           ("T2769" "a19" -1 -1 3)
           ("T2770" "a21" -1 -1 3)
@@ -2779,7 +2779,7 @@
           ("T2808" "h20" -1 -1 3)
         )
       )
-      ("S85" "osc-125m-dif" "kvm_matrix_lib" "sym_1"
+      ("S85" "osc-125m-dif" "oscillator" "sym_1"
         (terms
           ("T2818" "1" -1 -1 3)
           ("T2819" "2" -1 -1 3)
@@ -2789,7 +2789,7 @@
           ("T2823" "6" -1 -1 3)
         )
       )
-      ("S86" "pcie_x16" "kvm_matrix_lib" "sym_1"
+      ("S86" "pcie_x16" "connector" "sym_1"
         (terms
           ("T2833" "a1" -1 -1 3)
           ("T2834" "a2" -1 -1 3)
@@ -2857,7 +2857,7 @@
           ("T2896" "b32" -1 -1 3)
         )
       )
-      ("S87" "pcie_x16" "kvm_matrix_lib" "sym_2"
+      ("S87" "pcie_x16" "connector" "sym_2"
         (terms
           ("T2897" "a33" -1 -1 3)
           ("T2898" "a34" -1 -1 3)
@@ -2895,7 +2895,7 @@
           ("T2930" "b49" -1 -1 3)
         )
       )
-      ("S88" "pcie_x16" "kvm_matrix_lib" "sym_3"
+      ("S88" "pcie_x16" "connector" "sym_3"
         (terms
           ("T2931" "a50" -1 -1 3)
           ("T2932" "a51" -1 -1 3)
@@ -2965,7 +2965,7 @@
           ("T2996" "b82" -1 -1 3)
         )
       )
-      ("S89" "mtfc8gacaaam-1m" "kvm_matrix_lib" "sym_1"
+      ("S89" "mtfc8gacaaam-1m" "ic" "sym_1"
         (terms
           ("T3010" "a3" -1 -1 3)
           ("T3011" "a4" -1 -1 3)
@@ -2980,7 +2980,7 @@
           ("T3020" "m6" -1 -1 3)
         )
       )
-      ("S90" "mtfc8gacaaam-1m" "kvm_matrix_lib" "sym_2"
+      ("S90" "mtfc8gacaaam-1m" "ic" "sym_2"
         (terms
           ("T3021" "a6" -1 -1 3)
           ("T3022" "a7" -1 -1 3)
@@ -3020,7 +3020,7 @@
           ("T3056" "p10" -1 -1 3)
         )
       )
-      ("S91" "mtfc8gacaaam-1m" "kvm_matrix_lib" "sym_3"
+      ("S91" "mtfc8gacaaam-1m" "ic" "sym_3"
         (terms
           ("T3057" "a1" -1 -1 3)
           ("T3058" "a2" -1 -1 3)
@@ -3130,7 +3130,7 @@
           ("T3162" "p14" -1 -1 3)
         )
       )
-      ("S92" "rj45-ge-magnetics" "kvm_matrix_lib" "sym_1"
+      ("S92" "rj45-ge-magnetics" "connector" "sym_1"
         (terms
           ("T3176" "1" -1 -1 3)
           ("T3177" "2" -1 -1 3)
@@ -3146,7 +3146,7 @@
           ("T3187" "m2" -1 -1 3)
         )
       )
-      ("S93" "xc6slx16csg324" "kvm_matrix_lib" "sym_1"
+      ("S93" "xc6slx16csg324" "ic" "sym_1"
         (terms
           ("T3201" "io_l1n_vref_0" -1 -1 3)
           ("T3202" "io_l1p_hswapen_0" -1 -1 3)
@@ -3216,7 +3216,7 @@
           ("T3266" "vcco6_0" -1 -1 3)
         )
       )
-      ("S94" "xc6slx16csg324" "kvm_matrix_lib" "sym_2"
+      ("S94" "xc6slx16csg324" "ic" "sym_2"
         (terms
           ("T3267" "io_l1n_a24_vref_1" -1 -1 3)
           ("T3268" "io_l1p_a25_1" -1 -1 3)
@@ -3282,7 +3282,7 @@
           ("T3328" "vcco6_1" -1 -1 3)
         )
       )
-      ("S95" "head2x3" "kvm_matrix_lib" "sym_1"
+      ("S95" "head2x3" "connector" "sym_1"
         (terms
           ("T3342" "a1" -1 -1 3)
           ("T3343" "a2" -1 -1 3)
@@ -3292,7 +3292,7 @@
           ("T3347" "b3" -1 -1 3)
         )
       )
-      ("S96" "rn" "kvm_matrix_lib" "sym_2"
+      ("S96" "rn" "resistor" "sym_2"
         (params
           ("size" "1")
         )
@@ -3301,7 +3301,7 @@
           ("T3349" "b" 3 0 3)
         )
       )
-      ("S97" "m25p40" "kvm_matrix_lib" "sym_1"
+      ("S97" "m25p40" "ic" "sym_1"
         (terms
           ("T3350" "c" -1 -1 1)
           ("T3351" "d" -1 -1 1)
@@ -3313,12 +3313,12 @@
           ("T3357" "w*" -1 -1 1)
         )
       )
-      ("S98" "head2x7" "kvm_matrix_lib" "sym_1"
+      ("S98" "head2x7" "connector" "sym_1"
         (terms
           ("T3358" "a" 13 0 3)
         )
       )
-      ("S100" "xc6slx16csg324" "kvm_matrix_lib" "sym_3"
+      ("S100" "xc6slx16csg324" "ic" "sym_3"
         (terms
           ("T3361" "cmpcs_b_2" -1 -1 3)
           ("T3362" "done_2" -1 -1 3)
@@ -3396,7 +3396,7 @@
           ("T3434" "vcco6_2" -1 -1 3)
         )
       )
-      ("S101" "xc6slx16csg324" "kvm_matrix_lib" "sym_4"
+      ("S101" "xc6slx16csg324" "ic" "sym_4"
         (terms
           ("T3435" "io_l1n_vref_3" -1 -1 3)
           ("T3436" "io_l1p_3" -1 -1 3)
@@ -3462,7 +3462,7 @@
           ("T3496" "vcco6_3" -1 -1 3)
         )
       )
-      ("S102" "xc6slx16csg324" "kvm_matrix_lib" "sym_5"
+      ("S102" "xc6slx16csg324" "ic" "sym_5"
         (terms
           ("T3497" "gnd1" -1 -1 3)
           ("T3498" "gnd2" -1 -1 3)
@@ -3526,12 +3526,12 @@
           ("T3556" "vccint11" -1 -1 3)
         )
       )
-      ("S103" "tp" "kvm_matrix_lib" "sym_1"
+      ("S103" "tp" "others" "sym_1"
         (terms
           ("T3570" "p" -1 -1 3)
         )
       )
-      ("S104" "cy22394fc" "kvm_matrix_lib" "sym_1"
+      ("S104" "cy22394fc" "ic" "sym_1"
         (terms
           ("T3571" "agnd" -1 -1 1)
           ("T3572" "avdd" -1 -1 1)
@@ -3551,7 +3551,7 @@
           ("T3586" "xtalout" -1 -1 2)
         )
       )
-      ("S105" "hy5ps121621cfp" "kvm_matrix_lib" "sym_1"
+      ("S105" "hy5ps121621cfp" "ic" "sym_1"
         (terms
           ("T3587" "a0" -1 -1 3)
           ("T3588" "a1" -1 -1 3)
@@ -3613,7 +3613,7 @@
           ("T3644" "we*" -1 -1 3)
         )
       )
-      ("S106" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_9"
+      ("S106" "xc7z015_1clg485c" "ic" "sym_9"
         (terms
           ("T3662" "a3" -1 -1 3)
           ("T3663" "a13" -1 -1 3)
@@ -3687,7 +3687,7 @@
           ("T3731" "y16" -1 -1 3)
         )
       )
-      ("S107" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_8"
+      ("S107" "xc7z015_1clg485c" "ic" "sym_8"
         (terms
           ("T3732" "a8" -1 -1 3)
           ("T3733" "a18" -1 -1 3)
@@ -3777,7 +3777,7 @@
           ("T3817" "y21" -1 -1 3)
         )
       )
-      ("S108" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_1"
+      ("S108" "xc7z015_1clg485c" "ic" "sym_1"
         (terms
           ("T3835" "g9" -1 -1 3)
           ("T3836" "g12" -1 -1 3)
@@ -3804,7 +3804,7 @@
           ("T3857" "w3" -1 -1 3)
         )
       )
-      ("S109" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_3"
+      ("S109" "xc7z015_1clg485c" "ic" "sym_3"
         (terms
           ("T3875" "h8" -1 -1 3)
           ("T3876" "j1" -1 -1 3)
@@ -3858,7 +3858,7 @@
           ("T3924" "u2" -1 -1 3)
         )
       )
-      ("S110" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_4"
+      ("S110" "xc7z015_1clg485c" "ic" "sym_4"
         (terms
           ("T3925" "a1" -1 -1 3)
           ("T3926" "a2" -1 -1 3)
@@ -3912,7 +3912,7 @@
           ("T3974" "h6" -1 -1 3)
         )
       )
-      ("S111" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_7"
+      ("S111" "xc7z015_1clg485c" "ic" "sym_7"
         (terms
           ("T3975" "aa21" -1 -1 3)
           ("T3976" "aa22" -1 -1 3)
@@ -3992,7 +3992,7 @@
           ("T4050" "y22" -1 -1 3)
         )
       )
-      ("S112" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_5"
+      ("S112" "xc7z015_1clg485c" "ic" "sym_5"
         (terms
           ("T4051" "aa3" -1 -1 3)
           ("T4052" "aa5" -1 -1 3)
@@ -4017,7 +4017,7 @@
           ("T4071" "y8" -1 -1 3)
         )
       )
-      ("S113" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_2"
+      ("S113" "xc7z015_1clg485c" "ic" "sym_2"
         (terms
           ("T4072" "aa11" -1 -1 3)
           ("T4073" "aa12" -1 -1 3)
@@ -4071,7 +4071,7 @@
           ("T4121" "y19" -1 -1 3)
         )
       )
-      ("S114" "xc7z015_1clg485c" "kvm_matrix_lib" "sym_6"
+      ("S114" "xc7z015_1clg485c" "ic" "sym_6"
         (terms
           ("T4122" "a9" -1 -1 3)
           ("T4123" "a10" -1 -1 3)
@@ -4133,7 +4133,7 @@
           ("T4179" "g17" -1 -1 3)
         )
       )
-      ("S115" "mt41k256m16ha-125" "kvm_matrix_lib" "sym_1"
+      ("S115" "mt41k256m16ha-125" "ic" "sym_1"
         (terms
           ("T4197" "a2" -1 -1 3)
           ("T4198" "a3" -1 -1 3)
@@ -4192,7 +4192,7 @@
           ("T4251" "t8" -1 -1 3)
         )
       )
-      ("S116" "mt41k256m16ha-125" "kvm_matrix_lib" "sym_2"
+      ("S116" "mt41k256m16ha-125" "ic" "sym_2"
         (terms
           ("T4252" "a1" -1 -1 3)
           ("T4253" "a8" -1 -1 3)
@@ -4237,7 +4237,7 @@
           ("T4292" "t9" -1 -1 3)
         )
       )
-      ("S117" "6pin" "kvm_matrix_lib" "sym_1"
+      ("S117" "6pin" "connector" "sym_1"
         (terms
           ("T4310" "pin1" -1 -1 3)
           ("T4311" "pin2" -1 -1 3)
@@ -4247,7 +4247,7 @@
           ("T4315" "pin6" -1 -1 3)
         )
       )
-      ("S118" "wiper-sw" "kvm_matrix_lib" "sym_1"
+      ("S118" "wiper-sw" "others" "sym_1"
         (terms
           ("T4333" "1" -1 -1 3)
           ("T4334" "2" -1 -1 3)
@@ -4256,14 +4256,14 @@
           ("T4337" "5" -1 -1 3)
         )
       )
-      ("S119" "mbrd835l" "kvm_matrix_lib" "sym_1"
+      ("S119" "mbrd835l" "diode" "sym_1"
         (terms
           ("T4355" "a1" -1 -1 3)
           ("T4356" "a2" -1 -1 3)
           ("T4357" "k" -1 -1 3)
         )
       )
-      ("S120" "usb3300" "kvm_matrix_lib" "sym_1"
+      ("S120" "usb3300" "ic" "sym_1"
         (terms
           ("T4375" "clkout" -1 -1 2)
           ("T4376" "cpen" -1 -1 2)
@@ -4288,7 +4288,7 @@
           ("T4395" "xo" -1 -1 2)
         )
       )
-      ("S121" "gl850g" "kvm_matrix_lib" "sym_1"
+      ("S121" "gl850g" "ic" "sym_1"
         (terms
           ("T4413" "agnd1" -1 -1 3)
           ("T4414" "agnd2" -1 -1 3)
@@ -4340,7 +4340,7 @@
           ("T4460" "x2" -1 -1 3)
         )
       )
-      ("S122" "lm3526" "kvm_matrix_lib" "sym_1"
+      ("S122" "lm3526" "power" "sym_1"
         (terms
           ("T4478" "ena*" -1 -1 1)
           ("T4479" "enb*" -1 -1 1)
@@ -4352,7 +4352,7 @@
           ("T4485" "outb" -1 -1 2)
         )
       )
-      ("S123" "usb_dul" "kvm_matrix_lib" "sym_1"
+      ("S123" "usb_dul" "connector" "sym_1"
         (terms
           ("T4503" "d+" 1 0 3)
           ("T4504" "d-" 1 0 3)

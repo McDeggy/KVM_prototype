@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '6PIN'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE   | DESCRIPTION            ;
+{========================================================================================}
+ '6pin'(!)    = '6pin_power' | '6pin_power connector'
+  '6pin-dip'(!)    = 'dip-6pin' | '6pin_power connector'
+
+END_PART
+
+END.
+
