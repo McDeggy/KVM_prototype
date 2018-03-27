@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Tue Mar 27 16:32:25 2018
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Tue Mar 27 20:53:45 2018
 #ISCELL
   standard c#20size#20page *
   *
@@ -2445,10 +2445,10 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib xc7s50fgga484 *
+  ic xc7s50fgga484 *
   page26_i1
 #CELL
-  kvm_matrix_lib xc7s50fgga484 *
+  ic xc7s50fgga484 *
   page26_i2
 #ISCELL
   standard c#20size#20page *
@@ -3810,19 +3810,19 @@
   standard gnd_signal *
   page40_i1
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page40_i10
 #ISCELL
   standard gnd_signal *
   page40_i11
 #CELL
-  kvm_matrix_lib head1x2_s *
+  connector head1x2_s *
   page40_i12
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page40_i13
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page40_i14
 #ISCELL
   standard gnd_signal *
@@ -3831,97 +3831,97 @@
   standard gnd_signal *
   page40_i2
 #CELL
-  kvm_matrix_lib usb_a_x2 *
+  connector usb_a_x2 *
   page40_i3
 #ISCELL
   standard gnd_signal *
   page40_i4
 #CELL
-  kvm_matrix_lib tpd4s012 *
+  protection tpd4s012 *
   page40_i5
 #ISCELL
   standard gnd_signal *
   page40_i6
 #CELL
-  kvm_matrix_lib tpd4s012 *
+  protection tpd4s012 *
   page40_i7
 #CELL
-  kvm_matrix_lib head1x2_s *
+  connector head1x2_s *
   page40_i8
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page40_i9
 #ISCELL
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i1
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i10
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i11
 #CELL
-  kvm_matrix_lib sfp_conn *
+  connector sfp_conn *
   page41_i12
 #ISCELL
   standard gnd_signal *
   page41_i13
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i14
 #ISCELL
   standard gnd_signal *
   page41_i15
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page41_i16
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page41_i17
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page41_i18
 #ISCELL
   standard gnd_signal *
   page41_i19
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i2
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page41_i20
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page41_i21
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page41_i22
 #ISCELL
   standard gnd_signal *
   page41_i23
 #CELL
-  kvm_matrix_lib sfp_cage *
+  connector sfp_cage *
   page41_i24
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i3
 #ISCELL
   standard gnd_signal *
   page41_i4
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i5
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i6
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i7
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page41_i8
 #ISCELL
   standard gnd_signal *
@@ -4080,73 +4080,73 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i1
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i10
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i11
 #CELL
-  kvm_matrix_lib sfp_conn *
+  connector sfp_conn *
   page44_i12
 #ISCELL
   standard gnd_signal *
   page44_i13
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i14
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page44_i15
 #ISCELL
   standard gnd_signal *
   page44_i16
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page44_i17
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page44_i18
 #ISCELL
   standard gnd_signal *
   page44_i19
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i2
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page44_i20
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page44_i21
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page44_i22
 #ISCELL
   standard gnd_signal *
   page44_i23
 #CELL
-  kvm_matrix_lib sfp_cage *
+  connector sfp_cage *
   page44_i24
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i3
 #ISCELL
   standard gnd_signal *
   page44_i4
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i5
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i6
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i7
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page44_i8
 #ISCELL
   standard gnd_signal *
@@ -4155,7 +4155,7 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib pcie_x16 *
+  connector pcie_x16 *
   page45_i1
 #ISCELL
   standard gnd_signal *
@@ -4164,10 +4164,10 @@
   standard gnd_signal *
   page45_i11
 #CELL
-  kvm_matrix_lib pcie_x16 *
+  connector pcie_x16 *
   page45_i2
 #CELL
-  kvm_matrix_lib pcie_x16 *
+  connector pcie_x16 *
   page45_i3
 #ISCELL
   standard gnd_signal *
@@ -4191,76 +4191,76 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page46_i1
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page46_i10
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i11
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i12
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i13
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i14
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i15
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i16
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i17
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i18
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i19
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page46_i2
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i20
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page46_i21
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i22
 #CELL
-  kvm_matrix_lib mt41k512m16ha-125 *
+  ic mt41k512m16ha-125 *
   page46_i23
 #ISCELL
   standard gnd_signal *
   page46_i24
 #CELL
-  kvm_matrix_lib mt41k512m16ha-125 *
+  ic mt41k512m16ha-125 *
   page46_i25
 #ISCELL
   standard gnd_signal *
   page46_i3
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page46_i4
 #ISCELL
   standard gnd_signal *
   page46_i5
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i6
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i7
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page46_i8
 #ISCELL
   standard gnd_signal *
@@ -4836,49 +4836,49 @@
   standard gnd_signal *
   page50_i1
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i10
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i11
 #CELL
-  kvm_matrix_lib osc-125m-dif *
+  oscillator osc-125m-dif *
   page50_i12
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i13
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i14
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i15
 #ISCELL
   standard gnd_signal *
   page50_i16
 #CELL
-  kvm_matrix_lib osc-4 *
+  oscillator osc-4 *
   page50_i2
 #ISCELL
   standard gnd_signal *
   page50_i3
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i4
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i5
 #CELL
-  kvm_matrix_lib osc-4 *
+  oscillator osc-4 *
   page50_i6
 #CELL
-  kvm_matrix_lib osc-125m-dif *
+  oscillator osc-125m-dif *
   page50_i7
 #ISCELL
   standard gnd_signal *
   page50_i8
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page50_i9
 #ISCELL
   standard c#20size#20page *
@@ -5022,22 +5022,22 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib xc7a200tffg1156 *
+  ic xc7a200tffg1156 *
   page53_i1
 #ISCELL
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib xc7a200tffg1156 *
+  ic xc7a200tffg1156 *
   page54_i1
 #ISCELL
   standard gnd_signal *
   page54_i2
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page54_i3
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page54_i4
 #ISCELL
   standard c#20size#20page *
@@ -5661,46 +5661,46 @@
   standard gnd_signal *
   page67_i10
 #CELL
-  kvm_matrix_lib l *
+  inductor l *
   page67_i11
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page67_i13
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page67_i14
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page67_i15
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page67_i16
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page67_i17
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page67_i18
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page67_i19
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page67_i2
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page67_i20
 #ISCELL
   standard gnd_signal *
   page67_i3
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page67_i4
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page67_i5
 #CELL
-  kvm_matrix_lib ncp1529 *
+  power ncp1529 *
   page67_i6
 #ISCELL
   standard gnd_signal *
@@ -6222,277 +6222,277 @@
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib usb3300 *
+  ic usb3300 *
   page73_i1
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i10
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i11
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i12
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i13
 #ISCELL
   standard gnd_signal *
   page73_i14
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i15
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i16
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i17
 #CELL
-  kvm_matrix_lib crystal *
+  oscillator crystal *
   page73_i18
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i19
 #ISCELL
   standard gnd_signal *
   page73_i2
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i20
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i21
 #ISCELL
   standard gnd_signal *
   page73_i22
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i23
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i24
 #ISCELL
   standard gnd_signal *
   page73_i25
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i26
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i27
 #ISCELL
   standard gnd_signal *
   page73_i28
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i29
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i3
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i30
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i31
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i32
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i33
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i34
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i35
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i36
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i37
 #CELL
-  kvm_matrix_lib diode *
+  diode diode *
   page73_i38
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page73_i39
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i4
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page73_i5
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i6
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i7
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i8
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page73_i9
 #ISCELL
   standard c#20size#20page *
   *
 #CELL
-  kvm_matrix_lib gl850g *
+  ic gl850g *
   page74_i1
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i10
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i100
 #ISCELL
   standard gnd_signal *
   page74_i101
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i102
 #ISCELL
   standard gnd_signal *
   page74_i103
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i104
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i105
 #ISCELL
   standard gnd_signal *
   page74_i106
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i11
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i12
 #ISCELL
   standard gnd_signal *
   page74_i13
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i14
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i15
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i16
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i17
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i18
 #ISCELL
   standard gnd_signal *
   page74_i19
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i2
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i20
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i21
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i22
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i23
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i24
 #ISCELL
   standard gnd_signal *
   page74_i25
 #CELL
-  kvm_matrix_lib crystal *
+  oscillator crystal *
   page74_i26
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i27
 #ISCELL
   standard gnd_signal *
   page74_i28
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i29
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i3
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i30
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i31
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i32
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i33
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i34
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i35
 #ISCELL
   standard gnd_signal *
   page74_i36
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i37
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i38
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i39
 #ISCELL
   standard gnd_signal *
   page74_i4
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i40
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i41
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i42
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i43
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i44
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i45
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i46
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i47
 #CELL
-  kvm_matrix_lib lm3526 *
+  power lm3526 *
   page74_i48
 #CELL
-  kvm_matrix_lib lm3526 *
+  power lm3526 *
   page74_i49
 #ISCELL
   standard gnd_signal *
@@ -6501,55 +6501,55 @@
   standard gnd_signal *
   page74_i50
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i51
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i52
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i53
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i54
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i55
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i56
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i57
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i58
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i59
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i6
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i61
 #ISCELL
   standard gnd_signal *
   page74_i62
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i63
 #CELL
-  kvm_matrix_lib lb *
+  inductor lb *
   page74_i64
 #ISCELL
   standard gnd_signal *
   page74_i65
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i66
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i67
 #ISCELL
   standard gnd_signal *
@@ -6558,40 +6558,40 @@
   standard gnd_signal *
   page74_i69
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i7
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i70
 #CELL
-  kvm_matrix_lib led_s *
+  diode led_s *
   page74_i71
 #ISCELL
   standard gnd_signal *
   page74_i72
 #CELL
-  kvm_matrix_lib led_s *
+  diode led_s *
   page74_i73
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i74
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i75
 #CELL
-  kvm_matrix_lib led_s *
+  diode led_s *
   page74_i76
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i77
 #CELL
-  kvm_matrix_lib led_s *
+  diode led_s *
   page74_i78
 #CELL
-  kvm_matrix_lib usb_dul *
+  connector usb_dul *
   page74_i79
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i8
 #ISCELL
   standard gnd_signal *
@@ -6600,46 +6600,46 @@
   standard gnd_signal *
   page74_i81
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i82
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i83
 #ISCELL
   standard gnd_signal *
   page74_i84
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i85
 #ISCELL
   standard gnd_signal *
   page74_i86
 #CELL
-  kvm_matrix_lib cp *
+  capcitor cp *
   page74_i87
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i88
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i89
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i9
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i90
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i91
 #ISCELL
   standard gnd_signal *
   page74_i92
 #CELL
-  kvm_matrix_lib usb_dul *
+  connector usb_dul *
   page74_i93
 #CELL
-  kvm_matrix_lib c *
+  capcitor c *
   page74_i94
 #ISCELL
   standard gnd_signal *
@@ -6648,13 +6648,13 @@
   standard gnd_signal *
   page74_i96
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i97
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i98
 #CELL
-  kvm_matrix_lib r *
+  resistor r *
   page74_i99
 #ISCELL
   standard c#20size#20page *
@@ -8540,3 +8540,9 @@
 #CELL
   kvm_matrix_lib c *
   page96_i9
+#ISCELL
+  standard c#20size#20page *
+  *
+#ISCELL
+  standard c#20size#20page *
+  *
