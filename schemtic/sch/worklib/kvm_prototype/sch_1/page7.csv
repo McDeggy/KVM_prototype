@@ -46,10 +46,10 @@ FILE_TYPE = CONNECTIVITY;
 %"ADV7612BSWZ"
 "2","(-5050,4400)","0","ic","I1";
 ;
+$LOCATION"?"
 PACK_TYPE""
 VALUE""
-CDS_LIB"ic"
-$LOCATION"?";
+CDS_LIB"ic";
 "EP"1;
 "NC_2"0;
 "NC"0;
@@ -96,8 +96,8 @@ $LOCATION"?";
 %"GND_SIGNAL"
 "1","(-3350,5650)","0","standard","I2";
 ;
-CDS_LIB"standard"
+HDL_POWER"GND_SIGNAL"
 BODY_TYPE"PLUMBING"
-HDL_POWER"GND_SIGNAL";
+CDS_LIB"standard";
 "GND"1;
 END.

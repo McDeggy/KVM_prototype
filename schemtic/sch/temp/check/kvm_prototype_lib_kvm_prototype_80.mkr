@@ -4,18 +4,32 @@
   (
    (tool "Concept")
    (class "SCHEMATIC")
-   (severity 10)
+   (severity 40)
    (error_num 1)
-   (short_msg "ERROR(SPCOCN-1998): HDL Power Symbol does not have voltage property. To turn off this warning, 
-choose Tools - Options - Check and deselect the 'Voltage on HDL Symbols' option.")
-   (long_msg "ERROR(SPCOCN-1998): HDL Power Symbol does not have voltage property. To turn off this warning, 
-choose Tools - Options - Check and deselect the 'Voltage on HDL Symbols' option. (voltage_on_hdl)")
+   (short_msg "ERROR(SPCOCN-1999): Wire hidden by component.")
+   (long_msg "ERROR(SPCOCN-1999): Wire hidden by component. (check_hiddenwires)")
    (location
     (
-     (object_kind "body")
-     (canonical_name "_!drawerror (-6450,2050);")
+     (object_kind "wire")
+     (canonical_name "_!drawerror (-7050,675);")
      (parent_canonical_name "unused")
-     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page80")
+     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page78")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 2)
+   (short_msg "ERROR(SPCOCN-1999): Wire hidden by component.")
+   (long_msg "ERROR(SPCOCN-1999): Wire hidden by component. (check_hiddenwires)")
+   (location
+    (
+     (object_kind "wire")
+     (canonical_name "_!drawerror (-4987,6050);")
+     (parent_canonical_name "unused")
+     (drawing_name "@kvm_prototype_lib.kvm_prototype(sch_1):page78")
     )
    )
   )
