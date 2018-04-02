@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1483 )
+			( logicalViewRevNum 1509 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -4002,9 +4002,6 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_hdmi_scl_q"
 				( objectStatus "z7_hdmi_scl_q" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_70_r_i19_b"
-				( objectStatus "unnamed_70_r_i19_b" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_5v0_hdmi"
 				( objectStatus "v_z7_5v0_hdmi" )
 			)
@@ -4626,9 +4623,6 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_82_leds_i67_b"
 				( objectStatus "unnamed_82_leds_i67_b" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_82_head2x7_i96_a_3"
-				( objectStatus "unnamed_82_head2x7_i96_a_3" )
-			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_led0"
 				( objectStatus "z7_s6_led0" )
 			)
@@ -5166,14 +5160,14 @@
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_ps_ddr_dq16"
 				( objectStatus "z7_ps_ddr_dq16" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):\unnamed_76_mt41k256m16ha-125_i25_l8\"
-				( objectStatus "unnamed_76_mt41k256m16ha-125_i25_l8" )
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):\unnamed_97_mt41k512m16ha-125_i25_l8\"
+				( objectStatus "unnamed_97_mt41k512m16ha-125_i25_l8" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_97_c_i18_1"
 				( objectStatus "unnamed_97_c_i18_1" )
 			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):\unnamed_97_mt41k256m16ha-125_i25_l8\"
-				( objectStatus "unnamed_97_mt41k256m16ha-125_i25_l8" )
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):unnamed_82_head2x7_i96_a_1"
+				( objectStatus "unnamed_82_head2x7_i96_a_1" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_ps_ddr_dq20"
 				( objectStatus "z7_ps_ddr_dq20" )
@@ -5393,9 +5387,6 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_s6_ps_data13_r"
 				( objectStatus "z7_s6_ps_data13_r" )
-			)
-			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):v_z7_ps_bank501_vcco"
-				( objectStatus "v_z7_ps_bank501_vcco" )
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_usbphy_clk"
 				( objectStatus "z7_usbphy_clk" )
@@ -6023,6 +6014,9 @@
 			)
 			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):z7_ps_ethphy_enswreg"
 				( objectStatus "z7_ps_ethphy_enswreg" )
+			)
+			( signal "@kvm_prototype_lib.kvm_prototype(sch_1):\unnamed_76_mt41k512m16ha-125_i25_l8\"
+				( objectStatus "unnamed_76_mt41k512m16ha-125_i25_l8" )
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page3_i2"
 				( attribute "CDS_LIB" "capcitor"
@@ -66442,7 +66436,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66479,7 +66473,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66516,7 +66510,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66553,7 +66547,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66590,7 +66584,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66627,7 +66621,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66664,7 +66658,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66701,7 +66695,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66738,7 +66732,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66775,7 +66769,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -66812,7 +66806,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -66849,13 +66843,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08070391"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "72"
@@ -66886,7 +66880,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -66923,13 +66917,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08070391"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "72"
@@ -66960,7 +66954,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -66997,7 +66991,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i22"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,500,125,-550"
@@ -67064,7 +67058,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67101,7 +67095,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page71_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,500,250,-775"
@@ -67168,7 +67162,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,325,225,-425"
@@ -67219,7 +67213,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "protection"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,175,125,-375"
@@ -67258,7 +67252,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "protection"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,175,125,-375"
@@ -67297,7 +67291,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,100,0,-50"
@@ -67334,7 +67328,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -67371,7 +67365,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67408,7 +67402,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,100,0,-50"
@@ -67445,7 +67439,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -67482,7 +67476,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page72_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67519,7 +67513,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -67556,7 +67550,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -67593,13 +67587,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08070391"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "76"
@@ -67630,7 +67624,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67667,7 +67661,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67704,7 +67698,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -67741,7 +67735,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -67778,7 +67772,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67815,7 +67809,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67852,7 +67846,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67889,7 +67883,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67926,7 +67920,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -67963,7 +67957,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68000,7 +67994,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68037,7 +68031,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68074,7 +68068,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68111,7 +68105,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68148,7 +68142,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i21"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -68185,7 +68179,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i22"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68222,7 +68216,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1100,250,-425"
@@ -68331,7 +68325,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page75_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1400,325,-1850"
@@ -68468,7 +68462,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -68505,7 +68499,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -68542,13 +68536,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08070391"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "77"
@@ -68579,7 +68573,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68616,7 +68610,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68653,7 +68647,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -68690,7 +68684,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68727,7 +68721,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68764,7 +68758,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -68801,7 +68795,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68838,7 +68832,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68875,7 +68869,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68912,7 +68906,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68949,7 +68943,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -68986,7 +68980,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -69023,7 +69017,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -69060,7 +69054,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -69134,7 +69128,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -69171,7 +69165,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -69208,7 +69202,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1400,325,-1850"
@@ -69226,10 +69220,10 @@
 				( attribute "XY" "(-7500,4400)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CHIPS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CDS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE76_I25" )
@@ -71041,13 +71035,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "82"
@@ -71056,7 +71050,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71078,7 +71072,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i26"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -71115,13 +71109,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "82"
@@ -71130,7 +71124,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71152,13 +71146,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "82"
@@ -71167,7 +71161,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71189,13 +71183,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "82"
@@ -71204,7 +71198,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71226,13 +71220,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "82"
@@ -71241,7 +71235,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71263,13 +71257,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "82"
@@ -71278,7 +71272,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71337,7 +71331,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-600,125,600,-1750"
@@ -71363,6 +71357,9 @@
 				)
 				( attribute "CDS_PART_NAME" "XC6SLX16CSG324-XC6SLX16CSG324"
 					( Origin gPackager )
+				)
+				( attribute "VALUE1" "XC6SLX16CSG324"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE80_I23" )
 				( pin "io_l1n_vref_0"
@@ -71499,7 +71496,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i61"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71536,7 +71533,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i60"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71573,7 +71570,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i59"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71610,7 +71607,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i58"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71647,7 +71644,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i57"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71684,7 +71681,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i89"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71721,7 +71718,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i77"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -71758,13 +71755,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i76"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "diode"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,50,50,-75"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10520070"
+				( attribute "CODE" "15020063"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "84"
@@ -71773,7 +71770,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "LED"
+				( attribute "VALUE" "HSMG-C170-B"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71785,7 +71782,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE82_I76" )
@@ -71795,7 +71792,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i75"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -71832,13 +71829,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i74"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "diode"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,50,50,-75"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10520070"
+				( attribute "CODE" "15020063"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "84"
@@ -71847,7 +71844,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "LED"
+				( attribute "VALUE" "HSMG-C170-B"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -71859,7 +71856,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE82_I74" )
@@ -71869,7 +71866,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i56"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -71906,7 +71903,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i100"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -71943,7 +71940,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i99"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -71998,7 +71995,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i93"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72035,7 +72032,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i92"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72072,7 +72069,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i90"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,100,0,-50"
@@ -72096,6 +72093,12 @@
 				( attribute "CDS_PART_NAME" "HEAD1X2_S-14050028,HEAD1X2"
 					( Origin gPackager )
 				)
+				( attribute "CODE" "14050028"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "HEAD1X2"
+					( Origin gFrontEnd )
+				)
 				( objectStatus "PAGE82_I90" )
 				( pin "p1"
 				)
@@ -72103,7 +72106,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i86"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72140,7 +72143,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i85"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72177,7 +72180,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i84"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72214,7 +72217,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
@@ -72256,7 +72259,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i80"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72293,7 +72296,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72330,7 +72333,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72367,7 +72370,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72404,7 +72407,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72441,7 +72444,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72478,7 +72481,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-600,125,600,-1650"
@@ -72504,6 +72507,9 @@
 				)
 				( attribute "CDS_PART_NAME" "XC6SLX16CSG324-XC6SLX16CSG324"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "XC6SLX16CSG3244"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE83_I14" )
 				( pin "io_l1n_vref_3"
@@ -72632,7 +72638,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i122"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -72687,7 +72693,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i88"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72724,7 +72730,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i87"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72761,7 +72767,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i82"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72798,7 +72804,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i81"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72835,7 +72841,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i42"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72872,7 +72878,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i121"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72909,7 +72915,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i120"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -72946,7 +72952,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i106"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -72983,7 +72989,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i105"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73020,7 +73026,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i104"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73057,7 +73063,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i103"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,200,150,-200"
@@ -73103,13 +73109,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i67"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "diode"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,50,50,-75"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10520070"
+				( attribute "CODE" "15020063"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "84"
@@ -73118,7 +73124,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "LED"
+				( attribute "VALUE" "HSMG-C170-B"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73130,7 +73136,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE82_I67" )
@@ -73140,7 +73146,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i98"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -73177,7 +73183,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i97"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73214,7 +73220,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i96"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,250,150,-250"
@@ -73226,7 +73232,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "HEAD2x7"
+				( attribute "VALUE" "HEAD2X7"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73240,6 +73246,9 @@
 				)
 				( attribute "CDS_PART_NAME" "HEAD2X7-14050021,HEAD2X7"
 					( Origin gPackager )
+				)
+				( attribute "CODE" "14050021"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE82_I96" )
 				( pin "a(0)"
@@ -73272,7 +73281,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i73"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-600,125,600,-2000"
@@ -73298,6 +73307,9 @@
 				)
 				( attribute "CDS_PART_NAME" "XC6SLX16CSG324-XC6SLX16CSG324"
 					( Origin gPackager )
+				)
+				( attribute "VALUE1" "XC6SLX16CSG324"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE82_I73" )
 				( pin "cmpcs_b_2"
@@ -73450,7 +73462,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i28"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73487,7 +73499,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i27"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73524,13 +73536,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i26"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -73539,7 +73551,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73561,13 +73573,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "diode"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,50,50,-75"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10520070"
+				( attribute "CODE" "15020063"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "85"
@@ -73576,7 +73588,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "LED"
+				( attribute "VALUE" "HSMG-C170-B"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73588,7 +73600,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE83_I4" )
@@ -73598,7 +73610,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73635,7 +73647,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73672,13 +73684,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "diode"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,50,50,-75"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10520070"
+				( attribute "CODE" "15020063"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "85"
@@ -73687,7 +73699,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "LED"
+				( attribute "VALUE" "HSMG-C170-B"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73699,7 +73711,7 @@
 				( attribute "CHIPS_PART_NAME" "SLED"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SLED-10520070,LED"
+				( attribute "CDS_PART_NAME" "SLED-15020063,HSMG-C170-B"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE83_I7" )
@@ -73709,13 +73721,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -73724,7 +73736,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73746,7 +73758,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -73783,7 +73795,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-500,500,250,-250"
@@ -73845,7 +73857,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i34"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -73882,7 +73894,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i31"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -73919,7 +73931,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i26"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -73956,13 +73968,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -73971,7 +73983,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73993,13 +74005,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08020091"
+				( attribute "CODE" "98010240"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74008,7 +74020,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100U-10V"
+				( attribute "VALUE" "100U-6.3V"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74020,7 +74032,7 @@
 				( attribute "CHIPS_PART_NAME" "CP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CP-08020091,100U-10V"
+				( attribute "CDS_PART_NAME" "CP-98010240,100U-6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE84_I2" )
@@ -74030,13 +74042,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08020065"
+				( attribute "CODE" "98010240"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74045,7 +74057,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100U-16V"
+				( attribute "VALUE" "100U-6.3V"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74057,7 +74069,7 @@
 				( attribute "CHIPS_PART_NAME" "CP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CP-08020065,100U-16V"
+				( attribute "CDS_PART_NAME" "CP-98010240,100U-6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE84_I3" )
@@ -74067,13 +74079,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74082,7 +74094,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74104,13 +74116,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74119,7 +74131,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74141,13 +74153,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74156,7 +74168,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74178,13 +74190,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74193,7 +74205,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74215,13 +74227,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74230,7 +74242,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74252,13 +74264,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74267,7 +74279,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74289,13 +74301,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74304,7 +74316,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74326,13 +74338,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74341,7 +74353,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74363,13 +74375,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74378,7 +74390,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74400,13 +74412,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74415,7 +74427,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74437,13 +74449,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74452,7 +74464,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74474,13 +74486,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08020091"
+				( attribute "CODE" "98010240"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74489,7 +74501,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100U-10V"
+				( attribute "VALUE" "100U-6.3V"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74501,7 +74513,7 @@
 				( attribute "CHIPS_PART_NAME" "CP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CP-08020091,100U-10V"
+				( attribute "CDS_PART_NAME" "CP-98010240,100U-6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE84_I16" )
@@ -74511,13 +74523,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08020065"
+				( attribute "CODE" "98010240"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74526,7 +74538,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100U-16V"
+				( attribute "VALUE" "100U-6.3V"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74538,7 +74550,7 @@
 				( attribute "CHIPS_PART_NAME" "CP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CP-08020065,100U-16V"
+				( attribute "CDS_PART_NAME" "CP-98010240,100U-6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE84_I17" )
@@ -74548,13 +74560,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74563,7 +74575,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74585,13 +74597,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74600,7 +74612,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74622,13 +74634,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74637,7 +74649,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74659,13 +74671,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i21"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74674,7 +74686,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74696,13 +74708,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i22"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74711,7 +74723,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74733,13 +74745,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74748,7 +74760,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74770,13 +74782,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74785,7 +74797,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74807,13 +74819,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74822,7 +74834,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74844,13 +74856,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i26"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74859,7 +74871,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74881,13 +74893,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i27"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74896,7 +74908,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74918,13 +74930,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i28"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "86"
@@ -74933,7 +74945,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -74955,7 +74967,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page84_i29"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,125,250,-1900"
@@ -74981,6 +74993,9 @@
 				)
 				( attribute "CDS_PART_NAME" "XC6SLX16CSG324-XC6SLX16CSG324"
 					( Origin gPackager )
+				)
+				( attribute "VALUE1" "XC6SLX16CSG324"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE84_I29" )
 				( pin "gnd1"
@@ -75105,7 +75120,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75142,7 +75157,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75179,7 +75194,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75216,13 +75231,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -75231,7 +75246,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75253,13 +75268,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -75268,7 +75283,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75290,7 +75305,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75327,7 +75342,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75364,7 +75379,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i38"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "others"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,75,50,-75"
@@ -75396,7 +75411,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i37"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "others"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,75,50,-75"
@@ -75428,7 +75443,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75465,13 +75480,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75480,7 +75495,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75502,13 +75517,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75517,7 +75532,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75539,13 +75554,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75554,7 +75569,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75576,13 +75591,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75591,7 +75606,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75613,13 +75628,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75628,7 +75643,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75650,7 +75665,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i33"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75687,7 +75702,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i31"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75724,7 +75739,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -75761,13 +75776,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75776,7 +75791,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75798,13 +75813,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75813,7 +75828,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75835,13 +75850,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75850,7 +75865,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75872,13 +75887,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75887,7 +75902,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75909,13 +75924,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75924,7 +75939,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75946,13 +75961,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75961,7 +75976,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -75983,13 +75998,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -75998,7 +76013,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76020,13 +76035,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76035,7 +76050,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76057,13 +76072,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76072,7 +76087,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76094,13 +76109,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76109,7 +76124,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76131,13 +76146,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i30"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -76146,7 +76161,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76168,13 +76183,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i29"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -76183,7 +76198,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76205,7 +76220,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -76242,13 +76257,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070502"
+				( attribute "CODE" "08070262"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76257,7 +76272,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "0.1UF"
+				( attribute "VALUE" "0.1U"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76279,13 +76294,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "08020059"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76294,7 +76309,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10U-16V"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76303,10 +76318,10 @@
 				( attribute "XY" "(-6325,2125)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "CP"
+				( attribute "CHIPS_PART_NAME" "C"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CP-08020059,10U-16V"
+				( attribute "CDS_PART_NAME" "C"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE86_I25" )
@@ -76316,13 +76331,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i26"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070517"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76353,13 +76368,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i27"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070517"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76390,7 +76405,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i64"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -76445,7 +76460,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i63"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -76500,7 +76515,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i62"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -76555,7 +76570,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i61"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -76610,13 +76625,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i34"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76625,7 +76640,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76647,13 +76662,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i35"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76662,7 +76677,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76684,13 +76699,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i36"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76699,7 +76714,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76721,13 +76736,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i37"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090265"
+				( attribute "CODE" "07090156"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -76736,7 +76751,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "22"
+				( attribute "VALUE" "22.1"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -76758,7 +76773,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i41"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -76813,7 +76828,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i42"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -76868,7 +76883,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i44"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,1875,450,-1200"
@@ -77066,7 +77081,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page80_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77103,7 +77118,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i37"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "oscillator"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-200,150,200,-100"
@@ -77144,7 +77159,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i38"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "oscillator"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-200,150,200,-100"
@@ -77185,7 +77200,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i39"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -77222,7 +77237,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i40"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -77259,13 +77274,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i41"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070517"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "83"
@@ -77296,7 +77311,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i42"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77333,7 +77348,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i43"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77370,7 +77385,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i44"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -77407,7 +77422,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i47"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -77444,7 +77459,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i48"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77481,7 +77496,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i49"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -77518,7 +77533,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i50"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77555,13 +77570,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i51"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070517"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "83"
@@ -77592,7 +77607,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i52"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -77628,162 +77643,8 @@
 				( pin "\2\"
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i54"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-600,125,600,-1650"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "83"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE1" "XC6SLX16CSG324"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-5550,6200)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC6SLX16CSG324"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC6SLX16CSG324-XC6SLX16CSG324"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE81_I54" )
-				( pin "io_l1n_a24_vref_1"
-				)
-				( pin "io_l1p_a25_1"
-				)
-				( pin "io_l29n_a22_m1a14_1"
-				)
-				( pin "io_l29p_a23_m1a13_1"
-				)
-				( pin "io_l30n_a20_m1a11_1"
-				)
-				( pin "io_l30p_a21_m1reset_1"
-				)
-				( pin "io_l31n_a18_m1a12_1"
-				)
-				( pin "io_l31p_a19_m1cke_1"
-				)
-				( pin "io_l32n_a16_m1a9_1"
-				)
-				( pin "io_l32p_a17_m1a8_1"
-				)
-				( pin "io_l33n_a14_m1a4_1"
-				)
-				( pin "io_l33p_a15_m1a10_1"
-				)
-				( pin "io_l34n_a12_m1ba2_1"
-				)
-				( pin "io_l34p_a13_m1we_1"
-				)
-				( pin "io_l35n_a10_m1a2_1"
-				)
-				( pin "io_l35p_a11_m1a7_1"
-				)
-				( pin "io_l36n_a8_m1ba1_1"
-				)
-				( pin "io_l36p_a9_m1ba0_1"
-				)
-				( pin "io_l37n_a6_m1a1_1"
-				)
-				( pin "io_l37p_a7_m1a0_1"
-				)
-				( pin "io_l38n_a4_m1clkn_1"
-				)
-				( pin "io_l38p_a5_m1clk_1"
-				)
-				( pin "io_l39n_m1odt_1"
-				)
-				( pin "io_l39p_m1a3_1"
-				)
-				( pin "io_l40n_gclk10_m1a6_1"
-				)
-				( pin "io_l40p_gclk11_m1a5_1"
-				)
-				( pin "io_l41n_gclk8_m1casn_1"
-				)
-				( pin "io_l41p_gclk9_irdy1_m1rasn_1"
-				)
-				( pin "io_l42n_gclk6_trdy1_m1ldm_1"
-				)
-				( pin "io_l42p_gclk7_m1udm_1"
-				)
-				( pin "io_l43n_gclk4_m1dq5_1"
-				)
-				( pin "io_l43p_gclk5_m1dq4_1"
-				)
-				( pin "io_l44n_a2_m1dq7_1"
-				)
-				( pin "io_l44p_a3_m1dq6_1"
-				)
-				( pin "io_l45n_a0_m1ldqsn_1"
-				)
-				( pin "io_l45p_a1_m1ldqs_1"
-				)
-				( pin "io_l46n_foe_b_m1dq3_1"
-				)
-				( pin "io_l46p_fcs_b_m1dq2_1"
-				)
-				( pin "io_l47n_ldc_m1dq1_1"
-				)
-				( pin "io_l47p_fwe_b_m1dq0_1"
-				)
-				( pin "io_l48n_m1dq9_1"
-				)
-				( pin "io_l48p_hdc_m1dq8_1"
-				)
-				( pin "io_l49n_m1dq11_1"
-				)
-				( pin "io_l49p_m1dq10_1"
-				)
-				( pin "io_l50n_m1udqsn_1"
-				)
-				( pin "io_l50p_m1udqs_1"
-				)
-				( pin "io_l51n_m1dq13_1"
-				)
-				( pin "io_l51p_m1dq12_1"
-				)
-				( pin "io_l52n_m1dq15_1"
-				)
-				( pin "io_l52p_m1dq14_1"
-				)
-				( pin "io_l53n_vref_1"
-				)
-				( pin "io_l53p_1"
-				)
-				( pin "io_l61n_1"
-				)
-				( pin "io_l61p_1"
-				)
-				( pin "io_l74n_dout_busy_1"
-				)
-				( pin "io_l74p_awake_1"
-				)
-				( pin "vcco1_1"
-				)
-				( pin "vcco2_1"
-				)
-				( pin "vcco3_1"
-				)
-				( pin "vcco4_1"
-				)
-				( pin "vcco5_1"
-				)
-				( pin "vcco6_1"
-				)
-			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i108"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -77838,7 +77699,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i109"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77875,7 +77736,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i110"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77912,7 +77773,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i112"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77949,7 +77810,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i113"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -77986,7 +77847,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i114"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -78023,7 +77884,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i115"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -78060,7 +77921,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i116"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -78097,7 +77958,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i117"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -78134,7 +77995,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page82_i118"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -78171,7 +78032,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page83_i21"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -78208,7 +78069,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i51"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "others"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,75,50,-75"
@@ -78240,7 +78101,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i45"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -78277,13 +78138,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i46"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "97090157"
+				( attribute "CODE" "97090130"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -78314,13 +78175,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i47"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "97090157"
+				( attribute "CODE" "97090130"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "88"
@@ -78351,7 +78212,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i48"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -78388,13 +78249,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i34"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070517"
+				( attribute "CODE" "08070898"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "87"
@@ -78425,7 +78286,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page85_i35"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -78446,7 +78307,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-4300,4250)"
+				( attribute "XY" "(-4300,4200)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "C"
@@ -78462,7 +78323,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i54"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -78499,7 +78360,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i56"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -78554,7 +78415,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i57"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -78609,7 +78470,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i58"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -78664,7 +78525,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i59"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -78719,7 +78580,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page86_i60"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,150,175,-100"
@@ -78774,7 +78635,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1750,900,-100"
@@ -78944,7 +78805,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,2150,525,-100"
@@ -79146,7 +79007,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -79183,7 +79044,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79220,13 +79081,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -79257,7 +79118,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79294,13 +79155,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -79331,7 +79192,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79368,7 +79229,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79405,7 +79266,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79442,7 +79303,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -79479,7 +79340,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79516,13 +79377,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -79553,7 +79414,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79590,7 +79451,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79627,7 +79488,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i21"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -79664,7 +79525,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i22"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -79701,7 +79562,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i23"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79738,13 +79599,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i24"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -79775,7 +79636,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79812,13 +79673,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i27"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -79849,7 +79710,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i28"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79886,7 +79747,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i29"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79923,7 +79784,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i30"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79960,7 +79821,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i31"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -79997,7 +79858,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i32"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80034,7 +79895,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i33"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80071,7 +79932,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i34"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80108,7 +79969,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i35"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80145,7 +80006,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i36"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80182,7 +80043,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i37"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80219,7 +80080,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i39"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -80256,7 +80117,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i40"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80293,7 +80154,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i41"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80330,7 +80191,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i42"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80367,7 +80228,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i43"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80404,7 +80265,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i44"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80441,7 +80302,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i45"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80478,7 +80339,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i46"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80515,7 +80376,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i47"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80552,7 +80413,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i48"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -80589,7 +80450,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i49"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80626,7 +80487,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i50"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80663,13 +80524,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i51"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -80700,7 +80561,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i53"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80737,7 +80598,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i54"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80774,7 +80635,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i55"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80811,7 +80672,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i56"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80848,13 +80709,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i57"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -80885,7 +80746,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i58"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -80922,7 +80783,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i60"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80959,7 +80820,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i61"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -80996,7 +80857,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i62"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -81033,7 +80894,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i63"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -81070,13 +80931,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i64"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -81107,7 +80968,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i65"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -81144,7 +81005,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,575,400,-425"
@@ -81220,7 +81081,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "protection"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
@@ -81254,7 +81115,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "protection"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
@@ -81288,7 +81149,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "protection"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
@@ -81322,7 +81183,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "protection"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
@@ -81356,7 +81217,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81393,7 +81254,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i8"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81430,7 +81291,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81467,7 +81328,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81504,7 +81365,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -81541,7 +81402,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "connector"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,300,150,-300"
@@ -81594,7 +81455,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81631,13 +81492,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090231"
+				( attribute "CODE" "07090603"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "92"
@@ -81668,7 +81529,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "diode"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,50,50,-75"
@@ -81705,7 +81566,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81742,7 +81603,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81779,7 +81640,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i21"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "switch"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "200,50,450,-100"
@@ -81820,7 +81681,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page90_i22"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -81857,7 +81718,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i67"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -81894,7 +81755,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i68"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -81931,7 +81792,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i70"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -81968,13 +81829,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i71"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82005,7 +81866,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i72"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82042,13 +81903,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i73"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82079,7 +81940,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i74"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82116,7 +81977,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i75"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82153,7 +82014,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i76"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82190,13 +82051,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i78"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82227,7 +82088,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i79"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82264,7 +82125,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i80"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82301,7 +82162,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i81"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82338,7 +82199,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i82"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82375,13 +82236,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i83"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82412,7 +82273,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i84"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82449,7 +82310,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i86"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82486,7 +82347,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i87"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82523,7 +82384,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i88"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82560,7 +82421,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i89"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82597,13 +82458,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i90"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "08070401"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82612,7 +82473,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "4.7UF"
+				( attribute "VALUE" "470NF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -82634,13 +82495,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i91"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "08070401"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82649,7 +82510,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "4.7UF"
+				( attribute "VALUE" "470NF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -82671,7 +82532,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i92"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82708,7 +82569,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i94"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -82745,7 +82606,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i95"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82782,13 +82643,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i96"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -82819,7 +82680,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i97"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82856,7 +82717,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i99"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82893,7 +82754,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i100"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82930,7 +82791,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i101"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -82967,7 +82828,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i102"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -83004,13 +82865,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i103"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -83041,7 +82902,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i104"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -83078,13 +82939,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i106"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "98070506"
+				( attribute "CODE" "10081926"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "90"
@@ -83115,7 +82976,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i107"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -83152,7 +83013,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i108"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -83189,7 +83050,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page92_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,1175,-100"
@@ -83319,7 +83180,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page93_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,1100,-100"
@@ -83448,199 +83309,14 @@
 				( pin "h6"
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page96_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page94_i1"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1900,1150,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "98"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7Z015_1CLG485C"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "7"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-5850,4500)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7Z015_1CLG485C"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7Z015_1CLG485C-XC7Z015_1CLG4A"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE96_I1" )
-				( pin "aa21"
-				)
-				( pin "aa22"
-				)
-				( pin "b21"
-				)
-				( pin "b22"
-				)
-				( pin "c20"
-				)
-				( pin "c21"
-				)
-				( pin "d20"
-				)
-				( pin "d21"
-				)
-				( pin "d22"
-				)
-				( pin "e20"
-				)
-				( pin "e22"
-				)
-				( pin "f19"
-				)
-				( pin "f20"
-				)
-				( pin "f21"
-				)
-				( pin "f22"
-				)
-				( pin "g13"
-				)
-				( pin "g18"
-				)
-				( pin "g19"
-				)
-				( pin "g21"
-				)
-				( pin "g22"
-				)
-				( pin "h16"
-				)
-				( pin "h18"
-				)
-				( pin "h19"
-				)
-				( pin "h20"
-				)
-				( pin "h21"
-				)
-				( pin "j16"
-				)
-				( pin "j17"
-				)
-				( pin "j18"
-				)
-				( pin "j20"
-				)
-				( pin "j21"
-				)
-				( pin "j22"
-				)
-				( pin "k17"
-				)
-				( pin "k18"
-				)
-				( pin "k19"
-				)
-				( pin "k20"
-				)
-				( pin "k22"
-				)
-				( pin "l16"
-				)
-				( pin "l17"
-				)
-				( pin "l19"
-				)
-				( pin "l20"
-				)
-				( pin "l21"
-				)
-				( pin "l22"
-				)
-				( pin "m16"
-				)
-				( pin "m17"
-				)
-				( pin "m18"
-				)
-				( pin "m19"
-				)
-				( pin "m21"
-				)
-				( pin "m22"
-				)
-				( pin "n16"
-				)
-				( pin "n18"
-				)
-				( pin "n19"
-				)
-				( pin "n20"
-				)
-				( pin "n21"
-				)
-				( pin "p16"
-				)
-				( pin "p17"
-				)
-				( pin "p18"
-				)
-				( pin "p20"
-				)
-				( pin "p21"
-				)
-				( pin "p22"
-				)
-				( pin "r18"
-				)
-				( pin "r19"
-				)
-				( pin "r20"
-				)
-				( pin "r22"
-				)
-				( pin "t19"
-				)
-				( pin "t20"
-				)
-				( pin "t21"
-				)
-				( pin "t22"
-				)
-				( pin "u21"
-				)
-				( pin "u22"
-				)
-				( pin "v20"
-				)
-				( pin "v21"
-				)
-				( pin "w20"
-				)
-				( pin "w21"
-				)
-				( pin "w22"
-				)
-				( pin "y20"
-				)
-				( pin "y22"
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page94_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,525,650,-125"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,525,650,-200"
 					( Origin gPackager )
 				)
 				( attribute "PHYS_PAGE" "96"
-					( Origin gFrontEnd )
-				)
-				( attribute "PIN_TEXT" "MGTPTXN3_112"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -83706,7 +83382,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page91_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,1125,-100"
@@ -83982,7 +83658,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page92_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84019,7 +83695,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page92_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84056,7 +83732,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page92_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84093,13 +83769,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page92_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090549"
+				( attribute "CODE" "97090157"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "94"
@@ -84108,7 +83784,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1K-1%"
+				( attribute "VALUE" "10K-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -84130,13 +83806,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page92_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090549"
+				( attribute "CODE" "97090157"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "94"
@@ -84145,7 +83821,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1K-1%"
+				( attribute "VALUE" "10K-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -84167,7 +83843,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page91_i3"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -84204,7 +83880,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page91_i4"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -84547,13 +84223,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page94_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090231"
+				( attribute "CODE" "07090603"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "96"
@@ -84584,13 +84260,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090231"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "78"
@@ -84599,7 +84275,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100"
+				( attribute "VALUE" "80-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -84621,7 +84297,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -84658,7 +84334,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i6"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84695,7 +84371,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i7"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84769,7 +84445,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i9"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -84806,7 +84482,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i11"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84843,7 +84519,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i12"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84880,7 +84556,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i13"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84917,7 +84593,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i14"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84954,7 +84630,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i15"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -84991,7 +84667,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i16"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85028,7 +84704,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i17"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85065,7 +84741,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i18"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85102,7 +84778,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i19"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85139,7 +84815,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i20"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
@@ -85176,7 +84852,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i21"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85213,7 +84889,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i22"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1100,250,-425"
@@ -85231,10 +84907,10 @@
 				( attribute "XY" "(-1550,4850)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CHIPS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CDS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE97_I22" )
@@ -85322,7 +84998,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page76_i26"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1100,250,-425"
@@ -85340,10 +85016,10 @@
 				( attribute "XY" "(-1600,4850)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CHIPS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CDS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE76_I26" )
@@ -85468,7 +85144,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i5"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85505,7 +85181,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i10"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "capcitor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
@@ -85542,7 +85218,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page97_i25"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1400,325,-1850"
@@ -85560,10 +85236,10 @@
 				( attribute "XY" "(-7450,4400)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CHIPS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "MT41K256M16HA-125"
+				( attribute "CDS_PART_NAME" "MT41K512M16HA-125"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE97_I25" )
@@ -85870,7 +85546,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090549"
+				( attribute "CODE" "97090157"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "98"
@@ -85879,7 +85555,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1K-1%"
+				( attribute "VALUE" "10K-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -85907,7 +85583,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090549"
+				( attribute "CODE" "97090157"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "98"
@@ -85916,7 +85592,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1K-1%"
+				( attribute "VALUE" "10K-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -86164,7 +85840,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i110"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -86723,7 +86399,7 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i62"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "inductor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
@@ -87890,43 +87566,186 @@
 				( pin "b"
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page88_i111"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page96_i15"
+				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,125,-150"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1900,1150,-100"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "90"
+				( attribute "PHYS_PAGE" "98"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "HEAD1X3"
+				( attribute "VALUE" "XC7Z015_1CLG485C"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "7"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3850,6400)"
+				( attribute "XY" "(-5850,4500)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "HEAD1X3_S"
+				( attribute "CHIPS_PART_NAME" "XC7Z015_1CLG485C"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "HEAD1X3_S-HEAD1X3"
+				( attribute "CDS_PART_NAME" "XC7Z015_1CLG485C-XC7Z015_1CLG4A"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE88_I111" )
-				( pin "a1"
+				( objectStatus "PAGE96_I15" )
+				( pin "aa21"
 				)
-				( pin "a2"
+				( pin "aa22"
 				)
-				( pin "a3"
+				( pin "b21"
+				)
+				( pin "b22"
+				)
+				( pin "c20"
+				)
+				( pin "c21"
+				)
+				( pin "d20"
+				)
+				( pin "d21"
+				)
+				( pin "d22"
+				)
+				( pin "e20"
+				)
+				( pin "e22"
+				)
+				( pin "f19"
+				)
+				( pin "f20"
+				)
+				( pin "f21"
+				)
+				( pin "f22"
+				)
+				( pin "g13"
+				)
+				( pin "g18"
+				)
+				( pin "g19"
+				)
+				( pin "g21"
+				)
+				( pin "g22"
+				)
+				( pin "h16"
+				)
+				( pin "h18"
+				)
+				( pin "h19"
+				)
+				( pin "h20"
+				)
+				( pin "h21"
+				)
+				( pin "j16"
+				)
+				( pin "j17"
+				)
+				( pin "j18"
+				)
+				( pin "j20"
+				)
+				( pin "j21"
+				)
+				( pin "j22"
+				)
+				( pin "k17"
+				)
+				( pin "k18"
+				)
+				( pin "k19"
+				)
+				( pin "k20"
+				)
+				( pin "k22"
+				)
+				( pin "l16"
+				)
+				( pin "l17"
+				)
+				( pin "l19"
+				)
+				( pin "l20"
+				)
+				( pin "l21"
+				)
+				( pin "l22"
+				)
+				( pin "m16"
+				)
+				( pin "m17"
+				)
+				( pin "m18"
+				)
+				( pin "m19"
+				)
+				( pin "m21"
+				)
+				( pin "m22"
+				)
+				( pin "n16"
+				)
+				( pin "n18"
+				)
+				( pin "n19"
+				)
+				( pin "n20"
+				)
+				( pin "n21"
+				)
+				( pin "p16"
+				)
+				( pin "p17"
+				)
+				( pin "p18"
+				)
+				( pin "p20"
+				)
+				( pin "p21"
+				)
+				( pin "p22"
+				)
+				( pin "r18"
+				)
+				( pin "r19"
+				)
+				( pin "r20"
+				)
+				( pin "r22"
+				)
+				( pin "t19"
+				)
+				( pin "t20"
+				)
+				( pin "t21"
+				)
+				( pin "t22"
+				)
+				( pin "u21"
+				)
+				( pin "u22"
+				)
+				( pin "v20"
+				)
+				( pin "v21"
+				)
+				( pin "w20"
+				)
+				( pin "w21"
+				)
+				( pin "w22"
+				)
+				( pin "y20"
+				)
+				( pin "y22"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page73_i1"
@@ -99218,6 +99037,163 @@
 				( pin "\5\"
 				)
 				( pin "\6\"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page81_i63"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-600,125,600,-1650"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "83"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE1" "XC6SLX16CSG324"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5550,6200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC6SLX16CSG324"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC6SLX16CSG324-XC6SLX16CSG324"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "XC6SLX16CSG324"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE81_I63" )
+				( pin "io_l1n_a24_vref_1"
+				)
+				( pin "io_l1p_a25_1"
+				)
+				( pin "io_l29n_a22_m1a14_1"
+				)
+				( pin "io_l29p_a23_m1a13_1"
+				)
+				( pin "io_l30n_a20_m1a11_1"
+				)
+				( pin "io_l30p_a21_m1reset_1"
+				)
+				( pin "io_l31n_a18_m1a12_1"
+				)
+				( pin "io_l31p_a19_m1cke_1"
+				)
+				( pin "io_l32n_a16_m1a9_1"
+				)
+				( pin "io_l32p_a17_m1a8_1"
+				)
+				( pin "io_l33n_a14_m1a4_1"
+				)
+				( pin "io_l33p_a15_m1a10_1"
+				)
+				( pin "io_l34n_a12_m1ba2_1"
+				)
+				( pin "io_l34p_a13_m1we_1"
+				)
+				( pin "io_l35n_a10_m1a2_1"
+				)
+				( pin "io_l35p_a11_m1a7_1"
+				)
+				( pin "io_l36n_a8_m1ba1_1"
+				)
+				( pin "io_l36p_a9_m1ba0_1"
+				)
+				( pin "io_l37n_a6_m1a1_1"
+				)
+				( pin "io_l37p_a7_m1a0_1"
+				)
+				( pin "io_l38n_a4_m1clkn_1"
+				)
+				( pin "io_l38p_a5_m1clk_1"
+				)
+				( pin "io_l39n_m1odt_1"
+				)
+				( pin "io_l39p_m1a3_1"
+				)
+				( pin "io_l40n_gclk10_m1a6_1"
+				)
+				( pin "io_l40p_gclk11_m1a5_1"
+				)
+				( pin "io_l41n_gclk8_m1casn_1"
+				)
+				( pin "io_l41p_gclk9_irdy1_m1rasn_1"
+				)
+				( pin "io_l42n_gclk6_trdy1_m1ldm_1"
+				)
+				( pin "io_l42p_gclk7_m1udm_1"
+				)
+				( pin "io_l43n_gclk4_m1dq5_1"
+				)
+				( pin "io_l43p_gclk5_m1dq4_1"
+				)
+				( pin "io_l44n_a2_m1dq7_1"
+				)
+				( pin "io_l44p_a3_m1dq6_1"
+				)
+				( pin "io_l45n_a0_m1ldqsn_1"
+				)
+				( pin "io_l45p_a1_m1ldqs_1"
+				)
+				( pin "io_l46n_foe_b_m1dq3_1"
+				)
+				( pin "io_l46p_fcs_b_m1dq2_1"
+				)
+				( pin "io_l47n_ldc_m1dq1_1"
+				)
+				( pin "io_l47p_fwe_b_m1dq0_1"
+				)
+				( pin "io_l48n_m1dq9_1"
+				)
+				( pin "io_l48p_hdc_m1dq8_1"
+				)
+				( pin "io_l49n_m1dq11_1"
+				)
+				( pin "io_l49p_m1dq10_1"
+				)
+				( pin "io_l50n_m1udqsn_1"
+				)
+				( pin "io_l50p_m1udqs_1"
+				)
+				( pin "io_l51n_m1dq13_1"
+				)
+				( pin "io_l51p_m1dq12_1"
+				)
+				( pin "io_l52n_m1dq15_1"
+				)
+				( pin "io_l52p_m1dq14_1"
+				)
+				( pin "io_l53n_vref_1"
+				)
+				( pin "io_l53p_1"
+				)
+				( pin "io_l61n_1"
+				)
+				( pin "io_l61p_1"
+				)
+				( pin "io_l74n_dout_busy_1"
+				)
+				( pin "io_l74p_awake_1"
+				)
+				( pin "vcco1_1"
+				)
+				( pin "vcco2_1"
+				)
+				( pin "vcco3_1"
+				)
+				( pin "vcco4_1"
+				)
+				( pin "vcco5_1"
+				)
+				( pin "vcco6_1"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page18_i2:a21"
