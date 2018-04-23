@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1509 )
+			( logicalViewRevNum 1521 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -74,6 +74,22 @@
 		)
 		( Attribute
 			( Name "PIN_TEXT" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "VAULE" )
 			( Description " " )
 			( Value
 				( DataType ( dString ) )
@@ -9525,7 +9541,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -9537,7 +9553,10 @@
 				( attribute "CHIPS_PART_NAME" "ADV7612BSWZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7612BSWZ-ADV7612BSWZ"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-1200,2000,1200,-1900"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE6_I1" )
@@ -9641,7 +9660,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -9656,7 +9675,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-1400,1800,1400,-1700"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7612BSWZ-ADV7612BSWZ"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE5_I1" )
@@ -12792,7 +12811,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7511KSTZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -12807,8 +12826,11 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-1200,3500,1200,-3500"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7511KSTZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7511KSTZ-ADV7511KSTZ"
 					( Origin gPackager )
+				)
+				( attribute "VAULE" "ADV7511"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE8_I1" )
 				( pin "avdd"
@@ -16330,8 +16352,11 @@
 				( attribute "CHIPS_PART_NAME" "88E1111"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "88E1111"
+				( attribute "CDS_PART_NAME" "88E1111-88E1111"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "88E1111"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE11_I1" )
 				( pin "a1"
@@ -16499,8 +16524,11 @@
 				( attribute "CHIPS_PART_NAME" "88E1111"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "88E1111"
+				( attribute "CDS_PART_NAME" "88E1111-88E1111"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "88E1111"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE11_I2" )
 				( pin "b4"
@@ -20177,7 +20205,7 @@
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1400,375,-2450"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1400,375,-2500"
 					( Origin gPackager )
 				)
 				( attribute "PHYS_PAGE" "15"
@@ -20195,8 +20223,11 @@
 				( attribute "CHIPS_PART_NAME" "CY7C68013A-56PVXC"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CY7C68013A-56PVXC"
+				( attribute "CDS_PART_NAME" "CY7C68013A-56PVXC-CY7C68013A-5A"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "CY7C68013A-56PVXC"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE14_I1" )
 				( pin "\1\"
@@ -33005,7 +33036,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -33017,7 +33048,10 @@
 				( attribute "CHIPS_PART_NAME" "ADV7612BSWZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7612BSWZ-ADV7612BSWZ"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-1200,2000,1200,-1900"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE34_I2" )
@@ -34456,7 +34490,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -34468,7 +34502,7 @@
 				( attribute "CHIPS_PART_NAME" "ADV7612BSWZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7612BSWZ-ADV7612BSWZ"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE33_I42" )
@@ -38160,7 +38194,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7511KSTZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -38172,7 +38206,7 @@
 				( attribute "CHIPS_PART_NAME" "ADV7511KSTZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7511KSTZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7511KSTZ-ADV7511KSTZ"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE36_I61" )
@@ -64213,7 +64247,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7511KSTZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -64225,7 +64259,7 @@
 				( attribute "CHIPS_PART_NAME" "ADV7511KSTZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7511KSTZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7511KSTZ-ADV7511KSTZ"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE68_I61" )

@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1506 )
+			( logicalViewRevNum 1518 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -74,6 +74,22 @@
 		)
 		( Attribute
 			( Name "PIN_TEXT" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "VAULE" )
 			( Description " " )
 			( Value
 				( DataType ( dString ) )
@@ -9525,7 +9541,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -9538,6 +9554,9 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-1200,2000,1200,-1900"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE6_I1" )
@@ -9641,7 +9660,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -12792,7 +12811,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7511KSTZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -12807,8 +12826,11 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-1200,3500,1200,-3500"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7511KSTZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7511KSTZ-ADV7511KSTZ"
 					( Origin gPackager )
+				)
+				( attribute "VAULE" "ADV7511"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE8_I1" )
 				( pin "avdd"
@@ -16330,8 +16352,11 @@
 				( attribute "CHIPS_PART_NAME" "88E1111"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "88E1111"
+				( attribute "CDS_PART_NAME" "88E1111-88E1111"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "88E1111"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE11_I1" )
 				( pin "a1"
@@ -16499,8 +16524,11 @@
 				( attribute "CHIPS_PART_NAME" "88E1111"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "88E1111"
+				( attribute "CDS_PART_NAME" "88E1111-88E1111"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "88E1111"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "PAGE11_I2" )
 				( pin "b4"
@@ -33005,7 +33033,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7612BSWZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -33018,6 +33046,9 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "ADV7612BSWZ_-BASE"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-1200,2000,1200,-1900"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE34_I2" )
@@ -38160,7 +38191,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7511KSTZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -38172,7 +38203,7 @@
 				( attribute "CHIPS_PART_NAME" "ADV7511KSTZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7511KSTZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7511KSTZ-ADV7511KSTZ"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE36_I61" )
@@ -64213,7 +64244,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "<< NULL >>"
+				( attribute "VALUE" "ADV7511KSTZ"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -64225,7 +64256,7 @@
 				( attribute "CHIPS_PART_NAME" "ADV7511KSTZ"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADV7511KSTZ_-BASE"
+				( attribute "CDS_PART_NAME" "ADV7511KSTZ-ADV7511KSTZ"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE68_I61" )
@@ -83309,199 +83340,14 @@
 				( pin "h6"
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page96_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page94_i1"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1900,1150,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "98"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7Z015_1CLG485C"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "7"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-5850,4500)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7Z015_1CLG485C"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7Z015_1CLG485C-XC7Z015_1CLG4A"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE96_I1" )
-				( pin "aa21"
-				)
-				( pin "aa22"
-				)
-				( pin "b21"
-				)
-				( pin "b22"
-				)
-				( pin "c20"
-				)
-				( pin "c21"
-				)
-				( pin "d20"
-				)
-				( pin "d21"
-				)
-				( pin "d22"
-				)
-				( pin "e20"
-				)
-				( pin "e22"
-				)
-				( pin "f19"
-				)
-				( pin "f20"
-				)
-				( pin "f21"
-				)
-				( pin "f22"
-				)
-				( pin "g13"
-				)
-				( pin "g18"
-				)
-				( pin "g19"
-				)
-				( pin "g21"
-				)
-				( pin "g22"
-				)
-				( pin "h16"
-				)
-				( pin "h18"
-				)
-				( pin "h19"
-				)
-				( pin "h20"
-				)
-				( pin "h21"
-				)
-				( pin "j16"
-				)
-				( pin "j17"
-				)
-				( pin "j18"
-				)
-				( pin "j20"
-				)
-				( pin "j21"
-				)
-				( pin "j22"
-				)
-				( pin "k17"
-				)
-				( pin "k18"
-				)
-				( pin "k19"
-				)
-				( pin "k20"
-				)
-				( pin "k22"
-				)
-				( pin "l16"
-				)
-				( pin "l17"
-				)
-				( pin "l19"
-				)
-				( pin "l20"
-				)
-				( pin "l21"
-				)
-				( pin "l22"
-				)
-				( pin "m16"
-				)
-				( pin "m17"
-				)
-				( pin "m18"
-				)
-				( pin "m19"
-				)
-				( pin "m21"
-				)
-				( pin "m22"
-				)
-				( pin "n16"
-				)
-				( pin "n18"
-				)
-				( pin "n19"
-				)
-				( pin "n20"
-				)
-				( pin "n21"
-				)
-				( pin "p16"
-				)
-				( pin "p17"
-				)
-				( pin "p18"
-				)
-				( pin "p20"
-				)
-				( pin "p21"
-				)
-				( pin "p22"
-				)
-				( pin "r18"
-				)
-				( pin "r19"
-				)
-				( pin "r20"
-				)
-				( pin "r22"
-				)
-				( pin "t19"
-				)
-				( pin "t20"
-				)
-				( pin "t21"
-				)
-				( pin "t22"
-				)
-				( pin "u21"
-				)
-				( pin "u22"
-				)
-				( pin "v20"
-				)
-				( pin "v21"
-				)
-				( pin "w20"
-				)
-				( pin "w21"
-				)
-				( pin "w22"
-				)
-				( pin "y20"
-				)
-				( pin "y22"
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page94_i1"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,525,650,-125"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,525,650,-200"
 					( Origin gPackager )
 				)
 				( attribute "PHYS_PAGE" "96"
-					( Origin gFrontEnd )
-				)
-				( attribute "PIN_TEXT" "MGTPTXN3_112"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -84408,13 +84254,13 @@
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page94_i2"
-				( attribute "CDS_LIB" "kvm_matrix_lib"
+				( attribute "CDS_LIB" "resistor"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090231"
+				( attribute "CODE" "07090603"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "96"
@@ -85731,7 +85577,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090549"
+				( attribute "CODE" "97090157"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "98"
@@ -85740,7 +85586,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1K-1%"
+				( attribute "VALUE" "10K-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -85768,7 +85614,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,25,100,-25"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "07090549"
+				( attribute "CODE" "97090157"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "98"
@@ -85777,7 +85623,7 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1K-1%"
+				( attribute "VALUE" "10K-1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -87749,6 +87595,188 @@
 				( pin "a"
 				)
 				( pin "b"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page96_i15"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1900,1150,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "98"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7Z015_1CLG485C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5850,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7Z015_1CLG485C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7Z015_1CLG485C-XC7Z015_1CLG4A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE96_I15" )
+				( pin "aa21"
+				)
+				( pin "aa22"
+				)
+				( pin "b21"
+				)
+				( pin "b22"
+				)
+				( pin "c20"
+				)
+				( pin "c21"
+				)
+				( pin "d20"
+				)
+				( pin "d21"
+				)
+				( pin "d22"
+				)
+				( pin "e20"
+				)
+				( pin "e22"
+				)
+				( pin "f19"
+				)
+				( pin "f20"
+				)
+				( pin "f21"
+				)
+				( pin "f22"
+				)
+				( pin "g13"
+				)
+				( pin "g18"
+				)
+				( pin "g19"
+				)
+				( pin "g21"
+				)
+				( pin "g22"
+				)
+				( pin "h16"
+				)
+				( pin "h18"
+				)
+				( pin "h19"
+				)
+				( pin "h20"
+				)
+				( pin "h21"
+				)
+				( pin "j16"
+				)
+				( pin "j17"
+				)
+				( pin "j18"
+				)
+				( pin "j20"
+				)
+				( pin "j21"
+				)
+				( pin "j22"
+				)
+				( pin "k17"
+				)
+				( pin "k18"
+				)
+				( pin "k19"
+				)
+				( pin "k20"
+				)
+				( pin "k22"
+				)
+				( pin "l16"
+				)
+				( pin "l17"
+				)
+				( pin "l19"
+				)
+				( pin "l20"
+				)
+				( pin "l21"
+				)
+				( pin "l22"
+				)
+				( pin "m16"
+				)
+				( pin "m17"
+				)
+				( pin "m18"
+				)
+				( pin "m19"
+				)
+				( pin "m21"
+				)
+				( pin "m22"
+				)
+				( pin "n16"
+				)
+				( pin "n18"
+				)
+				( pin "n19"
+				)
+				( pin "n20"
+				)
+				( pin "n21"
+				)
+				( pin "p16"
+				)
+				( pin "p17"
+				)
+				( pin "p18"
+				)
+				( pin "p20"
+				)
+				( pin "p21"
+				)
+				( pin "p22"
+				)
+				( pin "r18"
+				)
+				( pin "r19"
+				)
+				( pin "r20"
+				)
+				( pin "r22"
+				)
+				( pin "t19"
+				)
+				( pin "t20"
+				)
+				( pin "t21"
+				)
+				( pin "t22"
+				)
+				( pin "u21"
+				)
+				( pin "u22"
+				)
+				( pin "v20"
+				)
+				( pin "v21"
+				)
+				( pin "w20"
+				)
+				( pin "w21"
+				)
+				( pin "w22"
+				)
+				( pin "y20"
+				)
+				( pin "y22"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page73_i1"

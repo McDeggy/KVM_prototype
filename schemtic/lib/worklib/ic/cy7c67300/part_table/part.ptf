@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CY7C67300'
+
+{========================================================================================}
+:VALUE(OPT)         = PART_NUMBER | PART_NAME          | JEDEC_TYPE | DESCRIPTION      | MANUFACTURER ;
+{========================================================================================}
+ 'CY7C67300-100AXI'(!) = ''          | 'CY7C67300-100AXI' | 'TQFP100'  | 'USB Controller' | 'Cypress'   
+
+END_PART
+
+END.
+

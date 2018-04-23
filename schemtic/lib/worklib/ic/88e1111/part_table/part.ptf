@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '88E1111'
+
+{========================================================================================}
+:VALUE(OPT)   = PART_NUMBER | PART_NAME            | JEDEC_TYPE | DESCRIPTION       | MANUFACTURER ;
+{========================================================================================}
+ '88E1111'(!) = ''          | '88E1111B2-BAB1C000' | 'TFBGA117' | 'GE PHY with SFP' | 'Marvell'   
+
+END_PART
+
+END.
+

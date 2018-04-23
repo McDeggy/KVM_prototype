@@ -1,11 +1,13 @@
 FILE_TYPE = MULTI_PHYS_TABLE;
 
 PART 'ADV7511KSTZ'
-CLASS = IC
+
 {========================================================================================}
-:"PACK_TYPE", "Value" = "PART_NUMBER", "JEDEC_TYPE";
+:VALUE(OPT)    = PART_NUMBER | PART_NAME     | JEDEC_TYPE | DESCRIPTION                        | MANUFACTURER ;
 {========================================================================================}
- "", "" (!) = "ADV7511KSTZ", "ST_100_1"
+ 'ADV7511KSTZ'(!) = ''          | 'ADV7511KSTZ' | 'LQFP100'  | '225MHz HDMI Transmitter with ARC' | 'ADI'       
+
 END_PART
 
 END.
+

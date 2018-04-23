@@ -1,11 +1,13 @@
 FILE_TYPE = MULTI_PHYS_TABLE;
 
 PART 'ADV7612BSWZ'
-CLASS = IC
+
 {========================================================================================}
-:"PACK_TYPE", "Value" = "PART_NUMBER", "JEDEC_TYPE";
+:VALUE(OPT)    = PART_NUMBER | PART_NAME     | JEDEC_TYPE   | DESCRIPTION                           | MANUFACTURER ;
 {========================================================================================}
- "", "" (!) = "ADV7612BSWZ", "SW_100_2"
+ 'ADV7612BSWZ'(!) = ''          | 'ADV7612BSWZ' | 'LQFP_EP100' | '225MHz HDMI Receiver with Dual Port' | 'ADI'       
+
 END_PART
 
 END.
+
