@@ -1,0 +1,53 @@
+;setSkillPath(buildString(append1(getSkillPath()  "%CDSROOT%\pcbenv\skill"))) 
+;sstatus(fullPrecision t)  ; don't truncate floats
+ 
+load("cal_start_name.il")		;;Cline & net length calculator
+load("check_short_segs.il")		;; Check vertex inside the pad 
+load("checkboundary.il")		;;Ckeck board size 
+load("checksmttppad.il")		;;Check smt TP location
+load("checkWidth.il")	  	;;Check area width 
+load("clinecut.il")	   		;;Cut cline	
+load("cnv_height.il")		;;Convert height text from mil to database units
+load("conv.il")			;;Unit calcuator	   
+load("COT.il") 			;; Create oblong thermal flash  
+load("createmenu.il")  		;;Create toolbar menu
+load("cutshape.il")	 		;;Cut shape
+load("cwidth.il")	   		;;Change whole layer width	
+load("drc_walk.il")		;;DRC Walk	
+load("foxAllegroCmpCenterRep.il") ;; Component centroid report	
+load("foxEtchLayerView.il")	;;Change etch layer
+load("foxRepTestPoint.il")		;;CP function TP report  
+load("height_check.il")		;;Check Component height	   
+load("highlight_padstack.il")	;;Check Padstack & Drill	
+load("hl_npe.il")			;;Hilight without Pin Escape   
+load("hl_ntp.il")			;;Hilight without Test Point    
+load("killallxdrc.il")		;;Clear extend DRC Mark     	   
+load("mot_find_stubs.il")		;;Check Stubs	   
+load("no_drc.il")	  		;;Check Pin with NO_DRC  
+load("pdi_vis.il")	   		;;Etch Visibility
+load("replace_update_via.il")	;;Replace Vias or Pin Padstack	   
+load("replace_via.il")		;;Update a Via	  
+load("rm_nc_via.il")		;;Delete Unconnected Vias   
+load("shape_push.il")		;;Copy Shape to another layer   
+load("show_library.il")		;;List symbol's libtary path
+load("unfixall.il")		               ;;Delete inherence fix property  
+axlShell("alias F12 12")         	               ;;check 文字方向
+axlShell("alias F11 11")	     	               ;; check 文字方向
+
+load("s1001.il")    ;;check 文字方向
+load("s1002.il")       ;;check VCC層銅箔一方跨moat的via	
+load("s1003.il")       ;;check 	文字不能壓via	silkscreen  pad  
+load("s1004.il")     ;;mirror VIA, SHAPE, SYMBOL和clines
+load("s1005.il")      ;;checkshape上的void
+load("s1006.il")     ;;查找機構中沒有給出中心位置的pin的中心坐標
+load("s1007.il")     ;;查找BF中空via,和具有電氣屬性但是沒有任何連接的via
+load("s1008.il")
+load("s1009.il")
+load("s1109.il")      ;;check outline shape上的stubs
+load("checkBRDbyDRC.il") 
+load("cwidth.il"
+
+load("CreateShape.il")	
+load("Textcheck.il")
+load("CadSkill.il")
+load("10route.il")
