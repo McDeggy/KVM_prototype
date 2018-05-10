@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Fri May 04 23:12:27 2018
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Wed May 09 15:16:47 2018
 #ISCELL
   standard c#20size#20page *
   *
@@ -9,7 +9,7 @@
   connector 6pin *
   page1_i1
 #CELL
-  diode mbrd835l *
+  diode1 mbrd835l *
   page1_i10
 #ISCELL
   standard gnd_signal *
@@ -30,89 +30,14 @@
   standard gnd_signal *
   page1_i6
 #CELL
-  diode mbrd835l *
+  diode1 mbrd835l *
   page1_i7
 #CELL
-  diode mbrd835l *
+  diode1 mbrd835l *
   page1_i8
 #CELL
-  diode mbrd835l *
+  diode1 mbrd835l *
   page1_i9
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
-#ISCELL
-  standard c#20size#20page *
-  *
 #ISCELL
   standard c#20size#20page *
   *
@@ -128,27 +53,6 @@
 #ISCELL
   standard gnd_signal *
   page30_i11
-#CELL
-  resistor r *
-  page30_i12
-#CELL
-  resistor r *
-  page30_i13
-#CELL
-  resistor r *
-  page30_i14
-#CELL
-  resistor r *
-  page30_i15
-#CELL
-  resistor r *
-  page30_i16
-#CELL
-  resistor r *
-  page30_i17
-#CELL
-  resistor r *
-  page30_i18
 #CELL
   resistor r *
   page30_i19
@@ -201,8 +105,32 @@
   resistor r *
   page30_i35
 #CELL
+  resistor r *
+  page30_i36
+#CELL
+  resistor r *
+  page30_i37
+#CELL
+  resistor r *
+  page30_i38
+#CELL
+  resistor r *
+  page30_i39
+#CELL
   capcitor c *
   page30_i4
+#CELL
+  resistor r *
+  page30_i40
+#CELL
+  resistor r *
+  page30_i41
+#CELL
+  resistor r *
+  page30_i42
+#CELL
+  resistor r *
+  page30_i43
 #CELL
   capcitor c *
   page30_i5
@@ -212,9 +140,6 @@
 #CELL
   capcitor cp *
   page30_i7
-#CELL
-  resistor r *
-  page30_i8
 #CELL
   capcitor cp *
   page30_i9
@@ -242,18 +167,6 @@
 #CELL
   capcitor cp *
   page31_i104
-#CELL
-  resistor r *
-  page31_i105
-#CELL
-  resistor r *
-  page31_i106
-#CELL
-  resistor r *
-  page31_i107
-#CELL
-  resistor r *
-  page31_i108
 #ISCELL
   standard gnd_signal *
   page31_i109
@@ -263,23 +176,11 @@
 #CELL
   inductor l *
   page31_i110
-#CELL
-  resistor r *
-  page31_i111
-#CELL
-  resistor r *
-  page31_i112
-#CELL
-  resistor r *
-  page31_i113
-#CELL
-  resistor r *
-  page31_i114
 #ISCELL
   standard gnd_signal *
   page31_i115
 #CELL
-  diode led_s *
+  diode1 led_s *
   page31_i116
 #CELL
   resistor r *
@@ -287,9 +188,6 @@
 #CELL
   transistor npn *
   page31_i118
-#ISCELL
-  standard outport *
-  page31_i119
 #CELL
   resistor r *
   page31_i12
@@ -323,9 +221,6 @@
 #CELL
   resistor r *
   page31_i129
-#ISCELL
-  standard inport *
-  page31_i13
 #CELL
   resistor r *
   page31_i130
@@ -338,9 +233,54 @@
 #CELL
   capcitor c *
   page31_i133
-#ISCELL
-  standard inport *
-  page31_i14
+#CELL
+  resistor r *
+  page31_i134
+#CELL
+  resistor r *
+  page31_i135
+#CELL
+  resistor r *
+  page31_i136
+#CELL
+  resistor r *
+  page31_i137
+#CELL
+  resistor r *
+  page31_i138
+#CELL
+  resistor r *
+  page31_i139
+#CELL
+  resistor r *
+  page31_i140
+#CELL
+  resistor r *
+  page31_i141
+#CELL
+  resistor r *
+  page31_i142
+#CELL
+  resistor r *
+  page31_i143
+#CELL
+  resistor r *
+  page31_i144
+#CELL
+  resistor r *
+  page31_i145
+#CELL
+  resistor r *
+  page31_i146
+#CELL
+  resistor r *
+  page31_i147
+#CELL
+  resistor r *
+  page31_i148
+#CELL
+  resistor r *
+  page31_i149
 #ISCELL
   standard gnd_signal *
   page31_i15
@@ -509,9 +449,6 @@
 #ISCELL
   standard inport *
   page31_i72
-#ISCELL
-  standard outport *
-  page31_i73
 #CELL
   resistor r *
   page31_i74
@@ -520,31 +457,7 @@
   page31_i75
 #CELL
   resistor r *
-  page31_i76
-#CELL
-  resistor r *
-  page31_i77
-#CELL
-  resistor r *
-  page31_i78
-#CELL
-  resistor r *
-  page31_i79
-#CELL
-  resistor r *
   page31_i8
-#CELL
-  resistor r *
-  page31_i80
-#CELL
-  resistor r *
-  page31_i81
-#CELL
-  resistor r *
-  page31_i82
-#CELL
-  resistor r *
-  page31_i83
 #CELL
   capcitor c *
   page31_i84
@@ -758,9 +671,6 @@
 #CELL
   capcitor c *
   page33_i41
-#CELL
-  ic adv7612bswz *
-  page33_i42
 #ISCELL
   standard gnd_signal *
   page33_i43
@@ -831,6 +741,9 @@
   capcitor c *
   page33_i63
 #CELL
+  ic adv7612bswz *
+  page33_i64
+#CELL
   inductor lb *
   page33_i7
 #CELL
@@ -855,7 +768,7 @@
   standard gnd_signal *
   page35_i1
 #CELL
-  diode diode *
+  diode1 diode *
   page35_i10
 #ISCELL
   standard gnd_signal *
@@ -1182,9 +1095,6 @@
   capcitor c *
   page37_i19
 #CELL
-  protection rclamp0524p *
-  page37_i2
-#CELL
   resistor r *
   page37_i20
 #CELL
@@ -1194,7 +1104,7 @@
   resistor r *
   page37_i22
 #CELL
-  diode diode *
+  diode1 diode *
   page37_i23
 #CELL
   resistor r *
@@ -1211,18 +1121,21 @@
 #CELL
   connector hdmi-a *
   page37_i28
+#CELL
+  protection rclamp0524p *
+  page37_i29
 #ISCELL
   standard gnd_signal *
   page37_i3
 #CELL
   protection rclamp0524p *
-  page37_i4
+  page37_i30
+#CELL
+  protection rclamp0524p *
+  page37_i31
 #ISCELL
   standard gnd_signal *
   page37_i5
-#CELL
-  protection rclamp0524p *
-  page37_i6
 #ISCELL
   standard gnd_signal *
   page37_i7
@@ -1242,7 +1155,7 @@
   standard c#20size#20page *
   *
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i1
 #CELL
   capcitor c *
@@ -1275,7 +1188,7 @@
   capcitor c *
   page98_i19
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i2
 #CELL
   capcitor c *
@@ -1308,7 +1221,7 @@
   resistor r *
   page98_i29
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i3
 #CELL
   capcitor c *
@@ -1326,22 +1239,22 @@
   ic usb3300 *
   page98_i34
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i35
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i36
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i37
 #CELL
   resistor r *
   page98_i38
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i39
 #CELL
-  diode diode *
+  diode1 diode *
   page98_i4
 #CELL
   resistor r *
@@ -1368,7 +1281,7 @@
   capcitor c *
   page99_i10
 #CELL
-  diode led_s *
+  diode1 led_s *
   page99_i100
 #ISCELL
   standard gnd_signal *
@@ -1668,13 +1581,13 @@
   connector usb_dul *
   page99_i96
 #CELL
-  diode led_s *
+  diode1 led_s *
   page99_i97
 #CELL
-  diode led_s *
+  diode1 led_s *
   page99_i98
 #CELL
-  diode led_s *
+  diode1 led_s *
   page99_i99
 #ISCELL
   standard c#20size#20page *
@@ -1700,12 +1613,9 @@
 #ISCELL
   standard gnd_signal *
   page40_i15
-#ISCELL
-  standard gnd_signal *
-  page40_i2
 #CELL
-  connector usb_a_x2 *
-  page40_i3
+  connector usb_dul *
+  page40_i16
 #ISCELL
   standard gnd_signal *
   page40_i4
@@ -2862,7 +2772,7 @@
   resistor r *
   page51_i35
 #CELL
-  diode led_s *
+  diode1 led_s *
   page51_i36
 #ISCELL
   standard gnd_signal *
@@ -3489,7 +3399,7 @@
   standard gnd_signal *
   page66_i77
 #CELL
-  diode led_s *
+  diode1 led_s *
   page66_i78
 #CELL
   resistor r *
@@ -3786,9 +3696,6 @@
   standard c#20size#20page *
   *
 #CELL
-  protection rclamp0524p *
-  page69_i1
-#CELL
   resistor r *
   page69_i10
 #CELL
@@ -3834,7 +3741,7 @@
   resistor r *
   page69_i23
 #CELL
-  diode diode *
+  diode1 diode *
   page69_i24
 #CELL
   resistor r *
@@ -3848,18 +3755,21 @@
 #CELL
   inductor lb *
   page69_i28
+#CELL
+  protection rclamp0524p *
+  page69_i29
 #ISCELL
   standard gnd_signal *
   page69_i3
 #CELL
   protection rclamp0524p *
-  page69_i4
+  page69_i30
+#CELL
+  protection rclamp0524p *
+  page69_i31
 #ISCELL
   standard gnd_signal *
   page69_i5
-#CELL
-  protection rclamp0524p *
-  page69_i6
 #ISCELL
   standard gnd_signal *
   page69_i7
@@ -3971,12 +3881,9 @@
 #ISCELL
   standard gnd_signal *
   page72_i15
-#ISCELL
-  standard gnd_signal *
-  page72_i2
 #CELL
-  connector usb_a_x2 *
-  page72_i3
+  connector usb_dul *
+  page72_i16
 #ISCELL
   standard gnd_signal *
   page72_i4
@@ -4068,38 +3975,38 @@
   capcitor c *
   page73_i3
 #CELL
-  diode diode *
-  page73_i30
-#CELL
-  diode diode *
-  page73_i31
-#CELL
-  diode diode *
-  page73_i32
-#CELL
-  diode diode *
-  page73_i33
-#CELL
   resistor r *
   page73_i34
-#CELL
-  diode diode *
-  page73_i35
-#CELL
-  diode diode *
-  page73_i36
-#CELL
-  diode diode *
-  page73_i37
-#CELL
-  diode diode *
-  page73_i38
 #CELL
   resistor r *
   page73_i39
 #CELL
   capcitor c *
   page73_i4
+#CELL
+  diode1 diode *
+  page73_i40
+#CELL
+  diode1 diode *
+  page73_i41
+#CELL
+  diode1 diode *
+  page73_i42
+#CELL
+  diode1 diode *
+  page73_i43
+#CELL
+  diode1 diode *
+  page73_i44
+#CELL
+  diode1 diode *
+  page73_i45
+#CELL
+  diode1 diode *
+  page73_i46
+#CELL
+  diode1 diode *
+  page73_i47
 #CELL
   inductor lb *
   page73_i5
@@ -4341,13 +4248,13 @@
   resistor r *
   page74_i70
 #CELL
-  diode led_s *
+  diode1 led_s *
   page74_i71
 #ISCELL
   standard gnd_signal *
   page74_i72
 #CELL
-  diode led_s *
+  diode1 led_s *
   page74_i73
 #CELL
   resistor r *
@@ -4356,13 +4263,13 @@
   resistor r *
   page74_i75
 #CELL
-  diode led_s *
+  diode1 led_s *
   page74_i76
 #CELL
   resistor r *
   page74_i77
 #CELL
-  diode led_s *
+  diode1 led_s *
   page74_i78
 #CELL
   connector usb_dul *
@@ -4794,7 +4701,7 @@
   capcitor c *
   page78_i34
 #CELL
-  diode led_s *
+  diode1 led_s *
   page78_i35
 #CELL
   resistor r *
@@ -4803,7 +4710,7 @@
   resistor r *
   page78_i37
 #CELL
-  diode led_s *
+  diode1 led_s *
   page78_i38
 #CELL
   resistor r *
@@ -4923,14 +4830,14 @@
   standard c#20size#20page *
   *
 #CELL
-  connector rj45-ge-magnetics *
-  page79_i1
-#CELL
   inductor lb *
   page79_i2
 #ISCELL
   standard gnd_signal *
   page79_i3
+#CELL
+  connector rj45-ge-magnetics *
+  page79_i4
 #ISCELL
   standard c#20size#20page *
   *
@@ -5133,19 +5040,19 @@
   standard ioport *
   page82_i54
 #CELL
-  diode led_s *
+  diode1 led_s *
   page82_i67
 #CELL
   ic xc6slx16csg324 *
   page82_i73
 #CELL
-  diode led_s *
+  diode1 led_s *
   page82_i74
 #CELL
   resistor r *
   page82_i75
 #CELL
-  diode led_s *
+  diode1 led_s *
   page82_i76
 #CELL
   resistor r *
@@ -5256,7 +5163,7 @@
   resistor r *
   page83_i26
 #CELL
-  diode led_s *
+  diode1 led_s *
   page83_i4
 #CELL
   resistor r *
@@ -5265,7 +5172,7 @@
   resistor r *
   page83_i6
 #CELL
-  diode led_s *
+  diode1 led_s *
   page83_i7
 #ISCELL
   standard c#20size#20page *
@@ -6000,7 +5907,7 @@
   standard gnd_signal *
   page90_i16
 #CELL
-  diode led_s *
+  diode1 led_s *
   page90_i17
 #CELL
   resistor r *

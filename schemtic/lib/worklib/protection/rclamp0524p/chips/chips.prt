@@ -57,14 +57,6 @@ primitive 'RCLAMP0524P';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    '8':
-      PIN_NUMBER='(8)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
     '9':
       PIN_NUMBER='(9)';
       PIN_TYPE='ANALOG';
@@ -85,6 +77,7 @@ primitive 'RCLAMP0524P';
   body
     PART_NAME='RCLAMP0524P';
     BODY_NAME='RCLAMP0524P';
+    JEDEC_TYPE='rclamp_0524p';
     PHYS_DES_PREFIX='U';
     CLASS='IC';
   end_body;

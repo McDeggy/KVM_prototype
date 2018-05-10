@@ -1,10 +1,10 @@
 (Cell	head2x7
 
-	(RevisionInfoBlock
+	(RevisionInfoBlock	
 
 		(Baselined	0)
 
-		(Revision	1.0)
+		(Revision	1.0.2)
 
 		(ModificationStatus	NULL)
 
@@ -12,7 +12,7 @@
 
 		(ErrorStatus	0)
 
-		(CreateInfo
+		(CreateInfo	
 
 			(Time	06/19/05,23:16:30)
 
@@ -22,72 +22,179 @@
 
 		)
 
+		(LastModifyInfo	
+
+			(Time	05/09/18,15:14:43)
+
+			(User	cdj)
+
+			(Path	connector.head2x7)
+
+		)
+
 	)
 
-	(Views
+	(Views	
 
-		(View Chips
-			(Primitives	1
-				(Primitive	HEAD2X7
-					(RevisionInfoBlock
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000b548677b)
+
+					(RevisionInfoBlock	
+
 						(Baselined	0)
-						(Revision	1.0)
+
+						(Revision	1.0.0)
+
 						(ModificationStatus	NULL)
+
 						(Status	Created)
+
 						(ErrorStatus	0)
-						(CreateInfo
-							(Time	06/19/05,23:16:32)
+
+						(CreateInfo	
+
+							(Time	06/19/05,23:19:12)
+
 							(User	Laguna)
+
 							(Path	connector.head2x7)
+
 						)
+
 					)
 
-					(LogicalPhysicalPartRelation
-						(LogicalPart	HEAD2X7
-							(PackType	HEAD2X7)
+				)
+
+			)
+
+			(Checksum	000000001bf0038a)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006c4acbdf)
+
+			(Primitives	1
+
+				(Primitive	HEAD2X7
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/19/05,23:16:32)
+
+							(User	Laguna)
+
+							(Path	connector.head2x7)
+
 						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	HEAD2X7
+
+							(PackType	HEAD2X7)
+
+						)
+
 					)
 
 					(Packages	1
+
 						(FunctionGroups	1
+
 							(FunctionGroup	1[1]
-								(Linkages
+
+								(Linkages	
+
 									(Linkage	Symbol
+
 										(Name	sym_1)
+
 									)
+
 								)
+
 							)
+
 						)
+
 					)
+
 				)
+
 			)
+
 		)
 
-		(View	Symbol
-			(Symbols	1
-				(Symbol	sym_1
-					(RevisionInfoBlock
-						(Baselined	0)
-						(Revision	1.0)
-						(ModificationStatus	NULL)
-						(Status	Created)
-						(ErrorStatus	0)
-						(CreateInfo
-							(Time	06/19/05,23:19:12)
-							(User	Laguna)
-							(Path	connector.head2x7)
-						)
-					)
-				)
-			)
+		(View	VerilogWrappers
+
+			(VerilogWrapper	vlog_model)
+
 		)
 
-
-
-
-
+		(Checksum	000000001c9203bd)
 
 	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bde03a9)
 
 )
 

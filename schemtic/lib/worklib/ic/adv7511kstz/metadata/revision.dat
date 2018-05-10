@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.9)
+		(Revision	0.0.12)
 
 		(ModificationStatus	NULL)
 
@@ -24,11 +24,11 @@
 
 		(LastModifyInfo	
 
-			(Time	04/23/18,21:58:56)
+			(Time	05/08/18,15:17:58)
 
-			(User	Administrator)
+			(User	cdj)
 
-			(Path	kvm_matrix_lib.adv7511kstz)
+			(Path	ic.adv7511kstz)
 
 		)
 
@@ -42,7 +42,7 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.9)
+				(Revision	0.0.12)
 
 				(ModificationStatus	NULL)
 
@@ -104,6 +104,12 @@
 
 		)
 
+		(View	VerilogWrappers
+
+			(VerilogWrapper	vlog_model)
+
+		)
+
 		(View	Chips
 
 			(Checksum	00000000916eb662)
@@ -116,7 +122,7 @@
 
 						(Baselined	0)
 
-						(Revision	0.0.4)
+						(Revision	0.0.6)
 
 						(ModificationStatus	NULL)
 
@@ -161,6 +167,16 @@
 									)
 
 								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	lqfp100)
 
 							)
 
