@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1622 )
+			( logicalViewRevNum 1630 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -8297,7 +8297,7 @@
 				( attribute "CHIPS_PART_NAME" "TPSM84824"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "TPSM84824"
+				( attribute "CDS_PART_NAME" "TPSM84824-PTPSM84824MOLR"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U3"
@@ -8311,6 +8311,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "PTPSM84824MOLR"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U3" )
 				( pin "\1\"
@@ -10322,17 +10325,32 @@
 				( attribute "LOCATION" "S1"
 					( Origin gPackager )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "S1" )
 				( pin "a1"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
 					( objectStatus "S1.1" )
 				)
 				( pin "a2"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
 					( objectStatus "S1.2" )
 				)
 				( pin "b1"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
 					( objectStatus "S1.3" )
 				)
 				( pin "b2"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
 					( objectStatus "S1.4" )
 				)
 			)
@@ -11996,7 +12014,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10090821"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -12017,7 +12035,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-10090821,8.2UH"
+				( attribute "CDS_PART_NAME" "L-8.2UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L2"
@@ -13205,7 +13223,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10031009"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -13214,7 +13232,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "2.2UH"
+				( attribute "VALUE" "4.3UH"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -13226,7 +13244,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-10031009,2.2UH"
+				( attribute "CDS_PART_NAME" "L-4.3UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L4"
@@ -13376,7 +13394,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10031070"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -13385,7 +13403,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "2.7UH"
+				( attribute "VALUE" "2.5UH"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -13397,7 +13415,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-10031070,2.7UH"
+				( attribute "CDS_PART_NAME" "L-2.5UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L3"
@@ -14114,7 +14132,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10090821"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -14135,7 +14153,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-10090821,8.2UH"
+				( attribute "CDS_PART_NAME" "L-8.2UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L1"
@@ -44999,17 +45017,32 @@
 				( attribute "LOCATION" "S2"
 					( Origin gPackager )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "S2" )
 				( pin "a1"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
 					( objectStatus "S2.1" )
 				)
 				( pin "a2"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
 					( objectStatus "S2.2" )
 				)
 				( pin "b1"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
 					( objectStatus "S2.3" )
 				)
 				( pin "b2"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
 					( objectStatus "S2.4" )
 				)
 			)
@@ -54401,7 +54434,7 @@
 				( attribute "CHIPS_PART_NAME" "TPSM84824"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "TPSM84824"
+				( attribute "CDS_PART_NAME" "TPSM84824-PTPSM84824MOLR"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U33"
@@ -60248,17 +60281,32 @@
 				( attribute "LOCATION" "S3"
 					( Origin gPackager )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "S3" )
 				( pin "a1"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
 					( objectStatus "S3.1" )
 				)
 				( pin "a2"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
 					( objectStatus "S3.2" )
 				)
 				( pin "b1"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
 					( objectStatus "S3.3" )
 				)
 				( pin "b2"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
 					( objectStatus "S3.4" )
 				)
 			)
@@ -92909,17 +92957,32 @@
 				( attribute "LOCATION" "S4"
 					( Origin gPackager )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "S4" )
 				( pin "a1"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
 					( objectStatus "S4.1" )
 				)
 				( pin "a2"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
 					( objectStatus "S4.2" )
 				)
 				( pin "b1"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
 					( objectStatus "S4.3" )
 				)
 				( pin "b2"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
 					( objectStatus "S4.4" )
 				)
 			)
@@ -100808,7 +100871,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "200,50,450,-100"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "16100017"
+				( attribute "CODE" "16100018"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "72"
@@ -100817,7 +100880,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "RESET-SMT"
+				( attribute "VALUE" "RESETKEY-DIP"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -100829,7 +100892,7 @@
 				( attribute "CHIPS_PART_NAME" "RESETKEY"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RESETKEY-16100017,RESET-SMT"
+				( attribute "CDS_PART_NAME" "RESETKEY-16100018,RESETKEY-DIP"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "S5"
@@ -102740,7 +102803,7 @@
 				( attribute "CHIPS_PART_NAME" "WIPER-SW"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "WIPER-SW"
+				( attribute "CDS_PART_NAME" "WIPER-SW-LSK-120001A5"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U2"
@@ -102754,6 +102817,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "LSK-120001A5"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U2" )
 				( pin "\1\"
@@ -103127,7 +103193,7 @@
 				( attribute "CHIPS_PART_NAME" "WIPER-SW"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "WIPER-SW"
+				( attribute "CDS_PART_NAME" "WIPER-SW-LSK-120001A5"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U1"
@@ -103141,6 +103207,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "LSK-120001A5"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U1" )
 				( pin "\1\"
