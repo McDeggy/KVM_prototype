@@ -5,15 +5,15 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-05-13T21:58:52</modificationTime>
+    <modificationTime>2018-05-13T22:28:17</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="kvm_prototype" view="sch_1">
       <lastids>
-        <instanceid>2715</instanceid>
+        <instanceid>2716</instanceid>
         <netid>3115</netid>
-        <insttermid>12681</insttermid>
+        <insttermid>12685</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -16156,6 +16156,36 @@
             <term>
               <id>T4740</id>
               <name>k</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S133</id>
+          <library>transistor</library>
+          <name>fds9926a</name>
+          <view>sym_2</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T4765</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T4766</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T4767</id>
+              <name>7</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T4768</id>
+              <name>8</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -97810,55 +97840,6 @@
           </portinterfaces>
         </instance>
         <instance>
-          <id>I2661</id>
-          <cellid>S7</cellid>
-          <name>page31_i94</name>
-          <parameters>
-          </parameters>
-          <masks>
-          </masks>
-          <powers>
-          </powers>
-          <pins>
-            <pin>
-              <id>M12061</id>
-              <termid>T109</termid>
-              <connections>
-                <connection net="N5" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M12062</id>
-              <termid>T110</termid>
-              <connections>
-                <connection net="N909" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M12063</id>
-              <termid>T111</termid>
-              <connections>
-                <connection net="N963" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M12064</id>
-              <termid>T112</termid>
-              <connections>
-                <connection net="N963" />
-              </connections>
-            </pin>
-          </pins>
-          <differentialpins>
-          </differentialpins>
-          <differentialbuspins>
-          </differentialbuspins>
-          <portgroups>
-          </portgroups>
-          <portinterfaces>
-          </portinterfaces>
-        </instance>
-        <instance>
           <id>I2662</id>
           <cellid>S70</cellid>
           <name>page51_i44</name>
@@ -103191,6 +103172,55 @@
               <id>M12681</id>
               <termid>T4754</termid>
               <connections>
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2716</id>
+          <cellid>S133</cellid>
+          <name>page31_i94</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M12682</id>
+              <termid>T4765</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M12683</id>
+              <termid>T4766</termid>
+              <connections>
+                <connection net="N909" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M12684</id>
+              <termid>T4767</termid>
+              <connections>
+                <connection net="N963" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M12685</id>
+              <termid>T4768</termid>
+              <connections>
+                <connection net="N963" />
               </connections>
             </pin>
           </pins>

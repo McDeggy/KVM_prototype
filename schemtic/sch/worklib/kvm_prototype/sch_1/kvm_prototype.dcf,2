@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1630 )
+			( logicalViewRevNum 1632 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -12866,25 +12866,7 @@
 				( attribute "CDS_LIB" "transistor"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,375,175,-75"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "5"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "6"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-3200,6050)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "FDS9926A"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "FDS9926A"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,325,175,-125"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U6"
@@ -12893,36 +12875,35 @@
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "U6"
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "6"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FDS9926A"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3200,6000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "FDS9926A"
 					( Origin gPackager )
 				)
-				( attribute "SEC" "1"
+				( attribute "CDS_PART_NAME" "FDS9926A-FDS9926A"
 					( Origin gPackager )
 				)
-				( objectStatus "U6" )
-				( pin "\3\"
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
-					( objectStatus "U6.3" )
+				( objectStatus "PAGE31_I94" )
+				( pin "\1\"
 				)
-				( pin "\4\"
-					( attribute "PN" "4"
-						( Origin gPackager )
-					)
-					( objectStatus "U6.4" )
+				( pin "\2\"
 				)
-				( pin "\5\"
-					( attribute "PN" "5"
-						( Origin gPackager )
-					)
-					( objectStatus "U6.5" )
+				( pin "\7\"
 				)
-				( pin "\6\"
-					( attribute "PN" "6"
-						( Origin gPackager )
-					)
-					( objectStatus "U6.6" )
+				( pin "\8\"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i95"
@@ -12947,7 +12928,7 @@
 				( attribute "CHIPS_PART_NAME" "FDS9926A"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "FDS9926A"
+				( attribute "CDS_PART_NAME" "FDS9926A-FDS9926A"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U5"
@@ -12956,35 +12937,20 @@
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "U5"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
+				( attribute "VALUE" "FDS9926A"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U5" )
 				( pin "\3\"
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
 					( objectStatus "U5.3" )
 				)
 				( pin "\4\"
-					( attribute "PN" "4"
-						( Origin gPackager )
-					)
 					( objectStatus "U5.4" )
 				)
 				( pin "\5\"
-					( attribute "PN" "5"
-						( Origin gPackager )
-					)
 					( objectStatus "U5.5" )
 				)
 				( pin "\6\"
-					( attribute "PN" "6"
-						( Origin gPackager )
-					)
 					( objectStatus "U5.6" )
 				)
 			)
@@ -13757,7 +13723,7 @@
 				( attribute "CHIPS_PART_NAME" "ADP5053"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADP5053"
+				( attribute "CDS_PART_NAME" "ADP5053-ADP5053ACPZ-R7"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U4"
@@ -13771,6 +13737,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "ADP5053ACPZ-R7"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U4" )
 				( pin "\1\"
@@ -55814,7 +55783,7 @@
 				( attribute "CHIPS_PART_NAME" "ADP5053"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADP5053"
+				( attribute "CDS_PART_NAME" "ADP5053-ADP5053ACPZ-R7"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U34"
@@ -58946,7 +58915,7 @@
 				( attribute "CHIPS_PART_NAME" "FDS9926A"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "FDS9926A"
+				( attribute "CDS_PART_NAME" "FDS9926A-FDS9926A"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U36"
@@ -119462,7 +119431,7 @@
 				( attribute "CHIPS_PART_NAME" "FDS9926A"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "FDS9926A"
+				( attribute "CDS_PART_NAME" "FDS9926A-FDS9926A"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U35"

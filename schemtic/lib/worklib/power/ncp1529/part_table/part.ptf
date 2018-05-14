@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NCP1529'
+
+{========================================================================================}
+:VALUE(OPT)      = PART_NUMBER | PART_NAME | JEDEC_TYPE | DESCRIPTION                      | MANUFACTURER ;
+{========================================================================================}
+ 'NCP1529ASNT1G'(!) = ''          | 'NCP1529' | ''         | 'DCDC,1A,2.7~5.5Vin,0.9~3.9Vout' | 'ON'        
+
+END_PART
+
+END.
+
