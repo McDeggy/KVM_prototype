@@ -3,9 +3,9 @@ FILE_TYPE = MULTI_PHYS_TABLE;
 PART 'OSC-12MHZ'
 
 {========================================================================================}
-:CODE(OPT)   | VALUE(OPT)   = DESCRIPTION | JEDEC_TYPE  | CHECKLIST ;
+:CODE(OPT)   | VALUE(OPT)                     = DESCRIPTION                            | JEDEC_TYPE  | CHECKLIST ;
 {========================================================================================}
- 'XXXXXXXX'  | '12MHz'(!)   = ''          | 'SX4-0805A' | ''       
+ ''          | 'SG-8018CB 12.000000MHz TJHSA'(!) = 'OSC,12MHz,¡À50ppm,1.62~3.63V,STANDBY' | 'SX4-0805A' | ''       
 
 END_PART
 
