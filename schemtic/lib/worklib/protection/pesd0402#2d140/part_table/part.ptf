@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD0402-140'
+
+{========================================================================================}
+:VALUE(OPT)     = PART_NUMBER | PART_NAME      | JEDEC_TYPE     | DESCRIPTION            | MANUFACTURER ;
+{========================================================================================}
+ 'PESD0402-140'(!) = ''          | 'PESD0402-140' | 'pesd0402_140' | 'TVS,ESD,0.25pF,14Vdc' | 'TYCO'      
+
+END_PART
+
+END.
+

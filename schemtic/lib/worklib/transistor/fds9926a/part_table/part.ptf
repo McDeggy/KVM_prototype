@@ -3,9 +3,9 @@ FILE_TYPE = MULTI_PHYS_TABLE;
 PART 'FDS9926A'
 
 {========================================================================================}
-:VALUE(OPT)   = PART_NUMBER | PART_NAME  | JEDEC_TYPE | DESCRIPTION | MANUFACTURER ;
+:VALUE(OPT)   = PART_NUMBER | PART_NAME  | JEDEC_TYPE     | DESCRIPTION | MANUFACTURER ;
 {========================================================================================}
- 'FDS9926A'(!) = ''          | 'FDS9926A' | ''         | ''          | 'ON'        
+ 'FDS9926A'(!) = ''          | 'FDS9926A' | 'fds9926acn_d' | ''          | 'ON'        
 
 END_PART
 

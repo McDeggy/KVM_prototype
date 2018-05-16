@@ -1,4 +1,4 @@
-; Packager-XL run on 09-May-2018 AT 17:18:03 CONSTRAINTS_VIEW_GENERATED
+; Packager-XL run on 15-May-2018 AT 16:27:53 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "kvm_prototype"
 	( constraintHeader
 		( objectKey
@@ -8,7 +8,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1624 )
+			( logicalViewRevNum 1649 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -8726,6 +8726,12 @@
 			( gate "U54"
 				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page79_i4" )
 			)
+			( gate "C665"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i65" )
+			)
+			( gate "C664"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i66" )
+			)
 			( pin "U28.AD13"
 				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page51_i44:ad13" )
 			)
@@ -9329,17 +9335,17 @@
 			( pin "R53.2"
 				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i92:b" )
 			)
-			( pin "U6.3"
-				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\3\" )
+			( pin "U6.1"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\1\" )
 			)
-			( pin "U6.4"
-				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\4\" )
+			( pin "U6.2"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\2\" )
 			)
-			( pin "U6.5"
-				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\5\" )
+			( pin "U6.7"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\7\" )
 			)
-			( pin "U6.6"
-				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\6\" )
+			( pin "U6.8"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i94:\8\" )
 			)
 			( pin "U5.3"
 				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i95:\3\" )
@@ -30121,6 +30127,18 @@
 			)
 			( pin "U54.14"
 				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page79_i4:\14\" )
+			)
+			( pin "C665.1"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i65:\1\" )
+			)
+			( pin "C665.2"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i65:\2\" )
+			)
+			( pin "C664.1"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i66:\1\" )
+			)
+			( pin "C664.2"
+				( objectStatus "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i66:\2\" )
 			)
 		)
 	)

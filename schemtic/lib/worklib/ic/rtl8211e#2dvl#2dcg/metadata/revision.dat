@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.18)
+		(Revision	0.0.19)
 
 		(ModificationStatus	NULL)
 
@@ -24,11 +24,11 @@
 
 		(LastModifyInfo	
 
-			(Time	03/31/18,20:20:17)
+			(Time	05/15/18,15:27:35)
 
-			(User	Administrator)
+			(User	cdj)
 
-			(Path	kvm_matrix_lib.rtl8211e-vl-cg)
+			(Path	ic.rtl8211e-vl-cg)
 
 		)
 
@@ -42,7 +42,7 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.17)
+				(Revision	0.0.18)
 
 				(ModificationStatus	NULL)
 
@@ -104,6 +104,12 @@
 
 		)
 
+		(View	VerilogWrappers
+
+			(VerilogWrapper	vlog_model)
+
+		)
+
 		(View	Chips
 
 			(Checksum	0000000068e6beaa)
@@ -116,7 +122,7 @@
 
 						(Baselined	0)
 
-						(Revision	0.0.3)
+						(Revision	0.0.4)
 
 						(ModificationStatus	NULL)
 
@@ -161,6 +167,16 @@
 									)
 
 								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	qfn40P-48N)
 
 							)
 

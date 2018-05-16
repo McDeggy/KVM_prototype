@@ -3,9 +3,9 @@ FILE_TYPE = MULTI_PHYS_TABLE;
 PART 'RCLAMP0524P'
 
 {========================================================================================}
-:VALUE(OPT)        = PART_NUMBER | PART_NAME     | JEDEC_TYPE | DESCRIPTION  | MANUFACTURER ;
+:VALUE(OPT)        = PART_NUMBER | PART_NAME     | JEDEC_TYPE     | DESCRIPTION  | MANUFACTURER ;
 {========================================================================================}
- 'RClamp0524P.TCT'(!) = ''          | 'RCLAMP0524P' | ''         | 'TVS,4CH,IO' | 'SEMTECH'   
+ 'RClamp0524P.TCT'(!) = ''          | 'RCLAMP0524P' | 'rclamp_0524p' | 'TVS,4CH,IO' | 'SEMTECH'   
 
 END_PART
 

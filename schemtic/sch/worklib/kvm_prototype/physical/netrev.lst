@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Maxtri_kvm_board_v1.0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Wed May 09 17:18:29 2018                      )
+(    Date/Time        : Tue May 15 16:28:18 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -16,71 +16,40 @@ RIPUP_DELETE_FIRST_SEGMENT FALSE;
 RIPUP_RETAIN_BONDWIRE FALSE;
 RIPUP_SYMBOLS ALWAYS;
 Missing symbol has error FALSE;
-SCHEMATIC_DIRECTORY 'F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged';
+SCHEMATIC_DIRECTORY 'F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged';
 BOARD_DIRECTORY '';
-OLD_BOARD_NAME 'F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd';
-NEW_BOARD_NAME 'F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd';
+OLD_BOARD_NAME 'F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd';
+NEW_BOARD_NAME 'F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd';
 
-CmdLine: netrev -$ -i F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged -l -y 1 F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/physical/#Taaaaah24944.tmp
+CmdLine: netrev -$ -i F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged -l -y 1 F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/physical/#Taaaabd03268.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstchip.dat 
-   Finished reading F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstchip.dat (00:00:00.26)
-Starting to read F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstxprt.dat 
-   Finished reading F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstxprt.dat (00:00:00.08)
-Starting to read F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstxnet.dat 
-   Finished reading F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstxnet.dat (00:00:00.07)
+Starting to read F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstchip.dat 
+   Finished reading F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstchip.dat (00:00:00.22)
+Starting to read F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstxprt.dat 
+   Finished reading F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstxprt.dat (00:00:00.08)
+Starting to read F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstxnet.dat 
+   Finished reading F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstxnet.dat (00:00:00.08)
 
 ------ Oversights/Warnings/Errors ------
 
 
 #1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
 
-WARNING(SPMHNI-337): Unable to load symbol 'XTAL-200' for device 'CRYSTAL-92020120,12.288MHZ': WARNING(SPMHUT-127): Could not find padstack PAD70CIR30_NO_TOP.
-    due to ERROR(SPMHDB-274): Unable to load flash symbol 72 (Check PSMPATH setting for this symbol). [help]
-
-     Could not find padstack PAD70CIR30_NO_TOP.
+WARNING(SPMHNI-194): Symbol 'SPL1209' for device 'L-10030103,10UH' not found in PSMPATH or must be "dbdoctor"ed.
 
 #2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
 
-WARNING(SPMHNI-194): Symbol 'SHEAD-10P' for device 'HEAD2X5-14050182' not found in PSMPATH or must be "dbdoctor"ed.
+WARNING(SPMHNI-194): Symbol 'SPL1212' for device 'L-10031070,2.7UH' not found in PSMPATH or must be "dbdoctor"ed.
 
 #3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
 
-WARNING(SPMHNI-194): Symbol 'SPL1209' for device 'L-10030103,10UH' not found in PSMPATH or must be "dbdoctor"ed.
+WARNING(SPMHNI-194): Symbol 'SL1210' for device 'LB-10070007,3A' not found in PSMPATH or must be "dbdoctor"ed.
 
 #4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
 
-WARNING(SPMHNI-194): Symbol 'SPL1209' for device 'L-10031009,2.2UH' not found in PSMPATH or must be "dbdoctor"ed.
-
-#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'SPL1212' for device 'L-10031070,2.7UH' not found in PSMPATH or must be "dbdoctor"ed.
-
-#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'DO1813' for device 'L-90010078,2.2UH' not found in PSMPATH or must be "dbdoctor"ed.
-
-#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'SL1210' for device 'LB-10070007,3A' not found in PSMPATH or must be "dbdoctor"ed.
-
-#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
 WARNING(SPMHNI-194): Symbol 'DIP164' for device 'PCIE_X16' not found in PSMPATH or must be "dbdoctor"ed.
-
-    Alternatively, the JEDEC_TYPE is not defined for the device in the pstchip.dat.
-
-#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'DIP49' for device 'RTL8211E-VL-CG' not found in PSMPATH or must be "dbdoctor"ed.
-
-    Alternatively, the JEDEC_TYPE is not defined for the device in the pstchip.dat.
-
-#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'DIP5' for device 'WIPER-SW' not found in PSMPATH or must be "dbdoctor"ed.
 
     Alternatively, the JEDEC_TYPE is not defined for the device in the pstchip.dat.
 
@@ -88,13 +57,12 @@ WARNING(SPMHNI-194): Symbol 'DIP5' for device 'WIPER-SW' not found in PSMPATH or
 
 ===========================================================
 Start Constraint Diff3 Import
-	Constraint File:    F:/Design_Projects/matrix_kvm/schemtic_backup20180504/sch/worklib/kvm_prototype/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/cdj/AppData/Local/Temp/#Taaaaad24484.tmp
-	Start time: Wed May 09 17:18:30 2018
+	Constraint File:    F:/Design_Projects/matrix_kvm/schemtic_backup20180514/sch/worklib/kvm_prototype/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/cdj/AppData/Local/Temp/#Taaaaad05580.tmp
+	Start time: Tue May 15 16:28:19 2018
 ===========================================================
-NOTE: Constraint information is up-to-date. No processing was required.
 ===========================================================
-Finished Constraint Update	Time: Wed May 09 17:18:30 2018
+Finished Constraint Update	Time: Tue May 15 16:28:20 2018
 ===========================================================
 
 ------ Library Paths ------
@@ -123,9 +91,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 9 17:18:28 2018
+netrev run on May 15 16:28:18 2018
    DESIGN NAME : 'KVM_PROTOTYPE'
-   PACKAGING ON 09-May-2018 AT 17:18:03
+   PACKAGING ON 15-May-2018 AT 16:27:53
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -146,8 +114,8 @@ netrev run on May 9 17:18:28 2018
 
  No error detected
  No oversight detected
- 10 warnings detected
+  4 warnings detected
 
-cpu time      0:04:15
+cpu time      0:04:37
 elapsed time  0:00:02
 

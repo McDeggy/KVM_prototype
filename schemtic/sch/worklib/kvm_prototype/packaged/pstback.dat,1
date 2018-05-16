@@ -1,4 +1,4 @@
-{ Packager-XL run on 09-May-2018 AT 15:57:36 }
+{ Packager-XL run on 15-May-2018 AT 14:46:57 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@kvm_prototype_lib.kvm_prototype(sch_1):page1";
 BODY = "6PIN","I1": LOCATION = "J1" #&CDS_LOCATION = "J1" &SEC = "1" #&CDS_SEC = "1";
@@ -410,11 +410,6 @@ BODY = "R","I132": LOCATION = "R56" #&CDS_LOCATION = "R56" &SEC = "1" #&CDS_SEC 
 BODY = "C","I133": LOCATION = "C22" #&CDS_LOCATION = "C22" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "FDS9926A","I94": LOCATION = "U6" #&CDS_LOCATION = "U6" &SEC = "1" #&CDS_SEC = "1";
-"3":   PN = "3"  !CDS_PN = "3";
-"4":   PN = "4"  !CDS_PN = "4";
-"5":   PN = "5"  !CDS_PN = "5";
-"6":   PN = "6"  !CDS_PN = "6";
 BODY = "R","I134": LOCATION = "R57" #&CDS_LOCATION = "R57" &SEC = "1" #&CDS_SEC = "1";
 "A":   PN = "1"  !CDS_PN = "1";
 "B":   PN = "2"  !CDS_PN = "2";
@@ -463,6 +458,11 @@ BODY = "R","I148": LOCATION = "R71" #&CDS_LOCATION = "R71" &SEC = "1" #&CDS_SEC 
 BODY = "R","I149": LOCATION = "R72" #&CDS_LOCATION = "R72" &SEC = "1" #&CDS_SEC = "1";
 "A":   PN = "1"  !CDS_PN = "1";
 "B":   PN = "2"  !CDS_PN = "2";
+BODY = "FDS9926A","I94": LOCATION = "U6" #&CDS_LOCATION = "U6" &SEC = "2" #&CDS_SEC = "2";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+"7":   PN = "7"  !CDS_PN = "7";
+"8":   PN = "8"  !CDS_PN = "8";
 DRAWING = "@kvm_prototype_lib.kvm_prototype(sch_1):page32";
 BODY = "R","I2": LOCATION = "R75" #&CDS_LOCATION = "R75" &SEC = "1" #&CDS_SEC = "1";
 "A":   PN = "1"  !CDS_PN = "1";
@@ -4325,6 +4325,12 @@ BODY = "ADV7612BSWZ","I64": LOCATION = "U8" #&CDS_LOCATION = "U8" &SEC = "2" #&C
 "TVDD_6":   PN = "22"  !CDS_PN = "22";
 "XTALN":   PN = "90"  !CDS_PN = "90";
 "XTALP":   PN = "89"  !CDS_PN = "89";
+BODY = "C","I65": LOCATION = "C665" #&CDS_LOCATION = "C665" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "C","I66": LOCATION = "C664" #&CDS_LOCATION = "C664" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@kvm_prototype_lib.kvm_prototype(sch_1):page34";
 BODY = "ADV7612BSWZ","I2": LOCATION = "U8" #&CDS_LOCATION = "U8" &SEC = "1" #&CDS_SEC = "1";
 "CEC":   PN = "92"  !CDS_PN = "92";

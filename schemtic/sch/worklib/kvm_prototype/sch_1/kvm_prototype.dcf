@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1639 )
+			( logicalViewRevNum 1658 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -12872,7 +12872,7 @@
 				( attribute "CDS_LOCATION" "U6"
 					( Origin gPackager )
 				)
-				( attribute "CDS_SEC" "1"
+				( attribute "CDS_SEC" "2"
 					( Origin gPackager )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -12896,14 +12896,36 @@
 				( attribute "CDS_PART_NAME" "FDS9926A-FDS9926A"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE31_I94" )
+				( attribute "LOCATION" "U6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "U6" )
 				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U6.1" )
 				)
 				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U6.2" )
 				)
 				( pin "\7\"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U6.7" )
 				)
 				( pin "\8\"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+					( objectStatus "U6.8" )
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page31_i95"
@@ -12940,17 +12962,35 @@
 				( attribute "VALUE" "FDS9926A"
 					( Origin gFrontEnd )
 				)
+				( attribute "LOCATION" "U5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "U5" )
 				( pin "\3\"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
 					( objectStatus "U5.3" )
 				)
 				( pin "\4\"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
 					( objectStatus "U5.4" )
 				)
 				( pin "\5\"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
 					( objectStatus "U5.5" )
 				)
 				( pin "\6\"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
 					( objectStatus "U5.6" )
 				)
 			)
@@ -18190,7 +18230,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-7950,750)"
+				( attribute "XY" "(-7700,750)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "C"
@@ -18247,7 +18287,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-8100,750)"
+				( attribute "XY" "(-7850,750)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "C"
@@ -18304,7 +18344,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-8250,750)"
+				( attribute "XY" "(-8000,750)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "C"
@@ -24175,7 +24215,7 @@
 				( attribute "CHIPS_PART_NAME" "PESD0402-140"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PESD0402-140"
+				( attribute "CDS_PART_NAME" "PESD0402-140-PESD0402-140"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "Q6"
@@ -24189,6 +24229,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "PESD0402-140"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "Q6" )
 				( pin "\1\"
@@ -24924,6 +24967,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "HAH01-24E1RC48B"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "J5" )
 				( pin "\1\"
@@ -42823,7 +42869,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,300,150,-300"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "14050182"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "27"
@@ -42844,7 +42890,7 @@
 				( attribute "CHIPS_PART_NAME" "HEAD2X5"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "HEAD2X5-14050182"
+				( attribute "CDS_PART_NAME" "HEAD2X5-BASE"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "J13"
@@ -59068,7 +59114,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10031009"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "42"
@@ -59089,7 +59135,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-10031009,2.2UH"
+				( attribute "CDS_PART_NAME" "L-2.2UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L9"
@@ -61144,7 +61190,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "90010078"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "43"
@@ -61165,7 +61211,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-90010078,2.2UH"
+				( attribute "CDS_PART_NAME" "L-2.2UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L10"
@@ -65515,7 +65561,7 @@
 				( attribute "CHIPS_PART_NAME" "PESD0402-140"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PESD0402-140"
+				( attribute "CDS_PART_NAME" "PESD0402-140-PESD0402-140"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "Q8"
@@ -73720,7 +73766,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,0"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "10031009"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "55"
@@ -73741,7 +73787,7 @@
 				( attribute "CHIPS_PART_NAME" "L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "L-10031009,2.2UH"
+				( attribute "CDS_PART_NAME" "L-2.2UH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "L11"
@@ -92551,7 +92597,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,300,150,-300"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "14050182"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "67"
@@ -92572,7 +92618,7 @@
 				( attribute "CHIPS_PART_NAME" "HEAD2X5"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "HEAD2X5-14050182"
+				( attribute "CDS_PART_NAME" "HEAD2X5-BASE"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "J24"
@@ -101413,7 +101459,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,300,150,-300"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "14050182"
+				( attribute "CODE" "<< NULL >>"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "72"
@@ -101434,7 +101480,7 @@
 				( attribute "CHIPS_PART_NAME" "HEAD2X5"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "HEAD2X5-14050182"
+				( attribute "CDS_PART_NAME" "HEAD2X5-BASE"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "J25"
@@ -102829,14 +102875,14 @@
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "VALUE" "LSK-120001A5"
+					( Origin gFrontEnd )
+				)
 				( attribute "LOCATION" "U2"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
-				)
-				( attribute "VALUE" "LSK-120001A5"
-					( Origin gFrontEnd )
 				)
 				( objectStatus "U2" )
 				( pin "\1\"
@@ -103219,14 +103265,14 @@
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "VALUE" "LSK-120001A5"
+					( Origin gFrontEnd )
+				)
 				( attribute "LOCATION" "U1"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
-				)
-				( attribute "VALUE" "LSK-120001A5"
-					( Origin gFrontEnd )
 				)
 				( objectStatus "U1" )
 				( pin "\1\"
@@ -106786,7 +106832,7 @@
 				( attribute "CDS_LMAN_SYM_OUTLINE" "50,100,225,-100"
 					( Origin gPackager )
 				)
-				( attribute "CODE" "92020120"
+				( attribute "CODE" "12020007"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "50"
@@ -106807,7 +106853,7 @@
 				( attribute "CHIPS_PART_NAME" "CRYSTAL"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CRYSTAL-92020120,12.288MHZ"
+				( attribute "CDS_PART_NAME" "CRYSTAL-12020007,12.288MHZ"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "X5"
@@ -112219,7 +112265,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "USB3300"
+				( attribute "VALUE" "USB3300-EZK"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -113713,7 +113759,7 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "GL850G"
+				( attribute "VALUE" "GL850G-MNGXX"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -115606,6 +115652,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "VALUE" "LM3526M-L/NOPB"
+					( Origin gFrontEnd )
+				)
 				( objectStatus "U66" )
 				( pin "\ena*\"
 					( attribute "PN" "1"
@@ -115692,6 +115741,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "LM3526M-L/NOPB"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U65" )
 				( pin "\ena*\"
@@ -121963,6 +122015,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "VALUE" "RCLAMP0524P.TCT"
+					( Origin gFrontEnd )
+				)
 				( objectStatus "U17" )
 				( pin "\1\"
 					( attribute "PN" "1"
@@ -122056,6 +122111,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "VALUE" "RCLAMP0524P.TCT"
+					( Origin gFrontEnd )
+				)
 				( objectStatus "U18" )
 				( pin "\1\"
 					( attribute "PN" "1"
@@ -122148,6 +122206,9 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gPackager )
+				)
+				( attribute "VALUE" "RCLAMP0524P.TCT"
+					( Origin gFrontEnd )
 				)
 				( objectStatus "U19" )
 				( pin "\1\"
@@ -122338,6 +122399,120 @@
 						( Origin gPackager )
 					)
 					( objectStatus "U54.14" )
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i65"
+				( attribute "CDS_LIB" "capcitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "08070247"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.01U"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7550,750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-08070247,0.01U"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C665"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C665"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C665" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C665.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C665.2" )
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page33_i66"
+				( attribute "CDS_LIB" "capcitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "08070262"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.1U"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8300,750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-08070262,0.1U"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C664"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C664"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C664" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C664.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C664.2" )
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page35_i25:\8\"

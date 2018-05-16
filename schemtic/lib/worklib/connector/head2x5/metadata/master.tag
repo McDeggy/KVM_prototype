@@ -1,2 +1,1 @@
 revision.dat
-revision.log

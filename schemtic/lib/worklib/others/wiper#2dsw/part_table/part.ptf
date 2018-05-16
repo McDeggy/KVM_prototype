@@ -3,9 +3,9 @@ FILE_TYPE = MULTI_PHYS_TABLE;
 PART 'WIPER-SW'
 
 {========================================================================================}
-:VALUE(OPT)     = PART_NUMBER | PART_NAME      | JEDEC_TYPE | DESCRIPTION        | MANUFACTURER ;
+:VALUE(OPT)     = PART_NUMBER | PART_NAME      | JEDEC_TYPE     | DESCRIPTION        | MANUFACTURER ;
 {========================================================================================}
- 'LSK-120001A5'(!) = ''          | 'LSK-120001A5' | ''         | 'SW,SPST,50V/0.5A' | ''          
+ 'LSK-120001A5'(!) = ''          | 'LSK-120001A5' | 'lsk_120001a5' | 'SW,SPST,50V/0.5A' | ''          
 
 END_PART
 

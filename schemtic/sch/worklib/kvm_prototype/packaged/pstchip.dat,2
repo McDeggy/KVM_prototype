@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 09-May-2018 AT 16:09:05 }
+{ Packager-XL run on 15-May-2018 AT 15:27:45 }
 primitive '6PIN-6PIN';
   pin
     'PIN1':
@@ -69,7 +69,7 @@ primitive '6PIN-6PIN';
       PARENT_PPT_PART='6PIN-6PIN';
   end_body;
 end_primitive;
-primitive 'ADP5053';
+primitive 'ADP5053-ADP5053ACPZ-R7';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -465,6 +465,12 @@ primitive 'ADP5053';
       JEDEC_TYPE='ADP5053';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='DCDC,4CH';
+      MANUFACTURER='ADI';
+      PARENT_PART_TYPE='ADP5053';
+      PARENT_PPT='ADP5053';
+      PARENT_PPT_PART='ADP5053-ADP5053ACPZ-R7';
   end_body;
 end_primitive;
 primitive 'ADV7511KSTZ-ADV7511KSTZ';
@@ -2684,30 +2690,6 @@ primitive 'CRYSTAL-12020113,28.636MHZ';
       PARENT_PPT_PART='CRYSTAL-12020113,28.636MHZ';
   end_body;
 end_primitive;
-primitive 'CRYSTAL-92020120,12.288MHZ';
-  pin
-    'A1':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'A2':
-      PIN_NUMBER='(2)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-  end_pin;
-  body
-      PART_NAME='CRYSTAL';
-      BODY_NAME='CRYSTAL';
-      PHYS_DES_PREFIX='X';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='XTAL-200';
-      DESCRIPTION='Ö±²å¾§Õñ';
-      CHECKLIST='';
-      PARENT_PART_TYPE='CRYSTAL';
-      PARENT_PPT='CRYSTAL';
-      PARENT_PPT_PART='CRYSTAL-92020120,12.288MHZ';
-  end_body;
-end_primitive;
 primitive 'CY22394FC-CY22394FC';
   pin
     'SCLK_S1':
@@ -2828,7 +2810,7 @@ primitive 'DIODE-15010058,MBRS120T3';
       BODY_NAME='DIODE';
       PHYS_DES_PREFIX='D';
       CLASS='DISCRETE';
-      JEDEC_TYPE='SD1714';
+      JEDEC_TYPE='MBRS120T3';
       DESCRIPTION='Ð¤ÌØ»ù¶þ¼«¹Ü-20V-1A-0.55V-DO-214AC';
       DATASHEET='';
       ALT_SYMBOL='';
@@ -2899,7 +2881,7 @@ primitive 'ESD-ESD-3.3V';
       PARENT_PPT_PART='ESD-ESD-3.3V';
   end_body;
 end_primitive;
-primitive 'FDS9926A';
+primitive 'FDS9926A-FDS9926A';
   pin
     '3':
       PIN_NUMBER='(3,0)';
@@ -2978,8 +2960,14 @@ primitive 'FDS9926A';
       PART_NAME='FDS9926A';
       BODY_NAME='FDS9926A';
       JEDEC_TYPE='FDS9926ACN_D';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='D';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='';
+      MANUFACTURER='ON';
+      PARENT_PART_TYPE='FDS9926A';
+      PARENT_PPT='FDS9926A';
+      PARENT_PPT_PART='FDS9926A-FDS9926A';
   end_body;
 end_primitive;
 primitive 'GL850G-GL850G';
@@ -4624,37 +4612,6 @@ primitive 'L-10030103,10UH';
       PARENT_PPT_PART='L-10030103,10UH';
   end_body;
 end_primitive;
-primitive 'L-10031009,2.2UH';
-  pin
-    'B':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='L';
-      BODY_NAME='L';
-      PHYS_DES_PREFIX='L';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SPL1209';
-      DESCRIPTION='ÌùÆ¬µç¸ÐÆ÷-2.2uH¡À20%-12m¦¸-7A(pk)-6.1A(RMS)-12.95*9.4*5.46-Á~
-âÐÎ-SMD';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='L';
-      PARENT_PPT='L';
-      PARENT_PPT_PART='L-10031009,2.2UH';
-  end_body;
-end_primitive;
 primitive 'L-10031070,2.7UH';
   pin
     'B':
@@ -4715,7 +4672,7 @@ primitive 'L-10090821,8.2UH';
       PARENT_PPT_PART='L-10090821,8.2UH';
   end_body;
 end_primitive;
-primitive 'L-90010078,2.2UH';
+primitive 'L-2.2UH';
   pin
     'B':
       PIN_NUMBER='(2)';
@@ -4735,14 +4692,104 @@ primitive 'L-90010078,2.2UH';
       BODY_NAME='L';
       PHYS_DES_PREFIX='L';
       CLASS='DISCRETE';
-      JEDEC_TYPE='DO1813';
-      DESCRIPTION='ÌùÆ¬µç¸ÐÆ÷-2.2uH-¡À20%-3.1A-DO1813H-222ML';
-      DATASHEET='';
+      JEDEC_TYPE='IHLP_1616AB_11_2_2UH';
+      DESCRIPTION='IND,2.2uH,¡À20%,3A';
+      DATASHEET='IHLP-1616AB-11.pdf';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='L';
       PARENT_PPT='L';
-      PARENT_PPT_PART='L-90010078,2.2UH';
+      PARENT_PPT_PART='L-2.2UH';
+  end_body;
+end_primitive;
+primitive 'L-2.5UH';
+  pin
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='L';
+      BODY_NAME='L';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='7447798250_2_5UH';
+      DESCRIPTION='IND,2.5uH,¡À30%,10.1A';
+      DATASHEET='7447798250.pdf';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='L';
+      PARENT_PPT='L';
+      PARENT_PPT_PART='L-2.5UH';
+  end_body;
+end_primitive;
+primitive 'L-4.3UH';
+  pin
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='L';
+      BODY_NAME='L';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='7443552430_4_3UF';
+      DESCRIPTION='IND,4.3uH,¡À20%,8A';
+      DATASHEET='7443552430.pdf';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='L';
+      PARENT_PPT='L';
+      PARENT_PPT_PART='L-4.3UH';
+  end_body;
+end_primitive;
+primitive 'L-8.2UH';
+  pin
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='L';
+      BODY_NAME='L';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='XAL5050_822MEC_8_2UH';
+      DESCRIPTION='IND,8.2uH,¡À20%,5.6A';
+      DATASHEET='XAL5050-822MEC';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='L';
+      PARENT_PPT='L';
+      PARENT_PPT_PART='L-8.2UH';
   end_body;
 end_primitive;
 primitive 'LB-10070007,3A';
@@ -7246,7 +7293,7 @@ primitive 'MTFC8GACAAAM-1M';
       CLASS='IC';
   end_body;
 end_primitive;
-primitive 'NCP1529';
+primitive 'NCP1529-NCP1529ASNT1G';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -7297,9 +7344,15 @@ primitive 'NCP1529';
   body
       PART_NAME='NCP1529';
       BODY_NAME='NCP1529';
-      JEDEC_TYPE='TSOP_5';
+      JEDEC_TYPE='';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='DCDC,1A,2.7~5.5Vin,0.9~3.9Vout';
+      MANUFACTURER='ON';
+      PARENT_PART_TYPE='NCP1529';
+      PARENT_PPT='NCP1529';
+      PARENT_PPT_PART='NCP1529-NCP1529ASNT1G';
   end_body;
 end_primitive;
 primitive 'NPN_SOT23-15050026,MMBT4401LT1';
@@ -7398,6 +7451,7 @@ primitive 'OSC-125M-DIF';
   body
       PART_NAME='OSC-125M-DIF';
       BODY_NAME='OSC-125M-DIF';
+      JEDEC_TYPE='SIT9121AI';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
   end_body;
@@ -11737,6 +11791,7 @@ primitive 'RTL8211E-VL-CG';
   body
       PART_NAME='RTL8211E-VL-CG';
       BODY_NAME='RTL8211E-VL-CG';
+      JEDEC_TYPE='QFN40P-48N';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
   end_body;
@@ -12392,7 +12447,7 @@ primitive 'TPD4S012';
       CLASS='IC';
   end_body;
 end_primitive;
-primitive 'TPSM84824';
+primitive 'TPSM84824-PTPSM84824MOLR';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -12617,6 +12672,12 @@ primitive 'TPSM84824';
       JEDEC_TYPE='MPQF489';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='DCDC,8A,4.5~17Vin,0.6~10Vout';
+      MANUFACTURER='TI';
+      PARENT_PART_TYPE='TPSM84824';
+      PARENT_PPT='TPSM84824';
+      PARENT_PPT_PART='TPSM84824-PTPSM84824MOLR';
   end_body;
 end_primitive;
 primitive 'USB3300-USB3300';
@@ -12881,7 +12942,7 @@ primitive 'USB_DUL-USB_DUL';
       PARENT_PPT_PART='USB_DUL-USB_DUL';
   end_body;
 end_primitive;
-primitive 'WIPER-SW';
+primitive 'WIPER-SW-LSK-120001A5';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -12930,10 +12991,17 @@ primitive 'WIPER-SW';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='WIPER-SW';
+      PART_NAME='LSK-120001A5';
       BODY_NAME='WIPER-SW';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='J';
       CLASS='IC';
+      PART_NUMBER='';
+      JEDEC_TYPE='LSK_120001A5';
+      DESCRIPTION='SW,SPST,50V/0.5A';
+      MANUFACTURER='';
+      PARENT_PART_TYPE='WIPER-SW';
+      PARENT_PPT='WIPER-SW';
+      PARENT_PPT_PART='WIPER-SW-LSK-120001A5';
   end_body;
 end_primitive;
 primitive 'XC6SLX16CSG324-XC6SLX16CSG324';

@@ -3,9 +3,9 @@ FILE_TYPE = MULTI_PHYS_TABLE;
 PART 'BSS123LT1'
 
 {========================================================================================}
-:VALUE(OPT)   = PART_NUMBER | PART_NAME   | JEDEC_TYPE | DESCRIPTION                           | MANUFACTURER ;
+:VALUE(OPT)   = PART_NUMBER | PART_NAME   | JEDEC_TYPE  | DESCRIPTION                           | MANUFACTURER ;
 {========================================================================================}
- 'BSS123LT1G'(!) = ''          | 'BSS123LT1' | ''         | 'MOS,VGS 0.8V,RDSon 5Ohm,IDmax 0.17A' | 'ON'        
+ 'BSS123LT1G'(!) = ''          | 'BSS123LT1' | 'bss123lt1' | 'MOS,VGS 0.8V,RDSon 5Ohm,IDmax 0.17A' | 'ON'        
 
 END_PART
 
