@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCIE_X16'
+
+{========================================================================================}
+:VALUE(OPT)           = PART_NUMBER | PART_NAME  | JEDEC_TYPE | DESCRIPTION         | MANUFACTURER ;
+{========================================================================================}
+ 'PCIE-164-02-F-D-TH'(!) = ''          | 'PCIE_X16' | ''         | 'CONN,PCIE,X16,THR' | 'SAMTEC'    
+
+END_PART
+
+END.
+

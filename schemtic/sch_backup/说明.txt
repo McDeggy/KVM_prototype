@@ -46,4 +46,11 @@ c、修改USB3300的symbol描述，添加详细采购型号；
 d、修改GL850G的symbol描述，添加详细采购型号；
 e、修改LM3526的symbol描述，添加详细采购型号。
 
+10、backup20180517：
+a、添加电感10uH选型，替换Page42供电的电感型号；
+b、Page42的FDS9926A replace到同一个封装（需要重新生成位号）；
+c、修改PCIE x16的symbol描述，添加详细型号；
+d、page31及page33同时调用artix7的bank32，删除多余的page33 bank32，添加缺失的bank16，并replace所有artix7的bank（需要重新生成位号）。
+
+
 
