@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 1680 )
+			( logicalViewRevNum 1699 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -8107,11 +8107,11 @@
 				)
 				( objectStatus "UNNAMED_35_DIODE_I10_A" )
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page51_i44"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page51_i46"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,525,275,-200"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,1100,-100"
 					( Origin gPackager )
 				)
 				( attribute "PHYS_PAGE" "27"
@@ -8123,10 +8123,10 @@
 				( attribute "VALUE" "XC7A200TFFG1156"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "4"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-8950,6850)"
+				( attribute "XY" "(-3150,1350)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
@@ -8135,75 +8135,106 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
+				( objectStatus "PAGE51_I46" )
+				( pin "aa24"
 				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
+				( pin "aa25"
 				)
-				( objectStatus "U28" )
-				( pin "ad13"
-					( objectStatus "U28.AD13" )
+				( pin "aa27"
 				)
-				( pin "ae12"
-					( objectStatus "U28.AE12" )
+				( pin "aa28"
 				)
-				( pin "ae13"
-					( objectStatus "U28.AE13" )
+				( pin "aa29"
 				)
-				( pin "ae14"
-					( objectStatus "U28.AE14" )
+				( pin "aa30"
 				)
-				( pin "k13"
-					( objectStatus "U28.K13" )
+				( pin "aa32"
 				)
-				( pin "k21"
-					( objectStatus "U28.K21" )
+				( pin "aa33"
 				)
-				( pin "k22"
-					( objectStatus "U28.K22" )
+				( pin "aa34"
 				)
-				( pin "l22"
-					( objectStatus "U28.L22" )
+				( pin "ab24"
 				)
-				( pin "m12"
-					( objectStatus "U28.M12" )
+				( pin "ab25"
 				)
-				( pin "n11"
-					( objectStatus "U28.N11" )
+				( pin "ab26"
 				)
-				( pin "p11"
-					( objectStatus "U28.P11" )
+				( pin "ab27"
 				)
-				( pin "t17"
-					( objectStatus "U28.T17" )
+				( pin "ab29"
 				)
-				( pin "t18"
-					( objectStatus "U28.T18" )
+				( pin "ab30"
 				)
-				( pin "u17"
-					( objectStatus "U28.U17" )
+				( pin "ab31"
 				)
-				( pin "u18"
-					( objectStatus "U28.U18" )
+				( pin "ab32"
 				)
-				( pin "v11"
-					( objectStatus "U28.V11" )
+				( pin "ab34"
 				)
-				( pin "v17"
-					( objectStatus "U28.V17" )
+				( pin "ac28"
 				)
-				( pin "v18"
-					( objectStatus "U28.V18" )
+				( pin "ac29"
 				)
-				( pin "w11"
-					( objectStatus "U28.W11" )
+				( pin "ac31"
 				)
-				( pin "w17"
-					( objectStatus "U28.W17" )
+				( pin "ac32"
 				)
-				( pin "w18"
-					( objectStatus "U28.W18" )
+				( pin "ac33"
+				)
+				( pin "ac34"
+				)
+				( pin "v24"
+				)
+				( pin "v26"
+				)
+				( pin "v27"
+				)
+				( pin "v28"
+				)
+				( pin "v29"
+				)
+				( pin "v31"
+				)
+				( pin "v32"
+				)
+				( pin "v33"
+				)
+				( pin "v34"
+				)
+				( pin "w24"
+				)
+				( pin "w25"
+				)
+				( pin "w26"
+				)
+				( pin "w28"
+				)
+				( pin "w29"
+				)
+				( pin "w30"
+				)
+				( pin "w31"
+				)
+				( pin "w33"
+				)
+				( pin "w34"
+				)
+				( pin "y25"
+				)
+				( pin "y26"
+				)
+				( pin "y27"
+				)
+				( pin "y28"
+				)
+				( pin "y30"
+				)
+				( pin "y31"
+				)
+				( pin "y32"
+				)
+				( pin "y33"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page30_i1"
@@ -32191,571 +32222,7 @@
 					( objectStatus "U27.T8" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i2"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,750,500,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "25"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "16"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-4700,6050)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "16"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "aj22"
-					( objectStatus "U28.AJ22" )
-				)
-				( pin "al13"
-					( objectStatus "U28.AL13" )
-				)
-				( pin "al15"
-					( objectStatus "U28.AL15" )
-				)
-				( pin "al17"
-					( objectStatus "U28.AL17" )
-				)
-				( pin "al19"
-					( objectStatus "U28.AL19" )
-				)
-				( pin "al21"
-					( objectStatus "U28.AL21" )
-				)
-				( pin "an14"
-					( objectStatus "U28.AN14" )
-				)
-				( pin "an16"
-					( objectStatus "U28.AN16" )
-				)
-				( pin "an18"
-					( objectStatus "U28.AN18" )
-				)
-				( pin "an20"
-					( objectStatus "U28.AN20" )
-				)
-				( pin "an22"
-					( objectStatus "U28.AN22" )
-				)
-				( pin "b14"
-					( objectStatus "U28.B14" )
-				)
-				( pin "b16"
-					( objectStatus "U28.B16" )
-				)
-				( pin "b18"
-					( objectStatus "U28.B18" )
-				)
-				( pin "b20"
-					( objectStatus "U28.B20" )
-				)
-				( pin "b22"
-					( objectStatus "U28.B22" )
-				)
-				( pin "d13"
-					( objectStatus "U28.D13" )
-				)
-				( pin "d15"
-					( objectStatus "U28.D15" )
-				)
-				( pin "d17"
-					( objectStatus "U28.D17" )
-				)
-				( pin "d19"
-					( objectStatus "U28.D19" )
-				)
-				( pin "d21"
-					( objectStatus "U28.D21" )
-				)
-				( pin "f14"
-					( objectStatus "U28.F14" )
-				)
-				( pin "f16"
-					( objectStatus "U28.F16" )
-				)
-				( pin "f18"
-					( objectStatus "U28.F18" )
-				)
-				( pin "f20"
-					( objectStatus "U28.F20" )
-				)
-				( pin "f22"
-					( objectStatus "U28.F22" )
-				)
-				( pin "h15"
-					( objectStatus "U28.H15" )
-				)
-				( pin "h17"
-					( objectStatus "U28.H17" )
-				)
-				( pin "h19"
-					( objectStatus "U28.H19" )
-				)
-				( pin "h21"
-					( objectStatus "U28.H21" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i3"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1225,300,-125"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "24"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "22"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-7650,2150)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "22"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "aa15"
-					( objectStatus "U28.AA15" )
-				)
-				( pin "aa17"
-					( objectStatus "U28.AA17" )
-				)
-				( pin "aa19"
-					( objectStatus "U28.AA19" )
-				)
-				( pin "ab14"
-					( objectStatus "U28.AB14" )
-				)
-				( pin "ab16"
-					( objectStatus "U28.AB16" )
-				)
-				( pin "ab18"
-					( objectStatus "U28.AB18" )
-				)
-				( pin "ac15"
-					( objectStatus "U28.AC15" )
-				)
-				( pin "ac17"
-					( objectStatus "U28.AC17" )
-				)
-				( pin "ac19"
-					( objectStatus "U28.AC19" )
-				)
-				( pin "ad14"
-					( objectStatus "U28.AD14" )
-				)
-				( pin "ad16"
-					( objectStatus "U28.AD16" )
-				)
-				( pin "ad18"
-					( objectStatus "U28.AD18" )
-				)
-				( pin "ad20"
-					( objectStatus "U28.AD20" )
-				)
-				( pin "ad22"
-					( objectStatus "U28.AD22" )
-				)
-				( pin "ae15"
-					( objectStatus "U28.AE15" )
-				)
-				( pin "ae17"
-					( objectStatus "U28.AE17" )
-				)
-				( pin "ae19"
-					( objectStatus "U28.AE19" )
-				)
-				( pin "ae21"
-					( objectStatus "U28.AE21" )
-				)
-				( pin "k14"
-					( objectStatus "U28.K14" )
-				)
-				( pin "k16"
-					( objectStatus "U28.K16" )
-				)
-				( pin "k18"
-					( objectStatus "U28.K18" )
-				)
-				( pin "k20"
-					( objectStatus "U28.K20" )
-				)
-				( pin "l15"
-					( objectStatus "U28.L15" )
-				)
-				( pin "l17"
-					( objectStatus "U28.L17" )
-				)
-				( pin "l19"
-					( objectStatus "U28.L19" )
-				)
-				( pin "l21"
-					( objectStatus "U28.L21" )
-				)
-				( pin "m14"
-					( objectStatus "U28.M14" )
-				)
-				( pin "m16"
-					( objectStatus "U28.M16" )
-				)
-				( pin "m18"
-					( objectStatus "U28.M18" )
-				)
-				( pin "n15"
-					( objectStatus "U28.N15" )
-				)
-				( pin "n17"
-					( objectStatus "U28.N17" )
-				)
-				( pin "n19"
-					( objectStatus "U28.N19" )
-				)
-				( pin "p14"
-					( objectStatus "U28.P14" )
-				)
-				( pin "p16"
-					( objectStatus "U28.P16" )
-				)
-				( pin "p18"
-					( objectStatus "U28.P18" )
-				)
-				( pin "r15"
-					( objectStatus "U28.R15" )
-				)
-				( pin "r17"
-					( objectStatus "U28.R17" )
-				)
-				( pin "r19"
-					( objectStatus "U28.R19" )
-				)
-				( pin "t14"
-					( objectStatus "U28.T14" )
-				)
-				( pin "t16"
-					( objectStatus "U28.T16" )
-				)
-				( pin "u15"
-					( objectStatus "U28.U15" )
-				)
-				( pin "u19"
-					( objectStatus "U28.U19" )
-				)
-				( pin "v14"
-					( objectStatus "U28.V14" )
-				)
-				( pin "v16"
-					( objectStatus "U28.V16" )
-				)
-				( pin "w15"
-					( objectStatus "U28.W15" )
-				)
-				( pin "w19"
-					( objectStatus "U28.W19" )
-				)
-				( pin "y14"
-					( objectStatus "U28.Y14" )
-				)
-				( pin "y16"
-					( objectStatus "U28.Y16" )
-				)
-				( pin "y18"
-					( objectStatus "U28.Y18" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i2"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,600,250,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "24"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "23"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-9050,6450)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "23"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "aa13"
-					( objectStatus "U28.AA13" )
-				)
-				( pin "aa23"
-					( objectStatus "U28.AA23" )
-				)
-				( pin "ab12"
-					( objectStatus "U28.AB12" )
-				)
-				( pin "ab22"
-					( objectStatus "U28.AB22" )
-				)
-				( pin "ac13"
-					( objectStatus "U28.AC13" )
-				)
-				( pin "ac23"
-					( objectStatus "U28.AC23" )
-				)
-				( pin "ad12"
-					( objectStatus "U28.AD12" )
-				)
-				( pin "m22"
-					( objectStatus "U28.M22" )
-				)
-				( pin "n13"
-					( objectStatus "U28.N13" )
-				)
-				( pin "n23"
-					( objectStatus "U28.N23" )
-				)
-				( pin "p12"
-					( objectStatus "U28.P12" )
-				)
-				( pin "p22"
-					( objectStatus "U28.P22" )
-				)
-				( pin "r13"
-					( objectStatus "U28.R13" )
-				)
-				( pin "r23"
-					( objectStatus "U28.R23" )
-				)
-				( pin "t12"
-					( objectStatus "U28.T12" )
-				)
-				( pin "t22"
-					( objectStatus "U28.T22" )
-				)
-				( pin "u13"
-					( objectStatus "U28.U13" )
-				)
-				( pin "u23"
-					( objectStatus "U28.U23" )
-				)
-				( pin "v12"
-					( objectStatus "U28.V12" )
-				)
-				( pin "v22"
-					( objectStatus "U28.V22" )
-				)
-				( pin "w13"
-					( objectStatus "U28.W13" )
-				)
-				( pin "w23"
-					( objectStatus "U28.W23" )
-				)
-				( pin "y12"
-					( objectStatus "U28.Y12" )
-				)
-				( pin "y22"
-					( objectStatus "U28.Y22" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i1"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,925,300,-125"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "24"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "25"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-4850,6050)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "25"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "a6"
-					( objectStatus "U28.A6" )
-				)
-				( pin "aa6"
-					( objectStatus "U28.AA6" )
-				)
-				( pin "aa21"
-					( objectStatus "U28.AA21" )
-				)
-				( pin "ab3"
-					( objectStatus "U28.AB3" )
-				)
-				( pin "ab20"
-					( objectStatus "U28.AB20" )
-				)
-				( pin "ac10"
-					( objectStatus "U28.AC10" )
-				)
-				( pin "ac21"
-					( objectStatus "U28.AC21" )
-				)
-				( pin "b3"
-					( objectStatus "U28.B3" )
-				)
-				( pin "c10"
-					( objectStatus "U28.C10" )
-				)
-				( pin "d7"
-					( objectStatus "U28.D7" )
-				)
-				( pin "e4"
-					( objectStatus "U28.E4" )
-				)
-				( pin "f1"
-					( objectStatus "U28.F1" )
-				)
-				( pin "f11"
-					( objectStatus "U28.F11" )
-				)
-				( pin "g8"
-					( objectStatus "U28.G8" )
-				)
-				( pin "h5"
-					( objectStatus "U28.H5" )
-				)
-				( pin "j2"
-					( objectStatus "U28.J2" )
-				)
-				( pin "j12"
-					( objectStatus "U28.J12" )
-				)
-				( pin "k9"
-					( objectStatus "U28.K9" )
-				)
-				( pin "l6"
-					( objectStatus "U28.L6" )
-				)
-				( pin "m3"
-					( objectStatus "U28.M3" )
-				)
-				( pin "m20"
-					( objectStatus "U28.M20" )
-				)
-				( pin "n10"
-					( objectStatus "U28.N10" )
-				)
-				( pin "n21"
-					( objectStatus "U28.N21" )
-				)
-				( pin "p7"
-					( objectStatus "U28.P7" )
-				)
-				( pin "p20"
-					( objectStatus "U28.P20" )
-				)
-				( pin "r4"
-					( objectStatus "U28.R4" )
-				)
-				( pin "r21"
-					( objectStatus "U28.R21" )
-				)
-				( pin "t1"
-					( objectStatus "U28.T1" )
-				)
-				( pin "t20"
-					( objectStatus "U28.T20" )
-				)
-				( pin "u8"
-					( objectStatus "U28.U8" )
-				)
-				( pin "u21"
-					( objectStatus "U28.U21" )
-				)
-				( pin "v5"
-					( objectStatus "U28.V5" )
-				)
-				( pin "v20"
-					( objectStatus "U28.V20" )
-				)
-				( pin "w2"
-					( objectStatus "U28.W2" )
-				)
-				( pin "w21"
-					( objectStatus "U28.W21" )
-				)
-				( pin "y9"
-					( objectStatus "U28.Y9" )
-				)
-				( pin "y20"
-					( objectStatus "U28.Y20" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i5"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i133"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -32783,738 +32250,109 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "17"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
+				( objectStatus "PAGE49_I133" )
 				( pin "a1"
-					( objectStatus "U28.A1" )
 				)
 				( pin "a11"
-					( objectStatus "U28.A11" )
 				)
 				( pin "a12"
-					( objectStatus "U28.A12" )
 				)
 				( pin "a14"
-					( objectStatus "U28.A14" )
 				)
 				( pin "a16"
-					( objectStatus "U28.A16" )
 				)
 				( pin "a18"
-					( objectStatus "U28.A18" )
 				)
 				( pin "a20"
-					( objectStatus "U28.A20" )
 				)
 				( pin "a22"
-					( objectStatus "U28.A22" )
 				)
 				( pin "a24"
-					( objectStatus "U28.A24" )
 				)
 				( pin "a26"
-					( objectStatus "U28.A26" )
 				)
 				( pin "b8"
-					( objectStatus "U28.B8" )
 				)
 				( pin "b12"
-					( objectStatus "U28.B12" )
 				)
 				( pin "b24"
-					( objectStatus "U28.B24" )
 				)
 				( pin "b33"
-					( objectStatus "U28.B33" )
 				)
 				( pin "c5"
-					( objectStatus "U28.C5" )
 				)
 				( pin "c12"
-					( objectStatus "U28.C12" )
 				)
 				( pin "c13"
-					( objectStatus "U28.C13" )
 				)
 				( pin "c15"
-					( objectStatus "U28.C15" )
 				)
 				( pin "c17"
-					( objectStatus "U28.C17" )
 				)
 				( pin "c19"
-					( objectStatus "U28.C19" )
 				)
 				( pin "c21"
-					( objectStatus "U28.C21" )
 				)
 				( pin "c23"
-					( objectStatus "U28.C23" )
 				)
 				( pin "c24"
-					( objectStatus "U28.C24" )
 				)
 				( pin "c30"
-					( objectStatus "U28.C30" )
 				)
 				( pin "d2"
-					( objectStatus "U28.D2" )
 				)
 				( pin "d12"
-					( objectStatus "U28.D12" )
 				)
 				( pin "d23"
-					( objectStatus "U28.D23" )
 				)
 				( pin "d27"
-					( objectStatus "U28.D27" )
 				)
 				( pin "e9"
-					( objectStatus "U28.E9" )
 				)
 				( pin "e12"
-					( objectStatus "U28.E12" )
 				)
 				( pin "e14"
-					( objectStatus "U28.E14" )
 				)
 				( pin "e16"
-					( objectStatus "U28.E16" )
 				)
 				( pin "e18"
-					( objectStatus "U28.E18" )
 				)
 				( pin "e20"
-					( objectStatus "U28.E20" )
 				)
 				( pin "e22"
-					( objectStatus "U28.E22" )
 				)
 				( pin "e23"
-					( objectStatus "U28.E23" )
 				)
 				( pin "e24"
-					( objectStatus "U28.E24" )
 				)
 				( pin "e34"
-					( objectStatus "U28.E34" )
 				)
 				( pin "f6"
-					( objectStatus "U28.F6" )
 				)
 				( pin "f12"
-					( objectStatus "U28.F12" )
 				)
 				( pin "f23"
-					( objectStatus "U28.F23" )
 				)
 				( pin "f31"
-					( objectStatus "U28.F31" )
 				)
 				( pin "g3"
-					( objectStatus "U28.G3" )
 				)
 				( pin "g12"
-					( objectStatus "U28.G12" )
 				)
 				( pin "g13"
-					( objectStatus "U28.G13" )
 				)
 				( pin "g15"
-					( objectStatus "U28.G15" )
 				)
 				( pin "g17"
-					( objectStatus "U28.G17" )
 				)
 				( pin "g19"
-					( objectStatus "U28.G19" )
 				)
 				( pin "g21"
-					( objectStatus "U28.G21" )
 				)
 				( pin "g23"
-					( objectStatus "U28.G23" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i4"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,375,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "25"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "18"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-1200,4550)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "18"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "g28"
-					( objectStatus "U28.G28" )
-				)
-				( pin "h10"
-					( objectStatus "U28.H10" )
-				)
-				( pin "h13"
-					( objectStatus "U28.H13" )
-				)
-				( pin "h22"
-					( objectStatus "U28.H22" )
-				)
-				( pin "h23"
-					( objectStatus "U28.H23" )
-				)
-				( pin "h25"
-					( objectStatus "U28.H25" )
-				)
-				( pin "j7"
-					( objectStatus "U28.J7" )
-				)
-				( pin "j13"
-					( objectStatus "U28.J13" )
-				)
-				( pin "j14"
-					( objectStatus "U28.J14" )
-				)
-				( pin "j15"
-					( objectStatus "U28.J15" )
-				)
-				( pin "j16"
-					( objectStatus "U28.J16" )
-				)
-				( pin "j17"
-					( objectStatus "U28.J17" )
-				)
-				( pin "j18"
-					( objectStatus "U28.J18" )
-				)
-				( pin "j19"
-					( objectStatus "U28.J19" )
-				)
-				( pin "j20"
-					( objectStatus "U28.J20" )
-				)
-				( pin "j21"
-					( objectStatus "U28.J21" )
-				)
-				( pin "j22"
-					( objectStatus "U28.J22" )
-				)
-				( pin "j32"
-					( objectStatus "U28.J32" )
-				)
-				( pin "k4"
-					( objectStatus "U28.K4" )
-				)
-				( pin "k15"
-					( objectStatus "U28.K15" )
-				)
-				( pin "k17"
-					( objectStatus "U28.K17" )
-				)
-				( pin "k19"
-					( objectStatus "U28.K19" )
-				)
-				( pin "k29"
-					( objectStatus "U28.K29" )
-				)
-				( pin "l1"
-					( objectStatus "U28.L1" )
-				)
-				( pin "l11"
-					( objectStatus "U28.L11" )
-				)
-				( pin "l14"
-					( objectStatus "U28.L14" )
-				)
-				( pin "l16"
-					( objectStatus "U28.L16" )
-				)
-				( pin "l18"
-					( objectStatus "U28.L18" )
-				)
-				( pin "l20"
-					( objectStatus "U28.L20" )
-				)
-				( pin "l26"
-					( objectStatus "U28.L26" )
-				)
-				( pin "m8"
-					( objectStatus "U28.M8" )
-				)
-				( pin "m13"
-					( objectStatus "U28.M13" )
-				)
-				( pin "m15"
-					( objectStatus "U28.M15" )
-				)
-				( pin "m17"
-					( objectStatus "U28.M17" )
-				)
-				( pin "m19"
-					( objectStatus "U28.M19" )
-				)
-				( pin "m21"
-					( objectStatus "U28.M21" )
-				)
-				( pin "m23"
-					( objectStatus "U28.M23" )
-				)
-				( pin "m33"
-					( objectStatus "U28.M33" )
-				)
-				( pin "n5"
-					( objectStatus "U28.N5" )
-				)
-				( pin "n12"
-					( objectStatus "U28.N12" )
-				)
-				( pin "n14"
-					( objectStatus "U28.N14" )
-				)
-				( pin "n16"
-					( objectStatus "U28.N16" )
-				)
-				( pin "n18"
-					( objectStatus "U28.N18" )
-				)
-				( pin "n20"
-					( objectStatus "U28.N20" )
-				)
-				( pin "n22"
-					( objectStatus "U28.N22" )
-				)
-				( pin "n30"
-					( objectStatus "U28.N30" )
-				)
-				( pin "p2"
-					( objectStatus "U28.P2" )
-				)
-				( pin "p13"
-					( objectStatus "U28.P13" )
-				)
-				( pin "p15"
-					( objectStatus "U28.P15" )
-				)
-				( pin "p17"
-					( objectStatus "U28.P17" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i3"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1375,225,-125"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "25"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "21"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-1200,2900)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "21"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "ag13"
-					( objectStatus "U28.AG13" )
-				)
-				( pin "ag22"
-					( objectStatus "U28.AG22" )
-				)
-				( pin "ag23"
-					( objectStatus "U28.AG23" )
-				)
-				( pin "ag28"
-					( objectStatus "U28.AG28" )
-				)
-				( pin "ah10"
-					( objectStatus "U28.AH10" )
-				)
-				( pin "ah12"
-					( objectStatus "U28.AH12" )
-				)
-				( pin "ah13"
-					( objectStatus "U28.AH13" )
-				)
-				( pin "ah15"
-					( objectStatus "U28.AH15" )
-				)
-				( pin "ah17"
-					( objectStatus "U28.AH17" )
-				)
-				( pin "ah19"
-					( objectStatus "U28.AH19" )
-				)
-				( pin "ah21"
-					( objectStatus "U28.AH21" )
-				)
-				( pin "ah23"
-					( objectStatus "U28.AH23" )
-				)
-				( pin "ah25"
-					( objectStatus "U28.AH25" )
-				)
-				( pin "aj7"
-					( objectStatus "U28.AJ7" )
-				)
-				( pin "aj12"
-					( objectStatus "U28.AJ12" )
-				)
-				( pin "aj23"
-					( objectStatus "U28.AJ23" )
-				)
-				( pin "aj32"
-					( objectStatus "U28.AJ32" )
-				)
-				( pin "ak4"
-					( objectStatus "U28.AK4" )
-				)
-				( pin "ak12"
-					( objectStatus "U28.AK12" )
-				)
-				( pin "ak14"
-					( objectStatus "U28.AK14" )
-				)
-				( pin "ak16"
-					( objectStatus "U28.AK16" )
-				)
-				( pin "ak18"
-					( objectStatus "U28.AK18" )
-				)
-				( pin "ak20"
-					( objectStatus "U28.AK20" )
-				)
-				( pin "ak22"
-					( objectStatus "U28.AK22" )
-				)
-				( pin "ak23"
-					( objectStatus "U28.AK23" )
-				)
-				( pin "ak24"
-					( objectStatus "U28.AK24" )
-				)
-				( pin "ak29"
-					( objectStatus "U28.AK29" )
-				)
-				( pin "al1"
-					( objectStatus "U28.AL1" )
-				)
-				( pin "al11"
-					( objectStatus "U28.AL11" )
-				)
-				( pin "al12"
-					( objectStatus "U28.AL12" )
-				)
-				( pin "al23"
-					( objectStatus "U28.AL23" )
-				)
-				( pin "al26"
-					( objectStatus "U28.AL26" )
-				)
-				( pin "am8"
-					( objectStatus "U28.AM8" )
-				)
-				( pin "am12"
-					( objectStatus "U28.AM12" )
-				)
-				( pin "am13"
-					( objectStatus "U28.AM13" )
-				)
-				( pin "am15"
-					( objectStatus "U28.AM15" )
-				)
-				( pin "am17"
-					( objectStatus "U28.AM17" )
-				)
-				( pin "am19"
-					( objectStatus "U28.AM19" )
-				)
-				( pin "am21"
-					( objectStatus "U28.AM21" )
-				)
-				( pin "am23"
-					( objectStatus "U28.AM23" )
-				)
-				( pin "am24"
-					( objectStatus "U28.AM24" )
-				)
-				( pin "am33"
-					( objectStatus "U28.AM33" )
-				)
-				( pin "an5"
-					( objectStatus "U28.AN5" )
-				)
-				( pin "an12"
-					( objectStatus "U28.AN12" )
-				)
-				( pin "an24"
-					( objectStatus "U28.AN24" )
-				)
-				( pin "an30"
-					( objectStatus "U28.AN30" )
-				)
-				( pin "ap2"
-					( objectStatus "U28.AP2" )
-				)
-				( pin "ap12"
-					( objectStatus "U28.AP12" )
-				)
-				( pin "ap14"
-					( objectStatus "U28.AP14" )
-				)
-				( pin "ap16"
-					( objectStatus "U28.AP16" )
-				)
-				( pin "ap18"
-					( objectStatus "U28.AP18" )
-				)
-				( pin "ap20"
-					( objectStatus "U28.AP20" )
-				)
-				( pin "ap22"
-					( objectStatus "U28.AP22" )
-				)
-				( pin "ap24"
-					( objectStatus "U28.AP24" )
-				)
-				( pin "ap27"
-					( objectStatus "U28.AP27" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i1"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,250,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "25"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "24"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-8800,5600)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "24"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "a31"
-					( objectStatus "U28.A31" )
-				)
-				( pin "aa31"
-					( objectStatus "U28.AA31" )
-				)
-				( pin "ab28"
-					( objectStatus "U28.AB28" )
-				)
-				( pin "ac25"
-					( objectStatus "U28.AC25" )
-				)
-				( pin "ad7"
-					( objectStatus "U28.AD7" )
-				)
-				( pin "ad32"
-					( objectStatus "U28.AD32" )
-				)
-				( pin "ae4"
-					( objectStatus "U28.AE4" )
-				)
-				( pin "ae29"
-					( objectStatus "U28.AE29" )
-				)
-				( pin "af1"
-					( objectStatus "U28.AF1" )
-				)
-				( pin "af11"
-					( objectStatus "U28.AF11" )
-				)
-				( pin "af26"
-					( objectStatus "U28.AF26" )
-				)
-				( pin "ag8"
-					( objectStatus "U28.AG8" )
-				)
-				( pin "ag33"
-					( objectStatus "U28.AG33" )
-				)
-				( pin "ah5"
-					( objectStatus "U28.AH5" )
-				)
-				( pin "ah30"
-					( objectStatus "U28.AH30" )
-				)
-				( pin "aj2"
-					( objectStatus "U28.AJ2" )
-				)
-				( pin "aj27"
-					( objectStatus "U28.AJ27" )
-				)
-				( pin "ak9"
-					( objectStatus "U28.AK9" )
-				)
-				( pin "ak34"
-					( objectStatus "U28.AK34" )
-				)
-				( pin "al6"
-					( objectStatus "U28.AL6" )
-				)
-				( pin "al31"
-					( objectStatus "U28.AL31" )
-				)
-				( pin "am3"
-					( objectStatus "U28.AM3" )
-				)
-				( pin "am28"
-					( objectStatus "U28.AM28" )
-				)
-				( pin "an10"
-					( objectStatus "U28.AN10" )
-				)
-				( pin "an25"
-					( objectStatus "U28.AN25" )
-				)
-				( pin "ap7"
-					( objectStatus "U28.AP7" )
-				)
-				( pin "ap32"
-					( objectStatus "U28.AP32" )
-				)
-				( pin "b28"
-					( objectStatus "U28.B28" )
-				)
-				( pin "c25"
-					( objectStatus "U28.C25" )
-				)
-				( pin "d32"
-					( objectStatus "U28.D32" )
-				)
-				( pin "e29"
-					( objectStatus "U28.E29" )
-				)
-				( pin "f26"
-					( objectStatus "U28.F26" )
-				)
-				( pin "g33"
-					( objectStatus "U28.G33" )
-				)
-				( pin "h30"
-					( objectStatus "U28.H30" )
-				)
-				( pin "j27"
-					( objectStatus "U28.J27" )
-				)
-				( pin "k24"
-					( objectStatus "U28.K24" )
-				)
-				( pin "k34"
-					( objectStatus "U28.K34" )
-				)
-				( pin "l13"
-					( objectStatus "U28.L13" )
-				)
-				( pin "l31"
-					( objectStatus "U28.L31" )
-				)
-				( pin "m28"
-					( objectStatus "U28.M28" )
-				)
-				( pin "n25"
-					( objectStatus "U28.N25" )
-				)
-				( pin "p32"
-					( objectStatus "U28.P32" )
-				)
-				( pin "r29"
-					( objectStatus "U28.R29" )
-				)
-				( pin "t11"
-					( objectStatus "U28.T11" )
-				)
-				( pin "t26"
-					( objectStatus "U28.T26" )
-				)
-				( pin "u33"
-					( objectStatus "U28.U33" )
-				)
-				( pin "v30"
-					( objectStatus "U28.V30" )
-				)
-				( pin "w27"
-					( objectStatus "U28.W27" )
-				)
-				( pin "y24"
-					( objectStatus "U28.Y24" )
-				)
-				( pin "y34"
-					( objectStatus "U28.Y34" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i5"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i83"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -33542,165 +32380,237 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "20"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
+				( objectStatus "PAGE48_I83" )
 				( pin "aa11"
-					( objectStatus "U28.AA11" )
 				)
 				( pin "aa12"
-					( objectStatus "U28.AA12" )
 				)
 				( pin "aa14"
-					( objectStatus "U28.AA14" )
 				)
 				( pin "aa16"
-					( objectStatus "U28.AA16" )
 				)
 				( pin "aa18"
-					( objectStatus "U28.AA18" )
 				)
 				( pin "aa20"
-					( objectStatus "U28.AA20" )
 				)
 				( pin "aa22"
-					( objectStatus "U28.AA22" )
 				)
 				( pin "aa26"
-					( objectStatus "U28.AA26" )
 				)
 				( pin "ab8"
-					( objectStatus "U28.AB8" )
 				)
 				( pin "ab13"
-					( objectStatus "U28.AB13" )
 				)
 				( pin "ab15"
-					( objectStatus "U28.AB15" )
 				)
 				( pin "ab17"
-					( objectStatus "U28.AB17" )
 				)
 				( pin "ab19"
-					( objectStatus "U28.AB19" )
 				)
 				( pin "ab21"
-					( objectStatus "U28.AB21" )
 				)
 				( pin "ab23"
-					( objectStatus "U28.AB23" )
 				)
 				( pin "ab33"
-					( objectStatus "U28.AB33" )
 				)
 				( pin "ac5"
-					( objectStatus "U28.AC5" )
 				)
 				( pin "ac12"
-					( objectStatus "U28.AC12" )
 				)
 				( pin "ac14"
-					( objectStatus "U28.AC14" )
 				)
 				( pin "ac16"
-					( objectStatus "U28.AC16" )
 				)
 				( pin "ac18"
-					( objectStatus "U28.AC18" )
 				)
 				( pin "ac20"
-					( objectStatus "U28.AC20" )
 				)
 				( pin "ac22"
-					( objectStatus "U28.AC22" )
 				)
 				( pin "ac30"
-					( objectStatus "U28.AC30" )
 				)
 				( pin "ad2"
-					( objectStatus "U28.AD2" )
 				)
 				( pin "ad15"
-					( objectStatus "U28.AD15" )
 				)
 				( pin "ad17"
-					( objectStatus "U28.AD17" )
 				)
 				( pin "ad19"
-					( objectStatus "U28.AD19" )
 				)
 				( pin "ad21"
-					( objectStatus "U28.AD21" )
 				)
 				( pin "ad27"
-					( objectStatus "U28.AD27" )
 				)
 				( pin "ae9"
-					( objectStatus "U28.AE9" )
 				)
 				( pin "ae16"
-					( objectStatus "U28.AE16" )
 				)
 				( pin "ae18"
-					( objectStatus "U28.AE18" )
 				)
 				( pin "ae20"
-					( objectStatus "U28.AE20" )
 				)
 				( pin "ae22"
-					( objectStatus "U28.AE22" )
 				)
 				( pin "ae24"
-					( objectStatus "U28.AE24" )
 				)
 				( pin "ae34"
-					( objectStatus "U28.AE34" )
 				)
 				( pin "af6"
-					( objectStatus "U28.AF6" )
 				)
 				( pin "af13"
-					( objectStatus "U28.AF13" )
 				)
 				( pin "af14"
-					( objectStatus "U28.AF14" )
 				)
 				( pin "af15"
-					( objectStatus "U28.AF15" )
 				)
 				( pin "af16"
-					( objectStatus "U28.AF16" )
 				)
 				( pin "af17"
-					( objectStatus "U28.AF17" )
 				)
 				( pin "af18"
-					( objectStatus "U28.AF18" )
 				)
 				( pin "af19"
-					( objectStatus "U28.AF19" )
 				)
 				( pin "af20"
-					( objectStatus "U28.AF20" )
 				)
 				( pin "af21"
-					( objectStatus "U28.AF21" )
 				)
 				( pin "af22"
-					( objectStatus "U28.AF22" )
 				)
 				( pin "af31"
-					( objectStatus "U28.AF31" )
 				)
 				( pin "ag3"
-					( objectStatus "U28.AG3" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i6"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i82"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1225,300,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "24"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "22"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7650,2150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE48_I82" )
+				( pin "aa15"
+				)
+				( pin "aa17"
+				)
+				( pin "aa19"
+				)
+				( pin "ab14"
+				)
+				( pin "ab16"
+				)
+				( pin "ab18"
+				)
+				( pin "ac15"
+				)
+				( pin "ac17"
+				)
+				( pin "ac19"
+				)
+				( pin "ad14"
+				)
+				( pin "ad16"
+				)
+				( pin "ad18"
+				)
+				( pin "ad20"
+				)
+				( pin "ad22"
+				)
+				( pin "ae15"
+				)
+				( pin "ae17"
+				)
+				( pin "ae19"
+				)
+				( pin "ae21"
+				)
+				( pin "k14"
+				)
+				( pin "k16"
+				)
+				( pin "k18"
+				)
+				( pin "k20"
+				)
+				( pin "l15"
+				)
+				( pin "l17"
+				)
+				( pin "l19"
+				)
+				( pin "l21"
+				)
+				( pin "m14"
+				)
+				( pin "m16"
+				)
+				( pin "m18"
+				)
+				( pin "n15"
+				)
+				( pin "n17"
+				)
+				( pin "n19"
+				)
+				( pin "p14"
+				)
+				( pin "p16"
+				)
+				( pin "p18"
+				)
+				( pin "r15"
+				)
+				( pin "r17"
+				)
+				( pin "r19"
+				)
+				( pin "t14"
+				)
+				( pin "t16"
+				)
+				( pin "u15"
+				)
+				( pin "u19"
+				)
+				( pin "v14"
+				)
+				( pin "v16"
+				)
+				( pin "w15"
+				)
+				( pin "w19"
+				)
+				( pin "y14"
+				)
+				( pin "y16"
+				)
+				( pin "y18"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i84"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -33728,162 +32638,658 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "19"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
+				( objectStatus "PAGE48_I84" )
 				( pin "aa1"
-					( objectStatus "U28.AA1" )
 				)
 				( pin "p19"
-					( objectStatus "U28.P19" )
 				)
 				( pin "p21"
-					( objectStatus "U28.P21" )
 				)
 				( pin "p23"
-					( objectStatus "U28.P23" )
 				)
 				( pin "p27"
-					( objectStatus "U28.P27" )
 				)
 				( pin "r9"
-					( objectStatus "U28.R9" )
 				)
 				( pin "r12"
-					( objectStatus "U28.R12" )
 				)
 				( pin "r14"
-					( objectStatus "U28.R14" )
 				)
 				( pin "r16"
-					( objectStatus "U28.R16" )
 				)
 				( pin "r18"
-					( objectStatus "U28.R18" )
 				)
 				( pin "r20"
-					( objectStatus "U28.R20" )
 				)
 				( pin "r22"
-					( objectStatus "U28.R22" )
 				)
 				( pin "r24"
-					( objectStatus "U28.R24" )
 				)
 				( pin "r34"
-					( objectStatus "U28.R34" )
 				)
 				( pin "t6"
-					( objectStatus "U28.T6" )
 				)
 				( pin "t13"
-					( objectStatus "U28.T13" )
 				)
 				( pin "t15"
-					( objectStatus "U28.T15" )
 				)
 				( pin "t19"
-					( objectStatus "U28.T19" )
 				)
 				( pin "t21"
-					( objectStatus "U28.T21" )
 				)
 				( pin "t23"
-					( objectStatus "U28.T23" )
 				)
 				( pin "t31"
-					( objectStatus "U28.T31" )
 				)
 				( pin "u3"
-					( objectStatus "U28.U3" )
 				)
 				( pin "u12"
-					( objectStatus "U28.U12" )
 				)
 				( pin "u14"
-					( objectStatus "U28.U14" )
 				)
 				( pin "u16"
-					( objectStatus "U28.U16" )
 				)
 				( pin "u20"
-					( objectStatus "U28.U20" )
 				)
 				( pin "u22"
-					( objectStatus "U28.U22" )
 				)
 				( pin "u28"
-					( objectStatus "U28.U28" )
 				)
 				( pin "v10"
-					( objectStatus "U28.V10" )
 				)
 				( pin "v13"
-					( objectStatus "U28.V13" )
 				)
 				( pin "v15"
-					( objectStatus "U28.V15" )
 				)
 				( pin "v19"
-					( objectStatus "U28.V19" )
 				)
 				( pin "v21"
-					( objectStatus "U28.V21" )
 				)
 				( pin "v23"
-					( objectStatus "U28.V23" )
 				)
 				( pin "v25"
-					( objectStatus "U28.V25" )
 				)
 				( pin "w7"
-					( objectStatus "U28.W7" )
 				)
 				( pin "w12"
-					( objectStatus "U28.W12" )
 				)
 				( pin "w14"
-					( objectStatus "U28.W14" )
 				)
 				( pin "w16"
-					( objectStatus "U28.W16" )
 				)
 				( pin "w20"
-					( objectStatus "U28.W20" )
 				)
 				( pin "w22"
-					( objectStatus "U28.W22" )
 				)
 				( pin "w32"
-					( objectStatus "U28.W32" )
 				)
 				( pin "y4"
-					( objectStatus "U28.Y4" )
 				)
 				( pin "y13"
-					( objectStatus "U28.Y13" )
 				)
 				( pin "y15"
-					( objectStatus "U28.Y15" )
 				)
 				( pin "y17"
-					( objectStatus "U28.Y17" )
 				)
 				( pin "y19"
-					( objectStatus "U28.Y19" )
 				)
 				( pin "y21"
-					( objectStatus "U28.Y21" )
 				)
 				( pin "y23"
-					( objectStatus "U28.Y23" )
 				)
 				( pin "y29"
-					( objectStatus "U28.Y29" )
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page51_i45"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,525,275,-200"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "27"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8950,6850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE51_I45" )
+				( pin "ad13"
+				)
+				( pin "ae12"
+				)
+				( pin "ae13"
+				)
+				( pin "ae14"
+				)
+				( pin "k13"
+				)
+				( pin "k21"
+				)
+				( pin "k22"
+				)
+				( pin "l22"
+				)
+				( pin "m12"
+				)
+				( pin "n11"
+				)
+				( pin "p11"
+				)
+				( pin "t17"
+				)
+				( pin "t18"
+				)
+				( pin "u17"
+				)
+				( pin "u18"
+				)
+				( pin "v11"
+				)
+				( pin "v17"
+				)
+				( pin "v18"
+				)
+				( pin "w11"
+				)
+				( pin "w17"
+				)
+				( pin "w18"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page56_i4"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,225,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "32"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "13"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7550,4000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE56_I4" )
+				( pin "a2"
+				)
+				( pin "a3"
+				)
+				( pin "a4"
+				)
+				( pin "a5"
+				)
+				( pin "a7"
+				)
+				( pin "a8"
+				)
+				( pin "a9"
+				)
+				( pin "a10"
+				)
+				( pin "b1"
+				)
+				( pin "b2"
+				)
+				( pin "b4"
+				)
+				( pin "b5"
+				)
+				( pin "b6"
+				)
+				( pin "b7"
+				)
+				( pin "b9"
+				)
+				( pin "b10"
+				)
+				( pin "b11"
+				)
+				( pin "c1"
+				)
+				( pin "c2"
+				)
+				( pin "c3"
+				)
+				( pin "c4"
+				)
+				( pin "c6"
+				)
+				( pin "c7"
+				)
+				( pin "c8"
+				)
+				( pin "c9"
+				)
+				( pin "c11"
+				)
+				( pin "d1"
+				)
+				( pin "d3"
+				)
+				( pin "d4"
+				)
+				( pin "d5"
+				)
+				( pin "d6"
+				)
+				( pin "d8"
+				)
+				( pin "d9"
+				)
+				( pin "d10"
+				)
+				( pin "d11"
+				)
+				( pin "e1"
+				)
+				( pin "e2"
+				)
+				( pin "e3"
+				)
+				( pin "e5"
+				)
+				( pin "e6"
+				)
+				( pin "e7"
+				)
+				( pin "e8"
+				)
+				( pin "e10"
+				)
+				( pin "e11"
+				)
+				( pin "f4"
+				)
+				( pin "f5"
+				)
+				( pin "f7"
+				)
+				( pin "f8"
+				)
+				( pin "f9"
+				)
+				( pin "f10"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i134"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,375,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "25"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "18"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1200,4550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE49_I134" )
+				( pin "g28"
+				)
+				( pin "h10"
+				)
+				( pin "h13"
+				)
+				( pin "h22"
+				)
+				( pin "h23"
+				)
+				( pin "h25"
+				)
+				( pin "j7"
+				)
+				( pin "j13"
+				)
+				( pin "j14"
+				)
+				( pin "j15"
+				)
+				( pin "j16"
+				)
+				( pin "j17"
+				)
+				( pin "j18"
+				)
+				( pin "j19"
+				)
+				( pin "j20"
+				)
+				( pin "j21"
+				)
+				( pin "j22"
+				)
+				( pin "j32"
+				)
+				( pin "k4"
+				)
+				( pin "k15"
+				)
+				( pin "k17"
+				)
+				( pin "k19"
+				)
+				( pin "k29"
+				)
+				( pin "l1"
+				)
+				( pin "l11"
+				)
+				( pin "l14"
+				)
+				( pin "l16"
+				)
+				( pin "l18"
+				)
+				( pin "l20"
+				)
+				( pin "l26"
+				)
+				( pin "m8"
+				)
+				( pin "m13"
+				)
+				( pin "m15"
+				)
+				( pin "m17"
+				)
+				( pin "m19"
+				)
+				( pin "m21"
+				)
+				( pin "m23"
+				)
+				( pin "m33"
+				)
+				( pin "n5"
+				)
+				( pin "n12"
+				)
+				( pin "n14"
+				)
+				( pin "n16"
+				)
+				( pin "n18"
+				)
+				( pin "n20"
+				)
+				( pin "n22"
+				)
+				( pin "n30"
+				)
+				( pin "p2"
+				)
+				( pin "p13"
+				)
+				( pin "p15"
+				)
+				( pin "p17"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i132"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,750,500,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "25"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "16"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4700,6050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE49_I132" )
+				( pin "aj22"
+				)
+				( pin "al13"
+				)
+				( pin "al15"
+				)
+				( pin "al17"
+				)
+				( pin "al19"
+				)
+				( pin "al21"
+				)
+				( pin "an14"
+				)
+				( pin "an16"
+				)
+				( pin "an18"
+				)
+				( pin "an20"
+				)
+				( pin "an22"
+				)
+				( pin "b14"
+				)
+				( pin "b16"
+				)
+				( pin "b18"
+				)
+				( pin "b20"
+				)
+				( pin "b22"
+				)
+				( pin "d13"
+				)
+				( pin "d15"
+				)
+				( pin "d17"
+				)
+				( pin "d19"
+				)
+				( pin "d21"
+				)
+				( pin "f14"
+				)
+				( pin "f16"
+				)
+				( pin "f18"
+				)
+				( pin "f20"
+				)
+				( pin "f22"
+				)
+				( pin "h15"
+				)
+				( pin "h17"
+				)
+				( pin "h19"
+				)
+				( pin "h21"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i131"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,250,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "25"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "24"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8800,5600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE49_I131" )
+				( pin "a31"
+				)
+				( pin "aa31"
+				)
+				( pin "ab28"
+				)
+				( pin "ac25"
+				)
+				( pin "ad7"
+				)
+				( pin "ad32"
+				)
+				( pin "ae4"
+				)
+				( pin "ae29"
+				)
+				( pin "af1"
+				)
+				( pin "af11"
+				)
+				( pin "af26"
+				)
+				( pin "ag8"
+				)
+				( pin "ag33"
+				)
+				( pin "ah5"
+				)
+				( pin "ah30"
+				)
+				( pin "aj2"
+				)
+				( pin "aj27"
+				)
+				( pin "ak9"
+				)
+				( pin "ak34"
+				)
+				( pin "al6"
+				)
+				( pin "al31"
+				)
+				( pin "am3"
+				)
+				( pin "am28"
+				)
+				( pin "an10"
+				)
+				( pin "an25"
+				)
+				( pin "ap7"
+				)
+				( pin "ap32"
+				)
+				( pin "b28"
+				)
+				( pin "c25"
+				)
+				( pin "d32"
+				)
+				( pin "e29"
+				)
+				( pin "f26"
+				)
+				( pin "g33"
+				)
+				( pin "h30"
+				)
+				( pin "j27"
+				)
+				( pin "k24"
+				)
+				( pin "k34"
+				)
+				( pin "l13"
+				)
+				( pin "l31"
+				)
+				( pin "m28"
+				)
+				( pin "n25"
+				)
+				( pin "p32"
+				)
+				( pin "r29"
+				)
+				( pin "t11"
+				)
+				( pin "t26"
+				)
+				( pin "u33"
+				)
+				( pin "v30"
+				)
+				( pin "w27"
+				)
+				( pin "y24"
+				)
+				( pin "y34"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i9"
@@ -41752,14 +41158,14 @@
 					( objectStatus "CP16.2" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page51_i25"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page52_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,1100,-100"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,825,-100"
 					( Origin gPackager )
 				)
-				( attribute "PHYS_PAGE" "27"
+				( attribute "PHYS_PAGE" "28"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -41768,10 +41174,10 @@
 				( attribute "VALUE" "XC7A200TFFG1156"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "4"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3150,1350)"
+				( attribute "XY" "(-5650,4250)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
@@ -41780,162 +41186,106 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
+				( objectStatus "PAGE52_I2" )
+				( pin "aj24"
 				)
-				( attribute "CDS_SEC" "4"
-					( Origin gPackager )
+				( pin "aj25"
 				)
-				( objectStatus "U28" )
-				( pin "aa24"
-					( objectStatus "U28.AA24" )
+				( pin "aj26"
 				)
-				( pin "aa25"
-					( objectStatus "U28.AA25" )
+				( pin "aj28"
 				)
-				( pin "aa27"
-					( objectStatus "U28.AA27" )
+				( pin "aj29"
 				)
-				( pin "aa28"
-					( objectStatus "U28.AA28" )
+				( pin "aj30"
 				)
-				( pin "aa29"
-					( objectStatus "U28.AA29" )
+				( pin "aj31"
 				)
-				( pin "aa30"
-					( objectStatus "U28.AA30" )
+				( pin "aj33"
 				)
-				( pin "aa32"
-					( objectStatus "U28.AA32" )
+				( pin "aj34"
 				)
-				( pin "aa33"
-					( objectStatus "U28.AA33" )
+				( pin "ak25"
 				)
-				( pin "aa34"
-					( objectStatus "U28.AA34" )
+				( pin "ak26"
 				)
-				( pin "ab24"
-					( objectStatus "U28.AB24" )
+				( pin "ak27"
 				)
-				( pin "ab25"
-					( objectStatus "U28.AB25" )
+				( pin "ak28"
 				)
-				( pin "ab26"
-					( objectStatus "U28.AB26" )
+				( pin "ak30"
 				)
-				( pin "ab27"
-					( objectStatus "U28.AB27" )
+				( pin "ak31"
 				)
-				( pin "ab29"
-					( objectStatus "U28.AB29" )
+				( pin "ak32"
 				)
-				( pin "ab30"
-					( objectStatus "U28.AB30" )
+				( pin "ak33"
 				)
-				( pin "ab31"
-					( objectStatus "U28.AB31" )
+				( pin "al24"
 				)
-				( pin "ab32"
-					( objectStatus "U28.AB32" )
+				( pin "al25"
 				)
-				( pin "ab34"
-					( objectStatus "U28.AB34" )
+				( pin "al27"
 				)
-				( pin "ac28"
-					( objectStatus "U28.AC28" )
+				( pin "al28"
 				)
-				( pin "ac29"
-					( objectStatus "U28.AC29" )
+				( pin "al29"
 				)
-				( pin "ac31"
-					( objectStatus "U28.AC31" )
+				( pin "al30"
 				)
-				( pin "ac32"
-					( objectStatus "U28.AC32" )
+				( pin "al32"
 				)
-				( pin "ac33"
-					( objectStatus "U28.AC33" )
+				( pin "al33"
 				)
-				( pin "ac34"
-					( objectStatus "U28.AC34" )
+				( pin "al34"
 				)
-				( pin "v24"
-					( objectStatus "U28.V24" )
+				( pin "am25"
 				)
-				( pin "v26"
-					( objectStatus "U28.V26" )
+				( pin "am26"
 				)
-				( pin "v27"
-					( objectStatus "U28.V27" )
+				( pin "am27"
 				)
-				( pin "v28"
-					( objectStatus "U28.V28" )
+				( pin "am29"
 				)
-				( pin "v29"
-					( objectStatus "U28.V29" )
+				( pin "am30"
 				)
-				( pin "v31"
-					( objectStatus "U28.V31" )
+				( pin "am31"
 				)
-				( pin "v32"
-					( objectStatus "U28.V32" )
+				( pin "am32"
 				)
-				( pin "v33"
-					( objectStatus "U28.V33" )
+				( pin "am34"
 				)
-				( pin "v34"
-					( objectStatus "U28.V34" )
+				( pin "an26"
 				)
-				( pin "w24"
-					( objectStatus "U28.W24" )
+				( pin "an27"
 				)
-				( pin "w25"
-					( objectStatus "U28.W25" )
+				( pin "an28"
 				)
-				( pin "w26"
-					( objectStatus "U28.W26" )
+				( pin "an29"
 				)
-				( pin "w28"
-					( objectStatus "U28.W28" )
+				( pin "an31"
 				)
-				( pin "w29"
-					( objectStatus "U28.W29" )
+				( pin "an32"
 				)
-				( pin "w30"
-					( objectStatus "U28.W30" )
+				( pin "an33"
 				)
-				( pin "w31"
-					( objectStatus "U28.W31" )
+				( pin "an34"
 				)
-				( pin "w33"
-					( objectStatus "U28.W33" )
+				( pin "ap25"
 				)
-				( pin "w34"
-					( objectStatus "U28.W34" )
+				( pin "ap26"
 				)
-				( pin "y25"
-					( objectStatus "U28.Y25" )
+				( pin "ap28"
 				)
-				( pin "y26"
-					( objectStatus "U28.Y26" )
+				( pin "ap29"
 				)
-				( pin "y27"
-					( objectStatus "U28.Y27" )
+				( pin "ap30"
 				)
-				( pin "y28"
-					( objectStatus "U28.Y28" )
+				( pin "ap31"
 				)
-				( pin "y30"
-					( objectStatus "U28.Y30" )
+				( pin "ap33"
 				)
-				( pin "y31"
-					( objectStatus "U28.Y31" )
-				)
-				( pin "y32"
-					( objectStatus "U28.Y32" )
-				)
-				( pin "y33"
-					( objectStatus "U28.Y33" )
+				( pin "ap34"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page51_i28"
@@ -44116,14 +43466,14 @@
 					( objectStatus "R181.2" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page52_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page53_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,825,-100"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,800,-100"
 					( Origin gPackager )
 				)
-				( attribute "PHYS_PAGE" "28"
+				( attribute "PHYS_PAGE" "29"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -44132,10 +43482,10 @@
 				( attribute "VALUE" "XC7A200TFFG1156"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "2"
+				( attribute "VER" "3"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-5650,4250)"
+				( attribute "XY" "(-6000,4050)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
@@ -44144,162 +43494,106 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
+				( objectStatus "PAGE53_I2" )
+				( pin "ac24"
 				)
-				( attribute "CDS_SEC" "2"
-					( Origin gPackager )
+				( pin "ac26"
 				)
-				( objectStatus "U28" )
-				( pin "aj24"
-					( objectStatus "U28.AJ24" )
+				( pin "ac27"
 				)
-				( pin "aj25"
-					( objectStatus "U28.AJ25" )
+				( pin "ad23"
 				)
-				( pin "aj26"
-					( objectStatus "U28.AJ26" )
+				( pin "ad24"
 				)
-				( pin "aj28"
-					( objectStatus "U28.AJ28" )
+				( pin "ad25"
 				)
-				( pin "aj29"
-					( objectStatus "U28.AJ29" )
+				( pin "ad26"
 				)
-				( pin "aj30"
-					( objectStatus "U28.AJ30" )
+				( pin "ad28"
 				)
-				( pin "aj31"
-					( objectStatus "U28.AJ31" )
+				( pin "ad29"
 				)
-				( pin "aj33"
-					( objectStatus "U28.AJ33" )
+				( pin "ad30"
 				)
-				( pin "aj34"
-					( objectStatus "U28.AJ34" )
+				( pin "ad31"
 				)
-				( pin "ak25"
-					( objectStatus "U28.AK25" )
+				( pin "ad33"
 				)
-				( pin "ak26"
-					( objectStatus "U28.AK26" )
+				( pin "ad34"
 				)
-				( pin "ak27"
-					( objectStatus "U28.AK27" )
+				( pin "ae23"
 				)
-				( pin "ak28"
-					( objectStatus "U28.AK28" )
+				( pin "ae25"
 				)
-				( pin "ak30"
-					( objectStatus "U28.AK30" )
+				( pin "ae26"
 				)
-				( pin "ak31"
-					( objectStatus "U28.AK31" )
+				( pin "ae27"
 				)
-				( pin "ak32"
-					( objectStatus "U28.AK32" )
+				( pin "ae28"
 				)
-				( pin "ak33"
-					( objectStatus "U28.AK33" )
+				( pin "ae30"
 				)
-				( pin "al24"
-					( objectStatus "U28.AL24" )
+				( pin "ae31"
 				)
-				( pin "al25"
-					( objectStatus "U28.AL25" )
+				( pin "ae32"
 				)
-				( pin "al27"
-					( objectStatus "U28.AL27" )
+				( pin "ae33"
 				)
-				( pin "al28"
-					( objectStatus "U28.AL28" )
+				( pin "af23"
 				)
-				( pin "al29"
-					( objectStatus "U28.AL29" )
+				( pin "af24"
 				)
-				( pin "al30"
-					( objectStatus "U28.AL30" )
+				( pin "af25"
 				)
-				( pin "al32"
-					( objectStatus "U28.AL32" )
+				( pin "af27"
 				)
-				( pin "al33"
-					( objectStatus "U28.AL33" )
+				( pin "af28"
 				)
-				( pin "al34"
-					( objectStatus "U28.AL34" )
+				( pin "af29"
 				)
-				( pin "am25"
-					( objectStatus "U28.AM25" )
+				( pin "af30"
 				)
-				( pin "am26"
-					( objectStatus "U28.AM26" )
+				( pin "af32"
 				)
-				( pin "am27"
-					( objectStatus "U28.AM27" )
+				( pin "af33"
 				)
-				( pin "am29"
-					( objectStatus "U28.AM29" )
+				( pin "af34"
 				)
-				( pin "am30"
-					( objectStatus "U28.AM30" )
+				( pin "ag24"
 				)
-				( pin "am31"
-					( objectStatus "U28.AM31" )
+				( pin "ag25"
 				)
-				( pin "am32"
-					( objectStatus "U28.AM32" )
+				( pin "ag26"
 				)
-				( pin "am34"
-					( objectStatus "U28.AM34" )
+				( pin "ag27"
 				)
-				( pin "an26"
-					( objectStatus "U28.AN26" )
+				( pin "ag29"
 				)
-				( pin "an27"
-					( objectStatus "U28.AN27" )
+				( pin "ag30"
 				)
-				( pin "an28"
-					( objectStatus "U28.AN28" )
+				( pin "ag31"
 				)
-				( pin "an29"
-					( objectStatus "U28.AN29" )
+				( pin "ag32"
 				)
-				( pin "an31"
-					( objectStatus "U28.AN31" )
+				( pin "ag34"
 				)
-				( pin "an32"
-					( objectStatus "U28.AN32" )
+				( pin "ah24"
 				)
-				( pin "an33"
-					( objectStatus "U28.AN33" )
+				( pin "ah26"
 				)
-				( pin "an34"
-					( objectStatus "U28.AN34" )
+				( pin "ah27"
 				)
-				( pin "ap25"
-					( objectStatus "U28.AP25" )
+				( pin "ah28"
 				)
-				( pin "ap26"
-					( objectStatus "U28.AP26" )
+				( pin "ah29"
 				)
-				( pin "ap28"
-					( objectStatus "U28.AP28" )
+				( pin "ah31"
 				)
-				( pin "ap29"
-					( objectStatus "U28.AP29" )
+				( pin "ah32"
 				)
-				( pin "ap30"
-					( objectStatus "U28.AP30" )
+				( pin "ah33"
 				)
-				( pin "ap31"
-					( objectStatus "U28.AP31" )
-				)
-				( pin "ap33"
-					( objectStatus "U28.AP33" )
-				)
-				( pin "ap34"
-					( objectStatus "U28.AP34" )
+				( pin "ah34"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page50_i2"
@@ -44554,349 +43848,7 @@
 					( objectStatus "X2.4" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page53_i1"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,800,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "29"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "3"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-6000,4050)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "ac24"
-					( attribute "PN" "AC24"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AC24" )
-				)
-				( pin "ac26"
-					( attribute "PN" "AC26"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AC26" )
-				)
-				( pin "ac27"
-					( attribute "PN" "AC27"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AC27" )
-				)
-				( pin "ad23"
-					( attribute "PN" "AD23"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD23" )
-				)
-				( pin "ad24"
-					( attribute "PN" "AD24"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD24" )
-				)
-				( pin "ad25"
-					( attribute "PN" "AD25"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD25" )
-				)
-				( pin "ad26"
-					( attribute "PN" "AD26"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD26" )
-				)
-				( pin "ad28"
-					( attribute "PN" "AD28"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD28" )
-				)
-				( pin "ad29"
-					( attribute "PN" "AD29"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD29" )
-				)
-				( pin "ad30"
-					( attribute "PN" "AD30"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD30" )
-				)
-				( pin "ad31"
-					( attribute "PN" "AD31"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD31" )
-				)
-				( pin "ad33"
-					( attribute "PN" "AD33"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD33" )
-				)
-				( pin "ad34"
-					( attribute "PN" "AD34"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AD34" )
-				)
-				( pin "ae23"
-					( attribute "PN" "AE23"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE23" )
-				)
-				( pin "ae25"
-					( attribute "PN" "AE25"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE25" )
-				)
-				( pin "ae26"
-					( attribute "PN" "AE26"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE26" )
-				)
-				( pin "ae27"
-					( attribute "PN" "AE27"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE27" )
-				)
-				( pin "ae28"
-					( attribute "PN" "AE28"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE28" )
-				)
-				( pin "ae30"
-					( attribute "PN" "AE30"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE30" )
-				)
-				( pin "ae31"
-					( attribute "PN" "AE31"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE31" )
-				)
-				( pin "ae32"
-					( attribute "PN" "AE32"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE32" )
-				)
-				( pin "ae33"
-					( attribute "PN" "AE33"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AE33" )
-				)
-				( pin "af23"
-					( attribute "PN" "AF23"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF23" )
-				)
-				( pin "af24"
-					( attribute "PN" "AF24"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF24" )
-				)
-				( pin "af25"
-					( attribute "PN" "AF25"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF25" )
-				)
-				( pin "af27"
-					( attribute "PN" "AF27"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF27" )
-				)
-				( pin "af28"
-					( attribute "PN" "AF28"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF28" )
-				)
-				( pin "af29"
-					( attribute "PN" "AF29"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF29" )
-				)
-				( pin "af30"
-					( attribute "PN" "AF30"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF30" )
-				)
-				( pin "af32"
-					( attribute "PN" "AF32"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF32" )
-				)
-				( pin "af33"
-					( attribute "PN" "AF33"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF33" )
-				)
-				( pin "af34"
-					( attribute "PN" "AF34"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AF34" )
-				)
-				( pin "ag24"
-					( attribute "PN" "AG24"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG24" )
-				)
-				( pin "ag25"
-					( attribute "PN" "AG25"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG25" )
-				)
-				( pin "ag26"
-					( attribute "PN" "AG26"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG26" )
-				)
-				( pin "ag27"
-					( attribute "PN" "AG27"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG27" )
-				)
-				( pin "ag29"
-					( attribute "PN" "AG29"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG29" )
-				)
-				( pin "ag30"
-					( attribute "PN" "AG30"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG30" )
-				)
-				( pin "ag31"
-					( attribute "PN" "AG31"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG31" )
-				)
-				( pin "ag32"
-					( attribute "PN" "AG32"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG32" )
-				)
-				( pin "ag34"
-					( attribute "PN" "AG34"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AG34" )
-				)
-				( pin "ah24"
-					( attribute "PN" "AH24"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH24" )
-				)
-				( pin "ah26"
-					( attribute "PN" "AH26"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH26" )
-				)
-				( pin "ah27"
-					( attribute "PN" "AH27"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH27" )
-				)
-				( pin "ah28"
-					( attribute "PN" "AH28"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH28" )
-				)
-				( pin "ah29"
-					( attribute "PN" "AH29"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH29" )
-				)
-				( pin "ah31"
-					( attribute "PN" "AH31"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH31" )
-				)
-				( pin "ah32"
-					( attribute "PN" "AH32"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH32" )
-				)
-				( pin "ah33"
-					( attribute "PN" "AH33"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH33" )
-				)
-				( pin "ah34"
-					( attribute "PN" "AH34"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AH34" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page54_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page54_i5"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -44924,165 +43876,109 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "5"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
+				( objectStatus "PAGE54_I5" )
 				( pin "m27"
-					( objectStatus "U28.M27" )
 				)
 				( pin "m29"
-					( objectStatus "U28.M29" )
 				)
 				( pin "m30"
-					( objectStatus "U28.M30" )
 				)
 				( pin "m31"
-					( objectStatus "U28.M31" )
 				)
 				( pin "m32"
-					( objectStatus "U28.M32" )
 				)
 				( pin "m34"
-					( objectStatus "U28.M34" )
 				)
 				( pin "n24"
-					( objectStatus "U28.N24" )
 				)
 				( pin "n26"
-					( objectStatus "U28.N26" )
 				)
 				( pin "n27"
-					( objectStatus "U28.N27" )
 				)
 				( pin "n28"
-					( objectStatus "U28.N28" )
 				)
 				( pin "n29"
-					( objectStatus "U28.N29" )
 				)
 				( pin "n31"
-					( objectStatus "U28.N31" )
 				)
 				( pin "n32"
-					( objectStatus "U28.N32" )
 				)
 				( pin "n33"
-					( objectStatus "U28.N33" )
 				)
 				( pin "n34"
-					( objectStatus "U28.N34" )
 				)
 				( pin "p24"
-					( objectStatus "U28.P24" )
 				)
 				( pin "p25"
-					( objectStatus "U28.P25" )
 				)
 				( pin "p26"
-					( objectStatus "U28.P26" )
 				)
 				( pin "p28"
-					( objectStatus "U28.P28" )
 				)
 				( pin "p29"
-					( objectStatus "U28.P29" )
 				)
 				( pin "p30"
-					( objectStatus "U28.P30" )
 				)
 				( pin "p31"
-					( objectStatus "U28.P31" )
 				)
 				( pin "p33"
-					( objectStatus "U28.P33" )
 				)
 				( pin "p34"
-					( objectStatus "U28.P34" )
 				)
 				( pin "r25"
-					( objectStatus "U28.R25" )
 				)
 				( pin "r26"
-					( objectStatus "U28.R26" )
 				)
 				( pin "r27"
-					( objectStatus "U28.R27" )
 				)
 				( pin "r28"
-					( objectStatus "U28.R28" )
 				)
 				( pin "r30"
-					( objectStatus "U28.R30" )
 				)
 				( pin "r31"
-					( objectStatus "U28.R31" )
 				)
 				( pin "r32"
-					( objectStatus "U28.R32" )
 				)
 				( pin "r33"
-					( objectStatus "U28.R33" )
 				)
 				( pin "t24"
-					( objectStatus "U28.T24" )
 				)
 				( pin "t25"
-					( objectStatus "U28.T25" )
 				)
 				( pin "t27"
-					( objectStatus "U28.T27" )
 				)
 				( pin "t28"
-					( objectStatus "U28.T28" )
 				)
 				( pin "t29"
-					( objectStatus "U28.T29" )
 				)
 				( pin "t30"
-					( objectStatus "U28.T30" )
 				)
 				( pin "t32"
-					( objectStatus "U28.T32" )
 				)
 				( pin "t33"
-					( objectStatus "U28.T33" )
 				)
 				( pin "t34"
-					( objectStatus "U28.T34" )
 				)
 				( pin "u24"
-					( objectStatus "U28.U24" )
 				)
 				( pin "u25"
-					( objectStatus "U28.U25" )
 				)
 				( pin "u26"
-					( objectStatus "U28.U26" )
 				)
 				( pin "u27"
-					( objectStatus "U28.U27" )
 				)
 				( pin "u29"
-					( objectStatus "U28.U29" )
 				)
 				( pin "u30"
-					( objectStatus "U28.U30" )
 				)
 				( pin "u31"
-					( objectStatus "U28.U31" )
 				)
 				( pin "u32"
-					( objectStatus "U28.U32" )
 				)
 				( pin "u34"
-					( objectStatus "U28.U34" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page55_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page55_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -45101,7 +43997,7 @@
 				( attribute "VER" "8"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-5850,4150)"
+				( attribute "XY" "(-5950,3950)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
@@ -45110,318 +44006,236 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "8"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "8"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
+				( objectStatus "PAGE55_I2" )
 				( pin "aj5"
-					( attribute "PN" "337"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AJ5" )
 				)
 				( pin "aj6"
-					( attribute "PN" "345"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AJ6" )
 				)
 				( pin "aj8"
-					( attribute "PN" "351"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AJ8" )
 				)
 				( pin "aj9"
-					( attribute "PN" "322"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AJ9" )
 				)
 				( pin "aj10"
-					( attribute "PN" "359"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AJ10" )
 				)
 				( pin "aj11"
-					( attribute "PN" "367"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AJ11" )
 				)
 				( pin "ak1"
-					( attribute "PN" "326"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK1" )
 				)
 				( pin "ak2"
-					( attribute "PN" "325"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK2" )
 				)
 				( pin "ak3"
-					( attribute "PN" "333"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK3" )
 				)
 				( pin "ak5"
-					( attribute "PN" "338"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK5" )
 				)
 				( pin "ak6"
-					( attribute "PN" "346"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK6" )
 				)
 				( pin "ak7"
-					( attribute "PN" "347"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK7" )
 				)
 				( pin "ak8"
-					( attribute "PN" "352"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK8" )
 				)
 				( pin "ak10"
-					( attribute "PN" "360"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK10" )
 				)
 				( pin "ak11"
-					( attribute "PN" "368"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AK11" )
 				)
 				( pin "al2"
-					( attribute "PN" "329"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL2" )
 				)
 				( pin "al3"
-					( attribute "PN" "334"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL3" )
 				)
 				( pin "al4"
-					( attribute "PN" "341"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL4" )
 				)
 				( pin "al5"
-					( attribute "PN" "343"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL5" )
 				)
 				( pin "al7"
-					( attribute "PN" "348"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL7" )
 				)
 				( pin "al8"
-					( attribute "PN" "371"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL8" )
 				)
 				( pin "al9"
-					( attribute "PN" "363"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL9" )
 				)
 				( pin "al10"
-					( attribute "PN" "369"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AL10" )
 				)
 				( pin "am1"
-					( attribute "PN" "330"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM1" )
 				)
 				( pin "am2"
-					( attribute "PN" "327"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM2" )
 				)
 				( pin "am4"
-					( attribute "PN" "342"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM4" )
 				)
 				( pin "am5"
-					( attribute "PN" "344"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM5" )
 				)
 				( pin "am6"
-					( attribute "PN" "350"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM6" )
 				)
 				( pin "am7"
-					( attribute "PN" "349"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM7" )
 				)
 				( pin "am9"
-					( attribute "PN" "364"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM9" )
 				)
 				( pin "am10"
-					( attribute "PN" "370"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM10" )
 				)
 				( pin "am11"
-					( attribute "PN" "365"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AM11" )
 				)
 				( pin "an1"
-					( attribute "PN" "323"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN1" )
 				)
 				( pin "an2"
-					( attribute "PN" "328"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN2" )
 				)
 				( pin "an3"
-					( attribute "PN" "331"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN3" )
 				)
 				( pin "an4"
-					( attribute "PN" "335"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN4" )
 				)
 				( pin "an6"
-					( attribute "PN" "356"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN6" )
 				)
 				( pin "an7"
-					( attribute "PN" "355"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN7" )
 				)
 				( pin "an8"
-					( attribute "PN" "353"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN8" )
 				)
 				( pin "an9"
-					( attribute "PN" "357"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN9" )
 				)
 				( pin "an11"
-					( attribute "PN" "366"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AN11" )
 				)
 				( pin "ap1"
-					( attribute "PN" "324"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP1" )
 				)
 				( pin "ap3"
-					( attribute "PN" "332"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP3" )
 				)
 				( pin "ap4"
-					( attribute "PN" "336"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP4" )
 				)
 				( pin "ap5"
-					( attribute "PN" "340"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP5" )
 				)
 				( pin "ap6"
-					( attribute "PN" "339"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP6" )
 				)
 				( pin "ap8"
-					( attribute "PN" "354"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP8" )
 				)
 				( pin "ap9"
-					( attribute "PN" "358"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP9" )
 				)
 				( pin "ap10"
-					( attribute "PN" "362"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP10" )
 				)
 				( pin "ap11"
-					( attribute "PN" "361"
-						( Origin gPackager )
-					)
-					( objectStatus "U28.AP11" )
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page56_i3"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,275,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "32"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5150,4000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE56_I3" )
+				( pin "a25"
+				)
+				( pin "a27"
+				)
+				( pin "a28"
+				)
+				( pin "a29"
+				)
+				( pin "a30"
+				)
+				( pin "a32"
+				)
+				( pin "a33"
+				)
+				( pin "a34"
+				)
+				( pin "b25"
+				)
+				( pin "b26"
+				)
+				( pin "b27"
+				)
+				( pin "b29"
+				)
+				( pin "b30"
+				)
+				( pin "b31"
+				)
+				( pin "b32"
+				)
+				( pin "b34"
+				)
+				( pin "c26"
+				)
+				( pin "c27"
+				)
+				( pin "c28"
+				)
+				( pin "c29"
+				)
+				( pin "c31"
+				)
+				( pin "c32"
+				)
+				( pin "c33"
+				)
+				( pin "c34"
+				)
+				( pin "d24"
+				)
+				( pin "d25"
+				)
+				( pin "d26"
+				)
+				( pin "d28"
+				)
+				( pin "d29"
+				)
+				( pin "d30"
+				)
+				( pin "d31"
+				)
+				( pin "d33"
+				)
+				( pin "d34"
+				)
+				( pin "e25"
+				)
+				( pin "e26"
+				)
+				( pin "e27"
+				)
+				( pin "e28"
+				)
+				( pin "e30"
+				)
+				( pin "e31"
+				)
+				( pin "e32"
+				)
+				( pin "e33"
+				)
+				( pin "f24"
+				)
+				( pin "f25"
+				)
+				( pin "f27"
+				)
+				( pin "f28"
+				)
+				( pin "f29"
+				)
+				( pin "f30"
+				)
+				( pin "f32"
+				)
+				( pin "f33"
+				)
+				( pin "f34"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i64"
@@ -46165,379 +44979,7 @@
 					( objectStatus "C162.2" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page56_i1"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,275,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "32"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "7"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-4450,4000)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "7"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "a25"
-					( objectStatus "U28.A25" )
-				)
-				( pin "a27"
-					( objectStatus "U28.A27" )
-				)
-				( pin "a28"
-					( objectStatus "U28.A28" )
-				)
-				( pin "a29"
-					( objectStatus "U28.A29" )
-				)
-				( pin "a30"
-					( objectStatus "U28.A30" )
-				)
-				( pin "a32"
-					( objectStatus "U28.A32" )
-				)
-				( pin "a33"
-					( objectStatus "U28.A33" )
-				)
-				( pin "a34"
-					( objectStatus "U28.A34" )
-				)
-				( pin "b25"
-					( objectStatus "U28.B25" )
-				)
-				( pin "b26"
-					( objectStatus "U28.B26" )
-				)
-				( pin "b27"
-					( objectStatus "U28.B27" )
-				)
-				( pin "b29"
-					( objectStatus "U28.B29" )
-				)
-				( pin "b30"
-					( objectStatus "U28.B30" )
-				)
-				( pin "b31"
-					( objectStatus "U28.B31" )
-				)
-				( pin "b32"
-					( objectStatus "U28.B32" )
-				)
-				( pin "b34"
-					( objectStatus "U28.B34" )
-				)
-				( pin "c26"
-					( objectStatus "U28.C26" )
-				)
-				( pin "c27"
-					( objectStatus "U28.C27" )
-				)
-				( pin "c28"
-					( objectStatus "U28.C28" )
-				)
-				( pin "c29"
-					( objectStatus "U28.C29" )
-				)
-				( pin "c31"
-					( objectStatus "U28.C31" )
-				)
-				( pin "c32"
-					( objectStatus "U28.C32" )
-				)
-				( pin "c33"
-					( objectStatus "U28.C33" )
-				)
-				( pin "c34"
-					( objectStatus "U28.C34" )
-				)
-				( pin "d24"
-					( objectStatus "U28.D24" )
-				)
-				( pin "d25"
-					( objectStatus "U28.D25" )
-				)
-				( pin "d26"
-					( objectStatus "U28.D26" )
-				)
-				( pin "d28"
-					( objectStatus "U28.D28" )
-				)
-				( pin "d29"
-					( objectStatus "U28.D29" )
-				)
-				( pin "d30"
-					( objectStatus "U28.D30" )
-				)
-				( pin "d31"
-					( objectStatus "U28.D31" )
-				)
-				( pin "d33"
-					( objectStatus "U28.D33" )
-				)
-				( pin "d34"
-					( objectStatus "U28.D34" )
-				)
-				( pin "e25"
-					( objectStatus "U28.E25" )
-				)
-				( pin "e26"
-					( objectStatus "U28.E26" )
-				)
-				( pin "e27"
-					( objectStatus "U28.E27" )
-				)
-				( pin "e28"
-					( objectStatus "U28.E28" )
-				)
-				( pin "e30"
-					( objectStatus "U28.E30" )
-				)
-				( pin "e31"
-					( objectStatus "U28.E31" )
-				)
-				( pin "e32"
-					( objectStatus "U28.E32" )
-				)
-				( pin "e33"
-					( objectStatus "U28.E33" )
-				)
-				( pin "f24"
-					( objectStatus "U28.F24" )
-				)
-				( pin "f25"
-					( objectStatus "U28.F25" )
-				)
-				( pin "f27"
-					( objectStatus "U28.F27" )
-				)
-				( pin "f28"
-					( objectStatus "U28.F28" )
-				)
-				( pin "f29"
-					( objectStatus "U28.F29" )
-				)
-				( pin "f30"
-					( objectStatus "U28.F30" )
-				)
-				( pin "f32"
-					( objectStatus "U28.F32" )
-				)
-				( pin "f33"
-					( objectStatus "U28.F33" )
-				)
-				( pin "f34"
-					( objectStatus "U28.F34" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page56_i2"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,225,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "32"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "13"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-7000,4000)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "13"
-					( Origin gPackager )
-				)
-				( objectStatus "U28" )
-				( pin "a2"
-					( objectStatus "U28.A2" )
-				)
-				( pin "a3"
-					( objectStatus "U28.A3" )
-				)
-				( pin "a4"
-					( objectStatus "U28.A4" )
-				)
-				( pin "a5"
-					( objectStatus "U28.A5" )
-				)
-				( pin "a7"
-					( objectStatus "U28.A7" )
-				)
-				( pin "a8"
-					( objectStatus "U28.A8" )
-				)
-				( pin "a9"
-					( objectStatus "U28.A9" )
-				)
-				( pin "a10"
-					( objectStatus "U28.A10" )
-				)
-				( pin "b1"
-					( objectStatus "U28.B1" )
-				)
-				( pin "b2"
-					( objectStatus "U28.B2" )
-				)
-				( pin "b4"
-					( objectStatus "U28.B4" )
-				)
-				( pin "b5"
-					( objectStatus "U28.B5" )
-				)
-				( pin "b6"
-					( objectStatus "U28.B6" )
-				)
-				( pin "b7"
-					( objectStatus "U28.B7" )
-				)
-				( pin "b9"
-					( objectStatus "U28.B9" )
-				)
-				( pin "b10"
-					( objectStatus "U28.B10" )
-				)
-				( pin "b11"
-					( objectStatus "U28.B11" )
-				)
-				( pin "c1"
-					( objectStatus "U28.C1" )
-				)
-				( pin "c2"
-					( objectStatus "U28.C2" )
-				)
-				( pin "c3"
-					( objectStatus "U28.C3" )
-				)
-				( pin "c4"
-					( objectStatus "U28.C4" )
-				)
-				( pin "c6"
-					( objectStatus "U28.C6" )
-				)
-				( pin "c7"
-					( objectStatus "U28.C7" )
-				)
-				( pin "c8"
-					( objectStatus "U28.C8" )
-				)
-				( pin "c9"
-					( objectStatus "U28.C9" )
-				)
-				( pin "c11"
-					( objectStatus "U28.C11" )
-				)
-				( pin "d1"
-					( objectStatus "U28.D1" )
-				)
-				( pin "d3"
-					( objectStatus "U28.D3" )
-				)
-				( pin "d4"
-					( objectStatus "U28.D4" )
-				)
-				( pin "d5"
-					( objectStatus "U28.D5" )
-				)
-				( pin "d6"
-					( objectStatus "U28.D6" )
-				)
-				( pin "d8"
-					( objectStatus "U28.D8" )
-				)
-				( pin "d9"
-					( objectStatus "U28.D9" )
-				)
-				( pin "d10"
-					( objectStatus "U28.D10" )
-				)
-				( pin "d11"
-					( objectStatus "U28.D11" )
-				)
-				( pin "e1"
-					( objectStatus "U28.E1" )
-				)
-				( pin "e2"
-					( objectStatus "U28.E2" )
-				)
-				( pin "e3"
-					( objectStatus "U28.E3" )
-				)
-				( pin "e5"
-					( objectStatus "U28.E5" )
-				)
-				( pin "e6"
-					( objectStatus "U28.E6" )
-				)
-				( pin "e7"
-					( objectStatus "U28.E7" )
-				)
-				( pin "e8"
-					( objectStatus "U28.E8" )
-				)
-				( pin "e10"
-					( objectStatus "U28.E10" )
-				)
-				( pin "e11"
-					( objectStatus "U28.E11" )
-				)
-				( pin "f4"
-					( objectStatus "U28.F4" )
-				)
-				( pin "f5"
-					( objectStatus "U28.F5" )
-				)
-				( pin "f7"
-					( objectStatus "U28.F7" )
-				)
-				( pin "f8"
-					( objectStatus "U28.F8" )
-				)
-				( pin "f9"
-					( objectStatus "U28.F9" )
-				)
-				( pin "f10"
-					( objectStatus "U28.F10" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page57_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page57_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -46556,7 +44998,7 @@
 				( attribute "VER" "6"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-6200,4100)"
+				( attribute "XY" "(-6000,4150)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
@@ -46565,7 +45007,7 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE57_I1" )
+				( objectStatus "PAGE57_I2" )
 				( pin "g24"
 				)
 				( pin "g25"
@@ -46665,6 +45107,136 @@
 				( pin "m25"
 				)
 				( pin "m26"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page59_i8"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,875,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "35"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "10"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6200,4850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE59_I8" )
+				( pin "aa2"
+				)
+				( pin "aa3"
+				)
+				( pin "aa4"
+				)
+				( pin "aa5"
+				)
+				( pin "aa7"
+				)
+				( pin "aa8"
+				)
+				( pin "aa9"
+				)
+				( pin "aa10"
+				)
+				( pin "ab1"
+				)
+				( pin "ab2"
+				)
+				( pin "ab4"
+				)
+				( pin "ab5"
+				)
+				( pin "ab6"
+				)
+				( pin "ab7"
+				)
+				( pin "ab9"
+				)
+				( pin "ab10"
+				)
+				( pin "ab11"
+				)
+				( pin "ac1"
+				)
+				( pin "ac2"
+				)
+				( pin "ac3"
+				)
+				( pin "ac4"
+				)
+				( pin "ac6"
+				)
+				( pin "ac7"
+				)
+				( pin "ac8"
+				)
+				( pin "ac9"
+				)
+				( pin "v1"
+				)
+				( pin "v2"
+				)
+				( pin "v3"
+				)
+				( pin "v4"
+				)
+				( pin "v6"
+				)
+				( pin "v7"
+				)
+				( pin "v8"
+				)
+				( pin "v9"
+				)
+				( pin "w1"
+				)
+				( pin "w3"
+				)
+				( pin "w4"
+				)
+				( pin "w5"
+				)
+				( pin "w6"
+				)
+				( pin "w8"
+				)
+				( pin "w9"
+				)
+				( pin "w10"
+				)
+				( pin "y1"
+				)
+				( pin "y2"
+				)
+				( pin "y3"
+				)
+				( pin "y5"
+				)
+				( pin "y6"
+				)
+				( pin "y7"
+				)
+				( pin "y8"
+				)
+				( pin "y10"
+				)
+				( pin "y11"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page58_i1"
@@ -46853,14 +45425,14 @@
 					( objectStatus "U32.AJ4" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page59_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page60_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,875,-100"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,850,-100"
 					( Origin gPackager )
 				)
-				( attribute "PHYS_PAGE" "35"
+				( attribute "PHYS_PAGE" "36"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -46869,10 +45441,10 @@
 				( attribute "VALUE" "XC7A200TFFG1156"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "10"
+				( attribute "VER" "11"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-6200,4850)"
+				( attribute "XY" "(-5900,4000)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
@@ -46881,162 +45453,106 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U32"
-					( Origin gPackager )
+				( objectStatus "PAGE60_I2" )
+				( pin "m1"
 				)
-				( attribute "CDS_SEC" "10"
-					( Origin gPackager )
+				( pin "m4"
 				)
-				( objectStatus "U32" )
-				( pin "aa2"
-					( objectStatus "U32.AA2" )
+				( pin "m5"
 				)
-				( pin "aa3"
-					( objectStatus "U32.AA3" )
+				( pin "m6"
 				)
-				( pin "aa4"
-					( objectStatus "U32.AA4" )
+				( pin "m7"
 				)
-				( pin "aa5"
-					( objectStatus "U32.AA5" )
+				( pin "m9"
 				)
-				( pin "aa7"
-					( objectStatus "U32.AA7" )
+				( pin "m10"
 				)
-				( pin "aa8"
-					( objectStatus "U32.AA8" )
+				( pin "m11"
 				)
-				( pin "aa9"
-					( objectStatus "U32.AA9" )
+				( pin "n1"
 				)
-				( pin "aa10"
-					( objectStatus "U32.AA10" )
+				( pin "n2"
 				)
-				( pin "ab1"
-					( objectStatus "U32.AB1" )
+				( pin "n3"
 				)
-				( pin "ab2"
-					( objectStatus "U32.AB2" )
+				( pin "n4"
 				)
-				( pin "ab4"
-					( objectStatus "U32.AB4" )
+				( pin "n6"
 				)
-				( pin "ab5"
-					( objectStatus "U32.AB5" )
+				( pin "n7"
 				)
-				( pin "ab6"
-					( objectStatus "U32.AB6" )
+				( pin "n8"
 				)
-				( pin "ab7"
-					( objectStatus "U32.AB7" )
+				( pin "n9"
 				)
-				( pin "ab9"
-					( objectStatus "U32.AB9" )
+				( pin "p1"
 				)
-				( pin "ab10"
-					( objectStatus "U32.AB10" )
+				( pin "p3"
 				)
-				( pin "ab11"
-					( objectStatus "U32.AB11" )
+				( pin "p4"
 				)
-				( pin "ac1"
-					( objectStatus "U32.AC1" )
+				( pin "p5"
 				)
-				( pin "ac2"
-					( objectStatus "U32.AC2" )
+				( pin "p6"
 				)
-				( pin "ac3"
-					( objectStatus "U32.AC3" )
+				( pin "p8"
 				)
-				( pin "ac4"
-					( objectStatus "U32.AC4" )
+				( pin "p9"
 				)
-				( pin "ac6"
-					( objectStatus "U32.AC6" )
+				( pin "p10"
 				)
-				( pin "ac7"
-					( objectStatus "U32.AC7" )
+				( pin "r1"
 				)
-				( pin "ac8"
-					( objectStatus "U32.AC8" )
+				( pin "r2"
 				)
-				( pin "ac9"
-					( objectStatus "U32.AC9" )
+				( pin "r3"
 				)
-				( pin "v1"
-					( objectStatus "U32.V1" )
+				( pin "r5"
 				)
-				( pin "v2"
-					( objectStatus "U32.V2" )
+				( pin "r6"
 				)
-				( pin "v3"
-					( objectStatus "U32.V3" )
+				( pin "r7"
 				)
-				( pin "v4"
-					( objectStatus "U32.V4" )
+				( pin "r8"
 				)
-				( pin "v6"
-					( objectStatus "U32.V6" )
+				( pin "r10"
 				)
-				( pin "v7"
-					( objectStatus "U32.V7" )
+				( pin "r11"
 				)
-				( pin "v8"
-					( objectStatus "U32.V8" )
+				( pin "t2"
 				)
-				( pin "v9"
-					( objectStatus "U32.V9" )
+				( pin "t3"
 				)
-				( pin "w1"
-					( objectStatus "U32.W1" )
+				( pin "t4"
 				)
-				( pin "w3"
-					( objectStatus "U32.W3" )
+				( pin "t5"
 				)
-				( pin "w4"
-					( objectStatus "U32.W4" )
+				( pin "t7"
 				)
-				( pin "w5"
-					( objectStatus "U32.W5" )
+				( pin "t8"
 				)
-				( pin "w6"
-					( objectStatus "U32.W6" )
+				( pin "t9"
 				)
-				( pin "w8"
-					( objectStatus "U32.W8" )
+				( pin "t10"
 				)
-				( pin "w9"
-					( objectStatus "U32.W9" )
+				( pin "u1"
 				)
-				( pin "w10"
-					( objectStatus "U32.W10" )
+				( pin "u2"
 				)
-				( pin "y1"
-					( objectStatus "U32.Y1" )
+				( pin "u4"
 				)
-				( pin "y2"
-					( objectStatus "U32.Y2" )
+				( pin "u5"
 				)
-				( pin "y3"
-					( objectStatus "U32.Y3" )
+				( pin "u6"
 				)
-				( pin "y5"
-					( objectStatus "U32.Y5" )
+				( pin "u7"
 				)
-				( pin "y6"
-					( objectStatus "U32.Y6" )
+				( pin "u9"
 				)
-				( pin "y7"
-					( objectStatus "U32.Y7" )
+				( pin "u10"
 				)
-				( pin "y8"
-					( objectStatus "U32.Y8" )
-				)
-				( pin "y10"
-					( objectStatus "U32.Y10" )
-				)
-				( pin "y11"
-					( objectStatus "U32.Y11" )
+				( pin "u11"
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page59_i2"
@@ -47438,193 +45954,7 @@
 					( objectStatus "R201.2" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page60_i1"
-				( attribute "CDS_LIB" "ic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1250,850,-100"
-					( Origin gPackager )
-				)
-				( attribute "PHYS_PAGE" "36"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "XC7A200TFFG1156"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "11"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-6100,4000)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U32"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "11"
-					( Origin gPackager )
-				)
-				( objectStatus "U32" )
-				( pin "m1"
-					( objectStatus "U32.M1" )
-				)
-				( pin "m4"
-					( objectStatus "U32.M4" )
-				)
-				( pin "m5"
-					( objectStatus "U32.M5" )
-				)
-				( pin "m6"
-					( objectStatus "U32.M6" )
-				)
-				( pin "m7"
-					( objectStatus "U32.M7" )
-				)
-				( pin "m9"
-					( objectStatus "U32.M9" )
-				)
-				( pin "m10"
-					( objectStatus "U32.M10" )
-				)
-				( pin "m11"
-					( objectStatus "U32.M11" )
-				)
-				( pin "n1"
-					( objectStatus "U32.N1" )
-				)
-				( pin "n2"
-					( objectStatus "U32.N2" )
-				)
-				( pin "n3"
-					( objectStatus "U32.N3" )
-				)
-				( pin "n4"
-					( objectStatus "U32.N4" )
-				)
-				( pin "n6"
-					( objectStatus "U32.N6" )
-				)
-				( pin "n7"
-					( objectStatus "U32.N7" )
-				)
-				( pin "n8"
-					( objectStatus "U32.N8" )
-				)
-				( pin "n9"
-					( objectStatus "U32.N9" )
-				)
-				( pin "p1"
-					( objectStatus "U32.P1" )
-				)
-				( pin "p3"
-					( objectStatus "U32.P3" )
-				)
-				( pin "p4"
-					( objectStatus "U32.P4" )
-				)
-				( pin "p5"
-					( objectStatus "U32.P5" )
-				)
-				( pin "p6"
-					( objectStatus "U32.P6" )
-				)
-				( pin "p8"
-					( objectStatus "U32.P8" )
-				)
-				( pin "p9"
-					( objectStatus "U32.P9" )
-				)
-				( pin "p10"
-					( objectStatus "U32.P10" )
-				)
-				( pin "r1"
-					( objectStatus "U32.R1" )
-				)
-				( pin "r2"
-					( objectStatus "U32.R2" )
-				)
-				( pin "r3"
-					( objectStatus "U32.R3" )
-				)
-				( pin "r5"
-					( objectStatus "U32.R5" )
-				)
-				( pin "r6"
-					( objectStatus "U32.R6" )
-				)
-				( pin "r7"
-					( objectStatus "U32.R7" )
-				)
-				( pin "r8"
-					( objectStatus "U32.R8" )
-				)
-				( pin "r10"
-					( objectStatus "U32.R10" )
-				)
-				( pin "r11"
-					( objectStatus "U32.R11" )
-				)
-				( pin "t2"
-					( objectStatus "U32.T2" )
-				)
-				( pin "t3"
-					( objectStatus "U32.T3" )
-				)
-				( pin "t4"
-					( objectStatus "U32.T4" )
-				)
-				( pin "t5"
-					( objectStatus "U32.T5" )
-				)
-				( pin "t7"
-					( objectStatus "U32.T7" )
-				)
-				( pin "t8"
-					( objectStatus "U32.T8" )
-				)
-				( pin "t9"
-					( objectStatus "U32.T9" )
-				)
-				( pin "t10"
-					( objectStatus "U32.T10" )
-				)
-				( pin "u1"
-					( objectStatus "U32.U1" )
-				)
-				( pin "u2"
-					( objectStatus "U32.U2" )
-				)
-				( pin "u4"
-					( objectStatus "U32.U4" )
-				)
-				( pin "u5"
-					( objectStatus "U32.U5" )
-				)
-				( pin "u6"
-					( objectStatus "U32.U6" )
-				)
-				( pin "u7"
-					( objectStatus "U32.U7" )
-				)
-				( pin "u9"
-					( objectStatus "U32.U9" )
-				)
-				( pin "u10"
-					( objectStatus "U32.U10" )
-				)
-				( pin "u11"
-					( objectStatus "U32.U11" )
-				)
-			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page61_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page61_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -47652,165 +45982,109 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U32"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "12"
-					( Origin gPackager )
-				)
-				( objectStatus "U32" )
+				( objectStatus "PAGE61_I2" )
 				( pin "f2"
-					( objectStatus "U32.F2" )
 				)
 				( pin "f3"
-					( objectStatus "U32.F3" )
 				)
 				( pin "g1"
-					( objectStatus "U32.G1" )
 				)
 				( pin "g2"
-					( objectStatus "U32.G2" )
 				)
 				( pin "g4"
-					( objectStatus "U32.G4" )
 				)
 				( pin "g5"
-					( objectStatus "U32.G5" )
 				)
 				( pin "g6"
-					( objectStatus "U32.G6" )
 				)
 				( pin "g7"
-					( objectStatus "U32.G7" )
 				)
 				( pin "g9"
-					( objectStatus "U32.G9" )
 				)
 				( pin "g10"
-					( objectStatus "U32.G10" )
 				)
 				( pin "g11"
-					( objectStatus "U32.G11" )
 				)
 				( pin "h1"
-					( objectStatus "U32.H1" )
 				)
 				( pin "h2"
-					( objectStatus "U32.H2" )
 				)
 				( pin "h3"
-					( objectStatus "U32.H3" )
 				)
 				( pin "h4"
-					( objectStatus "U32.H4" )
 				)
 				( pin "h6"
-					( objectStatus "U32.H6" )
 				)
 				( pin "h7"
-					( objectStatus "U32.H7" )
 				)
 				( pin "h8"
-					( objectStatus "U32.H8" )
 				)
 				( pin "h9"
-					( objectStatus "U32.H9" )
 				)
 				( pin "h11"
-					( objectStatus "U32.H11" )
 				)
 				( pin "h12"
-					( objectStatus "U32.H12" )
 				)
 				( pin "j1"
-					( objectStatus "U32.J1" )
 				)
 				( pin "j3"
-					( objectStatus "U32.J3" )
 				)
 				( pin "j4"
-					( objectStatus "U32.J4" )
 				)
 				( pin "j5"
-					( objectStatus "U32.J5" )
 				)
 				( pin "j6"
-					( objectStatus "U32.J6" )
 				)
 				( pin "j8"
-					( objectStatus "U32.J8" )
 				)
 				( pin "j9"
-					( objectStatus "U32.J9" )
 				)
 				( pin "j10"
-					( objectStatus "U32.J10" )
 				)
 				( pin "j11"
-					( objectStatus "U32.J11" )
 				)
 				( pin "k1"
-					( objectStatus "U32.K1" )
 				)
 				( pin "k2"
-					( objectStatus "U32.K2" )
 				)
 				( pin "k3"
-					( objectStatus "U32.K3" )
 				)
 				( pin "k5"
-					( objectStatus "U32.K5" )
 				)
 				( pin "k6"
-					( objectStatus "U32.K6" )
 				)
 				( pin "k7"
-					( objectStatus "U32.K7" )
 				)
 				( pin "k8"
-					( objectStatus "U32.K8" )
 				)
 				( pin "k10"
-					( objectStatus "U32.K10" )
 				)
 				( pin "k11"
-					( objectStatus "U32.K11" )
 				)
 				( pin "k12"
-					( objectStatus "U32.K12" )
 				)
 				( pin "l2"
-					( objectStatus "U32.L2" )
 				)
 				( pin "l3"
-					( objectStatus "U32.L3" )
 				)
 				( pin "l4"
-					( objectStatus "U32.L4" )
 				)
 				( pin "l5"
-					( objectStatus "U32.L5" )
 				)
 				( pin "l7"
-					( objectStatus "U32.L7" )
 				)
 				( pin "l8"
-					( objectStatus "U32.L8" )
 				)
 				( pin "l9"
-					( objectStatus "U32.L9" )
 				)
 				( pin "l10"
-					( objectStatus "U32.L10" )
 				)
 				( pin "l12"
-					( objectStatus "U32.L12" )
 				)
 				( pin "m2"
-					( objectStatus "U32.M2" )
 				)
 			)
-			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page62_i1"
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page62_i2"
 				( attribute "CDS_LIB" "ic"
 					( Origin gPackager )
 				)
@@ -47838,162 +46112,106 @@
 				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "U32"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "14"
-					( Origin gPackager )
-				)
-				( objectStatus "U32" )
+				( objectStatus "PAGE62_I2" )
 				( pin "a13"
-					( objectStatus "U32.A13" )
 				)
 				( pin "a15"
-					( objectStatus "U32.A15" )
 				)
 				( pin "a17"
-					( objectStatus "U32.A17" )
 				)
 				( pin "ag14"
-					( objectStatus "U32.AG14" )
 				)
 				( pin "ag16"
-					( objectStatus "U32.AG16" )
 				)
 				( pin "ag20"
-					( objectStatus "U32.AG20" )
 				)
 				( pin "ah14"
-					( objectStatus "U32.AH14" )
 				)
 				( pin "ah16"
-					( objectStatus "U32.AH16" )
 				)
 				( pin "ah20"
-					( objectStatus "U32.AH20" )
 				)
 				( pin "aj13"
-					( objectStatus "U32.AJ13" )
 				)
 				( pin "aj15"
-					( objectStatus "U32.AJ15" )
 				)
 				( pin "aj17"
-					( objectStatus "U32.AJ17" )
 				)
 				( pin "aj21"
-					( objectStatus "U32.AJ21" )
 				)
 				( pin "ak13"
-					( objectStatus "U32.AK13" )
 				)
 				( pin "ak15"
-					( objectStatus "U32.AK15" )
 				)
 				( pin "ak17"
-					( objectStatus "U32.AK17" )
 				)
 				( pin "ak21"
-					( objectStatus "U32.AK21" )
 				)
 				( pin "al14"
-					( objectStatus "U32.AL14" )
 				)
 				( pin "al16"
-					( objectStatus "U32.AL16" )
 				)
 				( pin "al20"
-					( objectStatus "U32.AL20" )
 				)
 				( pin "al22"
-					( objectStatus "U32.AL22" )
 				)
 				( pin "am14"
-					( objectStatus "U32.AM14" )
 				)
 				( pin "am16"
-					( objectStatus "U32.AM16" )
 				)
 				( pin "am20"
-					( objectStatus "U32.AM20" )
 				)
 				( pin "am22"
-					( objectStatus "U32.AM22" )
 				)
 				( pin "an13"
-					( objectStatus "U32.AN13" )
 				)
 				( pin "an15"
-					( objectStatus "U32.AN15" )
 				)
 				( pin "an17"
-					( objectStatus "U32.AN17" )
 				)
 				( pin "an23"
-					( objectStatus "U32.AN23" )
 				)
 				( pin "ap13"
-					( objectStatus "U32.AP13" )
 				)
 				( pin "ap15"
-					( objectStatus "U32.AP15" )
 				)
 				( pin "ap17"
-					( objectStatus "U32.AP17" )
 				)
 				( pin "ap23"
-					( objectStatus "U32.AP23" )
 				)
 				( pin "b13"
-					( objectStatus "U32.B13" )
 				)
 				( pin "b15"
-					( objectStatus "U32.B15" )
 				)
 				( pin "b17"
-					( objectStatus "U32.B17" )
 				)
 				( pin "c14"
-					( objectStatus "U32.C14" )
 				)
 				( pin "c16"
-					( objectStatus "U32.C16" )
 				)
 				( pin "d14"
-					( objectStatus "U32.D14" )
 				)
 				( pin "d16"
-					( objectStatus "U32.D16" )
 				)
 				( pin "e13"
-					( objectStatus "U32.E13" )
 				)
 				( pin "e15"
-					( objectStatus "U32.E15" )
 				)
 				( pin "e17"
-					( objectStatus "U32.E17" )
 				)
 				( pin "f13"
-					( objectStatus "U32.F13" )
 				)
 				( pin "f15"
-					( objectStatus "U32.F15" )
 				)
 				( pin "f17"
-					( objectStatus "U32.F17" )
 				)
 				( pin "g14"
-					( objectStatus "U32.G14" )
 				)
 				( pin "g16"
-					( objectStatus "U32.G16" )
 				)
 				( pin "h14"
-					( objectStatus "U32.H14" )
 				)
 				( pin "h16"
-					( objectStatus "U32.H16" )
 				)
 			)
 			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page63_i1"
@@ -49635,7 +47853,7 @@
 				( attribute "CHIPS_PART_NAME" "PCIE_X16"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PCIE_X16"
+				( attribute "CDS_PART_NAME" "PCIE_X16-PCIE-164-02-F-D-TH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U26"
@@ -50061,7 +48279,7 @@
 				( attribute "CHIPS_PART_NAME" "PCIE_X16"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PCIE_X16"
+				( attribute "CDS_PART_NAME" "PCIE_X16-PCIE-164-02-F-D-TH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U26"
@@ -50307,7 +48525,7 @@
 				( attribute "CHIPS_PART_NAME" "PCIE_X16"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PCIE_X16"
+				( attribute "CDS_PART_NAME" "PCIE_X16-PCIE-164-02-F-D-TH"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U26"
@@ -119126,6 +117344,328 @@
 						( Origin gPackager )
 					)
 					( objectStatus "C664.2" )
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i80"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,600,250,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "24"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "23"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9050,6450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE48_I80" )
+				( pin "aa13"
+				)
+				( pin "aa23"
+				)
+				( pin "ab12"
+				)
+				( pin "ab22"
+				)
+				( pin "ac13"
+				)
+				( pin "ac23"
+				)
+				( pin "ad12"
+				)
+				( pin "m22"
+				)
+				( pin "n13"
+				)
+				( pin "n23"
+				)
+				( pin "p12"
+				)
+				( pin "p22"
+				)
+				( pin "r13"
+				)
+				( pin "r23"
+				)
+				( pin "t12"
+				)
+				( pin "t22"
+				)
+				( pin "u13"
+				)
+				( pin "u23"
+				)
+				( pin "v12"
+				)
+				( pin "v22"
+				)
+				( pin "w13"
+				)
+				( pin "w23"
+				)
+				( pin "y12"
+				)
+				( pin "y22"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page48_i81"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,925,300,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "24"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "25"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4850,6050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE48_I81" )
+				( pin "a6"
+				)
+				( pin "aa6"
+				)
+				( pin "aa21"
+				)
+				( pin "ab3"
+				)
+				( pin "ab20"
+				)
+				( pin "ac10"
+				)
+				( pin "ac21"
+				)
+				( pin "b3"
+				)
+				( pin "c10"
+				)
+				( pin "d7"
+				)
+				( pin "e4"
+				)
+				( pin "f1"
+				)
+				( pin "f11"
+				)
+				( pin "g8"
+				)
+				( pin "h5"
+				)
+				( pin "j2"
+				)
+				( pin "j12"
+				)
+				( pin "k9"
+				)
+				( pin "l6"
+				)
+				( pin "m3"
+				)
+				( pin "m20"
+				)
+				( pin "n10"
+				)
+				( pin "n21"
+				)
+				( pin "p7"
+				)
+				( pin "p20"
+				)
+				( pin "r4"
+				)
+				( pin "r21"
+				)
+				( pin "t1"
+				)
+				( pin "t20"
+				)
+				( pin "u8"
+				)
+				( pin "u21"
+				)
+				( pin "v5"
+				)
+				( pin "v20"
+				)
+				( pin "w2"
+				)
+				( pin "w21"
+				)
+				( pin "y9"
+				)
+				( pin "y20"
+				)
+			)
+			( gate "@kvm_prototype_lib.kvm_prototype(sch_1):page49_i135"
+				( attribute "CDS_LIB" "ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,1375,225,-125"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "25"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XC7A200TFFG1156"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "21"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1200,2900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XC7A200TFFG1156-XC7A200TFFG1156"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE49_I135" )
+				( pin "ag13"
+				)
+				( pin "ag22"
+				)
+				( pin "ag23"
+				)
+				( pin "ag28"
+				)
+				( pin "ah10"
+				)
+				( pin "ah12"
+				)
+				( pin "ah13"
+				)
+				( pin "ah15"
+				)
+				( pin "ah17"
+				)
+				( pin "ah19"
+				)
+				( pin "ah21"
+				)
+				( pin "ah23"
+				)
+				( pin "ah25"
+				)
+				( pin "aj7"
+				)
+				( pin "aj12"
+				)
+				( pin "aj23"
+				)
+				( pin "aj32"
+				)
+				( pin "ak4"
+				)
+				( pin "ak12"
+				)
+				( pin "ak14"
+				)
+				( pin "ak16"
+				)
+				( pin "ak18"
+				)
+				( pin "ak20"
+				)
+				( pin "ak22"
+				)
+				( pin "ak23"
+				)
+				( pin "ak24"
+				)
+				( pin "ak29"
+				)
+				( pin "al1"
+				)
+				( pin "al11"
+				)
+				( pin "al12"
+				)
+				( pin "al23"
+				)
+				( pin "al26"
+				)
+				( pin "am8"
+				)
+				( pin "am12"
+				)
+				( pin "am13"
+				)
+				( pin "am15"
+				)
+				( pin "am17"
+				)
+				( pin "am19"
+				)
+				( pin "am21"
+				)
+				( pin "am23"
+				)
+				( pin "am24"
+				)
+				( pin "am33"
+				)
+				( pin "an5"
+				)
+				( pin "an12"
+				)
+				( pin "an24"
+				)
+				( pin "an30"
+				)
+				( pin "ap2"
+				)
+				( pin "ap12"
+				)
+				( pin "ap14"
+				)
+				( pin "ap16"
+				)
+				( pin "ap18"
+				)
+				( pin "ap20"
+				)
+				( pin "ap22"
+				)
+				( pin "ap24"
+				)
+				( pin "ap27"
 				)
 			)
 			( pin "@kvm_prototype_lib.kvm_prototype(sch_1):page35_i25:\8\"
