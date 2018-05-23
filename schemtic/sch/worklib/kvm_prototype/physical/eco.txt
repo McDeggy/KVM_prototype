@@ -3,41 +3,42 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
-|                                                    Tue May 15 16:28:18 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- HEAD2X5-BASE
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
-|------------------------------------------------------------------------------|
-|  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
-|                                                    Tue May 15 16:28:18 2018  |
+|                                                    Sun May 20 13:36:00 2018  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in board drawing          |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J13                 HEAD2X5-BASE                          HEAD2X5-14050182
- J24                 HEAD2X5-BASE                          HEAD2X5-14050182
- J25                 HEAD2X5-BASE                          HEAD2X5-14050182
+ C351                C-98070517,10UF       558.088 -246.43 C-08070898,10UF
+ C352                C-98070517,10UF       558.088 -247.77 C-08070898,10UF
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
-|                                                    Tue May 15 16:28:18 2018  |
+|                                                    Sun May 20 13:36:00 2018  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J13.9                          PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180514/lib/worklib/connector/head2x5/chips/chips.prt
- J24.9                          PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180514/lib/worklib/connector/head2x5/chips/chips.prt
- J25.9                          PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180514/lib/worklib/connector/head2x5/chips/chips.prt
+ C351.2         558.088 -246.43 PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180518/lib/worklib/capcitor/c/chips/chips.prt
+ C352.2         558.088 -247.77 PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180518/lib/worklib/capcitor/c/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  7                                              |
+|  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
+|                                                    Sun May 20 13:36:00 2018  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C351.1         557.199 -246.43 CDS_PINID      \1\
+ C351.2         558.977 -246.43 CDS_PINID      \2\
+ C352.1         557.199 -247.77 CDS_PINID      \1\
+ C352.2         558.977 -247.77 CDS_PINID      \2\
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  8                                              |
 |------------------------------------------------------------------------------|

@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 15-May-2018 AT 14:46:57 }
+{ Packager-XL run on 20-May-2018 AT 09:48:24 }
 primitive '6PIN-6PIN';
   pin
     'PIN1':
@@ -1594,7 +1594,7 @@ primitive 'ADV7612BSWZ-ADV7612BSWZ';
       PARENT_PPT_PART='ADV7612BSWZ-ADV7612BSWZ';
   end_body;
 end_primitive;
-primitive 'BSS123LT1';
+primitive 'BSS123LT1-BSS123LT1G';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1630,6 +1630,12 @@ primitive 'BSS123LT1';
       JEDEC_TYPE='BSS123LT1';
       PHYS_DES_PREFIX='Q';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='MOS,VGS 0.8V,RDSon 5Ohm,IDmax 0.17A';
+      MANUFACTURER='ON';
+      PARENT_PART_TYPE='BSS123LT1';
+      PARENT_PPT='BSS123LT1';
+      PARENT_PPT_PART='BSS123LT1-BSS123LT1G';
   end_body;
 end_primitive;
 primitive 'C-08070228,220P';
@@ -2970,7 +2976,7 @@ primitive 'FDS9926A-FDS9926A';
       PARENT_PPT_PART='FDS9926A-FDS9926A';
   end_body;
 end_primitive;
-primitive 'GL850G-GL850G';
+primitive 'GL850G-GL850G-MNGXX';
   pin
     'X1':
       PIN_NUMBER='(14)';
@@ -3368,10 +3374,10 @@ primitive 'GL850G-GL850G';
       DESCRIPTION='USB 2.0 HUB Controller';
       PARENT_PART_TYPE='GL850G';
       PARENT_PPT='GL850G';
-      PARENT_PPT_PART='GL850G-GL850G';
+      PARENT_PPT_PART='GL850G-GL850G-MNGXX';
   end_body;
 end_primitive;
-primitive 'HDMI-A';
+primitive 'HDMI-A-HAH01-24E1RC48B';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -3582,11 +3588,17 @@ primitive 'HDMI-A';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='HDMI-A';
+      PART_NAME='HDMI TYPE-A DIP CONNECTOR';
       BODY_NAME='HDMI-A';
       JEDEC_TYPE='HAH01_24E1RC48B';
       PHYS_DES_PREFIX='J';
       CLASS='IO';
+      PART_NUMBER='';
+      DESCRIPTION='CONN,HDMI TYPE-A,DIP';
+      MANUFACTURER='FODOT';
+      PARENT_PART_TYPE='HDMI-A';
+      PARENT_PPT='HDMI-A';
+      PARENT_PPT_PART='HDMI-A-HAH01-24E1RC48B';
   end_body;
 end_primitive;
 primitive 'HEAD1X2_S-14050028,HEAD1X2';
@@ -3672,7 +3684,7 @@ primitive 'HEAD2X3-HEAD2X3';
       PARENT_PPT_PART='HEAD2X3-HEAD2X3';
   end_body;
 end_primitive;
-primitive 'HEAD2X5-14050182';
+primitive 'HEAD2X5-BASE';
   pin
     'P9':
       PIN_NUMBER='(9)';
@@ -3740,15 +3752,15 @@ primitive 'HEAD2X5-14050182';
       BODY_NAME='HEAD2X5';
       PHYS_DES_PREFIX='J';
       CLASS='IO';
-      JEDEC_TYPE='SHEAD-10P';
-      DESCRIPTION='²åÕë-ÆÕÍ¨·½½Å²åÕë-10PIN/Ë«ÅÅ/SMT/5.84*0*2.54/¶Æ½ð';
+      JEDEC_TYPE='62001021121';
+      DESCRIPTION='²åÕë-ÆÕÍ¨·½½Å²åÕë-10PIN/Ë«ÅÅ/Ö±²å/2mm';
       VALUE='HEAD2X5';
       DATASHEET='';
       CHECKLIST='';
       ALT_SYMBOL='';
       PARENT_PART_TYPE='HEAD2X5';
       PARENT_PPT='HEAD2X5';
-      PARENT_PPT_PART='HEAD2X5-14050182';
+      PARENT_PPT_PART='HEAD2X5-BASE';
   end_body;
 end_primitive;
 primitive 'HEAD2X7-14050021,HEAD2X7';
@@ -4582,7 +4594,7 @@ primitive 'HY5PS121621CFP-HY5PS12621CFP';
       PARENT_PPT_PART='HY5PS121621CFP-HY5PS12621CFP';
   end_body;
 end_primitive;
-primitive 'L-10030103,10UH';
+primitive 'L-10UH';
   pin
     'B':
       PIN_NUMBER='(2)';
@@ -4602,74 +4614,14 @@ primitive 'L-10030103,10UH';
       BODY_NAME='L';
       PHYS_DES_PREFIX='L';
       CLASS='DISCRETE';
-      JEDEC_TYPE='SPL1209';
-      DESCRIPTION='Æ¬×´µç¸ÐÆ÷-10¦ÌH¡À20%-0.025¦¸¡À15%-3.8A-12.95*9.40*5.08';
-      DATASHEET='';
+      JEDEC_TYPE='';
+      DESCRIPTION='IND,10uH,¡À20%,4.9A';
+      DATASHEET='XAL5050-103MEC_10uH.pdf';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='L';
       PARENT_PPT='L';
-      PARENT_PPT_PART='L-10030103,10UH';
-  end_body;
-end_primitive;
-primitive 'L-10031070,2.7UH';
-  pin
-    'B':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='L';
-      BODY_NAME='L';
-      PHYS_DES_PREFIX='L';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SPL1212';
-      DESCRIPTION='ÌùÆ¬µç¸ÐÆ÷-2.7UH-¡À30%-0.0088OHM-11A-12.24*12.24*8.2';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='L';
-      PARENT_PPT='L';
-      PARENT_PPT_PART='L-10031070,2.7UH';
-  end_body;
-end_primitive;
-primitive 'L-10090821,8.2UH';
-  pin
-    'B':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='L';
-      BODY_NAME='L';
-      PHYS_DES_PREFIX='L';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='DO3316_NEW';
-      DESCRIPTION='ÌùÆ¬µç¸ÐÆ÷-8.2uH';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='L';
-      PARENT_PPT='L';
-      PARENT_PPT_PART='L-10090821,8.2UH';
+      PARENT_PPT_PART='L-10UH';
   end_body;
 end_primitive;
 primitive 'L-2.2UH';
@@ -4882,7 +4834,7 @@ primitive 'LB-90070011,120OHM';
       PARENT_PPT_PART='LB-90070011,120OHM';
   end_body;
 end_primitive;
-primitive 'LM3526-LM3526';
+primitive 'LM3526-LM3526M-L/NOPB';
   pin
     'FLAGB':
       PIN_NUMBER='(3)';
@@ -4930,7 +4882,7 @@ primitive 'LM3526-LM3526';
       DESCRIPITION='DUAL PORT USB POWER SWITCH AND OVER-CURRENT';
       PARENT_PART_TYPE='LM3526';
       PARENT_PPT='LM3526';
-      PARENT_PPT_PART='LM3526-LM3526';
+      PARENT_PPT_PART='LM3526-LM3526M-L/NOPB';
   end_body;
 end_primitive;
 primitive 'M25P40-M25P16';
@@ -7344,7 +7296,7 @@ primitive 'NCP1529-NCP1529ASNT1G';
   body
       PART_NAME='NCP1529';
       BODY_NAME='NCP1529';
-      JEDEC_TYPE='';
+      JEDEC_TYPE='TSOP_5';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
       PART_NUMBER='';
@@ -7456,7 +7408,7 @@ primitive 'OSC-125M-DIF';
       CLASS='IC';
   end_body;
 end_primitive;
-primitive 'OSC-12MHZ-XXXXXXXX,12MHZ';
+primitive 'OSC-12MHZ-SG-8018CB 12.000000MA';
   pin
     'NNC':
       PIN_NUMBER='(1)';
@@ -7500,12 +7452,12 @@ primitive 'OSC-12MHZ-XXXXXXXX,12MHZ';
       BODY_NAME='OSC-12MHZ';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
-      DESCRIPTION='';
+      DESCRIPTION='OSC,12MHz,¡À50ppm,1.62~3.63V,STANDBY';
       JEDEC_TYPE='SX4-0805A';
       CHECKLIST='';
       PARENT_PART_TYPE='OSC-12MHZ';
       PARENT_PPT='OSC-12MHZ';
-      PARENT_PPT_PART='OSC-12MHZ-XXXXXXXX,12MHZ';
+      PARENT_PPT_PART='OSC-12MHZ-SG-8018CB 12.000000MHZ TJHSA';
   end_body;
 end_primitive;
 primitive 'OSC-4- 90000019,54MHZ-3.3V';
@@ -7652,7 +7604,7 @@ primitive 'OSC-4-74.25MHZ-3.3V';
       PARENT_PPT_PART='OSC-4-74.25MHZ-3.3V';
   end_body;
 end_primitive;
-primitive 'PCIE_X16';
+primitive 'PCIE_X16-PCIE-164-02-F-D-TH';
   pin
     'A1':
       PIN_NUMBER='(A1,0,0)';
@@ -9136,9 +9088,16 @@ primitive 'PCIE_X16';
       BODY_NAME='PCIE_X16';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
+      PART_NUMBER='';
+      JEDEC_TYPE='';
+      DESCRIPTION='CONN,PCIE,X16,THR';
+      MANUFACTURER='SAMTEC';
+      PARENT_PART_TYPE='PCIE_X16';
+      PARENT_PPT='PCIE_X16';
+      PARENT_PPT_PART='PCIE_X16-PCIE-164-02-F-D-TH';
   end_body;
 end_primitive;
-primitive 'PESD0402-140';
+primitive 'PESD0402-140-PESD0402-140';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -9165,6 +9124,12 @@ primitive 'PESD0402-140';
       JEDEC_TYPE='PESD0402_140';
       PHYS_DES_PREFIX='Q';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='TVS,ESD,0.25pF,14Vdc';
+      MANUFACTURER='TYCO';
+      PARENT_PART_TYPE='PESD0402-140';
+      PARENT_PPT='PESD0402-140';
+      PARENT_PPT_PART='PESD0402-140-PESD0402-140';
   end_body;
 end_primitive;
 primitive 'R-07090035,10K';
@@ -11027,7 +10992,7 @@ primitive 'R-97090172,2.26K';
       PARENT_PPT_PART='R-97090172,2.26K';
   end_body;
 end_primitive;
-primitive 'RCLAMP0524P';
+primitive 'RCLAMP0524P-RCLAMP0524P.TCT';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -11117,6 +11082,12 @@ primitive 'RCLAMP0524P';
       JEDEC_TYPE='RCLAMP_0524P';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
+      PART_NUMBER='';
+      DESCRIPTION='TVS,4CH,IO';
+      MANUFACTURER='SEMTECH';
+      PARENT_PART_TYPE='RCLAMP0524P';
+      PARENT_PPT='RCLAMP0524P';
+      PARENT_PPT_PART='RCLAMP0524P-RCLAMP0524P.TCT';
   end_body;
 end_primitive;
 primitive 'RESETKEY-16100018,RESETKEY-DIP';
@@ -11791,6 +11762,7 @@ primitive 'RTL8211E-VL-CG';
   body
       PART_NAME='RTL8211E-VL-CG';
       BODY_NAME='RTL8211E-VL-CG';
+      JEDEC_TYPE='QFN40P-48N';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
   end_body;
@@ -12679,7 +12651,7 @@ primitive 'TPSM84824-PTPSM84824MOLR';
       PARENT_PPT_PART='TPSM84824-PTPSM84824MOLR';
   end_body;
 end_primitive;
-primitive 'USB3300-USB3300';
+primitive 'USB3300-USB3300-EZK';
   pin
     'DATA'<0>:
       PIN_NUMBER='(24)';
@@ -12889,7 +12861,7 @@ primitive 'USB3300-USB3300';
       DESCRIPTION='HI-SPEED USB HOST DEVICE OR OTG PHY';
       PARENT_PART_TYPE='USB3300';
       PARENT_PPT='USB3300';
-      PARENT_PPT_PART='USB3300-USB3300';
+      PARENT_PPT_PART='USB3300-USB3300-EZK';
   end_body;
 end_primitive;
 primitive 'USB_DUL-USB_DUL';

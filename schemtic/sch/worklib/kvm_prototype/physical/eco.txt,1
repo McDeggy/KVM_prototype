@@ -3,39 +3,42 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
-|                                                    Tue May 15 15:57:14 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- NCP1529-NCP1529ASNT1G
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
-|------------------------------------------------------------------------------|
-|  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
-|                                                    Tue May 15 15:57:14 2018  |
+|                                                    Sun May 20 11:53:53 2018  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in board drawing          |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U7                  NCP1529-NCP1529ASNT1G                 NCP1529-NCP1529ASNT1G
- U37                 NCP1529-NCP1529ASNT1G                 NCP1529-NCP1529ASNT1G
+ R303                R-10071419,49.9       492.305 -164.18 R-07090198,49.9
+ R304                R-10071419,49.9       492.305 -165.68 R-07090198,49.9
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
-|                                                    Tue May 15 15:57:14 2018  |
+|                                                    Sun May 20 11:53:53 2018  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U7.5                           PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180514/lib/worklib/power/ncp1529/chips/chips.prt
- U37.5                          PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180514/lib/worklib/power/ncp1529/chips/chips.prt
+ R303.2         492.305 -164.18 PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180518/lib/worklib/resistor/r/chips/chips.prt
+ R304.2         492.305 -165.68 PRIM_FILE      F:/Design_Projects/matrix_kvm/schemtic_backup20180518/lib/worklib/resistor/r/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  5                                              |
+|  F:.../sch/worklib/kvm_prototype/physical/Maxtri_kvm_board_v1.0.brd          |
+|                                                    Sun May 20 11:53:53 2018  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R303.1         491.543 -164.18 CDS_PINID      A
+ R303.2         493.067 -164.18 CDS_PINID      B
+ R304.1         491.543 -165.68 CDS_PINID      A
+ R304.2         493.067 -165.68 CDS_PINID      B
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  8                                              |
 |------------------------------------------------------------------------------|

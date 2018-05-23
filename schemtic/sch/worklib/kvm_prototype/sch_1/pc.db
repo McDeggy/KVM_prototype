@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Fri May 18 21:00:31 2018
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-p007 (v16-6-112F) 10/10/2012 on Sun May 20 09:37:50 2018
 #ISCELL
   standard c#20size#20page *
   *
@@ -1242,9 +1242,6 @@
   capcitor c *
   page98_i33
 #CELL
-  ic usb3300 *
-  page98_i34
-#CELL
   diode1 diode *
   page98_i35
 #CELL
@@ -1262,6 +1259,9 @@
 #CELL
   diode1 diode *
   page98_i4
+#CELL
+  ic usb3300 *
+  page98_i40
 #CELL
   resistor r *
   page98_i5
@@ -1304,6 +1304,9 @@
 #CELL
   resistor r *
   page99_i105
+#CELL
+  ic gl850g *
+  page99_i106
 #CELL
   capcitor c *
   page99_i11
@@ -1361,9 +1364,6 @@
 #ISCELL
   standard gnd_signal *
   page99_i28
-#CELL
-  ic gl850g *
-  page99_i29
 #CELL
   inductor lb *
   page99_i3
@@ -3912,9 +3912,6 @@
   standard c#20size#20page *
   *
 #CELL
-  ic usb3300 *
-  page73_i1
-#CELL
   capcitor c *
   page73_i10
 #CELL
@@ -4013,6 +4010,9 @@
 #CELL
   diode1 diode *
   page73_i47
+#CELL
+  ic usb3300 *
+  page73_i48
 #CELL
   inductor lb *
   page73_i5
