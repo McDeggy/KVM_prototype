@@ -70,5 +70,19 @@ h、修改artix7 bank16的原理图symbol（管脚位置下移，以匹配原理图连线）；
 i、page33，artix7 bank16添加7612 I2S总线信号；
 j、page29，删除artix7 bank13原先接的HDMI inout信号；
 k、page10，与I2S和DSD总线上的0欧姆电阻修改为75欧姆,并连接到page29 artix7 bank13；
-l、page28，7511到artix7 bank13之间的video管脚添加75欧姆电阻（page10原理图空间受限）；
+l、page28，7511到artix7 bank13之间的video管脚添加75欧姆电阻（page10原理图空间受限）。
+
+14、backup20180531：
+a、page48，删除Zynq7的USB inout电路；
+b、page70，删除USB inout和HDMI inout的信号线；
+c、page64，修改bank501的连接描述；
+d、page43，删除Zynq7的2.5V供电；
+e、page57，修改Spartan6的bank0供电为3.3V；
+f、page65，将Zynq7的bank VCCO 2.5V供电修改为3.3V（多余的bead直接与原有3.3V供电bead并联）；
+g、page72，将Zynq7的bank500/501的2.5V供电电路修改为3.3V；
+h、page44，7511的I2S和DSD总线上的0欧姆电阻修改为75欧姆，并连接到page70的Zynq7 bank34；
+i、page66，删除74.25MHz时钟；
+j、page26，删除74.25MHz时钟；
+k、page27，删除Artix7 bank14上的74.25MHz时钟信号。
+
 
