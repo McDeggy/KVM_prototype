@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-05-31T21:55:07</modificationTime>
+    <modificationTime>2018-06-04T22:36:25</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -17777,10 +17777,6 @@
         <net>
           <id>N1481</id>
           <name>clk_a7_50m_main</name>
-        </net>
-        <net>
-          <id>N1482</id>
-          <name>clk_a7_74m25_hdmi</name>
         </net>
         <net>
           <id>N1483</id>
@@ -44705,89 +44701,6 @@
               <termid>T104</termid>
               <connections>
                 <connection net="N1441" />
-              </connections>
-            </pin>
-          </pins>
-          <differentialpins>
-          </differentialpins>
-          <differentialbuspins>
-          </differentialbuspins>
-          <portgroups>
-          </portgroups>
-          <portinterfaces>
-          </portinterfaces>
-        </instance>
-        <instance>
-          <id>I1337</id>
-          <cellid>S58</cellid>
-          <name>page50_i2</name>
-          <parameters>
-          </parameters>
-          <masks>
-          </masks>
-          <powers>
-          </powers>
-          <pins>
-            <pin>
-              <id>M6134</id>
-              <termid>T1515</termid>
-              <connections>
-                <connection net="N5" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M6135</id>
-              <termid>T1516</termid>
-              <connections>
-              </connections>
-            </pin>
-            <pin>
-              <id>M6136</id>
-              <termid>T1517</termid>
-              <connections>
-                <connection net="N1482" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M6137</id>
-              <termid>T1518</termid>
-              <connections>
-                <connection net="N1169" />
-              </connections>
-            </pin>
-          </pins>
-          <differentialpins>
-          </differentialpins>
-          <differentialbuspins>
-          </differentialbuspins>
-          <portgroups>
-          </portgroups>
-          <portinterfaces>
-          </portinterfaces>
-        </instance>
-        <instance>
-          <id>I1338</id>
-          <cellid>S3</cellid>
-          <name>page50_i4</name>
-          <parameters>
-          </parameters>
-          <masks>
-          </masks>
-          <powers>
-          </powers>
-          <pins>
-            <pin>
-              <id>M6138</id>
-              <termid>T50</termid>
-              <connections>
-                <connection net="N1169" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M6139</id>
-              <termid>T51</termid>
-              <connections>
-                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -97583,7 +97496,6 @@
               <id>M13215</id>
               <termid>T2061</termid>
               <connections>
-                <connection net="N1482" />
               </connections>
             </pin>
             <pin>
@@ -107678,13 +107590,10 @@
               <net ref="clk_a7_125m_b216_p"></net>
               <net ref="clk_a7_125m_b216_p_c"></net>
               <net ref="clk_a7_50m_main"></net>
-              <net ref="clk_a7_74m25_hdmi"></net>
               <net ref="gnd_signal"></net>
               <net ref="v_a7_3v3_vcco"></net>
             </nets>
             <instances>
-              <instance ref="i2"></instance>
-              <instance ref="i4"></instance>
               <instance ref="i5"></instance>
               <instance ref="i6"></instance>
               <instance ref="i7"></instance>
@@ -107729,7 +107638,6 @@
               <net ref="a7_qspi_dq3"></net>
               <net ref="a7_qspi_dq3_r"></net>
               <net ref="clk_a7_50m_main"></net>
-              <net ref="clk_a7_74m25_hdmi"></net>
               <net ref="gnd_signal"></net>
               <net ref="unnamed_51_leds_i36_a"></net>
               <net ref="v_a7_1v8_vccaux"></net>

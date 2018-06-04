@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2018-05-31T21:56:16</modificationTime>
+    <modificationTime>2018-06-04T22:39:28</modificationTime>
     <savedLibrary>kvm_prototype_lib</savedLibrary>
   </header>
   <designs>
@@ -17777,10 +17777,6 @@
         <net>
           <id>N1481</id>
           <name>clk_a7_50m_main</name>
-        </net>
-        <net>
-          <id>N1482</id>
-          <name>clk_a7_74m25_hdmi</name>
         </net>
         <net>
           <id>N1483</id>
@@ -97500,7 +97496,6 @@
               <id>M13215</id>
               <termid>T2061</termid>
               <connections>
-                <connection net="N1482" />
               </connections>
             </pin>
             <pin>
@@ -107643,7 +107638,6 @@
               <net ref="a7_qspi_dq3"></net>
               <net ref="a7_qspi_dq3_r"></net>
               <net ref="clk_a7_50m_main"></net>
-              <net ref="clk_a7_74m25_hdmi"></net>
               <net ref="gnd_signal"></net>
               <net ref="unnamed_51_leds_i36_a"></net>
               <net ref="v_a7_1v8_vccaux"></net>
