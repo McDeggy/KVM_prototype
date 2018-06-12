@@ -138,3 +138,13 @@ s、page67，将0603封装100nF电容更换为0402封装；
 t、page69，将FPGA下方0603封装的10nF电容更换为0402封装；
 u、page72，将FPGA下方0603封装的100nF、10nF电容更换为0402封装；
 v、page73，将FPGA下方0603封装的100nF、10nF电容和0805封装的470nF电容更换为0402封装。
+
+18、backup20180611：
+a、page53，参考MIZ702N单板zynq7部分，删除多余的R497 80欧姆时钟匹配电阻；
+b、page22，添加x16 DDR3颗粒，与原有颗粒拼成x32；
+c、page23，修改bank35描述，变成1.35V DDR3；
+d、page24，修改bank35的供电为1.35V，并添加退耦电容；
+e、page35，参照artix7开发板，调整bank34 DDR3连接线，bank34仅连接CMD及时钟部分走线；
+f、修改bank35的原理图symbol，以便连接线正常；
+g、page36，将2颗DDR3的DATA信号连接到bank35；
+h、page69，调整zynq7 PL部分DDR3颗粒的DATA连接线。
